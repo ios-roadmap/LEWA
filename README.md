@@ -1,5 +1,3 @@
-# LEWA
-
 # LEWA - Learn English With AI
 
 ## Professional Dictionary JSON Generation Prompt
