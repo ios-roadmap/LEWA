@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct WordPhonetic: Codable {
+struct WordPhonetic: Codable, Hashable {
     var accent: WordAccent
     var ipa: String
     var audio: String
@@ -36,10 +36,10 @@ struct WordTranslation: Codable, Hashable {
 struct WordSynonymAntonym: Codable, Hashable {
     var id: String
     var word: String
-    var type: WordType
+    var type: WordType // kaldır bunu gerek yok.
 }
 
-struct WordFamily: Codable {
+struct WordFamily: Codable, Hashable {
     var word: String
     var type: WordType
     var phonetics: [WordPhonetic]
@@ -51,7 +51,7 @@ enum WordAccent: String, Codable {
     case uk
 }
 
-enum WordType: String, Codable {
+enum WordType: String, Codable, Hashable {
     case noun
     case verb
     case adjective
@@ -59,6 +59,6 @@ enum WordType: String, Codable {
     case conjuction
 }
 
-enum WordTranslationsLanguage: String, Codable {
+enum WordTranslationsLanguage: String, Codable, Hashable {
     case tr
 }

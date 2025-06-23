@@ -20,6 +20,8 @@ import AVFoundation
 //-> kategori gibi user kendi oluşturabiliyor olması lazım
 //-> bende wallstreet, breaking bad vs. ayırarak gidicem burada
 //-> sonra her bir word un reading listening speaking ve writing yıldızlamaları eklenecek ama bu swift data ile yapılacak ya da firebase. ya da ikisi ortak
+//-> Burada aksan değiştirildiğinde ilgili aksanın phonetic bilgisi otomatik değişecek telefonda. Ama şuanlık sadece ingilizce olacak. ileride bunu ayarlarım geleceğe not.
+//-> 3 tab view olacak proje. ilk tab sözlük. ikinci tab stars. üçüncü tab flashcards.
 
 struct WordDetailView: View {
     
@@ -29,7 +31,7 @@ struct WordDetailView: View {
         entity.meanings
     }
     
-    @State private var selectedIndex: Int = 0
+    
     
     var body: some View {
         List {
@@ -37,7 +39,17 @@ struct WordDetailView: View {
                 .padding(.bottom, 16)
             
             meaningsView
+                .padding(.bottom, 16)
             
+            VStack(alignment: .leading) {
+                Text("Word Family")
+                    .font(.title2)
+                    .fontWeight(.semibold)
+                
+                WordFamilyView(families: entity.wordFamily)
+            }
+            .removeListRowFormatting()
+            .listRowSeparator(.hidden)
         }
     }
     
@@ -107,24 +119,31 @@ class VoiceManager {
 struct MeaningCardView: View {
     let meaning: WordMeaning
     
+    @State private var selectedType: WordType2 = .synonym
+    
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-                Text(meaning.type.rawValue)
-                    .font(.subheadline).bold()
-                    .foregroundColor(.white)
-                    .padding(.horizontal, 14)
-                    .padding(.vertical, 4)
-                    .background(Color.blue)
-                    .clipShape(Capsule())
-            
             HStack(alignment: .top, spacing: 12) {
-                Text(meaning.definition)
-                    .font(.body)
-                    .fixedSize(horizontal: false, vertical: true)  // <<< önemli
-                    .layoutPriority(1)
+                VStack(alignment: .leading) {
+                    Text(meaning.type.rawValue)
+                        .font(.subheadline).bold()
+                        .foregroundColor(.white)
+                        .padding(.horizontal, 14)
+                        .padding(.vertical, 4)
+                        .background(Color.blue)
+                        .clipShape(Capsule())
+                    
+                    Text(meaning.definition)
+                        .font(.callout)
+                        .fixedSize(horizontal: false, vertical: true)  // <<< önemli
+                        .layoutPriority(1)
+                }
+                
+                
+                Spacer()
                 
                 ImageLoaderView(urlString: Constants.randomImage)
-                    .frame(width: 80, height: 80)
+                    .frame(width: 120, height: 120)
                     .clipShape(RoundedRectangle(cornerRadius: 8))
             }
             
@@ -132,11 +151,124 @@ struct MeaningCardView: View {
                 Image(systemName: "speaker.wave.3.fill")
                 Text(meaning.sentence.text)
             }
+            .font(.subheadline)
             .foregroundStyle(.gray)
+            
+            HStack() {
+                ForEach([WordType2.synonym, WordType2.antonym], id: \.self) { type in
+                    Button(action: {
+                        selectedType = type
+                    }) {
+                        Text(type.rawValue)
+                            .fontWeight(.semibold)
+                            .padding(.vertical, 10)
+                            .padding(.horizontal, 24)
+                            .foregroundColor(selectedType != type ? .gray : .blue)
+                            .cornerRadius(16)
+                            .animation(.easeInOut(duration: 0.15), value: selectedType)
+                    }
+                }
+            }
+            
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 12) {
+                    ForEach(selectedType == .synonym ? meaning.synonyms : meaning.antonyms, id: \.self) { word in
+                        Text(word.word)
+                            .padding(.vertical, 8)
+                            .padding(.horizontal, 12)
+                            .background(Color.gray.opacity(0.2))
+                            .foregroundColor(.primary)
+                            .cornerRadius(14)
+                    }
+                }
+                .padding(.horizontal)
+            }
         }
         .padding()
         .background(Color.white)
         .cornerRadius(16)
-        .shadow(radius: 4)
+    }
+}
+enum WordType2: String {
+    case synonym = "Synonym"
+    case antonym = "Antonym"
+}
+
+import SwiftUI
+
+
+struct WordFamilyView: View {
+    let families: [WordFamily]
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text("Word Family")
+                .font(.headline)
+                .padding(.bottom, 4)
+            
+            // Kartlar
+            ForEach(families, id: \.self) { family in
+                WordFamilyCard(family: family)
+            }
+        }
+    }
+}
+
+struct WordFamilyCard: View {
+    let family: WordFamily
+    
+    var body: some View {
+        HStack(alignment: .top, spacing: 16) {
+            // Sol: Tip etiketi (örn. Verb)
+            Text(family.type.rawValue.capitalized)
+                .font(.caption)
+                .foregroundColor(.white)
+                .padding(.vertical, 4)
+                .padding(.horizontal, 10)
+                .background(
+                    Capsule().fill(.green)
+                )
+                .frame(minWidth: 64)
+            
+            VStack(alignment: .leading, spacing: 6) {
+                HStack(spacing: 6) {
+                    Text(family.word)
+                        .font(.subheadline).fontWeight(.semibold)
+                    Text("/\(family.phonetics.first?.ipa ?? "")/")
+                        .font(.caption)
+                        .foregroundColor(.blue)
+                }
+                Text(family.definition)
+                    .font(.caption)
+                    .foregroundColor(.secondary)
+                
+                // Örnek cümle (isteğe bağlı)
+                if !family.sentence.text.isEmpty {
+                    HStack(spacing: 4) {
+                        Image(systemName: "quote.opening")
+                            .font(.caption)
+                            .foregroundColor(.gray)
+                        Text(family.sentence.text)
+                            .font(.caption2)
+                            .foregroundColor(.gray)
+                    }
+                }
+            }
+            
+            Spacer()
+            
+            // Ses butonu
+            Button {
+                // Play audio
+            } label: {
+                Image(systemName: "speaker.wave.2.fill")
+                    .foregroundColor(.blue)
+            }
+        }
+        .padding(12)
+        .background(
+            RoundedRectangle(cornerRadius: 14)
+                .fill(Color(.systemGray6))
+        )
     }
 }

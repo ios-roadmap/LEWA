@@ -84,10 +84,20 @@ struct WordEntity: Codable {
                         ]
                     ),
                     synonyms: [
-                        .init(id: "", word: "es anlam", type: .adjective)
+                        .init(id: "", word: "es anlam", type: .adjective),
+                        .init(id: "", word: "es anlam2", type: .adjective),
+                        .init(id: "", word: "es anlam3", type: .adjective),
+                        .init(id: "", word: "es anlam4", type: .adjective),
+                        .init(id: "", word: "es anlam5", type: .adjective),
+                        .init(id: "", word: "es anlam6", type: .adjective),
+                        .init(id: "", word: "es anlam7", type: .adjective),
                     ],
                     antonyms: [
-                        .init(id: "", word: "zit anlam", type: .adjective)
+                        .init(id: "", word: "zit anlam", type: .adjective),
+                        .init(id: "", word: "zit anlam1", type: .adjective),
+                        .init(id: "", word: "zit anlam2", type: .adjective),
+                        .init(id: "", word: "zit anlam3", type: .adjective),
+                        .init(id: "", word: "zit anlam4", type: .adjective),
                     ]
                 ),
             ],
