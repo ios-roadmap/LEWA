@@ -68,7 +68,28 @@ struct WordEntity: Codable {
                     antonyms: [
                         .init(id: "", word: "scarce", type: .adjective)
                     ]
-                )
+                ),
+                .init(
+                    type: .noun,
+                    definition: "Noun 2",
+                    image: "",
+                    sentence: .init(
+                        text: "Sentence 2 Sentence 2 Sentence 2 Sentence 2 Sentence 2",
+                        audio: "",
+                        translations: [
+                            .init(
+                                lang: .tr,
+                                text: "Cümle 2 Cümle 2 Cümle 2 Cümle 2 Cümle 2"
+                            )
+                        ]
+                    ),
+                    synonyms: [
+                        .init(id: "", word: "es anlam", type: .adjective)
+                    ],
+                    antonyms: [
+                        .init(id: "", word: "zit anlam", type: .adjective)
+                    ]
+                ),
             ],
             wordFamily: [
                 .init(
