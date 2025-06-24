@@ -31,8 +31,6 @@ struct WordDetailView: View {
         entity.meanings
     }
     
-    
-    
     var body: some View {
         List {
             header
@@ -46,7 +44,9 @@ struct WordDetailView: View {
                     .font(.title2)
                     .fontWeight(.semibold)
                 
-                WordFamilyView(families: entity.wordFamily)
+                ForEach(entity.wordFamily, id: \.self) { family in
+                    WordFamilyCard(family: family)
+                }
             }
             .removeListRowFormatting()
             .listRowSeparator(.hidden)
@@ -194,81 +194,49 @@ enum WordType2: String {
     case antonym = "Antonym"
 }
 
-import SwiftUI
-
-
-struct WordFamilyView: View {
-    let families: [WordFamily]
-    
-    var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
-            Text("Word Family")
-                .font(.headline)
-                .padding(.bottom, 4)
-            
-            // Kartlar
-            ForEach(families, id: \.self) { family in
-                WordFamilyCard(family: family)
-            }
-        }
-    }
-}
-
 struct WordFamilyCard: View {
     let family: WordFamily
     
     var body: some View {
-        HStack(alignment: .top, spacing: 16) {
-            // Sol: Tip etiketi (örn. Verb)
-            Text(family.type.rawValue.capitalized)
-                .font(.caption)
-                .foregroundColor(.white)
-                .padding(.vertical, 4)
-                .padding(.horizontal, 10)
-                .background(
-                    Capsule().fill(.green)
-                )
-                .frame(minWidth: 64)
+        VStack(alignment: .leading) {
+            
+            HStack {
+                Text(family.word)
+                    .font(.subheadline).fontWeight(.semibold)
+                Image(systemName: "speaker.wave.2.fill")
+                    .font(.subheadline).fontWeight(.semibold)
+                
+                Text(family.type.rawValue.capitalized)
+                    .font(.caption)
+            }
+            
+            Text("\(family.phonetics.first?.ipa ?? "")")
+                .foregroundColor(.gray)
+                .font(.caption2)
             
             VStack(alignment: .leading, spacing: 6) {
-                HStack(spacing: 6) {
-                    Text(family.word)
-                        .font(.subheadline).fontWeight(.semibold)
-                    Text("/\(family.phonetics.first?.ipa ?? "")/")
-                        .font(.caption)
-                        .foregroundColor(.blue)
-                }
                 Text(family.definition)
                     .font(.caption)
                     .foregroundColor(.secondary)
+                    .fontWeight(.semibold)
                 
-                // Örnek cümle (isteğe bağlı)
                 if !family.sentence.text.isEmpty {
                     HStack(spacing: 4) {
                         Image(systemName: "quote.opening")
                             .font(.caption)
                             .foregroundColor(.gray)
                         Text(family.sentence.text)
-                            .font(.caption2)
+                            .font(.caption)
                             .foregroundColor(.gray)
                     }
                 }
             }
-            
-            Spacer()
-            
-            // Ses butonu
-            Button {
-                // Play audio
-            } label: {
-                Image(systemName: "speaker.wave.2.fill")
-                    .foregroundColor(.blue)
-            }
         }
-        .padding(12)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .padding()
         .background(
             RoundedRectangle(cornerRadius: 14)
-                .fill(Color(.systemGray6))
+                .fill(.white)
         )
     }
 }
