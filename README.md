@@ -1,7 +1,9 @@
-# LEWA - Learn English With AI
+# LEWA!
+ - Learn English With AI
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/29f62f05-23b5-4b5d-857c-f5d5cf6e2228" alt="Simulator Screenshot - iPhone 13 - 2025-06-24 at 16 44 01" width="250" style="margin-right:8px;"/>
+  <img src="https://github.com/user-attachments/assets/708fd5c2-9eef-466a-bf65-9146dea0b2c6" alt="search" width="250" style="margin-right:8px;"/>
+  <img src="https://github.com/user-attachments/assets/29f62f05-23b5-4b5d-857c-f5d5cf6e2228" alt="detail" width="250" style="margin-right:8px;"/>
 </p>
 
 ## Professional Dictionary JSON Generation Prompt
