@@ -8,11 +8,6 @@
 import SwiftUI
 import AVFoundation
 
-//-> synonym antonym vs. eklenecek buraya
-//-> word family eklenecek
-//-> UI design tamamlanacak
-//-> JSON veriler gözden geçirilecek
-//-> amaç tamamen word detay ekranı yapmak olacak
 //-> mock veri tamamlanınca Sqlflite eklenecek
 //-> sonra tüm exceldekiler buraya aktarılacak sql ler ile
 //-> akabinde flashcard oluşturulacak
@@ -51,14 +46,28 @@ struct WordDetailView: View {
             .removeListRowFormatting()
             .listRowSeparator(.hidden)
         }
+        .navigationTitle(entity.word)
+        .navigationBarTitleDisplayMode(.large)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    
+                } label: {
+                    Image(systemName: "star")
+                }
+            }
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
+                    
+                } label: {
+                    Image(systemName: "plus.square.on.square")
+                }
+            }
+        }
     }
     
     private var header: some View {
         VStack(spacing: 8) {
-            Text(entity.word)
-                .font(.largeTitle)
-                .fontWeight(.semibold)
-            
             HStack {
                 Text("🇬🇧")
                 Text(entity.phonetics.first?.ipa ?? "")
@@ -91,41 +100,19 @@ struct WordDetailView: View {
     }
 }
 
-enum EnglishAccent: String, CaseIterable, Identifiable {
-    case british   = "en-GB"
-    case american  = "en-US"
-    
-    var id: String { rawValue }
-    
-    var displayName: String {
-        switch self {
-        case .british:      return "British English"
-        case .american:     return "American English"
-        }
-    }
-}
 
-class VoiceManager {
-    
-    static func speak(word: String) {
-        let utterance = AVSpeechUtterance(string: word)
-        utterance.voice = AVSpeechSynthesisVoice(language: EnglishAccent.british.id)
-        utterance.rate = 0.5
-        let synthesizer = AVSpeechSynthesizer()
-        synthesizer.speak(utterance)
-    }
-}
+
 
 struct MeaningCardView: View {
     let meaning: WordMeaning
     
-    @State private var selectedType: WordType2 = .synonym
+    @State private var selectedType: WordRelationType = .synonym
     
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack(alignment: .top, spacing: 12) {
                 VStack(alignment: .leading) {
-                    Text(meaning.type.rawValue)
+                    Text(meaning.partOfSpeech.rawValue)
                         .font(.subheadline).bold()
                         .foregroundColor(.white)
                         .padding(.horizontal, 14)
@@ -163,11 +150,6 @@ struct MeaningCardView: View {
         .background(Color.white)
         .cornerRadius(16)
     }
-}
-
-enum WordType2: String {
-    case synonym = "Synonym"
-    case antonym = "Antonym"
 }
 
 struct WordFamilyCard: View {
@@ -297,26 +279,25 @@ struct SynAntoTagsView: View {
     let antonyms: [WordSynonymAntonym]
     
     var body: some View {
-        ScrollView { // SORUN VAR KALDIRMAK İSTİYORUM AMA ŞİMDİLİK ÖNEMİ YOK
-            VStack {
-                HStack(alignment: .top, spacing: 0) {
-                    TagSection(title: "Synonyms",
-                               tags: synonyms,
-                               titleColor: .blue)
-                        .frame(maxWidth: .infinity,
-                               alignment: .leading)
-                    
-                    Divider()
-                        .frame(width: 1)
-                        .padding(.horizontal, 12)
-                    
-                    TagSection(title: "Antonyms",
-                               tags: antonyms,
-                               titleColor: .red)
-                        .frame(maxWidth: .infinity,
-                               alignment: .leading)
-                }
+        VStack {
+            HStack(alignment: .top, spacing: 0) {
+                TagSection(title: "Synonyms",
+                           tags: synonyms,
+                           titleColor: .blue)
+                    .frame(maxWidth: .infinity,
+                           alignment: .leading)
+                
+                Divider()
+                    .frame(width: 1)
+                    .padding(.horizontal, 12)
+                
+                TagSection(title: "Antonyms",
+                           tags: antonyms,
+                           titleColor: .red)
+                    .frame(maxWidth: .infinity,
+                           alignment: .leading)
             }
         }
     }
 }
+

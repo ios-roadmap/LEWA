@@ -49,7 +49,7 @@ struct WordEntity: Codable {
             ],
             meanings: [
                 .init(
-                    type: .adjective,
+                    partOfSpeech: .adjective,
                     definition: "Describes someone or something that exists in large quantities; more than enough.",
                     image: "",
                     sentence: .init(
@@ -57,7 +57,7 @@ struct WordEntity: Codable {
                         audio: "",
                         translations: [
                             .init(
-                                lang: .tr,
+                                lang: .turkish,
                                 text: "Bu bölgede doğal kaynaklar bol miktarda bulunmaktadır."
                             )
                         ]
@@ -74,7 +74,7 @@ struct WordEntity: Codable {
                     ]
                 ),
                 .init(
-                    type: .noun,
+                    partOfSpeech: .noun,
                     definition: "Noun 2",
                     image: "",
                     sentence: .init(
@@ -82,7 +82,7 @@ struct WordEntity: Codable {
                         audio: "",
                         translations: [
                             .init(
-                                lang: .tr,
+                                lang: .turkish,
                                 text: "Cümle 2 Cümle 2 Cümle 2 Cümle 2 Cümle 2"
                             )
                         ]
@@ -122,7 +122,7 @@ struct WordEntity: Codable {
                         audio: "",
                         translations: [
                             .init(
-                                lang: .tr,
+                                lang: .turkish,
                                 text: "Festivalde bol miktarda yiyecek vardı."
                             )
                         ]
@@ -144,7 +144,7 @@ struct WordEntity: Codable {
                         audio: "",
                         translations: [
                             .init(
-                                lang: .tr,
+                                lang: .turkish,
                                 text: "Kanıtlar fazlasıyla açıktır."
                             )
                         ]
