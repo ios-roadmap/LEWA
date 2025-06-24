@@ -13,6 +13,8 @@ struct CarouselView<Content: View, T: Hashable>: View {
     @State private var selection: T? = nil
     @ViewBuilder var content: (T) -> Content
     
+    @State private var currentHeight: CGFloat = 0   // dinamik yükseklik
+    
     var body: some View {
         VStack(spacing: 12) {
             HStack {

@@ -154,41 +154,17 @@ struct MeaningCardView: View {
             .font(.subheadline)
             .foregroundStyle(.gray)
             
-            HStack() {
-                ForEach([WordType2.synonym, WordType2.antonym], id: \.self) { type in
-                    Button(action: {
-                        selectedType = type
-                    }) {
-                        Text(type.rawValue)
-                            .fontWeight(.semibold)
-                            .padding(.vertical, 10)
-                            .padding(.horizontal, 24)
-                            .foregroundColor(selectedType != type ? .gray : .blue)
-                            .cornerRadius(16)
-                            .animation(.easeInOut(duration: 0.15), value: selectedType)
-                    }
-                }
-            }
-            
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 12) {
-                    ForEach(selectedType == .synonym ? meaning.synonyms : meaning.antonyms, id: \.self) { word in
-                        Text(word.word)
-                            .padding(.vertical, 8)
-                            .padding(.horizontal, 12)
-                            .background(Color.gray.opacity(0.2))
-                            .foregroundColor(.primary)
-                            .cornerRadius(14)
-                    }
-                }
-                .padding(.horizontal)
-            }
+            SynAntoTagsView(
+                synonyms: meaning.synonyms,
+                antonyms: meaning.antonyms
+            )
         }
         .padding()
         .background(Color.white)
         .cornerRadius(16)
     }
 }
+
 enum WordType2: String {
     case synonym = "Synonym"
     case antonym = "Antonym"
@@ -238,5 +214,109 @@ struct WordFamilyCard: View {
             RoundedRectangle(cornerRadius: 14)
                 .fill(.white)
         )
+    }
+}
+
+// Basit wrap-layout
+struct FlowLayout: Layout {
+    var spacing: CGFloat = 8
+    
+    func sizeThatFits(proposal: ProposedViewSize,
+                      subviews: Subviews,
+                      cache: inout ()) -> CGSize {
+        var size = CGSize.zero
+        var rowHeight: CGFloat = 0
+        
+        let maxWidth = proposal.width ?? .infinity
+        
+        for view in subviews {
+            let viewSize = view.sizeThatFits(.unspecified)
+            if size.width + viewSize.width > maxWidth {
+                size.width = 0
+                size.height += rowHeight + spacing
+                rowHeight = 0
+            }
+            rowHeight = max(rowHeight, viewSize.height)
+            size.width += viewSize.width + spacing
+        }
+        size.height += rowHeight
+        return size
+    }
+    
+    func placeSubviews(in bounds: CGRect,
+                       proposal: ProposedViewSize,
+                       subviews: Subviews,
+                       cache: inout ()) {
+        var origin = bounds.origin
+        var rowHeight: CGFloat = 0
+        
+        for view in subviews {
+            let viewSize = view.sizeThatFits(.unspecified)
+            if origin.x + viewSize.width > bounds.maxX {
+                origin.x = bounds.minX
+                origin.y += rowHeight + spacing
+                rowHeight = 0
+            }
+            view.place(at: origin,
+                       proposal: ProposedViewSize(viewSize))
+            origin.x += viewSize.width + spacing
+            rowHeight = max(rowHeight, viewSize.height)
+        }
+    }
+}
+
+// Tek bir bölüm (Synonyms / Antonyms)
+struct TagSection: View {
+    let title: String
+    let tags: [WordSynonymAntonym]
+    let titleColor: Color
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text(title)
+                .font(.headline)
+                .foregroundColor(titleColor)
+            
+            FlowLayout(spacing: 8) {
+                ForEach(tags, id: \.self) { word in
+                    Text(word.word)
+                        .font(.footnote)
+                        .foregroundColor(.primary)
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 6)
+                        .background(titleColor.opacity(0.15))
+                        .cornerRadius(8)
+                }
+            }
+        }
+    }
+}
+
+struct SynAntoTagsView: View {
+    let synonyms: [WordSynonymAntonym]
+    let antonyms: [WordSynonymAntonym]
+    
+    var body: some View {
+        ScrollView { // SORUN VAR KALDIRMAK İSTİYORUM AMA ŞİMDİLİK ÖNEMİ YOK
+            VStack {
+                HStack(alignment: .top, spacing: 0) {
+                    TagSection(title: "Synonyms",
+                               tags: synonyms,
+                               titleColor: .blue)
+                        .frame(maxWidth: .infinity,
+                               alignment: .leading)
+                    
+                    Divider()
+                        .frame(width: 1)
+                        .padding(.horizontal, 12)
+                    
+                    TagSection(title: "Antonyms",
+                               tags: antonyms,
+                               titleColor: .red)
+                        .frame(maxWidth: .infinity,
+                               alignment: .leading)
+                }
+            }
+        }
     }
 }

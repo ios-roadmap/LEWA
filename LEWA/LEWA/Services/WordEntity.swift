@@ -63,10 +63,14 @@ struct WordEntity: Codable {
                         ]
                     ),
                     synonyms: [
-                        .init(id: "", word: "plentiful", type: .adjective)
+                        .init(id: "", word: "plentiful", type: .adjective),
+                        .init(id: "", word: "plentiful2", type: .adjective),
+                        .init(id: "", word: "plentiful3", type: .adjective),
                     ],
                     antonyms: [
-                        .init(id: "", word: "scarce", type: .adjective)
+                        .init(id: "", word: "q", type: .adjective),
+                        .init(id: "", word: "qw", type: .adjective),
+                        .init(id: "", word: "qwe", type: .adjective),
                     ]
                 ),
                 .init(
