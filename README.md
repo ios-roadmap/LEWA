@@ -165,32 +165,22 @@ Each object has the following structure:
 
 ```json
 {
-  "id": "",
+  "id": "1",
   "word": "scruff",
   "phonetics": [
-    {
-      "accent": "uk",
-      "ipa": "skrʌf",
-      "audio": ""
-    }
+    { "accent": "uk", "ipa": "skrʌf" }
   ],
   "meanings": [
     {
       "type": "noun",
       "definition": "The back part of the neck, especially where an animal's fur is thicker.",
       "image": "",
-      "sentence": {
-        "text": "She grabbed the cat by the scruff of its neck.",
-        "audio": "",
-        "translations": [
-          {
-            "lang": "tr",
-            "text": "Kediyi ensesinden yakaladı."
-          }
-        ]
-      },
+      "sentence": [
+        "She grabbed the cat by the scruff of its neck.",
+        "The dog was held by the scruff."
+      ],
       "synonyms": [
-        { "id": "", "word": "nape", "type": "noun" }
+        { "id": "2", "word": "nape", "type": "noun" }
       ],
       "antonyms": []
     }
@@ -200,67 +190,24 @@ Each object has the following structure:
       "word": "scruffy",
       "type": "adjective",
       "phonetics": [
-        {
-          "accent": "uk",
-          "ipa": "ˈskrʌfi",
-          "audio": ""
-        }
+        { "accent": "uk", "ipa": "ˈskrʌfi" }
       ],
       "definition": "Describes someone or something that is untidy or dirty in appearance.",
-      "sentence": {
-        "text": "He turned up to the interview in a scruffy old jacket.",
-        "audio": "",
-        "translations": [
-          {
-            "lang": "tr",
-            "text": "Mülakata eski ve dağınık bir ceketle geldi."
-          }
-        ]
-      }
+      "sentence": [
+        "He wore a scruffy old jacket to the party.",
+        "His beard looked scruffy."
+      ]
     },
     {
       "word": "scruffily",
       "type": "adverb",
       "phonetics": [
-        {
-          "accent": "uk",
-          "ipa": "ˈskrʌfɪli",
-          "audio": ""
-        }
+        { "accent": "uk", "ipa": "ˈskrʌfɪli" }
       ],
       "definition": "In a messy or untidy way.",
-      "sentence": {
-        "text": "He was scruffily dressed for the meeting.",
-        "audio": "",
-        "translations": [
-          {
-            "lang": "tr",
-            "text": "Toplantı için dağınık bir şekilde giyinmişti."
-          }
-        ]
-      }
-    },
-    {
-      "word": "scruffiness",
-      "type": "noun",
-      "phonetics": [
-        {
-          "accent": "uk",
-          "ipa": "ˈskrʌfinəs",
-          "audio": ""
-        }
-      ],
-      "definition": "The quality of being untidy or dirty.",
-      "sentence": {
-        "text": "His scruffiness made a bad impression.",
-        "audio": "",
-        "translations": [
-          {
-            "lang": "tr",
-            "text": "Dağınıklığı kötü bir izlenim bıraktı."
-          }
-        ]
-      }
+      "sentence": [
+        "The children were dressed scruffily."
+      ]
     }
   ]
 }
