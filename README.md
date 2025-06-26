@@ -175,7 +175,7 @@ Each object has the following structure:
       "type": "noun",
       "definition": "The back part of the neck, especially where an animal's fur is thicker.",
       "image": "",
-      "sentence": [
+      "sentences": [
         "She grabbed the cat by the scruff of its neck.",
         "The dog was held by the scruff."
       ],
@@ -185,7 +185,7 @@ Each object has the following structure:
       "antonyms": []
     }
   ],
-  "word_family": [
+  "word_families": [
     {
       "word": "scruffy",
       "type": "adjective",
@@ -193,7 +193,7 @@ Each object has the following structure:
         { "accent": "uk", "ipa": "ˈskrʌfi" }
       ],
       "definition": "Describes someone or something that is untidy or dirty in appearance.",
-      "sentence": [
+      "sentences": [
         "He wore a scruffy old jacket to the party.",
         "His beard looked scruffy."
       ]
@@ -205,7 +205,7 @@ Each object has the following structure:
         { "accent": "uk", "ipa": "ˈskrʌfɪli" }
       ],
       "definition": "In a messy or untidy way.",
-      "sentence": [
+      "sentences": [
         "The children were dressed scruffily."
       ]
     }
