@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		648F8AF92E0D7D9D0077D60A /* GRDB in Frameworks */ = {isa = PBXBuildFile; productRef = 648F8AF82E0D7D9D0077D60A /* GRDB */; };
 		64B24BA52E088A6200796C96 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 64B24BA42E088A6200796C96 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64B24BA52E088A6200796C96 /* SDWebImageSwiftUI in Frameworks */,
+				648F8AF92E0D7D9D0077D60A /* GRDB in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +120,7 @@
 			name = LEWA;
 			packageProductDependencies = (
 				64B24BA42E088A6200796C96 /* SDWebImageSwiftUI */,
+				648F8AF82E0D7D9D0077D60A /* GRDB */,
 			);
 			productName = LEWA;
 			productReference = 64156FC22E08630800DCBA24 /* LEWA.app */;
@@ -203,6 +206,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				64B24BA32E088A6200796C96 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				648F8AF72E0D7D9D0077D60A /* XCRemoteSwiftPackageReference "GRDB" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 64156FC32E08630800DCBA24 /* Products */;
@@ -600,6 +604,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		648F8AF72E0D7D9D0077D60A /* XCRemoteSwiftPackageReference "GRDB" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/groue/GRDB.swift";
+			requirement = {
+				kind = exactVersion;
+				version = 7.5.0;
+			};
+		};
 		64B24BA32E088A6200796C96 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
@@ -611,6 +623,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		648F8AF82E0D7D9D0077D60A /* GRDB */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 648F8AF72E0D7D9D0077D60A /* XCRemoteSwiftPackageReference "GRDB" */;
+			productName = GRDB;
+		};
 		64B24BA42E088A6200796C96 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 64B24BA32E088A6200796C96 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
