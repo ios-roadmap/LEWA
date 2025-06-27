@@ -18,7 +18,7 @@ struct WordStarredView: View {
         List(starredWords) { star in
             if let word = store.word(forID: star.id) {
                 NavigationLink {
-                    WordDetailView(word: word)
+                    WordDetailView(word: word, selectedFamilyId: nil)
                 } label: {
                     Text(word.root)
                 }

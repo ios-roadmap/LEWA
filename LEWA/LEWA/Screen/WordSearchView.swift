@@ -44,7 +44,13 @@ struct WordSearchView: View {
                         if let items = grouped[letter] {
                             Section(header: Text(String(letter))) {
                                 ForEach(items, id: \.display) { item in
-                                    NavigationLink(destination: WordDetailView(word: item.word)) {
+                                    NavigationLink(
+                                        destination: WordDetailView(
+                                            word: item.word,
+                                            selectedFamilyId: item.isRoot ? nil : item.word.familyId(forWord: item.display)
+
+                                        )
+                                    ) {
                                         HStack {
                                             Text(item.display)
                                             if !item.isRoot {
@@ -56,6 +62,7 @@ struct WordSearchView: View {
                                         }
                                     }
                                 }
+
                             }
                             .id(letter)
                         }
@@ -118,5 +125,10 @@ private struct AlphabetIndexView: View {
 #Preview {
     NavigationStack {
         WordSearchView(words: Word.mocks)
+    }
+}
+extension Word {
+    func familyId(forWord word: String) -> UUID? {
+        wordFamilies.first(where: { $0.word.capitalized == word })?.id
     }
 }
