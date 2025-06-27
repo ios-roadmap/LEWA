@@ -1,0 +1,51 @@
+[
+    {
+        "root": "book",
+        "forms": ["booked", "booked", "books", "booking"],
+        "meanings": [
+            {
+                "sentence": "I would like to book a table for two at the restaurant.",
+                "trSentence": "Restoranda iki kişilik bir masa ayırtmak istiyorum.",
+                "definition": "To arrange or reserve something in advance.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "She read an interesting book about history last week.",
+                "trSentence": "Geçen hafta ilginç bir tarih kitabı okudu.",
+                "definition": "A set of printed pages fastened together inside a cover as a publication.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "booking",
+                "partOfSpeech": "noun",
+                "sentence": "The hotel confirmed my booking by email.",
+                "trSentence": "Otel rezervasyonumu e-posta ile onayladı.",
+                "definition": "An arrangement to reserve something in advance."
+            },
+            {
+                "word": "booked",
+                "partOfSpeech": "adjective",
+                "sentence": "The restaurant is fully booked this evening.",
+                "trSentence": "Restoran bu akşam tamamen dolu.",
+                "definition": "Reserved in advance; not available."
+            },
+            {
+                "word": "booklet",
+                "partOfSpeech": "noun",
+                "sentence": "They gave us a small booklet with instructions.",
+                "trSentence": "Bize talimatların olduğu küçük bir kitapçık verdiler.",
+                "definition": "A small book with a few pages, usually with information."
+            },
+            {
+                "word": "bookish",
+                "partOfSpeech": "adjective",
+                "sentence": "He was always a bookish child, preferring reading to playing outside.",
+                "trSentence": "O her zaman kitap kurdu bir çocuktu, dışarıda oynamak yerine okumayı tercih ederdi.",
+                "definition": "Spending a lot of time reading or studying."
+            }
+        ]
+    }
+    
+]
