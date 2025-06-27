@@ -49,7 +49,7 @@ struct DictionarySearchView: View {
                             Section(header: Text(String(letter))) {
                                 ForEach(items) { word in
                                     NavigationLink {
-                                        WordDetailView()
+                                        Text("123")
                                     } label: {
                                         Text(word.text)
                                     }

@@ -26,14 +26,4 @@ extension View {
             self
         }
     }
-    
-    func showModal(showModal: Binding<Bool>, @ViewBuilder content: () -> some View) -> some View {
-        self
-            .overlay {
-                ModalSupportView(
-                    showModal: showModal) {
-                        content()
-                    }
-            }
-    }
 }

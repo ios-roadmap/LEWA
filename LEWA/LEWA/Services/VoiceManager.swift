@@ -11,7 +11,7 @@ class VoiceManager {
     
     static func speak(word: String) {
         let utterance = AVSpeechUtterance(string: word)
-        utterance.voice = AVSpeechSynthesisVoice(language: EnglishAccent.british.id)
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-UK")
         utterance.rate = 0.5
         let synthesizer = AVSpeechSynthesizer()
         synthesizer.speak(utterance)
