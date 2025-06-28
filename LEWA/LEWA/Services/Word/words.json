@@ -47,5 +47,67 @@
                 "definition": "The quality of being careless or untidy."
             }
         ]
+    },
+    {
+        "root": "celebrity",
+        "forms": [],
+        "meanings": [
+            {
+                "sentence": "The restaurant is popular because many celebrities eat there.",
+                "trSentence": "Restoran, birçok ünlü orada yemek yediği için popülerdir.",
+                "definition": "A famous person, especially in entertainment or sports.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "Celebrity can change a person's life in many ways.",
+                "trSentence": "Şöhret, bir insanın hayatını birçok şekilde değiştirebilir.",
+                "definition": "The state of being famous.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "celebrate",
+                "partOfSpeech": "verb",
+                "sentence": "We will celebrate her birthday next weekend.",
+                "trSentence": "Onun doğum gününü gelecek hafta sonu kutlayacağız.",
+                "definition": "To do something special for an important event."
+            },
+            {
+                "word": "celebration",
+                "partOfSpeech": "noun",
+                "sentence": "There was a big celebration after the team's victory.",
+                "trSentence": "Takımın zaferinden sonra büyük bir kutlama vardı.",
+                "definition": "A special event held to mark an important occasion."
+            },
+            {
+                "word": "celebrated",
+                "partOfSpeech": "adjective",
+                "sentence": "He is a celebrated writer known for his unique style.",
+                "trSentence": "O, kendine özgü tarzıyla tanınan ünlü bir yazardır.",
+                "definition": "Famous and praised for a special skill or quality."
+            }
+        ]
+    },
+    {
+        "root": "janky",
+        "forms": [],
+        "meanings": [
+            {
+                "sentence": "The computer started acting janky after the latest update.",
+                "trSentence": "Bilgisayar, son güncellemeden sonra tuhaf davranmaya başladı.",
+                "definition": "Unreliable or of poor quality; awkward or faulty.",
+                "partOfSpeech": "adjective"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "jankiness",
+                "partOfSpeech": "noun",
+                "sentence": "The jankiness of the old elevator made everyone nervous.",
+                "trSentence": "Eski asansörün bozukluğu herkesi tedirgin etti.",
+                "definition": "The state of being unreliable or poorly made."
+            }
+        ]
     }
 ]

@@ -93,7 +93,10 @@ struct WordSearchView: View {
         }
         .toolbar {
             ToolbarItem(placement: .topBarLeading) {
-                Text("\(allWords.count) words")
+                Text("Roots: \(words.count)")
+            }
+            ToolbarItem(placement: .topBarLeading) {
+                Text("All words: \(allWords.count)")
             }
         }
     }
