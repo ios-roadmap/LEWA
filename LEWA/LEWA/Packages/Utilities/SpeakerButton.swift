@@ -15,7 +15,7 @@ struct SpeakerButton: View {
         Image(systemName: "speaker.wave.3")
             .font(.headline)
             .onTapGesture {
-                VoiceManager.speak(word: text)
+                VoiceManager.shared.speak(word: text)
             }
     }
 }

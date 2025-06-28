@@ -18,6 +18,10 @@ struct TabBarView: View {
                         .task {
                             await store.load()
                         }
+                        .task {
+                            _ = VoiceManager.shared
+                            VoiceManager.shared.speak(word: " ")
+                        }
                 } else {
                     NavigationStack {
                         WordSearchView(words: store.words)

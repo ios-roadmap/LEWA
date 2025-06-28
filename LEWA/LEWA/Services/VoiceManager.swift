@@ -8,12 +8,15 @@
 import AVFAudio
 
 class VoiceManager {
-    
-    static func speak(word: String) {
+    static let shared = VoiceManager()
+    private let synthesizer = AVSpeechSynthesizer()
+
+    private init() {}
+
+    func speak(word: String) {
         let utterance = AVSpeechUtterance(string: word)
-        utterance.voice = AVSpeechSynthesisVoice(language: "en-UK")
+        utterance.voice = AVSpeechSynthesisVoice(language: "en-GB")
         utterance.rate = 0.5
-        let synthesizer = AVSpeechSynthesizer()
         synthesizer.speak(utterance)
     }
 }
