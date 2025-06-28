@@ -6,8 +6,6 @@
   <img src="https://github.com/user-attachments/assets/29f62f05-23b5-4b5d-857c-f5d5cf6e2228" alt="detail" width="250" style="margin-right:8px;"/>
 </p>
 
-**Prompt**
-
 **Unified Word‑Analysis & Family Prompt (IELTS Academic)**
 
 > **Task**
@@ -18,7 +16,7 @@
 
 ```json
 {
-  "root": "",               // base (lemma) of {word}
+  "root": "",               // base (lemma) of {word}; MUST be the shortest valid form
   "meanings": [               // every distinct sense of {word}
     {
       "sentence": "",       // original B2-level English sentence (10–20 words)
@@ -27,7 +25,7 @@
       "partOfSpeech": ""   // noun, verb, adjective, adverb, etc. as used in the sentence
     }
   ],
-  "wordFamilies": [           // ALL valid affix forms + common derived forms, excluding the root
+  "wordFamilies": [           // ALL valid affix forms + common derived forms, EXCLUDING the root
     {
       "word": "",           // family member built with allowed affixes or other derivations
       "partOfSpeech": "",  // noun, verb, adjective, adverb, etc.
@@ -41,7 +39,7 @@
 
 ### Rules
 
-1. **root** – give the lemma only (e.g., *run* for *running*).
+1. **root** – supply only the lemma that is the **shortest** standard form (e.g., *run* for *running*).
 2. **wordFamilies** – include:
 
    * Every existing word formed from the root using these affixes:
@@ -49,10 +47,10 @@
      *Prefixes*: un-, in-, im-, il-, ir-, dis-, non-, re-, pre-, sub-, over-, under-, en-, de-
    * Additional frequent derived forms (e.g., compound or irregular derivatives) useful for IELTS.
    * Apply irregular spellings where necessary; output everything in lowercase.
-   * Exclude the root itself.
+   * **Do NOT include the root itself**.
 3. **meanings** – provide one object per distinct sense; each must include:
 
-   * A 10–20-word original English sentence at B2 level.
+   * A 10–20‑word original English sentence at B2 level.
    * Its precise Turkish translation.
    * A clear definition (≤ 20 words).
    * The relevant part of speech.
