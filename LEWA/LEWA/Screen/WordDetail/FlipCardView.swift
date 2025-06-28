@@ -15,7 +15,7 @@ struct FlipCardView: View {
 
     var body: some View {
         ZStack {
-            CardFace(text: english, color: .blue)
+            CardFace(text: english, color: .blue, showSpeaker: true)
                 .opacity(showTurkish ? 0.0 : 1.0)
                 .rotation3DEffect(.degrees(showTurkish ? 180 : 0), axis: (x:0, y:1, z:0))
             CardFace(text: turkish, color: .black)
@@ -29,4 +29,13 @@ struct FlipCardView: View {
             }
         }
     }
+}
+
+#Preview {
+    let mock = Meaning.mock
+    FlipCardView(
+        english: mock.sentence,
+        turkish: mock.trSentence,
+        showTurkish: .constant(false)
+    )
 }

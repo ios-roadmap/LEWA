@@ -1,51 +1,51 @@
 [
     {
-        "root": "book",
-        "forms": ["booked", "booked", "books", "booking"],
+        "root": "scissors",
+        "forms": [],
         "meanings": [
             {
-                "sentence": "I would like to book a table for two at the restaurant.",
-                "trSentence": "Restoranda iki kişilik bir masa ayırtmak istiyorum.",
-                "definition": "To arrange or reserve something in advance.",
-                "partOfSpeech": "verb"
-            },
-            {
-                "sentence": "She read an interesting book about history last week.",
-                "trSentence": "Geçen hafta ilginç bir tarih kitabı okudu.",
-                "definition": "A set of printed pages fastened together inside a cover as a publication.",
+                "sentence": "She used a pair of scissors to cut the paper.",
+                "trSentence": "Kağıdı kesmek için bir makas kullandı.",
+                "definition": "A tool with two blades used for cutting paper, cloth, etc.",
                 "partOfSpeech": "noun"
             }
         ],
         "wordFamilies": [
             {
-                "word": "booking",
+                "word": "scissor",
+                "partOfSpeech": "verb",
+                "sentence": "The tailor carefully scissored the fabric into pieces.",
+                "trSentence": "Terzi kumaşı dikkatlice parçalara ayırarak kesti.",
+                "definition": "To cut something using scissors."
+            }
+        ]
+    },
+    {
+        "root": "sloppy",
+        "forms": [],
+        "meanings": [
+            {
+                "sentence": "His homework was sloppy and full of mistakes.",
+                "trSentence": "Onun ödevi özensizdi ve hatalarla doluydu.",
+                "definition": "Showing a lack of care, attention, or effort.",
+                "partOfSpeech": "adjective"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "sloppily",
+                "partOfSpeech": "adverb",
+                "sentence": "She sloppily painted the wall, leaving marks everywhere.",
+                "trSentence": "Duvarda her yerde izler bırakarak duvarı özensizce boyadı.",
+                "definition": "In a careless or untidy way."
+            },
+            {
+                "word": "sloppiness",
                 "partOfSpeech": "noun",
-                "sentence": "The hotel confirmed my booking by email.",
-                "trSentence": "Otel rezervasyonumu e-posta ile onayladı.",
-                "definition": "An arrangement to reserve something in advance."
-            },
-            {
-                "word": "booked",
-                "partOfSpeech": "adjective",
-                "sentence": "The restaurant is fully booked this evening.",
-                "trSentence": "Restoran bu akşam tamamen dolu.",
-                "definition": "Reserved in advance; not available."
-            },
-            {
-                "word": "booklet",
-                "partOfSpeech": "noun",
-                "sentence": "They gave us a small booklet with instructions.",
-                "trSentence": "Bize talimatların olduğu küçük bir kitapçık verdiler.",
-                "definition": "A small book with a few pages, usually with information."
-            },
-            {
-                "word": "bookish",
-                "partOfSpeech": "adjective",
-                "sentence": "He was always a bookish child, preferring reading to playing outside.",
-                "trSentence": "O her zaman kitap kurdu bir çocuktu, dışarıda oynamak yerine okumayı tercih ederdi.",
-                "definition": "Spending a lot of time reading or studying."
+                "sentence": "His sloppiness at work led to many problems.",
+                "trSentence": "İşindeki özensizliği birçok probleme yol açtı.",
+                "definition": "The quality of being careless or untidy."
             }
         ]
     }
-    
 ]

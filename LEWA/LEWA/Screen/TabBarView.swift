@@ -9,23 +9,38 @@ import SwiftUI
 
 struct TabBarView: View {
     @StateObject private var store = WordsStore()
-
+    
     var body: some View {
-        NavigationStack {
-            TabView {
-                ContentView()
-                    .environmentObject(store)
-                    .tabItem { Label("search", systemImage: "magnifyingglass") }
-
+        TabView {
+            Group {
+                if store.words.isEmpty {
+                    ProgressView("Loading…")
+                        .task {
+                            await store.load()
+                        }
+                } else {
+                    NavigationStack {
+                        WordSearchView(words: store.words)
+                            .environmentObject(store)
+                    }
+                }
+            }
+            .tabItem {
+                Image(systemName: "magnifyingglass")
+                    .imageScale(.large)
+            }
+            
+            NavigationStack {
                 WordStarredView()
                     .environmentObject(store)
-                    .tabItem { Label("star", systemImage: "star.fill") }
+            }
+            .tabItem {
+                Image(systemName: "star.fill")
+                    .imageScale(.large)
             }
         }
-        .task { await store.load() }          // ← fetch words.json once
     }
 }
-
 
 #Preview {
     TabBarView()
@@ -37,16 +52,16 @@ import SwiftUI
 @MainActor
 final class WordsStore: ObservableObject {
     @Published private(set) var words: [Word] = []
-
+    
     /// Load once and memoise.
     func load() async {
         guard words.isEmpty else { return }
-
+        
         guard let url = Bundle.main.url(forResource: "words", withExtension: "json") else {
             assertionFailure("words.json missing from bundle")
             return
         }
-
+        
         do {
             let data = try Data(contentsOf: url)
             let decoded = try JSONDecoder().decode([Word].self, from: data)
@@ -55,7 +70,7 @@ final class WordsStore: ObservableObject {
             assertionFailure("Failed to decode words.json – \(error)")
         }
     }
-
+    
     /// Convenience helper
     func word(forID id: String) -> Word? {
         words.first { $0.root == id }

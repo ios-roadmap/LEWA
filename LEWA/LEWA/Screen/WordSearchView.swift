@@ -48,7 +48,6 @@ struct WordSearchView: View {
                                         destination: WordDetailView(
                                             word: item.word,
                                             selectedFamilyId: item.isRoot ? nil : item.word.familyId(forWord: item.display)
-
                                         )
                                     ) {
                                         HStack {

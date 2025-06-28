@@ -30,12 +30,16 @@ struct WordFamilyCard: View {
             // Sentence toggle
             Group {
                 if showEnglishSentence {
-                    Text("\(family.sentence)")
-                        .font(.callout)
-                        .foregroundColor(.blue)
-                        .onTapGesture {
-                            showEnglishSentence = false
-                        }
+                    HStack(spacing: 8) {
+                        SpeakerButton(text: family.sentence)
+                        
+                        Text("\(family.sentence)")
+                            .font(.callout)
+                            .foregroundColor(.blue)
+                            .onTapGesture {
+                                showEnglishSentence = false
+                            }
+                    }
                 } else {
                     Text("\(family.trSentence)")
                         .font(.callout)
@@ -46,10 +50,11 @@ struct WordFamilyCard: View {
                 }
             }
         }
+        .frame(maxWidth: .infinity, alignment: .leading)
         .padding()
         .background(Color(.systemBackground))
         .cornerRadius(12)
-        .shadow(radius: 3)
+        
     }
 }
 

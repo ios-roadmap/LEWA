@@ -13,14 +13,24 @@ struct WordDetailView: View {
     let selectedFamilyId: UUID?
     
     @Environment(\.modelContext) private var modelContext
-    @Query private var starredRecords: [StarredWord]
+    
+    @State private var isStarred: Bool = false
+    @State private var starredWord: StarredWord? = nil
+
     
     @State private var showTurkish: Bool = false
-    private var isStarred: Bool { starredRecords.first?.isStarred ?? false }
     
     var body: some View {
         ScrollViewReader(content: { proxy in
             List {
+                HStack {
+                    Text(word.root.capitalized)
+                        .font(.largeTitle)
+                    SpeakerButton(text: word.root)
+                }
+                .fontWeight(.bold)
+                .removeListRowFormatting()
+                
                 Section {
                     CarouselView(items: word.meanings, onSelectionChange: {
                         showTurkish = false
@@ -37,31 +47,35 @@ struct WordDetailView: View {
                     Text("Meanings").bold().font(.headline).foregroundStyle(.red)
                 }
                 
-                Section {
-                    ScrollView(.horizontal) {
-                        HStack {
-                            Text
-                                .commaSeparated(word.forms)
-                                .font(.callout)
-                                .foregroundColor(.primary)
-                                .padding(.vertical, 4)
+                if !word.forms.isEmpty {
+                    Section {
+                        ScrollView(.horizontal) {
+                            HStack {
+                                Text
+                                    .commaSeparated(word.forms)
+                                    .font(.callout)
+                                    .foregroundColor(.primary)
+                                    .padding(.vertical, 4)
+                            }
                         }
+                        .listRowSeparator(.hidden)
+                        .listRowBackground(Color.clear)
+                    } header: {
+                        Text("Forms").bold().font(.headline).foregroundStyle(.red)
                     }
-                    .listRowSeparator(.hidden)
-                    .listRowBackground(Color.clear)
-                } header: {
-                    Text("Forms").bold().font(.headline).foregroundStyle(.red)
                 }
                 
-                Section {
-                    ForEach(word.wordFamilies) { family in
-                        WordFamilyCard(family: family)
-                            .id(family.id)
+                if !word.wordFamilies.isEmpty {
+                    Section {
+                        ForEach(word.wordFamilies) { family in
+                            WordFamilyCard(family: family)
+                                .id(family.id)
+                        }
+                        .listRowSeparator(.hidden)
+                        .listRowBackground(Color.clear)
+                    } header: {
+                        Text("Word Family").bold().font(.headline).foregroundStyle(.red)
                     }
-                    .listRowSeparator(.hidden)
-                    .listRowBackground(Color.clear)
-                } header: {
-                    Text("Word Family").bold().font(.headline).foregroundStyle(.red)
                 }
             }
             .onAppear {
@@ -73,27 +87,56 @@ struct WordDetailView: View {
                     }
                 }
             }
+            .onAppear(perform: loadStarredState)
         })
-        .navigationTitle(word.root.capitalized)
-        .navigationBarTitleDisplayMode(.large)
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button(action: toggleStar) {
                     Image(systemName: isStarred ? "star.fill" : "star")
-                        .font(.title)
+                }
+            }
+            
+            ToolbarItem(placement: .topBarLeading) {
+                Button(action: toggleShowTurkish) {
+                    Image(systemName: "arrow.2.squarepath")
                 }
             }
         }
     }
     
-    private func toggleStar() {
-        if let record = starredRecords.first {
-            record.isStarred.toggle()            // updates automatically
-        } else {
-            modelContext.insert(StarredWord(id: word.id, isStarred: true))
+    private func toggleShowTurkish() {
+        withAnimation(.spring(response: 0.5, dampingFraction: 0.7)) {
+            showTurkish.toggle()
         }
-        try? modelContext.save()                 // explicit save is optional but safe
     }
+    
+    private func loadStarredState() {
+        let wordID = word.id // Veya word.root, senin id’in o zaten
+        let fetchDescriptor = FetchDescriptor<StarredWord>(predicate: #Predicate<StarredWord> { starred in
+            starred.id == wordID
+        })
+        if let result = try? modelContext.fetch(fetchDescriptor).first {
+            self.starredWord = result
+            self.isStarred = result.isStarred
+        } else {
+            self.starredWord = nil
+            self.isStarred = false
+        }
+    }
+
+
+     private func toggleStar() {
+         if let starred = starredWord {
+             starred.isStarred.toggle()
+             self.isStarred = starred.isStarred
+         } else {
+             let newStarred = StarredWord(id: word.id, isStarred: true)
+             modelContext.insert(newStarred)
+             self.starredWord = newStarred
+             self.isStarred = true
+         }
+         try? modelContext.save()
+     }
 }
 
 #Preview {

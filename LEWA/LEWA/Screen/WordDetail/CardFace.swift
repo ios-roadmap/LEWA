@@ -10,19 +10,35 @@ import SwiftUI
 struct CardFace: View {
     let text: String
     let color: Color
+    let showSpeaker: Bool
+    
+    init(text: String, color: Color, showSpeaker: Bool = false) {
+        self.text = text
+        self.color = color
+        self.showSpeaker = showSpeaker
+    }
 
     var body: some View {
-        ZStack(alignment: .topTrailing) {
+        ZStack {
             RoundedRectangle(cornerRadius: 14)
                 .fill(.thinMaterial)
             
-            VStack {
+            HStack(spacing: 8) {
+                if showSpeaker {
+                    SpeakerButton(text: text)
+                }
+                
                 Text(text)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .center)
                     .foregroundStyle(color)
-                    .padding(.horizontal, 12)
                     .multilineTextAlignment(.center)
             }
+            .frame(maxWidth: .infinity, alignment: .center)
+            .padding(.horizontal, 12)
         }
     }
+}
+
+
+#Preview {
+    CardFace(text: "Hello, World!", color: .blue)
 }
