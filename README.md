@@ -8,219 +8,53 @@
 
 **Prompt**
 
-# PART I
+**Unified Word‑Analysis & Family Prompt (IELTS Academic)**
 
-> You will receive a single English word **X** (of any type: noun, verb, adjective, adverb, etc.; it may be inflected or derived).
->
-> **1.** Identify its **root (base) form**.
->
-> **2.** List **every linguistically valid, standard English word form** that can be created from the root using the standard English prefixes and suffixes provided below. Include all possible word classes (noun, verb, adjective, adverb, etc.).
->
-> **Return your answer only in this exact JSON structure (no extra keys, comments, or text):**
->
-> ```json
-> {
->   "root": "<root word here>",
->   "forms": [
->     "<root-s>",
->     "<root-es>",
->     "<root-ed>",
->     "<root-ing>",
->     "<root-en>",
->     "<root-er>",
->     "<root-est>",
->     "<root-ly>",
->     "<root-ness>",
->     "<root-ment>",
->     "<root-tion>",
->     "<root-ation>",
->     "<root-ity>",
->     "<root-ship>",
->     "<root-hood>",
->     "<root-ous>",
->     "<root-ful>",
->     "<root-less>",
->     "<root-y>",
->     "<root-ish>",
->     "<root-al>",
->     "<root-ive>",
->     "<root-ist>",
->     "<root-ism>",
->     "<root-dom>",
->     "<un-root>",
->     "<in-root>",
->     "<im-root>",
->     "<il-root>",
->     "<ir-root>",
->     "<dis-root>",
->     "<non-root>",
->     "<re-root>",
->     "<pre-root>",
->     "<sub-root>",
->     "<over-root>",
->     "<under-root>",
->     "<en-root>",
->     "<de-root>"
->   ]
-> }
-> ```
->
-> **Guidelines**
->
-> * Include **only** forms that genuinely exist for the root; omit impossible or nonstandard ones.
-> * If the root has **no additional valid forms**, leave the array empty: `"forms": []`.
-> * Use each valid form once; do not duplicate.
-> * Apply irregular spellings where necessary (e.g., *run → ran, running*).
-> * Output everything in **lowercase**.
-> * Output **nothing** except the JSON block.
+> **Task**
+> Act as an English–Turkish bilingual vocabulary assistant.
+> For the single input word **{word}**, return only the JSON object described below—nothing more.
 
-# Part II
-
-> You are an English–Turkish bilingual vocabulary assistant.
-> I will give you **one English word** (written as **{word}**).
-> Your task is to list **every distinct meaning** that word can have (separate roots / senses).
-> For each meaning, produce an object with the following keys:
->
-> * **sentence** – an original B2-level English sentence that naturally uses the word in this meaning.
-> * **trSentence** – a precise Turkish translation of *sentence*.
-> * **definition** – a clear English definition of this meaning.
-> * **partOfSpeech** – the word’s part of speech *as it appears in your sentence* (e.g. *noun*, *verb*, *adjective*).
->
-> Return everything as **valid JSON** in exactly this structure (no extra keys, no markdown):
->
-> ```json
-> {
->   "meanings": [
->     {
->       "sentence": "",
->       "trSentence": "",
->       "definition": "",
->       "partOfSpeech": ""
->     }
->     // …repeat for each additional meaning
->   ]
-> }
-> ```
->
-> Use a separate object for each distinct meaning.
-> Do not add commentary outside the JSON.
-
----
-
-# Part III
-
-**Word Family JSON Prompt (IELTS Academic)**
-
-**How to use**
-
-1. Replace **{word}** with your target base word (e.g., *set*).
-2. Paste this entire prompt into ChatGPT.
-3. ChatGPT will respond *only* with a valid JSON object containing the word family.
-
-**Task**
-You are my English word‑family dictionary for IELTS Academic preparation.
-
-When I give you the base word **{word}**, return **only** a JSON object that follows the schema below. Do *not* add explanations, headings, or extra keys.
-
-**Schema**
+### Output schema
 
 ```json
 {
-  "wordFamilies": [
+  "root": "",               // base (lemma) of {word}
+  "meanings": [               // every distinct sense of {word}
     {
-      "word": "",          // family member (derived form)
+      "sentence": "",       // original B2-level English sentence (10–20 words)
+      "trSentence": "",    // accurate Turkish translation
+      "definition": "",    // clear English meaning (≤ 20 words)
+      "partOfSpeech": ""   // noun, verb, adjective, adverb, etc. as used in the sentence
+    }
+  ],
+  "wordFamilies": [           // ALL valid affix forms + common derived forms, excluding the root
+    {
+      "word": "",           // family member built with allowed affixes or other derivations
       "partOfSpeech": "",  // noun, verb, adjective, adverb, etc.
-      "sentence": "",      // original English example, 10–20 words, B2 level
-      "trSentence": "",    // natural Turkish translation of the sentence
-      "definition": ""      // concise English meaning used in the sentence (≤ 20 words)
+      "sentence": "",       // original B2-level English sentence (10–20 words)
+      "trSentence": "",     // Turkish translation
+      "definition": ""      // concise English meaning (≤ 20 words)
     }
   ]
 }
 ```
 
-**Rules**
+### Rules
 
-1. Include only forms that a B2–C1 learner is likely to encounter; omit obscure or archaic items.
-2. Do **not** list the base word itself as a separate entry—only its derived family members (e.g., *act* → *action, active, activity, actively*).
-3. Each English sentence must be original, 10–20 words, and clearly showcase the given form.
-4. Provide an accurate, natural‑sounding Turkish translation for each sentence.
-5. Keep the JSON strictly valid: use double quotes, insert commas correctly, and include no comments.
-6. Output nothing except the JSON object.
+1. **root** – give the lemma only (e.g., *run* for *running*).
+2. **wordFamilies** – include:
 
-You do not need to cover every possible derivative; focus on the most relevant forms.
+   * Every existing word formed from the root using these affixes:
+     *Suffixes*: -s, -es, -ed, -ing, -en, -er, -est, -ly, -ness, -ment, -tion, -ation, -ity, -ship, -hood, -ous, -ful, -less, -y, -ish, -al, -ive, -ist, -ism, -dom
+     *Prefixes*: un-, in-, im-, il-, ir-, dis-, non-, re-, pre-, sub-, over-, under-, en-, de-
+   * Additional frequent derived forms (e.g., compound or irregular derivatives) useful for IELTS.
+   * Apply irregular spellings where necessary; output everything in lowercase.
+   * Exclude the root itself.
+3. **meanings** – provide one object per distinct sense; each must include:
 
-
-## Example Usage:
-
-```json
-{
-"root": "scissor",
-"forms": [
-"scissors",
-"scissored",
-"scissoring",
-"scissorer",
-"scissory",
-"scissorless",
-"unscissor"
-],
-"meanings": [
-{
-"sentence": "The tailor picked up a sharp scissor to trim the loose threads.",
-"trSentence": "Terzi, gevşek iplikleri düzeltmek için keskin bir makas aldı.",
-"definition": "a single cutting tool consisting of two pivoted blades; a pair of scissors",
-"partOfSpeech": "noun"
-},
-{
-"sentence": "She scissored the photograph into a perfect circle for her art project.",
-"trSentence": "Sanat projesi için fotoğrafı mükemmel bir daire şeklinde makasla kesti.",
-"definition": "to cut something using scissors",
-"partOfSpeech": "verb"
-},
-{
-"sentence": "The dancers scissored their legs rhythmically as they crossed the stage.",
-"trSentence": "Dansçılar sahneyi geçerken bacaklarını ritmik olarak makasladı.",
-"definition": "to move parts of the body so they cross and separate like the blades of scissors",
-"partOfSpeech": "verb"
-},
-{
-"sentence": "The wrestler caught his rival in a tight scissor and won the match.",
-"trSentence": "Güreşçi, rakibini sıkı bir makasa alarak maçı kazandı.",
-"definition": "a wrestling hold in which the legs are wrapped around an opponent's body or head",
-"partOfSpeech": "noun"
-}
-],
-"wordFamilies": [
-{
-"word": "scissors",
-"partOfSpeech": "noun",
-"sentence": "The chef reached for his kitchen scissors to neatly trim the fresh herbs.",
-"trSentence": "Şef, taze otları düzgünce kesmek için mutfak makasını aldı.",
-"definition": "a cutting tool consisting of two crossing blades"
-},
-{
-"word": "scissor",
-"partOfSpeech": "verb",
-"sentence": "He carefully scissored the colored paper into stars for the class decoration.",
-"trSentence": "Sınıf süslemesi için renkli kağıdı yıldız şeklinde dikkatlice makasla kesti.",
-"definition": "to cut something using scissors"
-},
-{
-"word": "scissoring",
-"partOfSpeech": "noun",
-"sentence": "Constant scissoring of the fabric kept every strip exactly two centimeters wide.",
-"trSentence": "Kumaşın sürekli makaslanması her şeridi tam iki santimetre genişliğinde tuttu.",
-"definition": "the act of cutting repeatedly with scissors"
-},
-{
-"word": "scissored",
-"partOfSpeech": "adjective",
-"sentence": "The invitation's scissored edges gave it a delicate, handmade appearance.",
-"trSentence": "Davetiye'nin makasla kesilmiş kenarları ona zarif, el yapımı bir görünüm verdi.",
-"definition": "cut out or shaped with scissors"
-}
-]
-}
-```
-
-STAY AWAY FROM SENTENCES THAT REPEAT EACH OTHER.
+   * A 10–20-word original English sentence at B2 level.
+   * Its precise Turkish translation.
+   * A clear definition (≤ 20 words).
+   * The relevant part of speech.
+4. No duplicate sentences. Keep all JSON valid: double quotes, commas, no comments.
+5. Output **only** the JSON object—no headings, explanations, or extra text.
