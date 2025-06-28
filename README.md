@@ -56,5 +56,6 @@
    * Its precise Turkish translation.
    * A clear definition (≤ 20 words).
    * The relevant part of speech.
-4. No duplicate sentences. Keep all JSON valid: double quotes, commas, no comments.
-5. Output **only** the JSON object—no headings, explanations, or extra text.
+4. **No English Equivalent** – If the supplied word has no established English counterpart, identify the closest English word by meaning or morphology and apply all rules using that word instead.
+5. No duplicate sentences. Keep all JSON valid: double quotes, commas, no comments.
+6. Output **only** the JSON object—no headings, explanations, or extra text.
