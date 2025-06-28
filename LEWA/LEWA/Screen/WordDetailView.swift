@@ -47,24 +47,6 @@ struct WordDetailView: View {
                     Text("Meanings").bold().font(.headline).foregroundStyle(.red)
                 }
                 
-                if !word.forms.isEmpty {
-                    Section {
-                        ScrollView(.horizontal) {
-                            HStack {
-                                Text
-                                    .commaSeparated(word.forms)
-                                    .font(.callout)
-                                    .foregroundColor(.primary)
-                                    .padding(.vertical, 4)
-                            }
-                        }
-                        .listRowSeparator(.hidden)
-                        .listRowBackground(Color.clear)
-                    } header: {
-                        Text("Forms").bold().font(.headline).foregroundStyle(.red)
-                    }
-                }
-                
                 if !word.wordFamilies.isEmpty {
                     Section {
                         ForEach(word.wordFamilies) { family in

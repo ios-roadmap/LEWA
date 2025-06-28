@@ -1,113 +1,56 @@
 [
     {
-        "root": "scissors",
-        "forms": [],
-        "meanings": [
-            {
-                "sentence": "She used a pair of scissors to cut the paper.",
-                "trSentence": "Kağıdı kesmek için bir makas kullandı.",
-                "definition": "A tool with two blades used for cutting paper, cloth, etc.",
-                "partOfSpeech": "noun"
-            }
-        ],
-        "wordFamilies": [
-            {
-                "word": "scissor",
-                "partOfSpeech": "verb",
-                "sentence": "The tailor carefully scissored the fabric into pieces.",
-                "trSentence": "Terzi kumaşı dikkatlice parçalara ayırarak kesti.",
-                "definition": "To cut something using scissors."
-            }
-        ]
-    },
-    {
-        "root": "sloppy",
-        "forms": [],
-        "meanings": [
-            {
-                "sentence": "His homework was sloppy and full of mistakes.",
-                "trSentence": "Onun ödevi özensizdi ve hatalarla doluydu.",
-                "definition": "Showing a lack of care, attention, or effort.",
-                "partOfSpeech": "adjective"
-            }
-        ],
-        "wordFamilies": [
-            {
-                "word": "sloppily",
-                "partOfSpeech": "adverb",
-                "sentence": "She sloppily painted the wall, leaving marks everywhere.",
-                "trSentence": "Duvarda her yerde izler bırakarak duvarı özensizce boyadı.",
-                "definition": "In a careless or untidy way."
-            },
-            {
-                "word": "sloppiness",
-                "partOfSpeech": "noun",
-                "sentence": "His sloppiness at work led to many problems.",
-                "trSentence": "İşindeki özensizliği birçok probleme yol açtı.",
-                "definition": "The quality of being careless or untidy."
-            }
-        ]
-    },
-    {
-        "root": "celebrity",
-        "forms": [],
-        "meanings": [
-            {
-                "sentence": "The restaurant is popular because many celebrities eat there.",
-                "trSentence": "Restoran, birçok ünlü orada yemek yediği için popülerdir.",
-                "definition": "A famous person, especially in entertainment or sports.",
-                "partOfSpeech": "noun"
-            },
-            {
-                "sentence": "Celebrity can change a person's life in many ways.",
-                "trSentence": "Şöhret, bir insanın hayatını birçok şekilde değiştirebilir.",
-                "definition": "The state of being famous.",
-                "partOfSpeech": "noun"
-            }
-        ],
-        "wordFamilies": [
-            {
-                "word": "celebrate",
-                "partOfSpeech": "verb",
-                "sentence": "We will celebrate her birthday next weekend.",
-                "trSentence": "Onun doğum gününü gelecek hafta sonu kutlayacağız.",
-                "definition": "To do something special for an important event."
-            },
-            {
-                "word": "celebration",
-                "partOfSpeech": "noun",
-                "sentence": "There was a big celebration after the team's victory.",
-                "trSentence": "Takımın zaferinden sonra büyük bir kutlama vardı.",
-                "definition": "A special event held to mark an important occasion."
-            },
-            {
-                "word": "celebrated",
-                "partOfSpeech": "adjective",
-                "sentence": "He is a celebrated writer known for his unique style.",
-                "trSentence": "O, kendine özgü tarzıyla tanınan ünlü bir yazardır.",
-                "definition": "Famous and praised for a special skill or quality."
-            }
-        ]
-    },
-    {
-        "root": "janky",
-        "forms": [],
-        "meanings": [
-            {
-                "sentence": "The computer started acting janky after the latest update.",
-                "trSentence": "Bilgisayar, son güncellemeden sonra tuhaf davranmaya başladı.",
-                "definition": "Unreliable or of poor quality; awkward or faulty.",
-                "partOfSpeech": "adjective"
-            }
-        ],
-        "wordFamilies": [
-            {
-                "word": "jankiness",
-                "partOfSpeech": "noun",
-                "sentence": "The jankiness of the old elevator made everyone nervous.",
-                "trSentence": "Eski asansörün bozukluğu herkesi tedirgin etti.",
-                "definition": "The state of being unreliable or poorly made."
-            }
-        ]
+      "root": "scissor",
+      "meanings": [
+        {
+          "sentence": "He scissored the shiny red ribbon neatly before wrapping the birthday present.",
+          "trSentence": "Doğum günü paketini sarmadan önce parlak kırmızı kurdeleyi düzgünce makasla kesti.",
+          "definition": "Cut something using scissors.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "The tailor's quick scissor left a perfectly straight edge along the fabric.",
+          "trSentence": "Terzinin hızlı makas darbesi kumaş boyunca mükemmel düz bir kenar bıraktı.",
+          "definition": "Single blade or cut made by scissors.",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "scissors",
+          "partOfSpeech": "noun",
+          "sentence": "She couldn't find her scissors, so she borrowed mine to cut the photos.",
+          "trSentence": "Makasını bulamayınca fotoğrafları kesmek için benimkini ödünç aldı.",
+          "definition": "A cutting tool with two crossed blades."
+        },
+        {
+          "word": "scissored",
+          "partOfSpeech": "verb",
+          "sentence": "The artist scissored delicate snowflakes from thin white paper for the window display.",
+          "trSentence": "Sanatçı, vitrin dekoru için ince beyaz kâğıttan zarif kar taneleri makasla kesti.",
+          "definition": "Cut with scissors in the past."
+        },
+        {
+          "word": "scissoring",
+          "partOfSpeech": "noun",
+          "sentence": "Continuous scissoring of the cloth produced soft fringes around the cushion edges.",
+          "trSentence": "Kumaşın sürekli makasla kesilmesi yastık kenarlarında yumuşak püsküller oluşturdu.",
+          "definition": "The act of cutting using scissors."
+        },
+        {
+          "word": "scissorless",
+          "partOfSpeech": "adjective",
+          "sentence": "Facing scissorless packaging, he improvised by tearing the plastic with his keys.",
+          "trSentence": "Makas gerektiren ambalajla karşılaşınca plastiği anahtarıyla yırtarak çözdü.",
+          "definition": "Without any scissors available."
+        },
+        {
+          "word": "scissory",
+          "partOfSpeech": "adjective",
+          "sentence": "The dancer's scissory leg movements impressed the judges during the contemporary routine.",
+          "trSentence": "Dansçının makas tarzı bacak hareketleri modern rutinde jüriyi etkiledi.",
+          "definition": "Resembling the motion of scissors."
+        }
+      ]
     }
 ]

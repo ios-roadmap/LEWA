@@ -10,13 +10,11 @@ import Foundation
 struct Word: Codable, Identifiable, Hashable {
     var id: String { root }
     let root: String
-    let forms: [String]
     let meanings: [Meaning]
     let wordFamilies: [WordFamily]
     
-    init(root: String, forms: [String], meanings: [Meaning], wordFamilies: [WordFamily]) {
+    init(root: String, meanings: [Meaning], wordFamilies: [WordFamily]) {
         self.root = root
-        self.forms = forms
         self.meanings = meanings
         self.wordFamilies = wordFamilies
     }
@@ -24,7 +22,6 @@ struct Word: Codable, Identifiable, Hashable {
     static var mock: Self {
         .init(
             root: "book",
-            forms: ["booked", "books", "booking"],
             meanings: [
                 .mock,
                 .mock,
@@ -40,7 +37,7 @@ struct Word: Codable, Identifiable, Hashable {
         [
             .init(
                 root: "Aoot1",
-                forms: ["form1", "form2"],
+
                 meanings: [
                     .mock
                 ],
@@ -50,7 +47,6 @@ struct Word: Codable, Identifiable, Hashable {
             ),
             .init(
                 root: "root1",
-                forms: ["form1", "form2"],
                 meanings: [
                     .mock
                 ],
@@ -60,7 +56,6 @@ struct Word: Codable, Identifiable, Hashable {
             ),
             .init(
                 root: "Zoot1",
-                forms: ["form1", "form2"],
                 meanings: [
                     .mock
                 ],
