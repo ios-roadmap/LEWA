@@ -109,42 +109,48 @@
 
 # Part III
 
-> **How to use**
->
-> 1. Replace **{word}** with your target word (e.g. *“set”*).
-> 2. Paste the whole prompt into ChatGPT.
-> 3. ChatGPT returns the JSON with all meanings, example sentences, Turkish translations, definitions, and parts of speech.
-> 
-> You are my English word-family dictionary for IELTS preparation.
-> 
-> TASK  
-> When I give you a single base word (e.g. <YOUR WORD>), return **only** a valid JSON object in the exact schema below.  
-> Do not add explanations, headings or extra keys.
-> 
-> SCHEMA
-> ```json
-> {
->   "wordFamilies": [
->     {
->       "word": "",          // family member (root or derived form)
->       "partOfSpeech": "",  // noun, verb, adjective, adverb, etc.
->       "sentence": "",      // one natural B2-level example
->       "trSentence": "",    // Turkish translation of that sentence
->       "definition": ""     // concise English meaning used in the sentence (≤ 20 words)
->     }
->   ]
-> }
-> ```
-> 
-> RULES  
-> 1. Include only forms that a B2–C1 learner is likely to meet (avoid obscure or archaic items).  
-> 2. Each English sentence must be original, 10–20 words, and showcase the given word clearly.  
-> 3. Provide an accurate Turkish translation; keep grammar natural.  
-> 4. Keep the JSON strictly valid (double quotes, commas in correct places, no comments).  
-> 5. Output nothing except the JSON object.
+**Word Family JSON Prompt (IELTS Academic)**
+
+**How to use**
+
+1. Replace **{word}** with your target base word (e.g., *set*).
+2. Paste this entire prompt into ChatGPT.
+3. ChatGPT will respond *only* with a valid JSON object containing the word family.
+
+**Task**
+You are my English word‑family dictionary for IELTS Academic preparation.
+
+When I give you the base word **{word}**, return **only** a JSON object that follows the schema below. Do *not* add explanations, headings, or extra keys.
+
+**Schema**
+
+```json
+{
+  "wordFamilies": [
+    {
+      "word": "",          // family member (derived form)
+      "partOfSpeech": "",  // noun, verb, adjective, adverb, etc.
+      "sentence": "",      // original English example, 10–20 words, B2 level
+      "trSentence": "",    // natural Turkish translation of the sentence
+      "definition": ""      // concise English meaning used in the sentence (≤ 20 words)
+    }
+  ]
+}
+```
+
+**Rules**
+
+1. Include only forms that a B2–C1 learner is likely to encounter; omit obscure or archaic items.
+2. Do **not** list the base word itself as a separate entry—only its derived family members (e.g., *act* → *action, active, activity, actively*).
+3. Each English sentence must be original, 10–20 words, and clearly showcase the given form.
+4. Provide an accurate, natural‑sounding Turkish translation for each sentence.
+5. Keep the JSON strictly valid: use double quotes, insert commas correctly, and include no comments.
+6. Output nothing except the JSON object.
+
+You do not need to cover every possible derivative; focus on the most relevant forms.
 
 
-Example Usage:
+## Example Usage:
 
 ```json
 {
