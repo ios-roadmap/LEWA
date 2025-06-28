@@ -6,32 +6,35 @@
   <img src="https://github.com/user-attachments/assets/29f62f05-23b5-4b5d-857c-f5d5cf6e2228" alt="detail" width="250" style="margin-right:8px;"/>
 </p>
 
-**Unified Word‑Analysis & Family Prompt (IELTS Academic)**
+**Unified Word-Analysis & Family Prompt (IELTS Academic)**
 
 > **Task**
 > Act as an English–Turkish bilingual vocabulary assistant.
-> For the single input word **{word}**, return only the JSON object described below—nothing more.
+> For the single input word **{word}**, return **only**:
+>
+> 1. A valid JSON object that follows the schema below.
+> 2. **Immediately after the closing brace, one extra line** that lists the `root` **followed by every `word` in `wordFamilies`, all separated by commas**—nothing else.
 
 ### Output schema
 
 ```json
 {
-  "root": "",               // base (lemma) of {word}; MUST be the shortest valid form
-  "meanings": [               // every distinct sense of {word}
+  "root": "",               // shortest lemma of {word}
+  "meanings": [
     {
-      "sentence": "",       // original B2-level English sentence (10–20 words)
-      "trSentence": "",    // accurate Turkish translation
-      "definition": "",    // clear English meaning (≤ 20 words)
-      "partOfSpeech": ""   // noun, verb, adjective, adverb, etc. as used in the sentence
+      "sentence": "",       // 10–20-word B2 English sentence
+      "trSentence": "",     // Turkish translation
+      "definition": "",     // ≤ 20-word English definition
+      "partOfSpeech": ""    // noun, verb, adjective, etc.
     }
   ],
-  "wordFamilies": [           // ALL valid affix forms + common derived forms, EXCLUDING the root
+  "wordFamilies": [
     {
-      "word": "",           // family member built with allowed affixes or other derivations
-      "partOfSpeech": "",  // noun, verb, adjective, adverb, etc.
-      "sentence": "",       // original B2-level English sentence (10–20 words)
+      "word": "",           // derived form (not the root)
+      "partOfSpeech": "",   // noun, verb, adjective, etc.
+      "sentence": "",       // 10–20-word B2 English sentence
       "trSentence": "",     // Turkish translation
-      "definition": ""      // concise English meaning (≤ 20 words)
+      "definition": ""      // ≤ 20-word English definition
     }
   ]
 }
@@ -39,21 +42,17 @@
 
 ### Rules
 
-1. **root** – supply only the lemma that is the **shortest** standard form (e.g., *run* for *running*).
-2. **wordFamilies** – include:
+1. **root** – give only the shortest standard form (e.g., `run` for `running`).
+2. **wordFamilies** – include **all** valid forms built from the root using these affixes **plus** other common IELTS-relevant derivatives (lowercase, root excluded):
+   *Suffixes*: -s, -es, -ed, -ing, -en, -er, -est, -ly, -ness, -ment, -tion, -ation, -ity, -ship, -hood, -ous, -ful, -less, -y, -ish, -al, -ive, -ist, -ism, -dom
+   *Prefixes*: un-, in-, im-, il-, ir-, dis-, non-, re-, pre-, sub-, over-, under-, en-, de-
+3. **meanings** – one object per distinct sense; adhere to the sentence/definition length limits and avoid duplicate sentences.
+4. **No English Equivalent** – if {word} has no direct English form, choose the closest English equivalent and apply all rules to it.
+5. Ensure the JSON is strictly valid: double quotes only, correct commas, no comments.
+6. **After the JSON**, output **exactly one line**:
 
-   * Every existing word formed from the root using these affixes:
-     *Suffixes*: -s, -es, -ed, -ing, -en, -er, -est, -ly, -ness, -ment, -tion, -ation, -ity, -ship, -hood, -ous, -ful, -less, -y, -ish, -al, -ive, -ist, -ism, -dom
-     *Prefixes*: un-, in-, im-, il-, ir-, dis-, non-, re-, pre-, sub-, over-, under-, en-, de-
-   * Additional frequent derived forms (e.g., compound or irregular derivatives) useful for IELTS.
-   * Apply irregular spellings where necessary; output everything in lowercase.
-   * **Do NOT include the root itself**.
-3. **meanings** – provide one object per distinct sense; each must include:
+   ```
+   root,familyWord1,familyWord2,...
+   ```
 
-   * A 10–20‑word original English sentence at B2 level.
-   * Its precise Turkish translation.
-   * A clear definition (≤ 20 words).
-   * The relevant part of speech.
-4. **No English Equivalent** – If the supplied word has no established English counterpart, identify the closest English word by meaning or morphology and apply all rules using that word instead.
-5. No duplicate sentences. Keep all JSON valid: double quotes, commas, no comments.
-6. Output **only** the JSON object—no headings, explanations, or extra text.
+   *No labels, no spaces around commas, no extra text.*
