@@ -72,9 +72,9 @@ struct Meaning: Codable, Identifiable, Hashable {
     let sentence: String
     let trSentence: String
     let definition: String
-    let partOfSpeech: WordPartOfSpeech
+    let partOfSpeech: String
     
-    init(id: UUID = UUID(), sentence: String, trSentence: String, definition: String, partOfSpeech: WordPartOfSpeech) {
+    init(id: UUID = UUID(), sentence: String, trSentence: String, definition: String, partOfSpeech: String) {
         self.id = id
         self.sentence = sentence
         self.trSentence = trSentence
@@ -89,7 +89,7 @@ struct Meaning: Codable, Identifiable, Hashable {
         self.sentence = try container.decode(String.self, forKey: .sentence)
         self.trSentence = try container.decode(String.self, forKey: .trSentence)
         self.definition = try container.decode(String.self, forKey: .definition)
-        self.partOfSpeech = try container.decode(WordPartOfSpeech.self, forKey: .partOfSpeech)
+        self.partOfSpeech = try container.decode(String.self, forKey: .partOfSpeech)
     }
     
     static var mock: Self {
@@ -97,7 +97,7 @@ struct Meaning: Codable, Identifiable, Hashable {
             sentence: "She read an interesting book about ancient history.",
             trSentence: "O, antik tarih hakkında ilginç bir kitap okudu.",
             definition: "A set of written or printed pages, usually bound with a cover.",
-            partOfSpeech: .noun
+            partOfSpeech: ".noun"
         )
     }
 }
@@ -105,12 +105,12 @@ struct Meaning: Codable, Identifiable, Hashable {
 struct WordFamily: Codable, Identifiable, Hashable {
     var id: UUID
     let word: String
-    let partOfSpeech: WordPartOfSpeech
+    let partOfSpeech: String
     let sentence: String
     let trSentence: String
     let definition: String
     
-    init(id: UUID = UUID(), word: String, partOfSpeech: WordPartOfSpeech, sentence: String, trSentence: String, definition: String) {
+    init(id: UUID = UUID(), word: String, partOfSpeech: String, sentence: String, trSentence: String, definition: String) {
         self.id = id
         self.word = word
         self.partOfSpeech = partOfSpeech
@@ -123,7 +123,7 @@ struct WordFamily: Codable, Identifiable, Hashable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.id = (try? container.decode(UUID.self, forKey: .id)) ?? UUID()
         self.word = try container.decode(String.self, forKey: .word)
-        self.partOfSpeech = try container.decode(WordPartOfSpeech.self, forKey: .partOfSpeech)
+        self.partOfSpeech = try container.decode(String.self, forKey: .partOfSpeech)
         self.sentence = try container.decode(String.self, forKey: .sentence)
         self.trSentence = try container.decode(String.self, forKey: .trSentence)
         self.definition = try container.decode(String.self, forKey: .definition)
@@ -132,7 +132,7 @@ struct WordFamily: Codable, Identifiable, Hashable {
     static var mock: Self {
         .init(
             word: "word1",
-            partOfSpeech: .adjective,
+            partOfSpeech: ".adjective",
             sentence: "sentence1",
             trSentence: "trSentence1",
             definition: "definition"

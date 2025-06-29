@@ -13,17 +13,20 @@ struct WordSearchView: View {
     @State private var debouncedSearchText = ""
     @State private var isSearching = false
     @State private var debounceWorkItem: DispatchWorkItem?
+    @State private var showRootsOnly = false
 
     let words: [Word]
 
     // root ve families tek listede: (görünen kelime, Word, root)
     private var allWords: [(display: String, word: Word, root: String, isRoot: Bool)] {
-        words.flatMap { word in
-            [(word.root.capitalized, word, word.root.capitalized, true)]
+        let combined = words.flatMap { word in
+            [(word.root, word, word.root, true)]
             +
-            word.wordFamilies.map { ($0.word.capitalized, word, word.root.capitalized, false) }
+            word.wordFamilies.map { ($0.word, word, word.root, false) }
         }
+        return showRootsOnly ? combined.filter { $0.3 } : combined
     }
+
 
     private var filteredWords: [(display: String, word: Word, root: String, isRoot: Bool)] {
         guard !debouncedSearchText.isEmpty else { return allWords }
@@ -96,7 +99,14 @@ struct WordSearchView: View {
                 Text("Roots: \(words.count)")
             }
             ToolbarItem(placement: .topBarLeading) {
-                Text("All words: \(allWords.count)")
+                Text("All words: \(words.flatMap { [$0.root] + $0.wordFamilies.map(\.word) }.count)")
+            }
+            ToolbarItem(placement: .topBarTrailing) {
+                Button(action: {
+                    showRootsOnly.toggle()
+                }) {
+                    Text(showRootsOnly ? "Show All Words" : "Show Roots Only")
+                }
             }
         }
     }
@@ -131,6 +141,6 @@ private struct AlphabetIndexView: View {
 }
 extension Word {
     func familyId(forWord word: String) -> UUID? {
-        wordFamilies.first(where: { $0.word.capitalized == word })?.id
+        wordFamilies.first(where: { $0.word == word })?.id
     }
 }

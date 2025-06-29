@@ -9,19 +9,42 @@ import SwiftUI
 
 struct TabBarView: View {
     @StateObject private var store = WordsStore()
-    
+    @State private var loadingStart: Date?
+    @State private var elapsed: Double = 0
+    @State private var isLoading = false
+
+    let timer = Timer.publish(every: 0.1, on: .main, in: .common).autoconnect()
+
     var body: some View {
         TabView {
             Group {
-                if store.words.isEmpty {
-                    ProgressView("Loading…")
-                        .task {
-                            await store.load()
+                if store.words.isEmpty || isLoading {
+                    VStack {
+                        ProgressView()
+                        Text(String(format: "Loading... %.2fs", elapsed))
+                            .monospacedDigit()
+                            .font(.headline)
+                    }
+                    .onAppear {
+                        print("onAppear: Loading started")
+                        loadingStart = Date()
+                        elapsed = 0
+                        isLoading = true
+                    }
+                    .onChange(of: isLoading) { _, newValue in
+                        if newValue == false {
+                            guard isLoading, let start = loadingStart else { return }
+                            elapsed = Date().timeIntervalSince(start)
+                            print("Loading finished in \(elapsed) seconds")
                         }
-                        .task {
-                            _ = VoiceManager.shared
-                            VoiceManager.shared.speak(word: " ")
-                        }
+                    }
+
+                    .task {
+                        await store.load()
+                        print(elapsed)
+                        isLoading = false
+                        print("Loading finished")
+                    }
                 } else {
                     NavigationStack {
                         WordSearchView(words: store.words)
@@ -45,6 +68,7 @@ struct TabBarView: View {
         }
     }
 }
+
 
 #Preview {
     TabBarView()

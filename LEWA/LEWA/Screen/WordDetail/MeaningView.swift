@@ -14,7 +14,7 @@ struct MeaningView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             HStack(spacing: 10) {
-                Text(meaning.partOfSpeech.rawValue.capitalized)
+                Text(meaning.partOfSpeech)
                     .font(.caption)
                     .fontWeight(.semibold)
                     .multilineTextAlignment(.leading)

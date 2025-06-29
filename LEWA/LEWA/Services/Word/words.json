@@ -1,56 +1,2769 @@
 [
     {
-      "root": "scissor",
-      "meanings": [
-        {
-          "sentence": "He scissored the shiny red ribbon neatly before wrapping the birthday present.",
-          "trSentence": "Doğum günü paketini sarmadan önce parlak kırmızı kurdeleyi düzgünce makasla kesti.",
-          "definition": "Cut something using scissors.",
-          "partOfSpeech": "verb"
-        },
-        {
-          "sentence": "The tailor's quick scissor left a perfectly straight edge along the fabric.",
-          "trSentence": "Terzinin hızlı makas darbesi kumaş boyunca mükemmel düz bir kenar bıraktı.",
-          "definition": "Single blade or cut made by scissors.",
-          "partOfSpeech": "noun"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "scissors",
-          "partOfSpeech": "noun",
-          "sentence": "She couldn't find her scissors, so she borrowed mine to cut the photos.",
-          "trSentence": "Makasını bulamayınca fotoğrafları kesmek için benimkini ödünç aldı.",
-          "definition": "A cutting tool with two crossed blades."
-        },
-        {
-          "word": "scissored",
-          "partOfSpeech": "verb",
-          "sentence": "The artist scissored delicate snowflakes from thin white paper for the window display.",
-          "trSentence": "Sanatçı, vitrin dekoru için ince beyaz kâğıttan zarif kar taneleri makasla kesti.",
-          "definition": "Cut with scissors in the past."
-        },
-        {
-          "word": "scissoring",
-          "partOfSpeech": "noun",
-          "sentence": "Continuous scissoring of the cloth produced soft fringes around the cushion edges.",
-          "trSentence": "Kumaşın sürekli makasla kesilmesi yastık kenarlarında yumuşak püsküller oluşturdu.",
-          "definition": "The act of cutting using scissors."
-        },
-        {
-          "word": "scissorless",
-          "partOfSpeech": "adjective",
-          "sentence": "Facing scissorless packaging, he improvised by tearing the plastic with his keys.",
-          "trSentence": "Makas gerektiren ambalajla karşılaşınca plastiği anahtarıyla yırtarak çözdü.",
-          "definition": "Without any scissors available."
-        },
-        {
-          "word": "scissory",
-          "partOfSpeech": "adjective",
-          "sentence": "The dancer's scissory leg movements impressed the judges during the contemporary routine.",
-          "trSentence": "Dansçının makas tarzı bacak hareketleri modern rutinde jüriyi etkiledi.",
-          "definition": "Resembling the motion of scissors."
-        }
-      ]
-    }
+        "root": "scissor",
+        "meanings": [
+            {
+                "sentence": "He scissored the shiny red ribbon neatly before wrapping the birthday present.",
+                "trSentence": "Doğum günü paketini sarmadan önce parlak kırmızı kurdeleyi düzgünce makasla kesti.",
+                "definition": "Cut something using scissors.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The tailor's quick scissor left a perfectly straight edge along the fabric.",
+                "trSentence": "Terzinin hızlı makas darbesi kumaş boyunca mükemmel düz bir kenar bıraktı.",
+                "definition": "Single blade or cut made by scissors.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "scissors",
+                "partOfSpeech": "noun",
+                "sentence": "She couldn't find her scissors, so she borrowed mine to cut the photos.",
+                "trSentence": "Makasını bulamayınca fotoğrafları kesmek için benimkini ödünç aldı.",
+                "definition": "A cutting tool with two crossed blades."
+            },
+            {
+                "word": "scissored",
+                "partOfSpeech": "verb",
+                "sentence": "The artist scissored delicate snowflakes from thin white paper for the window display.",
+                "trSentence": "Sanatçı, vitrin dekoru için ince beyaz kâğıttan zarif kar taneleri makasla kesti.",
+                "definition": "Cut with scissors in the past."
+            },
+            {
+                "word": "scissoring",
+                "partOfSpeech": "noun",
+                "sentence": "Continuous scissoring of the cloth produced soft fringes around the cushion edges.",
+                "trSentence": "Kumaşın sürekli makasla kesilmesi yastık kenarlarında yumuşak püsküller oluşturdu.",
+                "definition": "The act of cutting using scissors."
+            },
+            {
+                "word": "scissorless",
+                "partOfSpeech": "adjective",
+                "sentence": "Facing scissorless packaging, he improvised by tearing the plastic with his keys.",
+                "trSentence": "Makas gerektiren ambalajla karşılaşınca plastiği anahtarıyla yırtarak çözdü.",
+                "definition": "Without any scissors available."
+            },
+            {
+                "word": "scissory",
+                "partOfSpeech": "adjective",
+                "sentence": "The dancer's scissory leg movements impressed the judges during the contemporary routine.",
+                "trSentence": "Dansçının makas tarzı bacak hareketleri modern rutinde jüriyi etkiledi.",
+                "definition": "Resembling the motion of scissors."
+            }
+        ]
+    },
+    {
+        "root": "sloppy",
+        "meanings": [
+            {
+                "sentence": "His sloppy handwriting made the teacher struggle to read the final exam answers.",
+                "trSentence": "Karmakarışık el yazısı, öğretmenin final sınavı cevaplarını okumakta zorlanmasına neden oldu.",
+                "definition": "Untidy or careless in appearance or work.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "sentence": "After the heavy rain, the football field turned into a sloppy mixture of mud and water.",
+                "trSentence": "Şiddetli yağmurdan sonra futbol sahası çamur ve sudan oluşan sulu bir karışıma dönüştü.",
+                "definition": "Wet and muddy; containing too much liquid.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "sentence": "The film's sloppy romantic ending left many viewers rolling their eyes rather than crying.",
+                "trSentence": "Filmin aşırı duygusal sonu, birçok izleyicinin ağlamak yerine gözlerini devirmesine yol açtı.",
+                "definition": "Excessively sentimental or mawkish.",
+                "partOfSpeech": "adjective"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "sloppier",
+                "partOfSpeech": "adjective",
+                "sentence": "Her desk became even sloppier after the all-night study session before finals week.",
+                "trSentence": "Finaller haftası öncesinde sabaha kadar süren çalışma sonrası masası daha da dağınık oldu.",
+                "definition": "More untidy or careless than before."
+            },
+            {
+                "word": "sloppiest",
+                "partOfSpeech": "adjective",
+                "sentence": "That was the sloppiest lab report I have ever graded in my career.",
+                "trSentence": "Bu, kariyerim boyunca notlandırdığım en özensiz laboratuvar raporuydu.",
+                "definition": "Most untidy or careless."
+            },
+            {
+                "word": "sloppily",
+                "partOfSpeech": "adverb",
+                "sentence": "He packed his suitcase so sloppily that clothes spilled out when he arrived.",
+                "trSentence": "Valizini o kadar gelişigüzel topladı ki vardığında kıyafetler dışarı döküldü.",
+                "definition": "In an untidy or careless way."
+            },
+            {
+                "word": "sloppiness",
+                "partOfSpeech": "noun",
+                "sentence": "Sloppiness in data entry can lead to costly errors in financial reports.",
+                "trSentence": "Veri girişindeki özensizlik, finansal raporlarda pahalı hatalara yol açabilir.",
+                "definition": "State of being untidy or careless."
+            },
+            {
+                "word": "sloppy joe",
+                "partOfSpeech": "noun",
+                "sentence": "She served a spicy sloppy joe for lunch, spilling meat sauce over toasted buns.",
+                "trSentence": "Öğle yemeğinde baharatlı bir sloppy joe servis etti, et sosu kızarmış ekmeklerin üzerine taştı.",
+                "definition": "American sandwich of seasoned loose ground beef."
+            }
+        ]
+    },
+    {
+        "root": "celebrity",
+        "meanings": [
+            {
+                "sentence": "The young actor became a global celebrity after the blockbuster film broke box office records worldwide.",
+                "trSentence": "Genç oyuncu, gişe rekorları kıran filmden sonra küresel bir ünlü oldu.",
+                "definition": "A person who is widely famous.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "With sudden celebrity came intrusive paparazzi, leaving her little privacy in everyday public life.",
+                "trSentence": "Ani şöhretle beraber rahatsız edici paparazziler geldi ve günlük hayatında ona az mahremiyet bıraktı.",
+                "definition": "The condition of widespread fame.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "celebrities",
+                "partOfSpeech": "noun",
+                "sentence": "Many celebrities use social media to connect directly with fans and control their personal narratives.",
+                "trSentence": "Birçok ünlü, hayranlarla doğrudan iletişim kurmak ve kişisel hikâyelerini kontrol etmek için sosyal medyayı kullanıyor.",
+                "definition": "Famous people collectively."
+            },
+            {
+                "word": "noncelebrity",
+                "partOfSpeech": "noun",
+                "sentence": "Despite her viral videos, she insisted she would remain a humble noncelebrity with a normal routine.",
+                "trSentence": "Viral videolarına rağmen, alçakgönüllü ve normal rutinli bir ünlü olmayan olarak kalacağını söyledi.",
+                "definition": "Person who is not famous."
+            },
+            {
+                "word": "celebrityhood",
+                "partOfSpeech": "noun",
+                "sentence": "The sudden leap into celebrityhood overwhelmed him, so he hired a mentor to navigate public scrutiny.",
+                "trSentence": "Bir anda ünlü olma durumu onu bunaltınca, kamusal incelemeyle başa çıkmak için bir mentor tuttu.",
+                "definition": "State or condition of being a celebrity."
+            },
+            {
+                "word": "celebritydom",
+                "partOfSpeech": "noun",
+                "sentence": "Social media influencers form a new branch of celebritydom that brands now target for digital advertising.",
+                "trSentence": "Sosyal medya fenomenleri, markaların dijital reklam için hedeflediği ünlüler âleminin yeni bir dalını oluşturuyor.",
+                "definition": "World or realm inhabited by celebrities."
+            }
+        ]
+    },
+    {
+        "root": "jank",
+        "meanings": [
+            {
+                "sentence": "Persistent jank in the application made every animation stutter during the demonstration.",
+                "trSentence": "Uygulamadaki kalıcı bozukluk, sunum sırasında her animasyonu takılttı.",
+                "definition": "Lag or glitch causing poor performance.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The makeshift bridge looked janky and swayed dangerously with every windy gust.",
+                "trSentence": "Derme çatma köprü bozuk görünüyor ve her rüzgâr esintisiyle tehlikeli şekilde sallanıyordu.",
+                "definition": "Poorly made; unreliable or shaky.",
+                "partOfSpeech": "adjective"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "janky",
+                "partOfSpeech": "adjective",
+                "sentence": "The startup's janky prototype functioned, but wires dangled and panels rattled at every vibration.",
+                "trSentence": "Girişimin bozuk prototipi çalıştı, ancak her titreşimde kablolar sallandı ve paneller gıcırdadı.",
+                "definition": "Of low quality; unstable or poorly constructed."
+            },
+            {
+                "word": "jankier",
+                "partOfSpeech": "adjective",
+                "sentence": "This year's phone feels jankier than last year's, with buttons sticking and animations lagging.",
+                "trSentence": "Bu yılın telefonu, düğmeler takılıp animasyonlar geciktiği için geçen yılkine göre daha bozuk hissettiriyor.",
+                "definition": "Comparatively more unreliable or shabby."
+            },
+            {
+                "word": "jankiest",
+                "partOfSpeech": "adjective",
+                "sentence": "Out of all the rented cars, the third was the jankiest, shaking whenever it exceeded sixty kilometers.",
+                "trSentence": "Kiralanan arabaların hepsinden, üçüncüsü en bozuktu ve altmış kilometreyi aştığında titriyordu.",
+                "definition": "Supremely the most poorly made."
+            },
+            {
+                "word": "jankiness",
+                "partOfSpeech": "noun",
+                "sentence": "She apologized for the jankiness of her homemade 3D printer, which occasionally misaligned layers dramatically.",
+                "trSentence": "Katmanları ara sıra büyük ölçüde kaydıran ev yapımı 3B yazıcısının bozukluğundan ötürü özür diledi.",
+                "definition": "State of being janky; unreliability."
+            },
+            {
+                "word": "jankily",
+                "partOfSpeech": "adverb",
+                "sentence": "The drone hovered jankily, dipping unpredictably as its cheap motors struggled against the wind.",
+                "trSentence": "Rüzgâra karşı ucuz motorları zorlanırken insansız hava aracı bozukça havada asılı kaldı, öngörülemez şekilde alçalıp yükseldi.",
+                "definition": "In a janky manner; unevenly."
+            },
+            {
+                "word": "janks",
+                "partOfSpeech": "verb",
+                "sentence": "Every time the device overheats, it janks the graphics, causing colorful artifacts across the display.",
+                "trSentence": "Cihaz her ısındığında, grafikleri bozar ve ekran boyunca renkli bozulmalar oluşturur.",
+                "definition": "Glitches or disrupts performance."
+            },
+            {
+                "word": "janked",
+                "partOfSpeech": "verb",
+                "sentence": "A faulty firmware update janked the router last night, leaving everyone offline until morning.",
+                "trSentence": "Hatalı bir aygıt yazılımı güncellemesi, yönlendiriciyi dün gece bozdu ve herkesi sabaha kadar çevrimdışı bıraktı.",
+                "definition": "Damaged or broke through glitching."
+            },
+            {
+                "word": "janking",
+                "partOfSpeech": "verb",
+                "sentence": "Developers spent hours fixing code after janking the interface with an experimental rendering engine.",
+                "trSentence": "Geliştiriciler, deneysel bir işleme motoruyla arayüzü bozduktan sonra kodu düzeltmek için saatler harcadı.",
+                "definition": "Causing jank; glitching continuously."
+            }
+        ]
+    },
+    {
+        "root": "defect",
+        "meanings": [
+            {
+                "sentence": "The engineer discovered a serious defect in the bridge's support beams during routine inspection.",
+                "trSentence": "Mühendis rutin inceleme sırasında köprünün destek kirişlerinde ciddi bir kusur buldu.",
+                "definition": "A flaw or imperfection in something made.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "After months of planning, the spy decided to defect and reveal government secrets to the opposition.",
+                "trSentence": "Aylarca plan yaptıktan sonra ajan firar edip hükümet sırlarını muhalefete açıklamaya karar verdi.",
+                "definition": "To abandon loyalty to join an opposing side.",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "defects",
+                "partOfSpeech": "noun",
+                "sentence": "Tiny surface defects can weaken the glass and cause sudden shattering under pressure.",
+                "trSentence": "Küçük yüzey kusurları camı zayıflatabilir ve basınç altında aniden kırılmasına yol açabilir.",
+                "definition": "Imperfections or flaws, plural of defect."
+            },
+            {
+                "word": "defected",
+                "partOfSpeech": "verb",
+                "sentence": "Several athletes defected from the team after disagreements over unpaid wages and training conditions.",
+                "trSentence": "Bazı sporcular ödenmemiş ücretler ve antrenman koşulları nedeniyle takımdan ayrılıp başka tarafa geçti.",
+                "definition": "Past tense of defect, switched allegiance."
+            },
+            {
+                "word": "defecting",
+                "partOfSpeech": "verb",
+                "sentence": "Defecting during an international tour put the musician's family at serious risk of retaliation.",
+                "trSentence": "Uluslararası turne sırasında firar etmek, müzisyenin ailesini ciddi misilleme riski altına soktu.",
+                "definition": "Act of leaving one's side for another."
+            },
+            {
+                "word": "defector",
+                "partOfSpeech": "noun",
+                "sentence": "The court granted asylum to the high-ranking defector who exposed systemic corruption in the army.",
+                "trSentence": "Mahkeme, ordudaki sistemik yolsuzluğu ifşa eden üst düzey firariye sığınma hakkı verdi.",
+                "definition": "Person who abandons allegiance to join another."
+            },
+            {
+                "word": "defection",
+                "partOfSpeech": "noun",
+                "sentence": "The senator's defection shocked the party and triggered a sudden vote of no confidence.",
+                "trSentence": "Senatörün taraf değiştirmesi partiyi şok etti ve ani bir güvensizlik oylaması başlattı.",
+                "definition": "Act of deserting one's cause or country."
+            },
+            {
+                "word": "defections",
+                "partOfSpeech": "noun",
+                "sentence": "Multiple defections within the cabinet signaled growing dissatisfaction with the prime minister's policies.",
+                "trSentence": "Kabine içindeki çok sayıda taraf değişikliği, başbakanın politikalarına artan memnuniyetsizliği gösterdi.",
+                "definition": "Instances of people abandoning allegiance."
+            },
+            {
+                "word": "defective",
+                "partOfSpeech": "adjective",
+                "sentence": "The retailer recalled thousands of defective chargers that posed a serious fire hazard to consumers.",
+                "trSentence": "Perakendeci, tüketiciler için ciddi yangın tehlikesi oluşturan binlerce kusurlu şarj cihazını geri çağırdı.",
+                "definition": "Having a fault; not working properly."
+            },
+            {
+                "word": "defectively",
+                "partOfSpeech": "adverb",
+                "sentence": "The machine was assembled so defectively that it broke down within the first hour of testing.",
+                "trSentence": "Makine o kadar kusurlu monte edildi ki testin ilk saatinde bozuldu.",
+                "definition": "In a faulty or flawed manner."
+            },
+            {
+                "word": "defectiveness",
+                "partOfSpeech": "noun",
+                "sentence": "Engineers evaluated the material's defectiveness to determine whether microcracks would propagate under load.",
+                "trSentence": "Mühendisler, mikro çatlakların yük altında büyüyüp büyümeyeceğini anlamak için malzemenin kusurluluk oranını değerlendirdi.",
+                "definition": "Quality of being flawed or faulty."
+            },
+            {
+                "word": "defectless",
+                "partOfSpeech": "adjective",
+                "sentence": "Modern semiconductor production aims for virtually defectless wafers to improve chip performance and reliability.",
+                "trSentence": "Modern yarı iletken üretimi, çip performansını ve güvenilirliğini artırmak için neredeyse kusursuz plakalar hedefler.",
+                "definition": "Free from defects; flawless."
+            },
+            {
+                "word": "nondefective",
+                "partOfSpeech": "adjective",
+                "sentence": "Statisticians classified each sample as defective or nondefective before calculating the overall failure rate.",
+                "trSentence": "İstatistikçiler, genel arıza oranını hesaplamadan önce her numuneyi kusurlu ya da kusursuz olarak sınıflandırdı.",
+                "definition": "Not flawed; meeting quality standards."
+            }
+        ]
+    },
+    {
+        "root": "nursery",
+        "meanings": [
+            {
+                "sentence": "The daycare offers a nursery where toddlers can nap safely while their parents attend language classes.",
+                "trSentence": "Kreş, ebeveynleri dil derslerine katılırken küçük çocukların güvenle uyuyabileceği bir bebek odası sunuyor.",
+                "definition": "Place for caring for very young children.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "She bought rare orchids from a local nursery that specializes in cultivating endangered tropical plants.",
+                "trSentence": "Nadir orkide türlerini yetiştiren yerel bir fidanlıktan alışveriş yaptı.",
+                "definition": "Garden center where plants are grown for sale.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "nurseries",
+                "partOfSpeech": "noun",
+                "sentence": "Modern nurseries now use video monitors so parents can check on their babies from other rooms.",
+                "trSentence": "Günümüz kreşleri, ebeveynlerin diğer odalardan bebeklerini kontrol edebilmesi için video kameraları kullanıyor.",
+                "definition": "Plural of nursery; child-care facilities."
+            },
+            {
+                "word": "nonnursery",
+                "partOfSpeech": "adjective",
+                "sentence": "The store stocks both nursery and nonnursery furniture to serve families at every life stage.",
+                "trSentence": "Mağaza, ailelerin her yaşam evresine hizmet etmek için hem bebek odası hem de bebek odası olmayan mobilyalar satıyor.",
+                "definition": "Not intended for a nursery."
+            }
+        ]
+    },
+    {
+        "root": "kindergarten",
+        "meanings": [
+            {
+                "sentence": "Children usually begin kindergarten at age five to develop social skills and basic literacy through play.",
+                "trSentence": "Çocuklar genellikle beş yaşında, oyun yoluyla sosyal beceri ve temel okuryazarlık geliştirmek için anaokuluna başlar.",
+                "definition": "School class for children aged about five.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "kindergartens",
+                "partOfSpeech": "noun",
+                "sentence": "Public kindergartens often adopt a play-based curriculum to encourage curiosity and collaboration among young learners.",
+                "trSentence": "Devlet anaokulları, küçük öğrenciler arasında merak ve işbirliğini teşvik etmek için genellikle oyun temelli müfredat benimser.",
+                "definition": "Plural of kindergarten; early-years schools."
+            },
+            {
+                "word": "prekindergarten",
+                "partOfSpeech": "noun",
+                "sentence": "Low-income families receive vouchers for prekindergarten programs that prepare four-year-olds for formal schooling.",
+                "trSentence": "Düşük gelirli aileler, dört yaşındakileri resmî eğitime hazırlayan okul-öncesi programlar için kupon alır.",
+                "definition": "Schooling the year before kindergarten."
+            },
+            {
+                "word": "prekindergartens",
+                "partOfSpeech": "noun",
+                "sentence": "The city built three new prekindergartens to reduce long waiting lists for early childhood education.",
+                "trSentence": "Şehir, erken çocukluk eğitimi için uzun bekleme listelerini azaltmak amacıyla üç yeni okul-öncesi açtı.",
+                "definition": "Plural of prekindergarten institutions."
+            },
+            {
+                "word": "kindergartner",
+                "partOfSpeech": "noun",
+                "sentence": "Each kindergartner proudly read a short sentence aloud during the class's first literacy presentation.",
+                "trSentence": "Her anaokulu öğrencisi, sınıfın ilk okuryazarlık sunumu sırasında kısa bir cümleyi yüksek sesle okudu.",
+                "definition": "Child attending kindergarten."
+            }
+        ]
+    },
+    {
+        "root": "coeducate",
+        "meanings": [
+            {
+                "sentence": "The progressive university decided to coeducate its formerly single-gender residence halls starting this autumn.",
+                "trSentence": "İlerici üniversite, bu sonbahardan itibaren önceden tek cinsiyetli yurtlarını karma eğitime açmaya karar verdi.",
+                "definition": "To educate males and females together.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Many parents prefer a coeducational environment believing it reflects the mixed realities of modern workplaces.",
+                "trSentence": "Birçok ebeveyn, karma bir ortamın modern iş yerlerinin karışık gerçeklerini yansıttığına inanarak bunu tercih ediyor.",
+                "definition": "Educating males and females together.",
+                "partOfSpeech": "adjective"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "coeducates",
+                "partOfSpeech": "verb",
+                "sentence": "The new community college coeducates its workforce programs to ensure equal opportunities for all genders.",
+                "trSentence": "Yeni toplum koleji, tüm cinsiyetler için eşit fırsatlar sağlamak amacıyla mesleki programlarını karma olarak yürütüyor.",
+                "definition": "Teaches males and females together."
+            },
+            {
+                "word": "coeducated",
+                "partOfSpeech": "verb",
+                "sentence": "The boarding school first coeducated male and female pupils in 1975 after intense public debate.",
+                "trSentence": "Yatılı okul, yoğun kamu tartışmasından sonra 1975 yılında ilk kez erkek ve kız öğrencileri birlikte eğitti.",
+                "definition": "Past tense of coeducate."
+            },
+            {
+                "word": "coeducating",
+                "partOfSpeech": "verb",
+                "sentence": "Researchers examined challenges in coeducating adolescents from conservative communities that traditionally favor single-sex schooling.",
+                "trSentence": "Araştırmacılar, geleneksel olarak tek cinsiyetli okulları tercih eden muhafazakâr topluluklardan ergenlerin karma eğitimindeki zorlukları inceledi.",
+                "definition": "Educating males and females together, participle."
+            },
+            {
+                "word": "coeducation",
+                "partOfSpeech": "noun",
+                "sentence": "Coeducation gained popularity as societies recognized the social and economic benefits of mixed-gender classrooms.",
+                "trSentence": "Toplumlar karma sınıfların sosyal ve ekonomik faydalarını fark ettikçe karma eğitim popülerlik kazandı.",
+                "definition": "Education of males and females together."
+            },
+            {
+                "word": "coeducational",
+                "partOfSpeech": "adjective",
+                "sentence": "Historically single-sex colleges gradually became coeducational in response to legal and cultural pressure for gender equality.",
+                "trSentence": "Tarihsel olarak tek cinsiyetli kolejler, cinsiyet eşitliği için yasal ve kültürel baskıya yanıt olarak kademeli olarak karma hâle geldi.",
+                "definition": "Open to both male and female students."
+            },
+            {
+                "word": "coeducationally",
+                "partOfSpeech": "adverb",
+                "sentence": "The institution has been run coeducationally for over two decades without significant disciplinary issues.",
+                "trSentence": "Kurum, önemli disiplin sorunları olmadan yirmi yılı aşkın süredir karma olarak işletilmektedir.",
+                "definition": "In a coeducational manner."
+            },
+            {
+                "word": "coeducative",
+                "partOfSpeech": "adjective",
+                "sentence": "Teachers developed a coeducative curriculum focusing on collaboration rather than competition between genders.",
+                "trSentence": "Öğretmenler, cinsiyetler arasında rekabet yerine işbirliğine odaklanan karma bir müfredat geliştirdi.",
+                "definition": "Promoting mixed-gender education."
+            }
+        ]
+    },
+    {
+        "root": "empower",
+        "meanings": [
+            {
+                "sentence": "Workshops aim to empower refugees by teaching language skills and explaining their legal rights in the host country.",
+                "trSentence": "Atölyeler, ev sahibi ülkede dil becerileri öğreterek ve yasal haklarını açıklayarak mültecileri güçlendirmeyi amaçlıyor.",
+                "definition": "Give someone power or authority.",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "empowers",
+                "partOfSpeech": "verb",
+                "sentence": "This scholarship empowers disadvantaged students to pursue degrees they could not otherwise afford.",
+                "trSentence": "Bu burs, dezavantajlı öğrencilerin aksi hâlde karşılayamayacakları dereceler peşinde koşmalarını mümkün kılar.",
+                "definition": "Gives authority or confidence to."
+            },
+            {
+                "word": "empowered",
+                "partOfSpeech": "verb",
+                "sentence": "She felt empowered after successfully negotiating equal pay with her employer.",
+                "trSentence": "İşvereniyle eşit ücret konusunda başarılı bir şekilde pazarlık yaptıktan sonra kendini güçlenmiş hissetti.",
+                "definition": "Given power or confidence."
+            },
+            {
+                "word": "empowering",
+                "partOfSpeech": "verb",
+                "sentence": "Empowering messages from mentors helped the team overcome repeated setbacks during the project.",
+                "trSentence": "Mentorların güçlendirici mesajları, ekibin proje sırasında tekrar eden aksaklıkları aşmasına yardım etti.",
+                "definition": "Giving power or confidence."
+            },
+            {
+                "word": "empowerment",
+                "partOfSpeech": "noun",
+                "sentence": "Legislation promoting economic empowerment of women has significantly reduced poverty in rural communities.",
+                "trSentence": "Kadınların ekonomik güçlenmesini teşvik eden mevzuat, kırsal topluluklarda yoksulluğu önemli ölçüde azalttı.",
+                "definition": "Process of gaining power or control."
+            },
+            {
+                "word": "empowerments",
+                "partOfSpeech": "noun",
+                "sentence": "Different legal empowerments allow councils to manage environmental fines more effectively.",
+                "trSentence": "Çeşitli yasal yetkilendirmeler, belediyelerin çevre cezalarını daha etkin yönetmesine izin verir.",
+                "definition": "Instances of granting power."
+            },
+            {
+                "word": "disempower",
+                "partOfSpeech": "verb",
+                "sentence": "Strict censorship can disempower citizens by limiting their access to critical political information.",
+                "trSentence": "Sıkı sansür, vatandaşların hayati siyasi bilgilere erişimini kısıtlayarak onları güçsüzleştirebilir.",
+                "definition": "Take power away from someone."
+            },
+            {
+                "word": "disempowers",
+                "partOfSpeech": "verb",
+                "sentence": "Inequitable policies often disempower marginalized groups and hinder their participation in governance.",
+                "trSentence": "Eşitsiz politikalar genellikle marjinal grupları güçsüzleştirir ve yönetime katılımlarını engeller.",
+                "definition": "Removes power from, third-person."
+            },
+            {
+                "word": "disempowered",
+                "partOfSpeech": "verb",
+                "sentence": "Feeling disempowered, the community sought legal assistance to challenge the unfair housing regulations.",
+                "trSentence": "Güçsüz hisseden topluluk, haksız konut düzenlemelerine itiraz etmek için hukuki yardım aradı.",
+                "definition": "Deprived of power."
+            },
+            {
+                "word": "disempowering",
+                "partOfSpeech": "verb",
+                "sentence": "Repeated public humiliation has a deeply disempowering effect on children's willingness to participate in class.",
+                "trSentence": "Tekrarlanan kamu aşağılaması, çocukların derse katılma isteği üzerinde derinden güçsüzleştirici etki yapar.",
+                "definition": "Making someone feel powerless."
+            },
+            {
+                "word": "disempowerment",
+                "partOfSpeech": "noun",
+                "sentence": "Activists highlighted the systematic disempowerment of minorities through discriminatory voting laws.",
+                "trSentence": "Aktivistler, ayrımcı oy kullanma yasaları aracılığıyla azınlıkların sistematik güçsüzleştirilmesini vurguladı.",
+                "definition": "Process of removing power."
+            }
+        ]
+    },
+    {
+        "root": "boarding school",
+        "meanings": [
+            {
+                "sentence": "Attending a remote boarding school taught her independence and discipline far from her family.",
+                "trSentence": "Uzak bir yatılı okula gitmek, ailesinden uzakta ona bağımsızlık ve disiplin öğretti.",
+                "definition": "School where students live during term.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "boarding schools",
+                "partOfSpeech": "noun",
+                "sentence": "Many elite boarding schools maintain centuries-old traditions alongside modern technology in the classroom.",
+                "trSentence": "Pek çok seçkin yatılı okul, sınıfta modern teknolojiyle birlikte asırlık geleneklerini sürdürür.",
+                "definition": "Plural of boarding school."
+            }
+        ]
+    },
+    {
+        "root": "alumnus",
+        "meanings": [
+            {
+                "sentence": "After graduation every alumnus receives a lifetime email address from the university's IT department.",
+                "trSentence": "Mezuniyetten sonra her alumnus üniversitenin BT biriminden ömür boyu e-posta adresi alır.",
+                "definition": "Graduate or former student of a school.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "alumni",
+                "partOfSpeech": "noun",
+                "sentence": "Prominent alumni often donate generously to fund scholarships for future generations of students.",
+                "trSentence": "Önde gelen mezunlar, gelecek nesil öğrenciler için bursları finanse etmek amacıyla sık sık cömert bağışlar yapar.",
+                "definition": "Graduates or former students of a school."
+            },
+            {
+                "word": "alumna",
+                "partOfSpeech": "noun",
+                "sentence": "The distinguished alumna delivered the commencement speech, inspiring many young women in attendance.",
+                "trSentence": "Seçkin kadın mezun açılış konuşmasını yaparak salondaki birçok genç kadına ilham verdi.",
+                "definition": "Female graduate or former student of a school."
+            },
+            {
+                "word": "alumnae",
+                "partOfSpeech": "noun",
+                "sentence": "An annual luncheon brings alumnae together to network and discuss career advancement strategies.",
+                "trSentence": "Yıllık öğle yemeği, kariyer gelişimi stratejilerini görüşmek ve ağ kurmak için kadın mezunları bir araya getirir.",
+                "definition": "Plural for female graduates of a school."
+            },
+            {
+                "word": "alumnuses",
+                "partOfSpeech": "noun",
+                "sentence": "Although uncommon, some dictionaries list alumnuses as an acceptable plural for former male students.",
+                "trSentence": "Nadir de olsa bazı sözlükler, erkek eski öğrenciler için 'alumnuses' çoğulunu kabul edilebilir sayar.",
+                "definition": "Alternate plural for alumnus, rarely used."
+            },
+            {
+                "word": "alumnal",
+                "partOfSpeech": "adjective",
+                "sentence": "The museum hosted an alumnal exhibition featuring artwork donated by the university's earliest graduates.",
+                "trSentence": "Müze, üniversitenin ilk mezunları tarafından bağışlanan eserlerin yer aldığı bir mezuniyet sergisine ev sahipliği yaptı.",
+                "definition": "Relating to former students or alumni."
+            }
+        ]
+    },
+    {
+        "root": "assess",
+        "meanings": [
+            {
+                "sentence": "Managers regularly assess employee performance to identify training needs and reward outstanding achievements.",
+                "trSentence": "Yöneticiler, eğitim ihtiyaçlarını belirlemek ve üstün başarıları ödüllendirmek için çalışan performansını düzenli olarak değerlendirir.",
+                "definition": "Evaluate quality or ability of something.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The council can assess property taxes annually based on updated land values and local budgetary requirements.",
+                "trSentence": "Belediye, güncellenen arazi değerleri ve yerel bütçe gereksinimlerine dayanarak emlak vergilerini yıllık olarak tahakkuk ettirebilir.",
+                "definition": "Impose a charge such as a tax or fine.",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "assesses",
+                "partOfSpeech": "verb",
+                "sentence": "The algorithm automatically assesses credit risk using thousands of anonymized data points per applicant.",
+                "trSentence": "Algoritma, her başvuru sahibi için binlerce anonim veriyi kullanarak kredi riskini otomatik olarak değerlendirir.",
+                "definition": "Evaluates or estimates something, third-person."
+            },
+            {
+                "word": "assessed",
+                "partOfSpeech": "verb",
+                "sentence": "Engineers assessed the bridge's stability after last week's earthquake and found only minor structural damage.",
+                "trSentence": "Mühendisler, geçen haftaki depremden sonra köprünün sağlamlığını inceledi ve sadece küçük yapısal hasar buldu.",
+                "definition": "Evaluated or estimated something in past."
+            },
+            {
+                "word": "assessing",
+                "partOfSpeech": "verb",
+                "sentence": "Researchers are assessing long-term effects of microplastics on marine ecosystems through extensive field experiments.",
+                "trSentence": "Araştırmacılar, kapsamlı saha deneyleri yoluyla mikroplastiklerin deniz ekosistemleri üzerindeki uzun vadeli etkilerini inceliyor.",
+                "definition": "Evaluating or estimating, present participle."
+            },
+            {
+                "word": "assessor",
+                "partOfSpeech": "noun",
+                "sentence": "An independent assessor valued the company at ten million dollars before the merger negotiations began.",
+                "trSentence": "Bağımsız bir değerleme uzmanı, birleşme görüşmeleri başlamadan önce şirketi on milyon dolar olarak değerledi.",
+                "definition": "Person who evaluates property, tax, or performance."
+            },
+            {
+                "word": "assessors",
+                "partOfSpeech": "noun",
+                "sentence": "Certified assessors visited each property to verify construction quality and update the municipal records accordingly.",
+                "trSentence": "Sertifikalı değerlendiriciler, inşaat kalitesini doğrulamak ve belediye kayıtlarını güncellemek için her mülkü ziyaret etti.",
+                "definition": "People who evaluate property, tax, or performance."
+            },
+            {
+                "word": "assessment",
+                "partOfSpeech": "noun",
+                "sentence": "A comprehensive health assessment revealed vitamin deficiencies that required immediate dietary adjustments for the patient.",
+                "trSentence": "Kapsamlı bir sağlık değerlendirmesi, hastanın acil diyet düzenlemesi gerektiren vitamin eksikliklerini ortaya çıkardı.",
+                "definition": "Evaluation or estimation of something."
+            },
+            {
+                "word": "assessments",
+                "partOfSpeech": "noun",
+                "sentence": "Annual environmental impact assessments keep the public informed about industrial projects planned near residential areas.",
+                "trSentence": "Yıllık çevresel etki değerlendirmeleri, konut alanları yakınında planlanan sanayi projeleri hakkında halkı bilgilendirir.",
+                "definition": "Plural of assessment; evaluations."
+            },
+            {
+                "word": "reassess",
+                "partOfSpeech": "verb",
+                "sentence": "After the policy failure, officials agreed to reassess the entire reform package from a fresh perspective.",
+                "trSentence": "Politika başarısızlığının ardından yetkililer, tüm reform paketini yeni bir bakış açısıyla yeniden değerlendirmeyi kabul etti.",
+                "definition": "Evaluate again to update judgment."
+            },
+            {
+                "word": "reassesses",
+                "partOfSpeech": "verb",
+                "sentence": "The monitoring team reassesses safety procedures whenever new hazardous materials are introduced into the factory.",
+                "trSentence": "Denetim ekibi, fabrikaya yeni tehlikeli maddeler getirildiğinde güvenlik prosedürlerini yeniden gözden geçirir.",
+                "definition": "Evaluates again, third-person singular."
+            },
+            {
+                "word": "reassessed",
+                "partOfSpeech": "verb",
+                "sentence": "Following public feedback, planners reassessed the design and incorporated more green spaces into the layout.",
+                "trSentence": "Kamu geri bildirimi sonrasında plancılar tasarımı yeniden gözden geçirdi ve düzenlemeye daha fazla yeşil alan ekledi.",
+                "definition": "Evaluated again in the past."
+            },
+            {
+                "word": "reassessing",
+                "partOfSpeech": "verb",
+                "sentence": "Scientists are reassessing climate models to account for recently discovered ocean-heat absorption patterns.",
+                "trSentence": "Bilim insanları, yeni keşfedilen okyanus ısı emme kalıplarını hesaba katmak için iklim modellerini yeniden değerlendiriyor.",
+                "definition": "Currently evaluating again."
+            },
+            {
+                "word": "reassessment",
+                "partOfSpeech": "noun",
+                "sentence": "A mid-term policy reassessment allowed legislators to correct budget forecasts before committing additional funds.",
+                "trSentence": "Ara dönem politika yeniden değerlendirmesi, yasa koyucuların ek fon sağlamadan önce bütçe tahminlerini düzeltmesine olanak tanıdı.",
+                "definition": "Act of evaluating again."
+            },
+            {
+                "word": "reassessments",
+                "partOfSpeech": "noun",
+                "sentence": "Frequent tax reassessments ensure that municipal revenues keep pace with rapid real-estate market shifts.",
+                "trSentence": "Sık yapılan vergi yeniden değerlendirmeleri, belediye gelirlerinin hızlı gayrimenkul piyasası değişimlerine ayak uydurmasını sağlar.",
+                "definition": "Plural; repeated evaluations."
+            }
+        ]
+    },
+    {
+        "root": "matriculate",
+        "meanings": [
+            {
+                "sentence": "International students must matriculate before classes start by presenting visas and paying initial tuition fees.",
+                "trSentence": "Uluslararası öğrenciler, vizelerini sunup ilk öğrenim ücretini ödeyerek dersler başlamadan önce kayıt yaptırmak zorundadır.",
+                "definition": "Officially enroll in a college or university.",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "matriculates",
+                "partOfSpeech": "verb",
+                "sentence": "Each cohort matriculates in September, following an orientation week that introduces academic resources and campus life.",
+                "trSentence": "Her grup, akademik kaynakları ve kampüs yaşamını tanıtan oryantasyon haftasını takiben Eylül ayında kayıt olur.",
+                "definition": "Formally enrolls, third-person."
+            },
+            {
+                "word": "matriculated",
+                "partOfSpeech": "verb",
+                "sentence": "She matriculated at Oxford after winning a national scholarship that covered all living expenses.",
+                "trSentence": "Tüm yaşam giderlerini karşılayan ulusal bursu kazandıktan sonra Oxford Üniversitesine kaydoldu.",
+                "definition": "Formally enrolled in the past."
+            },
+            {
+                "word": "matriculating",
+                "partOfSpeech": "verb",
+                "sentence": "Matriculating late may limit course choices because many introductory classes fill quickly.",
+                "trSentence": "Geç kayıt, pek çok temel dersin hızla dolması nedeniyle ders seçimini kısıtlayabilir.",
+                "definition": "Currently undergoing enrollment process."
+            },
+            {
+                "word": "matriculation",
+                "partOfSpeech": "noun",
+                "sentence": "The university's matriculation ceremony features traditional robes and a pledge to uphold academic integrity.",
+                "trSentence": "Üniversitenin kayıt töreni, geleneksel cüppeler ve akademik dürüstlüğü sürdürme yemini içerir.",
+                "definition": "Act or ceremony of enrollment."
+            },
+            {
+                "word": "matriculations",
+                "partOfSpeech": "noun",
+                "sentence": "Spring matriculations increased sharply after administrators relaxed language requirements for international applicants.",
+                "trSentence": "Bahar dönemi kayıtları, yöneticilerin uluslararası başvuru sahipleri için dil şartlarını gevşetmesinden sonra keskin biçimde arttı.",
+                "definition": "Plural of matriculation events."
+            },
+            {
+                "word": "matriculant",
+                "partOfSpeech": "noun",
+                "sentence": "Every matriculant receives a personalized mentor to help navigate academic and cultural adjustments.",
+                "trSentence": "Her yeni öğrenci, akademik ve kültürel uyumu kolaylaştırmak için kişiselleştirilmiş bir mentor ile eşleştirilir.",
+                "definition": "Newly enrolled student awaiting studies."
+            },
+            {
+                "word": "matriculants",
+                "partOfSpeech": "noun",
+                "sentence": "Orientation leaders organized campus scavenger hunts to familiarize new matriculants with key buildings and services.",
+                "trSentence": "Oryantasyon liderleri, yeni kayıtlı öğrencileri önemli binalar ve hizmetlerle tanıştırmak için kampüs hazine avı düzenledi.",
+                "definition": "Plural of matriculant students."
+            },
+            {
+                "word": "matriculatory",
+                "partOfSpeech": "adjective",
+                "sentence": "The registrar issued a matriculatory certificate confirming the student's eligibility for full-time study.",
+                "trSentence": "Kayıt işleri müdürlüğü, öğrencinin tam zamanlı eğitim uygunluğunu doğrulayan bir kayıt sertifikası düzenledi.",
+                "definition": "Relating to enrollment or matriculation."
+            },
+            {
+                "word": "prematriculation",
+                "partOfSpeech": "noun",
+                "sentence": "Online prematriculation modules teach essential research skills before students arrive for the intensive summer term.",
+                "trSentence": "Çevrim içi ön kayıt modülleri, öğrenciler yoğun yaz dönemi başlamadan önce temel araştırma becerilerini öğretir.",
+                "definition": "Period or activities before official enrollment."
+            }
+        ]
+    },
+    {
+        "root": "offshore",
+        "meanings": [
+            {
+                "sentence": "Large offshore wind farms generate clean electricity while keeping noisy turbines far from coastal towns.",
+                "trSentence": "Büyük açıkdeniz rüzgâr çiftlikleri, gürültülü türbinleri kıyı kasabalarından uzak tutarken temiz elektrik üretir.",
+                "definition": "Located at sea but near the coast.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "sentence": "Some companies offshore customer support to reduce operating costs and access round-the-clock multilingual staff.",
+                "trSentence": "Bazı şirketler, işletme maliyetlerini düşürmek ve kesintisiz çok dilli personele erişmek için müşteri desteğini yurtdışına taşır.",
+                "definition": "Move business operations abroad for cost advantages.",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "offshores",
+                "partOfSpeech": "verb",
+                "sentence": "The corporation offshores payroll processing to a specialist firm based in Manila to streamline operations easily.",
+                "trSentence": "Şirket, işlemleri kolaylaştırmak için bordro işlemlerini Manila merkezli uzman firmaya yurtdışına aktarır.",
+                "definition": "Transfers work abroad, third-person."
+            },
+            {
+                "word": "offshored",
+                "partOfSpeech": "verb",
+                "sentence": "Last year the manufacturer offshored half its production, closing two domestic plants in the process.",
+                "trSentence": "Geçen yıl üretici, üretiminin yarısını yurtdışına kaydırarak iki yerli tesisi kapattı.",
+                "definition": "Moved operations abroad in past."
+            },
+            {
+                "word": "offshoring",
+                "partOfSpeech": "noun",
+                "sentence": "Economists debate whether offshoring ultimately benefits consumers through lower prices or harms workers through lost jobs.",
+                "trSentence": "Ekonomistler, yurtdışına taşımanın daha düşük fiyatlarla tüketicilere fayda mı yoksa iş kaybıyla çalışanlara zarar mı verdiğini tartışıyor.",
+                "definition": "Practice of relocating work abroad."
+            },
+            {
+                "word": "offshorer",
+                "partOfSpeech": "noun",
+                "sentence": "As an experienced offshorer, she advises companies on legal frameworks for transferring data across borders.",
+                "trSentence": "Deneyimli bir offshorecü olarak, şirketlere sınır ötesi veri aktarımının yasal çerçeveleri konusunda danışmanlık yapıyor.",
+                "definition": "Person or company that offshores."
+            },
+            {
+                "word": "offshorers",
+                "partOfSpeech": "noun",
+                "sentence": "Policy makers propose tax incentives to attract offshorers back to domestic manufacturing zones.",
+                "trSentence": "Politika yapıcılar, offshore eden firmaları yerli üretim bölgelerine geri çekmek için vergi teşvikleri öneriyor.",
+                "definition": "Organizations engaged in offshoring."
+            },
+            {
+                "word": "nonoffshore",
+                "partOfSpeech": "adjective",
+                "sentence": "Investors prefer nonoffshore funds because they face lower reputational risks and simpler reporting obligations.",
+                "trSentence": "Yatırımcılar, daha az itibar riski ve daha basit raporlama yükümlülükleri nedeniyle kıyı dışı olmayan fonları tercih ediyor.",
+                "definition": "Not located or registered offshore."
+            },
+            {
+                "word": "offshoreable",
+                "partOfSpeech": "adjective",
+                "sentence": "Routine data entry is highly offshoreable, whereas tasks needing local expertise often remain in-house.",
+                "trSentence": "Rutin veri girişi kolayca yurtdışına taşınabilirken yerel uzmanlık gerektiren işler genellikle şirket içinde kalır.",
+                "definition": "Able to be moved abroad easily."
+            }
+        ]
+    },
+    {
+        "root": "demand",
+        "meanings": [
+            {
+                "sentence": "Striking workers demand higher wages and safer conditions before they agree to resume production.",
+                "trSentence": "Grevdeki işçiler, üretime devam etmeyi kabul etmeden önce daha yüksek ücretler ve daha güvenli koşullar talep ediyor.",
+                "definition": "Ask firmly for something viewed as necessary.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Holiday season demand for flights pushes ticket prices far beyond what many families can afford.",
+                "trSentence": "Tatil sezonunda uçuş talebi, bilet fiyatlarını birçok ailenin karşılayamayacağı seviyelere çıkarıyor.",
+                "definition": "Need or desire for goods or services.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "demands",
+                "partOfSpeech": "noun",
+                "sentence": "Rising energy demands have accelerated investment in large-scale solar and offshore wind projects worldwide.",
+                "trSentence": "Artan enerji talepleri, dünya çapında büyük ölçekli güneş ve açık deniz rüzgâr projelerine yatırımı hızlandırdı.",
+                "definition": "Requests or needs, plural form."
+            },
+            {
+                "word": "demanded",
+                "partOfSpeech": "verb",
+                "sentence": "Citizens demanded immediate answers after the sudden blackout disrupted hospitals and public transport systems.",
+                "trSentence": "Vatandaşlar, ani elektrik kesintisinin hastaneleri ve toplu taşımayı aksatmasının ardından derhal cevaplar talep etti.",
+                "definition": "Asked for something forcefully in the past."
+            },
+            {
+                "word": "demanding",
+                "partOfSpeech": "adjective",
+                "sentence": "The course is so demanding that even top students struggle to balance homework with extracurricular activities.",
+                "trSentence": "Kurs o kadar yorucu ki en başarılı öğrenciler bile ödev ile ders dışı etkinlikleri dengelemekte zorlanıyor.",
+                "definition": "Requiring much effort, attention or skill."
+            },
+            {
+                "word": "demander",
+                "partOfSpeech": "noun",
+                "sentence": "As a relentless demander of transparency, the journalist filed dozens of freedom-of-information requests each month.",
+                "trSentence": "Şeffaflığın amansız bir talepçisi olan gazeteci, her ay onlarca bilgi edinme başvurusu yaptı.",
+                "definition": "Person who insists on obtaining something."
+            },
+            {
+                "word": "demandingly",
+                "partOfSpeech": "adverb",
+                "sentence": "She spoke demandingly, refusing to accept vague promises about workplace safety reforms.",
+                "trSentence": "O, işyeri güvenliği reformları hakkındaki belirsiz vaatleri kabul etmeyerek ısrarcı bir şekilde konuştu.",
+                "definition": "In an insistent or exacting manner."
+            },
+            {
+                "word": "demandingness",
+                "partOfSpeech": "noun",
+                "sentence": "Parental demandingness often predicts children's academic success when balanced with warmth and clear communication.",
+                "trSentence": "Ebeveynlerin talepkârlığı, sıcaklık ve açık iletişimle dengelendiğinde çocukların akademik başarısını çoğu zaman öngörür.",
+                "definition": "Quality of being highly demanding."
+            },
+            {
+                "word": "undemanding",
+                "partOfSpeech": "adjective",
+                "sentence": "He chose an undemanding job to focus on his health after recovering from major surgery.",
+                "trSentence": "Büyük bir ameliyattan iyileştikten sonra sağlığına odaklanmak için yorucu olmayan bir iş seçti.",
+                "definition": "Requiring little effort; easy-going."
+            },
+            {
+                "word": "undemandingly",
+                "partOfSpeech": "adverb",
+                "sentence": "The tutor spoke undemandingly, encouraging anxious beginners to attempt conversation at their own pace.",
+                "trSentence": "Öğretmen, gergin yeni başlayanları kendi hızlarında konuşmaya teşvik ederek yumuşak bir şekilde konuştu.",
+                "definition": "In a gentle, non-exacting way."
+            },
+            {
+                "word": "undemandingness",
+                "partOfSpeech": "noun",
+                "sentence": "His general undemandingness made him a popular roommate among students juggling heavy course loads.",
+                "trSentence": "Genel rahatlığı, yoğun ders programlarıyla uğraşan öğrenciler arasında onu popüler bir oda arkadaşı yaptı.",
+                "definition": "State of not being demanding."
+            },
+            {
+                "word": "nondemanding",
+                "partOfSpeech": "adjective",
+                "sentence": "A nondemanding hobby like casual sketching can relieve stress without depleting mental energy after work.",
+                "trSentence": "Gelişi güzel eskiz gibi zahmetsiz bir hobi, işten sonra zihinsel enerjiyi tüketmeden stresi azaltabilir.",
+                "definition": "Not requiring much effort or attention."
+            },
+            {
+                "word": "redemand",
+                "partOfSpeech": "verb",
+                "sentence": "If the loan remains unpaid, the bank may redemand full settlement under the original agreement's terms.",
+                "trSentence": "Kredi ödenmeden kalırsa banka, asıl sözleşme hükümleri uyarınca tam ödeme talebini yeniden isteyebilir.",
+                "definition": "Ask again for something previously requested."
+            },
+            {
+                "word": "redemands",
+                "partOfSpeech": "verb",
+                "sentence": "The curator redemands missing artifacts whenever new evidence surfaces about their current location.",
+                "trSentence": "Küratör, kayıp eserlerin mevcut konumuna dair yeni kanıtlar ortaya çıktığında bu eserleri tekrar talep eder.",
+                "definition": "Requests again, third-person singular."
+            },
+            {
+                "word": "redemanded",
+                "partOfSpeech": "verb",
+                "sentence": "The union redemanded fair overtime pay after negotiations stalled for a second consecutive month.",
+                "trSentence": "Sendika, görüşmeler art arda ikinci ay da tıkanınca adil mesai ücretini yeniden talep etti.",
+                "definition": "Asked again in past time."
+            },
+            {
+                "word": "redemanding",
+                "partOfSpeech": "verb",
+                "sentence": "Activists keep redemanding justice, refusing to let the issue fade from public memory.",
+                "trSentence": "Aktivistler adalet talebini yineleyerek konunun kamuoyunun hafızasından silinmesine izin vermiyor.",
+                "definition": "Requesting again repeatedly."
+            },
+            {
+                "word": "demandable",
+                "partOfSpeech": "adjective",
+                "sentence": "The policy states that only demandable debts will accrue interest after the contractual grace period ends.",
+                "trSentence": "Politika, sözleşmedeki ek süre sona erdikten sonra yalnızca talep edilebilir borçların faiz işleteceğini belirtir.",
+                "definition": "Capable of being rightfully demanded."
+            }
+        ]
+    },
+    {
+        "root": "reward",
+        "meanings": [
+            {
+                "sentence": "Managers reward outstanding performance with bonuses and public recognition at the annual company meeting.",
+                "trSentence": "Yöneticiler, yıllık şirket toplantısında olağanüstü performansı ikramiyeler ve kamu takdiriyle ödüllendirir.",
+                "definition": "Give something valuable for effort or achievement.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Completing a marathon gave her an immense reward of pride and renewed self-confidence.",
+                "trSentence": "Bir maratonu bitirmek ona gurur ve tazelenmiş özgüvenden oluşan büyük bir ödül verdi.",
+                "definition": "Benefit or prize received for effort.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "rewards",
+                "partOfSpeech": "noun",
+                "sentence": "Seasonal rewards such as gift cards motivate employees to exceed quarterly sales targets without extra supervision.",
+                "trSentence": "Hediye kartları gibi mevsimsel ödüller, çalışanları ek denetim olmadan üç aylık satış hedeflerini aşmaya teşvik eder.",
+                "definition": "Gifts or benefits given for good performance."
+            },
+            {
+                "word": "rewarded",
+                "partOfSpeech": "verb",
+                "sentence": "The committee rewarded the volunteers with certificates when the community cleanup project finished ahead of schedule.",
+                "trSentence": "Komite, topluluk temizliği projesi planlanandan önce tamamlanınca gönüllüleri sertifikalarla ödüllendirdi.",
+                "definition": "Gave a reward to someone."
+            },
+            {
+                "word": "rewarding",
+                "partOfSpeech": "adjective",
+                "sentence": "Teaching adult literacy can be a deeply rewarding experience for educators seeking meaningful social impact.",
+                "trSentence": "Yetişkin okuryazarlığı öğretmek, anlamlı sosyal etki arayan eğitimciler için son derece tatmin edici bir deneyim olabilir.",
+                "definition": "Providing satisfaction or benefit."
+            },
+            {
+                "word": "rewarder",
+                "partOfSpeech": "noun",
+                "sentence": "As chief rewarder, she designs inventive incentive schemes that foster collaboration across the entire global workforce.",
+                "trSentence": "Baş ödüllendirici olarak, tüm küresel iş gücü genelinde işbirliğini teşvik eden yenilikçi teşvik planları tasarlar.",
+                "definition": "Person or entity that gives rewards."
+            },
+            {
+                "word": "rewarders",
+                "partOfSpeech": "noun",
+                "sentence": "Online platforms act as rewarders by distributing digital badges to users who contribute valuable content regularly.",
+                "trSentence": "Çevrim içi platformlar, düzenli olarak değerli içerik üreten kullanıcılara dijital rozetler dağıtarak ödüllendirici olarak işlev görür.",
+                "definition": "People or systems providing rewards."
+            },
+            {
+                "word": "rewardless",
+                "partOfSpeech": "adjective",
+                "sentence": "Workers found the task virtually rewardless because management offered neither praise nor financial incentives upon completion.",
+                "trSentence": "Yöneticiler, tamamlanmanın ardından ne övgü ne de finansal teşvik sunduğu için çalışanlar görevi neredeyse karşılıksız buldu.",
+                "definition": "Giving no reward or benefit."
+            },
+            {
+                "word": "rewardfully",
+                "partOfSpeech": "adverb",
+                "sentence": "Mentors spoke rewardfully about their protégés' success, feeling proud of years spent guiding them.",
+                "trSentence": "Mentorlar, himaye ettikleri kişilerin başarısı hakkında ödüllendirici bir şekilde konuşarak yıllarca rehberlik etmenin gururunu hissetti.",
+                "definition": "In a way that brings reward."
+            },
+            {
+                "word": "rewardfulness",
+                "partOfSpeech": "noun",
+                "sentence": "Researchers measured the perceived rewardfulness of tasks to determine which activities increased student engagement most effectively.",
+                "trSentence": "Araştırmacılar, hangi etkinliklerin öğrenci katılımını en etkili şekilde artırdığını belirlemek için görevlerin algılanan ödüllendiriciliğini ölçtü.",
+                "definition": "Quality of providing rewards."
+            },
+            {
+                "word": "unrewarded",
+                "partOfSpeech": "adjective",
+                "sentence": "Many essential caregiving duties remain unrewarded despite their significant economic and emotional value to society.",
+                "trSentence": "Toplum için önemli ekonomik ve duygusal değere rağmen, pek çok hayati bakım görevi karşılıksız kalıyor.",
+                "definition": "Not receiving reward."
+            },
+            {
+                "word": "unrewarding",
+                "partOfSpeech": "adjective",
+                "sentence": "He left the unrewarding job after realizing long hours yielded little growth, recognition, or personal satisfaction.",
+                "trSentence": "Uzun çalışma saatlerinin az büyüme, tanınma ve kişisel tatmin sağladığını fark edince tatsız işi bıraktı.",
+                "definition": "Not satisfying or worthwhile."
+            },
+            {
+                "word": "unrewardingly",
+                "partOfSpeech": "adverb",
+                "sentence": "The team worked unrewardingly for months, but management still failed to acknowledge their contribution publicly.",
+                "trSentence": "Ekip aylarca karşılıksız çalıştı fakat yönetim yine de katkılarını kamuoyu önünde takdir edemedi.",
+                "definition": "In a manner lacking reward."
+            },
+            {
+                "word": "rewardingness",
+                "partOfSpeech": "noun",
+                "sentence": "Psychologists study the rewardingness of altruistic acts to understand why helping strangers feels inherently good.",
+                "trSentence": "Psikologlar, yabancılara yardım etmenin neden doğuştan iyi hissettirdiğini anlamak için özgecil eylemlerin ödüllendiriciliğini inceler.",
+                "definition": "Degree to which something is rewarding."
+            },
+            {
+                "word": "nonrewarding",
+                "partOfSpeech": "adjective",
+                "sentence": "Participants quickly abandoned the nonrewarding task when they realized effort produced no tangible outcome whatsoever.",
+                "trSentence": "Katılımcılar, çabanın hiçbir somut sonuç üretmediğini fark edince karşılıksız görevi hızla bıraktı.",
+                "definition": "Yielding no rewards."
+            }
+        ]
+    },
+    {
+        "root": "dead end",
+        "meanings": [
+            {
+                "sentence": "The driver turned around quickly after realizing the narrow lane was actually a dead end.",
+                "trSentence": "Sürücü, dar sokağın aslında çıkmaz sokak olduğunu fark edince hızla geri döndü.",
+                "definition": "Road closed at one end, no exit.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "She felt her career had reached a dead end with no chance of advancement.",
+                "trSentence": "Kariyerinin, ilerleme şansı olmadan çıkmaza girdiğini hissetti.",
+                "definition": "Situation offering no further progress.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "dead ends",
+                "partOfSpeech": "noun",
+                "sentence": "Urban planners are replacing dead ends with connected pathways to improve emergency vehicle access across neighborhoods.",
+                "trSentence": "Kentsel planlamacılar, mahallelerde acil araç erişimini iyileştirmek için çıkmaz sokakları bağlantılı yollarla değiştiriyor.",
+                "definition": "Plural; roads or situations with no exit."
+            },
+            {
+                "word": "dead-end",
+                "partOfSpeech": "adjective",
+                "sentence": "Many graduates fear accepting a dead-end job that offers no development or promotion prospects.",
+                "trSentence": "Birçok mezun, gelişim veya terfi olanağı sunmayan çıkmaz bir işe girmekten korkar.",
+                "definition": "Offering no opportunity for advancement."
+            },
+            {
+                "word": "dead-ended",
+                "partOfSpeech": "verb",
+                "sentence": "The hiking trail dead-ended at a cliff, forcing the group to retrace their steps.",
+                "trSentence": "Yürüyüş parkuru bir uçurumda çıkmaza girerek grubu adımlarını geri almaya zorladı.",
+                "definition": "Reached or caused to reach a dead end."
+            },
+            {
+                "word": "dead-ending",
+                "partOfSpeech": "verb",
+                "sentence": "Maintenance crews warned that the detour was dead-ending suddenly due to ongoing bridge repairs ahead.",
+                "trSentence": "Bakım ekipleri, köprü onarımları nedeniyle sapma yolunun aniden çıkmaza girdiğini uyardı.",
+                "definition": "Ending abruptly with no further passage."
+            },
+            {
+                "word": "dead-ender",
+                "partOfSpeech": "noun",
+                "sentence": "The novel portrays a cynical dead-ender who believes every political movement ultimately fails.",
+                "trSentence": "Roman, her siyasi hareketin eninde sonunda başarısız olduğuna inanan alaycı bir çıkmaz kurbanını tasvir ediyor.",
+                "definition": "Person trapped in progress-less situation."
+            },
+            {
+                "word": "dead-enders",
+                "partOfSpeech": "noun",
+                "sentence": "Sociologists studied how economic hardship can turn motivated youths into apathetic dead-enders.",
+                "trSentence": "Sosyologlar, ekonomik zorlukların azimli gençleri nasıl umutsuz çıkmaz insanlarına dönüştürebileceğini inceledi.",
+                "definition": "People stuck without prospects or progress."
+            }
+        ]
+    },
+    {
+        "root": "fulfill",
+        "meanings": [
+            {
+                "sentence": "Companies must fulfill strict safety regulations before launching new pharmaceutical products to the public.",
+                "trSentence": "Şirketler, halka yeni ilaçları sunmadan önce sıkı güvenlik düzenlemelerini yerine getirmelidir.",
+                "definition": "Carry out or satisfy a requirement.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Volunteering abroad helped her fulfill a lifelong desire to contribute meaningfully to global health.",
+                "trSentence": "Yurt dışında gönüllü çalışmak, onun küresel sağlığa anlamlı katkıda bulunma yönündeki yaşam boyu arzusunu tatmin etti.",
+                "definition": "Make someone satisfied or happy.",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "fulfills",
+                "partOfSpeech": "verb",
+                "sentence": "Effective leadership fulfills employee needs for clear communication, autonomy, and fair recognition.",
+                "trSentence": "Etkili liderlik, çalışanların açık iletişim, özerklik ve adil takdir ihtiyaçlarını karşılar.",
+                "definition": "Carries out; meets needs or requirements."
+            },
+            {
+                "word": "fulfilled",
+                "partOfSpeech": "verb",
+                "sentence": "She finally fulfilled her ambition to publish a science-fiction novel before turning thirty.",
+                "trSentence": "Otuzuna gelmeden önce bir bilimkurgu romanı yayımlama hedefini sonunda gerçekleştirdi.",
+                "definition": "Carried out; satisfied an aim."
+            },
+            {
+                "word": "fulfilling",
+                "partOfSpeech": "adjective",
+                "sentence": "Mentoring young entrepreneurs proved more fulfilling than earning another corporate promotion.",
+                "trSentence": "Genç girişimcilere mentorluk yapmak, başka bir kurumsal terfi kazanmaktan daha tatmin edici oldu.",
+                "definition": "Providing deep satisfaction."
+            },
+            {
+                "word": "fulfiller",
+                "partOfSpeech": "noun",
+                "sentence": "As the primary fulfiller of online orders, the warehouse invested in faster packaging robots.",
+                "trSentence": "Çevrim içi siparişlerin ana tedarikçisi olan depo, daha hızlı paketleme robotlarına yatırım yaptı.",
+                "definition": "Entity that executes or satisfies demands."
+            },
+            {
+                "word": "fulfillers",
+                "partOfSpeech": "noun",
+                "sentence": "Logistics managers coordinated with multiple fulfillers to prevent stockouts during the holiday rush.",
+                "trSentence": "Lojistik yöneticileri, tatil yoğunluğunda stok eksiklerini önlemek için birden fazla tedarikçiyle koordine oldu.",
+                "definition": "Organizations that fulfill orders."
+            },
+            {
+                "word": "fulfillment",
+                "partOfSpeech": "noun",
+                "sentence": "Many employees seek a balance between career fulfillment and flexible working hours.",
+                "trSentence": "Birçok çalışan, kariyer tatmini ile esnek çalışma saatleri arasında denge arar.",
+                "definition": "Sense of satisfaction or completion."
+            },
+            {
+                "word": "fulfillments",
+                "partOfSpeech": "noun",
+                "sentence": "Different cultures celebrate spiritual fulfillments through unique rituals and communal gatherings.",
+                "trSentence": "Farklı kültürler, benzersiz ritüeller ve toplu toplantılar aracılığıyla ruhsal tatminleri kutlar.",
+                "definition": "Acts or states of achieving satisfaction."
+            },
+            {
+                "word": "fulfillable",
+                "partOfSpeech": "adjective",
+                "sentence": "Project goals must be realistic and fulfillable within the allocated budget and timeframe.",
+                "trSentence": "Proje hedefleri, ayrılan bütçe ve zaman çerçevesi içinde gerçekleştirilebilir olmalıdır.",
+                "definition": "Able to be carried out or satisfied."
+            },
+            {
+                "word": "unfulfilled",
+                "partOfSpeech": "adjective",
+                "sentence": "He felt unfulfilled despite financial success because his creative talents remained unused.",
+                "trSentence": "Yaratıcı yetenekleri kullanılmadığı için, maddi başarıya rağmen kendini tatmin olmamış hissetti.",
+                "definition": "Not satisfied; lacking completion."
+            },
+            {
+                "word": "self-fulfilling",
+                "partOfSpeech": "adjective",
+                "sentence": "Low expectations can become a self-fulfilling prophecy that limits student achievement.",
+                "trSentence": "Düşük beklentiler, öğrenci başarısını sınırlandıran kendini gerçekleştiren kehanete dönüşebilir.",
+                "definition": "Becoming true because of beliefs or actions."
+            },
+            {
+                "word": "self-fulfillment",
+                "partOfSpeech": "noun",
+                "sentence": "Traveling alone allowed her moments of self-fulfillment and personal growth far from routine responsibilities.",
+                "trSentence": "Yalnız seyahat etmek, onu rutin sorumluluklardan uzakta kişisel gelişim ve öz tatmin anlarıyla buluşturdu.",
+                "definition": "Realization of personal potential and happiness."
+            }
+        ]
+    },
+    {
+        "root": "appall",
+        "meanings": [
+            {
+                "sentence": "The cruelty displayed in the documentary will appall most viewers within the first ten minutes.",
+                "trSentence": "Belgeselde gösterilen zulüm, ilk on dakika içinde çoğu izleyiciyi dehşete düşürecek.",
+                "definition": "Shock or horrify deeply.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Rising medical costs appall economists who warn that many families risk bankruptcy without reform.",
+                "trSentence": "Artan tıbbi maliyetler, reform olmadan birçok ailenin iflas riski taşıdığını söyleyen ekonomistleri dehşete düşürüyor.",
+                "definition": "Fill with strong dismay or alarm.",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "appalls",
+                "partOfSpeech": "verb",
+                "sentence": "The scandal still appalls citizens whenever new evidence of bribery appears in the media.",
+                "trSentence": "Medya yeni rüşvet kanıtları sunduğunda skandal hâlâ vatandaşları dehşete düşürüyor.",
+                "definition": "Shocks or horrifies, third-person."
+            },
+            {
+                "word": "appalled",
+                "partOfSpeech": "verb",
+                "sentence": "Parents were appalled by the school's decision to cancel meals without arranging an alternative option.",
+                "trSentence": "Okulun, alternatif ayarlamadan yemekleri iptal etme kararı ebeveynleri dehşete düşürdü.",
+                "definition": "Shocked or horrified, past."
+            },
+            {
+                "word": "appalling",
+                "partOfSpeech": "adjective",
+                "sentence": "Living conditions inside the overcrowded shelter were so appalling that inspectors demanded immediate renovations.",
+                "trSentence": "Aşırı kalabalık barınaktaki yaşam koşulları o kadar korkunçtu ki denetçiler derhal tadilat istedi.",
+                "definition": "Extremely bad; horrifying."
+            },
+            {
+                "word": "appallingly",
+                "partOfSpeech": "adverb",
+                "sentence": "Victims described the prison as appallingly cold, dirty and infested with insects during winter.",
+                "trSentence": "Mağdurlar hapishaneyi kışın korkunç derecede soğuk, kirli ve böcek dolu olarak tanımladı.",
+                "definition": "In a shocking or dreadful way."
+            },
+            {
+                "word": "appallment",
+                "partOfSpeech": "noun",
+                "sentence": "Her expression of sheer appallment revealed how deeply the incident violated community expectations.",
+                "trSentence": "Yüzündeki saf dehşet, olayın toplumsal beklentileri ne kadar aştığını gösterdi.",
+                "definition": "State of being appalled."
+            },
+            {
+                "word": "appallingness",
+                "partOfSpeech": "noun",
+                "sentence": "The report highlighted the appallingness of neglected hospitals, forcing lawmakers to allocate emergency funds immediately.",
+                "trSentence": "Rapor, ihmal edilmiş hastanelerin korkunçluğunu vurgulayarak yasa yapıcıları acil fon ayırmaya zorladı.",
+                "definition": "Quality of being horrifyingly bad."
+            },
+            {
+                "word": "unappalled",
+                "partOfSpeech": "adjective",
+                "sentence": "Seasoned journalists remained unappalled by graphic images that left younger colleagues visibly shaken.",
+                "trSentence": "Deneyimli gazeteciler, genç meslektaşlarını sarsan çarpıcı görüntülerden etkilenmedi.",
+                "definition": "Not shocked or horrified."
+            },
+            {
+                "word": "unappalling",
+                "partOfSpeech": "adjective",
+                "sentence": "Authorities promised to ensure detainees experienced unappalling living standards consistent with international agreements.",
+                "trSentence": "Yetkililer, gözaltındakilerin uluslararası anlaşmalarla uyumlu, korkunç olmayan yaşam koşulları göreceğini taahhüt etti.",
+                "definition": "Not dreadful; acceptable."
+            }
+        ]
+    },
+    {
+        "root": "contemporary",
+        "meanings": [
+            {
+                "sentence": "The museum features contemporary art that challenges traditional ideas about beauty and form.",
+                "trSentence": "Müze, güzellik ve biçim hakkındaki geleneksel fikirleri sorgulayan çağdaş sanat eserlerini sergiliyor.",
+                "definition": "Modern; belonging to the present.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "sentence": "Einstein was a contemporary of Marie Curie, and they exchanged ideas at several conferences.",
+                "trSentence": "Einstein, Marie Curie'nin çağdaşıydı ve çeşitli konferanslarda fikir alışverişi yaptılar.",
+                "definition": "Person living at the same time.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "contemporaries",
+                "partOfSpeech": "noun",
+                "sentence": "Historians study letters to understand how Shakespeare's contemporaries viewed his innovative theatrical techniques.",
+                "trSentence": "Tarihçiler, Shakespeare'in çağdaşlarının yenilikçi tiyatro tekniklerine bakışını anlamak için mektupları inceliyor.",
+                "definition": "People living in the same era."
+            },
+            {
+                "word": "contemporarily",
+                "partOfSpeech": "adverb",
+                "sentence": "The building was contemporarily decorated with minimalist furniture and interactive digital installations.",
+                "trSentence": "Bina, minimalist mobilya ve etkileşimli dijital kurulumlarla çağdaş bir şekilde dekore edildi.",
+                "definition": "In a modern manner."
+            },
+            {
+                "word": "contemporariness",
+                "partOfSpeech": "noun",
+                "sentence": "Critics praised the novel's contemporariness, noting its realistic depiction of social media influence.",
+                "trSentence": "Eleştirmenler, romanın çağdaşlığını övüp sosyal medyanın etkisini gerçekçi biçimde yansıttığını belirtti.",
+                "definition": "Quality of being current or modern."
+            },
+            {
+                "word": "noncontemporary",
+                "partOfSpeech": "adjective",
+                "sentence": "The jury excluded noncontemporary sources to ensure the study focused on present economic conditions.",
+                "trSentence": "Heyet, çalışmanın mevcut ekonomik koşullara odaklanması için çağdaş olmayan kaynakları hariç tuttu.",
+                "definition": "Not modern or of the same time."
+            },
+            {
+                "word": "postcontemporary",
+                "partOfSpeech": "adjective",
+                "sentence": "Some theorists label hybrid digital-physical artworks as postcontemporary because they transcend current aesthetic categories.",
+                "trSentence": "Bazı kuramcılar, dijital-fiziksel hibrit eserleri mevcut estetik kategorileri aştığı için post-çağdaş olarak adlandırıyor.",
+                "definition": "Beyond or after the contemporary period."
+            }
+        ]
+    },
+    {
+        "root": "musty",
+        "meanings": [
+            {
+                "sentence": "The basement smelled musty after months of heavy rain seeping through cracked walls.",
+                "trSentence": "Aylarca çatlak duvarlardan sızan yoğun yağmurdan sonra bodrum küf kokuyordu.",
+                "definition": "Having a stale, damp smell.",
+                "partOfSpeech": "adjective"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "mustier",
+                "partOfSpeech": "adjective",
+                "sentence": "Old textbooks grow mustier each year, making the library invest in improved ventilation systems.",
+                "trSentence": "Eski ders kitapları her yıl daha küflü hâle gelerek kütüphaneyi daha iyi havalandırmaya yatırım yapmaya zorluyor.",
+                "definition": "More stale-smelling."
+            },
+            {
+                "word": "mustiest",
+                "partOfSpeech": "adjective",
+                "sentence": "Archaeologists carefully opened the mustiest scrolls to prevent fragile parchment from crumbling.",
+                "trSentence": "Arkeologlar, en küflü parşömenleri dikkatle açarak kırılgan sayfaların dağılmasını önledi.",
+                "definition": "Most stale-smelling."
+            },
+            {
+                "word": "mustily",
+                "partOfSpeech": "adverb",
+                "sentence": "Clothes stored in plastic bins mustily clung together because moisture had no route to escape.",
+                "trSentence": "Plastik kutularda saklanan kıyafetler, nem kaçacak yol bulamadığından küf kokulu şekilde birbirine yapıştı.",
+                "definition": "In a stale, damp manner."
+            },
+            {
+                "word": "mustiness",
+                "partOfSpeech": "noun",
+                "sentence": "A dehumidifier quickly reduced the mustiness that had plagued the seaside cottage every autumn.",
+                "trSentence": "Bir nem giderici, sahil kulübesini her sonbahar rahatsız eden küf kokusunu hızla azalttı.",
+                "definition": "Quality of smelling stale and damp."
+            },
+            {
+                "word": "unmusty",
+                "partOfSpeech": "adjective",
+                "sentence": "The renovated cellar now feels bright and unmusty thanks to better drainage and fresh paint.",
+                "trSentence": "Yenilenen kiler, daha iyi drenaj ve taze boya sayesinde artık ferah ve küfsüz.",
+                "definition": "Free from musty smell."
+            },
+            {
+                "word": "nonmusty",
+                "partOfSpeech": "adjective",
+                "sentence": "Inspectors certified the warehouse nonmusty after air samples met stringent indoor-quality standards.",
+                "trSentence": "Hava örnekleri sıkı iç mekân standartlarını karşıladıktan sonra denetçiler depoyu küfsüz olarak onayladı.",
+                "definition": "Not having a stale odor."
+            }
+        ]
+    },
+    {
+        "root": "stun",
+        "meanings": [
+            {
+                "sentence": "The verdict will stun investors who expected a quick settlement instead of prolonged litigation.",
+                "trSentence": "Uzun süren dava yerine hızlı anlaşma bekleyen yatırımcılar karar karşısında şoke olacak.",
+                "definition": "Astonish or shock greatly.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The boxer managed to stun his opponent with a surprise uppercut in the final round.",
+                "trSentence": "Boksör, son rauntta beklenmedik bir aparkatla rakibini sersemletmeyi başardı.",
+                "definition": "Knock unconscious or daze.",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "stuns",
+                "partOfSpeech": "verb",
+                "sentence": "Breaking news often stuns audiences before journalists can verify every detail thoroughly.",
+                "trSentence": "Flaş haberler, gazeteciler tüm ayrıntıları doğrulamadan önce genellikle izleyicileri şoke eder.",
+                "definition": "Shocks greatly, third-person."
+            },
+            {
+                "word": "stunned",
+                "partOfSpeech": "verb",
+                "sentence": "Spectators were stunned into silence when the underdog scored twice during stoppage time.",
+                "trSentence": "Gösterilmemiş zamanda zayıf takım iki gol atınca seyirciler şoktan sessizliğe büründü.",
+                "definition": "Shocked or dazed, past."
+            },
+            {
+                "word": "stunning",
+                "partOfSpeech": "adjective",
+                "sentence": "The mountain offers a stunning panorama that attracts painters searching for dramatic natural light.",
+                "trSentence": "Dağ, dramatik doğal ışık arayan ressamları çeken çarpıcı bir panorama sunar.",
+                "definition": "Extremely impressive; dazzling."
+            },
+            {
+                "word": "stunner",
+                "partOfSpeech": "noun",
+                "sentence": "The competition's final entry was a stunner, combining laser projections with classical ballet.",
+                "trSentence": "Yarışmanın son eseri, lazer yansımalarıyla klasik baleyi birleştirerek izleyenleri büyüledi.",
+                "definition": "Something or someone astonishing."
+            },
+            {
+                "word": "stunners",
+                "partOfSpeech": "noun",
+                "sentence": "Even experienced photographers gasped at the gallery, where multiple landscape stunners were displayed prominently.",
+                "trSentence": "Deneyimli fotoğrafçılar bile, galeride sergilenen birçok çarpıcı manzara karşısında nefesini tuttu.",
+                "definition": "Things that astonish, plural."
+            },
+            {
+                "word": "stunningly",
+                "partOfSpeech": "adverb",
+                "sentence": "The lecture was stunningly clear, translating complex quantum concepts into everyday language.",
+                "trSentence": "Konferans, karmaşık kuantum kavramlarını günlük dile çevirerek çarpıcı derecede anlaşılırdı.",
+                "definition": "In an exceptionally impressive way."
+            },
+            {
+                "word": "stunningness",
+                "partOfSpeech": "noun",
+                "sentence": "Designers tried to capture the stunningness of auroras in their latest interactive art installation.",
+                "trSentence": "Tasarımcılar, en son etkileşimli sanat çalışmalarında kutup ışıklarının büyüleyiciliğini yakalamaya çalıştı.",
+                "definition": "Quality of being exceptionally impressive."
+            },
+            {
+                "word": "unstunned",
+                "partOfSpeech": "adjective",
+                "sentence": "Despite heavy blows, the veteran fighter remained unstunned and maintained tactical composure.",
+                "trSentence": "Ağır darbelere rağmen, tecrübeli dövüşçü sersemlememiş halde taktiksel soğukkanlılığını korudu.",
+                "definition": "Not shocked or dazed."
+            },
+            {
+                "word": "nonstunning",
+                "partOfSpeech": "adjective",
+                "sentence": "Producers developed a nonstunning slaughter method that still met humane-treatment guidelines.",
+                "trSentence": "Üreticiler, insani muamele yönergelerini karşılayan sersemletmesiz bir kesim yöntemi geliştirdi.",
+                "definition": "Not causing shock or awe."
+            }
+        ]
+    },
+    {
+        "root": "overblow",
+        "meanings": [
+            {
+                "sentence": "Journalists sometimes overblow minor errors, making them appear more serious than they are.",
+                "trSentence": "Gazeteciler bazen küçük hataları abartır, onları olduklarından daha ciddi gösterir.",
+                "definition": "exaggerate something beyond reasonable limits",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "If you overblow the flute, it jumps an octave and produces a piercing tone.",
+                "trSentence": "Flütü fazla üflerseniz, bir oktav sıçrar ve keskin bir ton çıkarır.",
+                "definition": "blow an instrument too strongly, causing overtones",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "overblows",
+                "partOfSpeech": "verb",
+                "sentence": "She overblows every tiny achievement, claiming it deserves international recognition.",
+                "trSentence": "O, her küçük başarıyı fazla büyütür ve uluslararası takdiri hak ettiğini iddia eder.",
+                "definition": "third-person singular of overblow"
+            },
+            {
+                "word": "overblew",
+                "partOfSpeech": "verb",
+                "sentence": "The trumpeter overblew during rehearsal, so the conductor stopped the piece immediately.",
+                "trSentence": "Trompetçi provada aşırı üfledi, bu yüzden şef parçayı hemen durdurdu.",
+                "definition": "past tense of overblow; exaggerated or blew too hard"
+            },
+            {
+                "word": "overblowing",
+                "partOfSpeech": "verb",
+                "sentence": "Overblowing the whistle can damage its reed and distort the pitch.",
+                "trSentence": "Düdüğü aşırı üflemek kamışına zarar verebilir ve tonunu bozar.",
+                "definition": "gerund or participle of overblow; excessive blowing"
+            },
+            {
+                "word": "overblown",
+                "partOfSpeech": "adjective",
+                "sentence": "His overblown claims about profits greatly alarmed the cautious investors.",
+                "trSentence": "Kâr konusundaki abartılı iddiaları ihtiyatlı yatırımcıları fazlasıyla endişelendirdi.",
+                "definition": "exaggerated, inflated, larger than reality"
+            },
+            {
+                "word": "overblownness",
+                "partOfSpeech": "noun",
+                "sentence": "The overblownness of that speech bored the audience before it ended.",
+                "trSentence": "O konuşmanın abartılmışlığı, bitmeden önce izleyiciyi sıktı.",
+                "definition": "quality of being exaggerated or excessive"
+            }
+        ]
+    },
+    {
+        "root": "stunt",
+        "meanings": [
+            {
+                "sentence": "Frequent drought can stunt tree growth, producing short, misshapen trunks.",
+                "trSentence": "Sık sık görülen kuraklık ağaç büyümesini engelleyerek kısa, şekilsiz gövdeler oluşturabilir.",
+                "definition": "hinder normal growth or development",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The motorcyclist's fiery jump was his most dangerous stunt to date.",
+                "trSentence": "Motorsikletçinin ateşli atlayışı bugüne kadarki en tehlikeli numarasıydı.",
+                "definition": "spectacular or risky action for entertainment",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "Announcing free flights was a clever stunt to keep the brand in headlines.",
+                "trSentence": "Ücretsiz uçuşları duyurmak, markayı manşetlerde tutmak için akıllıca bir numaraydı.",
+                "definition": "attention-grabbing act done for publicity",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "stunts",
+                "partOfSpeech": "noun",
+                "sentence": "The movie's breathtaking stunts kept the audience on the edge of their seats.",
+                "trSentence": "Filmin nefes kesici akrobasi hareketleri izleyiciyi koltuklarının kenarında tuttu.",
+                "definition": "plural of stunt; daring feats"
+            },
+            {
+                "word": "stunted",
+                "partOfSpeech": "adjective",
+                "sentence": "Years of drought stunted the village's crops, leaving families short of food.",
+                "trSentence": "Yıllar süren kuraklık köyün mahsullerini bodur bırakarak aileleri yiyeceksiz bıraktı.",
+                "definition": "having growth hindered or slowed"
+            },
+            {
+                "word": "stunting",
+                "partOfSpeech": "noun",
+                "sentence": "Prolonged malnutrition is stunting the children's physical and cognitive growth.",
+                "trSentence": "Uzamış yetersiz beslenme çocukların fiziksel ve bilişsel gelişimini kısaltıyor.",
+                "definition": "process of hindering growth"
+            },
+            {
+                "word": "stunter",
+                "partOfSpeech": "noun",
+                "sentence": "The amateur stunter practiced wheelies every afternoon behind the warehouse.",
+                "trSentence": "Amatör dublör her öğleden sonra depoda tek teker prova yaptı.",
+                "definition": "person who performs stunts"
+            },
+            {
+                "word": "stuntedness",
+                "partOfSpeech": "noun",
+                "sentence": "Researchers measured the stuntedness of seedlings grown in polluted soil.",
+                "trSentence": "Araştırmacılar kirli toprakta yetişen fidelerin bodurluğunu ölçtü.",
+                "definition": "state of being stunted"
+            },
+            {
+                "word": "stuntman",
+                "partOfSpeech": "noun",
+                "sentence": "The stuntman coordinated the dangerous car flip for the blockbuster's final scene.",
+                "trSentence": "Dublör, gişe rekortmeni filmin final sahnesindeki tehlikeli araba taklasını koordine etti.",
+                "definition": "male performer who executes dangerous feats"
+            },
+            {
+                "word": "stuntmen",
+                "partOfSpeech": "noun",
+                "sentence": "Experienced stuntmen rehearsed the fiery explosion sequence multiple times before filming.",
+                "trSentence": "Deneyimli dublörler ateşli patlama sahnesini çekim öncesi defalarca prova etti.",
+                "definition": "plural of stuntman"
+            },
+            {
+                "word": "stuntwoman",
+                "partOfSpeech": "noun",
+                "sentence": "A veteran stuntwoman doubled for the lead actress during the rooftop chase.",
+                "trSentence": "Tecrübeli bir kadın dublör, çatı kovalamacasında başrol oyuncusuna dublörlük yaptı.",
+                "definition": "female performer executing dangerous feats"
+            },
+            {
+                "word": "stuntwomen",
+                "partOfSpeech": "noun",
+                "sentence": "Skilled stuntwomen performed the complex wire work without a single mistake.",
+                "trSentence": "Usta kadın dublörler karmaşık tel çalışmalarını tek bir hata yapmadan gerçekleştirdi.",
+                "definition": "plural of stuntwoman"
+            },
+            {
+                "word": "publicity stunt",
+                "partOfSpeech": "noun",
+                "sentence": "The politician's surprise resignation turned out to be a calculated publicity stunt.",
+                "trSentence": "Politikacının sürpriz istifası hesaplı bir tanıtım numarası çıktı.",
+                "definition": "attention-seeking act for promotion"
+            }
+        ]
+    },
+    {
+        "root": "stunt",
+        "meanings": [
+            {
+                "sentence": "Frequent drought can stunt tree growth, producing short, misshapen trunks.",
+                "trSentence": "Sık sık görülen kuraklık ağaç büyümesini engelleyerek kısa, şekilsiz gövdeler oluşturabilir.",
+                "definition": "hinder normal growth or development",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The motorcyclist's fiery jump was his most dangerous stunt to date.",
+                "trSentence": "Motorsikletçinin ateşli atlayışı bugüne kadarki en tehlikeli numarasıydı.",
+                "definition": "spectacular or risky action for entertainment",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "Announcing free flights was a clever stunt to keep the brand in headlines.",
+                "trSentence": "Ücretsiz uçuşları duyurmak, markayı manşetlerde tutmak için akıllıca bir numaraydı.",
+                "definition": "attention-grabbing act done for publicity",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "stunts",
+                "partOfSpeech": "noun",
+                "sentence": "The movie's breathtaking stunts kept the audience on the edge of their seats.",
+                "trSentence": "Filmin nefes kesici akrobasi hareketleri izleyiciyi koltuklarının kenarında tuttu.",
+                "definition": "plural of stunt; daring feats"
+            },
+            {
+                "word": "stunted",
+                "partOfSpeech": "adjective",
+                "sentence": "Years of drought stunted the village's crops, leaving families short of food.",
+                "trSentence": "Yıllar süren kuraklık köyün mahsullerini bodur bırakarak aileleri yiyeceksiz bıraktı.",
+                "definition": "having growth hindered or slowed"
+            },
+            {
+                "word": "stunting",
+                "partOfSpeech": "noun",
+                "sentence": "Prolonged malnutrition is stunting the children's physical and cognitive growth.",
+                "trSentence": "Uzamış yetersiz beslenme çocukların fiziksel ve bilişsel gelişimini kısaltıyor.",
+                "definition": "process of hindering growth"
+            },
+            {
+                "word": "stunter",
+                "partOfSpeech": "noun",
+                "sentence": "The amateur stunter practiced wheelies every afternoon behind the warehouse.",
+                "trSentence": "Amatör dublör her öğleden sonra depoda tek teker prova yaptı.",
+                "definition": "person who performs stunts"
+            },
+            {
+                "word": "stuntedness",
+                "partOfSpeech": "noun",
+                "sentence": "Researchers measured the stuntedness of seedlings grown in polluted soil.",
+                "trSentence": "Araştırmacılar kirli toprakta yetişen fidelerin bodurluğunu ölçtü.",
+                "definition": "state of being stunted"
+            },
+            {
+                "word": "stuntman",
+                "partOfSpeech": "noun",
+                "sentence": "The stuntman coordinated the dangerous car flip for the blockbuster's final scene.",
+                "trSentence": "Dublör, gişe rekortmeni filmin final sahnesindeki tehlikeli araba taklasını koordine etti.",
+                "definition": "male performer who executes dangerous feats"
+            },
+            {
+                "word": "stuntmen",
+                "partOfSpeech": "noun",
+                "sentence": "Experienced stuntmen rehearsed the fiery explosion sequence multiple times before filming.",
+                "trSentence": "Deneyimli dublörler ateşli patlama sahnesini çekim öncesi defalarca prova etti.",
+                "definition": "plural of stuntman"
+            },
+            {
+                "word": "stuntwoman",
+                "partOfSpeech": "noun",
+                "sentence": "A veteran stuntwoman doubled for the lead actress during the rooftop chase.",
+                "trSentence": "Tecrübeli bir kadın dublör, çatı kovalamacasında başrol oyuncusuna dublörlük yaptı.",
+                "definition": "female performer executing dangerous feats"
+            },
+            {
+                "word": "stuntwomen",
+                "partOfSpeech": "noun",
+                "sentence": "Skilled stuntwomen performed the complex wire work without a single mistake.",
+                "trSentence": "Usta kadın dublörler karmaşık tel çalışmalarını tek bir hata yapmadan gerçekleştirdi.",
+                "definition": "plural of stuntwoman"
+            },
+            {
+                "word": "publicity stunt",
+                "partOfSpeech": "noun",
+                "sentence": "The politician's surprise resignation turned out to be a calculated publicity stunt.",
+                "trSentence": "Politikacının sürpriz istifası hesaplı bir tanıtım numarası çıktı.",
+                "definition": "attention-seeking act for promotion"
+            }
+        ]
+    },
+    {
+        "root": "daunt",
+        "meanings": [
+            {
+                "sentence": "Loud criticism can daunt inexperienced writers, making them doubt their abilities.",
+                "trSentence": "Yüksek sesli eleştiri deneyimsiz yazarları yıldırabilir, yeteneklerinden şüphe etmelerine neden olur.",
+                "definition": "make someone lose courage or confidence",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "daunts",
+                "partOfSpeech": "verb",
+                "sentence": "Failure no longer daunts her; she sees it as a lesson.",
+                "trSentence": "Başarısızlık onu artık yıldırmıyor; bunu bir ders olarak görüyor.",
+                "definition": "third-person singular of daunt"
+            },
+            {
+                "word": "daunted",
+                "partOfSpeech": "adjective",
+                "sentence": "Many students felt daunted by the tough exam schedule at first.",
+                "trSentence": "Birçok öğrenci başlangıçta zorlu sınav programından yıldırılmış hissetti.",
+                "definition": "intimidated or discouraged"
+            },
+            {
+                "word": "daunting",
+                "partOfSpeech": "adjective",
+                "sentence": "Climbing the sheer cliff looked daunting, yet the team pressed on.",
+                "trSentence": "Dikey kayalığa tırmanmak göz korkutucu görünüyordu, yine de ekip devam etti.",
+                "definition": "appearing intimidating or challenging"
+            },
+            {
+                "word": "dauntingly",
+                "partOfSpeech": "adverb",
+                "sentence": "The manual is dauntingly detailed for anyone new to programming.",
+                "trSentence": "Kılavuz, programlamaya yeni olan herkes için göz korkutucu derecede ayrıntılıdır.",
+                "definition": "in an intimidating manner"
+            },
+            {
+                "word": "undaunted",
+                "partOfSpeech": "adjective",
+                "sentence": "Undaunted by early setbacks, she courageously launched her company a second time.",
+                "trSentence": "İlk aksiliklerden yılmayan o, cesurca şirketini ikinci kez kurdu.",
+                "definition": "not intimidated; resolutely courageous"
+            },
+            {
+                "word": "dauntless",
+                "partOfSpeech": "adjective",
+                "sentence": "The dauntless firefighters charged into the burning warehouse without hesitation.",
+                "trSentence": "Yılmaz itfaiyeciler tereddütsüz yanan depoya daldı.",
+                "definition": "fearless and determined"
+            },
+            {
+                "word": "dauntlessness",
+                "partOfSpeech": "noun",
+                "sentence": "Her dauntlessness in negotiations secured a favorable deal for the team.",
+                "trSentence": "Müzakerelerdeki yılmazlığı, ekip için uygun bir anlaşma sağladı.",
+                "definition": "quality of being fearless"
+            }
+        ]
+    },
+    {
+        "root": "conscience",
+        "meanings": [
+            {
+                "sentence": "Her conscience told her to return the wallet she found on the bus.",
+                "trSentence": "Vicdanı, otobüste bulduğu cüzdanı geri vermesini söyledi.",
+                "definition": "inner sense of right and wrong",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "He voted according to his conscience, not party orders.",
+                "trSentence": "Parti emirleri değil, vicdanına göre oy verdi.",
+                "definition": "moral judgment guiding actions",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "consciences",
+                "partOfSpeech": "noun",
+                "sentence": "Different cultures shape their members' consciences in subtle ways.",
+                "trSentence": "Farklı kültürler üyelerinin vicdanlarını ince yollarla şekillendirir.",
+                "definition": "plural of conscience"
+            },
+            {
+                "word": "conscientious",
+                "partOfSpeech": "adjective",
+                "sentence": "Conscientious workers double-check every detail before submitting reports.",
+                "trSentence": "Vicdanlı çalışanlar raporları sunmadan önce her ayrıntıyı iki kez kontrol eder.",
+                "definition": "wishing to do work thoroughly"
+            },
+            {
+                "word": "conscientiously",
+                "partOfSpeech": "adverb",
+                "sentence": "She conscientiously recorded every transaction in the ledger.",
+                "trSentence": "Deftere her işlemi özenle kaydetti.",
+                "definition": "in a diligent, moral way"
+            },
+            {
+                "word": "conscientiousness",
+                "partOfSpeech": "noun",
+                "sentence": "Employers value conscientiousness because it predicts reliable performance.",
+                "trSentence": "İşverenler, güvenilir performansı öngördüğü için vicdanlılığı değerli bulur.",
+                "definition": "quality of being diligent and moral"
+            },
+            {
+                "word": "conscionable",
+                "partOfSpeech": "adjective",
+                "sentence": "Charging such high interest rates is hardly conscionable.",
+                "trSentence": "Bu kadar yüksek faiz oranları istemek pek vicdana sığmaz.",
+                "definition": "acceptable to conscience"
+            },
+            {
+                "word": "unconscionable",
+                "partOfSpeech": "adjective",
+                "sentence": "The factory's unconscionable working conditions shocked international inspectors immediately.",
+                "trSentence": "Fabrikanın vicdansız çalışma koşulları uluslararası denetçileri derhal şoke etti.",
+                "definition": "shockingly unfair or immoral"
+            },
+            {
+                "word": "unconscionably",
+                "partOfSpeech": "adverb",
+                "sentence": "The landlord raised rents unconscionably during the crisis.",
+                "trSentence": "Ev sahibi kriz sırasında kiraları vicdansızca artırdı.",
+                "definition": "in a morally unacceptable way"
+            },
+            {
+                "word": "conscience-stricken",
+                "partOfSpeech": "adjective",
+                "sentence": "Conscience-stricken and pale, he finally confessed the mistake to his supervisor.",
+                "trSentence": "Vicdan azabı çeken o, hatayı sonunda amirine itiraf etti.",
+                "definition": "feeling guilt or remorse"
+            },
+            {
+                "word": "guilty conscience",
+                "partOfSpeech": "noun",
+                "sentence": "His guilty conscience kept him awake long after midnight.",
+                "trSentence": "Suçluluk duygusu onu gece yarısından sonra uzun süre uyanık tuttu.",
+                "definition": "sense of guilt"
+            },
+            {
+                "word": "in good conscience",
+                "partOfSpeech": "phrase",
+                "sentence": "I cannot in good conscience approve such reckless spending.",
+                "trSentence": "Bu kadar pervasız harcamayı vicdanen onaylayamam.",
+                "definition": "without moral misgiving"
+            }
+        ]
+    },
+    {
+        "root": "conscience",
+        "meanings": [
+            {
+                "sentence": "Her conscience told her to return the wallet she found on the bus.",
+                "trSentence": "Vicdanı, otobüste bulduğu cüzdanı geri vermesini söyledi.",
+                "definition": "inner sense of right and wrong",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "He voted according to his conscience, not party orders.",
+                "trSentence": "Parti emirleri değil, vicdanına göre oy verdi.",
+                "definition": "moral judgment guiding actions",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "consciences",
+                "partOfSpeech": "noun",
+                "sentence": "Different cultures shape their members' consciences in subtle ways.",
+                "trSentence": "Farklı kültürler üyelerinin vicdanlarını ince yollarla şekillendirir.",
+                "definition": "plural of conscience"
+            },
+            {
+                "word": "conscientious",
+                "partOfSpeech": "adjective",
+                "sentence": "Conscientious workers double-check every detail before submitting reports.",
+                "trSentence": "Vicdanlı çalışanlar raporları sunmadan önce her ayrıntıyı iki kez kontrol eder.",
+                "definition": "wishing to do work thoroughly"
+            },
+            {
+                "word": "conscientiously",
+                "partOfSpeech": "adverb",
+                "sentence": "She conscientiously recorded every transaction in the ledger.",
+                "trSentence": "Deftere her işlemi özenle kaydetti.",
+                "definition": "in a diligent, moral way"
+            },
+            {
+                "word": "conscientiousness",
+                "partOfSpeech": "noun",
+                "sentence": "Employers value conscientiousness because it predicts reliable performance.",
+                "trSentence": "İşverenler, güvenilir performansı öngördüğü için vicdanlılığı değerli bulur.",
+                "definition": "quality of being diligent and moral"
+            },
+            {
+                "word": "conscionable",
+                "partOfSpeech": "adjective",
+                "sentence": "Charging such high interest rates is hardly conscionable.",
+                "trSentence": "Bu kadar yüksek faiz oranları istemek pek vicdana sığmaz.",
+                "definition": "acceptable to conscience"
+            },
+            {
+                "word": "unconscionable",
+                "partOfSpeech": "adjective",
+                "sentence": "The factory's unconscionable working conditions shocked international inspectors immediately.",
+                "trSentence": "Fabrikanın vicdansız çalışma koşulları uluslararası denetçileri derhal şoke etti.",
+                "definition": "shockingly unfair or immoral"
+            },
+            {
+                "word": "unconscionably",
+                "partOfSpeech": "adverb",
+                "sentence": "The landlord raised rents unconscionably during the crisis.",
+                "trSentence": "Ev sahibi kriz sırasında kiraları vicdansızca artırdı.",
+                "definition": "in a morally unacceptable way"
+            },
+            {
+                "word": "conscience-stricken",
+                "partOfSpeech": "adjective",
+                "sentence": "Conscience-stricken and pale, he finally confessed the mistake to his supervisor.",
+                "trSentence": "Vicdan azabı çeken o, hatayı sonunda amirine itiraf etti.",
+                "definition": "feeling guilt or remorse"
+            },
+            {
+                "word": "guilty conscience",
+                "partOfSpeech": "noun",
+                "sentence": "His guilty conscience kept him awake long after midnight.",
+                "trSentence": "Suçluluk duygusu onu gece yarısından sonra uzun süre uyanık tuttu.",
+                "definition": "sense of guilt"
+            },
+            {
+                "word": "in good conscience",
+                "partOfSpeech": "phrase",
+                "sentence": "I cannot in good conscience approve such reckless spending.",
+                "trSentence": "Bu kadar pervasız harcamayı vicdanen onaylayamam.",
+                "definition": "without moral misgiving"
+            }
+        ]
+    },
+    {
+        "root": "take a toll",
+        "meanings": [
+            {
+                "sentence": "Years of constant stress can take a toll on both your mind and body.",
+                "trSentence": "Sürekli stres yıllar içinde hem zihniniz hem bedeniniz üzerinde olumsuz etki yaratabilir.",
+                "definition": "Cause gradual damage or suffering to something.",
+                "partOfSpeech": "idiom"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "takes a toll",
+                "partOfSpeech": "idiom",
+                "sentence": "Heavy social media use sometimes takes a toll on teenagers' sleep and concentration.",
+                "trSentence": "Yoğun sosyal medya kullanımı bazen ergenlerin uykusu ve konsantrasyonu üzerinde olumsuz etki bırakır.",
+                "definition": "Cause gradual damage or suffering to something."
+            },
+            {
+                "word": "taking a toll",
+                "partOfSpeech": "idiom",
+                "sentence": "The long drought is taking a toll on local farmers and their crops.",
+                "trSentence": "Uzun süren kuraklık yerel çiftçiler ve mahsulleri üzerinde ağır bir etki yaratıyor.",
+                "definition": "Cause gradual damage or suffering to something."
+            },
+            {
+                "word": "took a toll",
+                "partOfSpeech": "idiom",
+                "sentence": "The pandemic took a toll on small businesses, forcing many to close permanently.",
+                "trSentence": "Pandemi küçük işletmeler üzerinde ağır bir etki yaptı ve birçoğunu kalıcı olarak kapattı.",
+                "definition": "Cause gradual damage or suffering to something."
+            },
+            {
+                "word": "taken a toll",
+                "partOfSpeech": "idiom",
+                "sentence": "Years of night shifts have taken a toll on her overall health and mood.",
+                "trSentence": "Yıllarca gece vardiyaları onun genel sağlığı ve ruh hali üzerinde ağır bir etki bıraktı.",
+                "definition": "Cause gradual damage or suffering to something."
+            },
+            {
+                "word": "takes its toll",
+                "partOfSpeech": "idiom",
+                "sentence": "Constant traveling eventually takes its toll on even the most enthusiastic performers.",
+                "trSentence": "Sürekli seyahat en coşkulu sanatçılar üzerinde bile sonunda ağır bir etki bırakır.",
+                "definition": "Cause gradual damage or suffering to something."
+            },
+            {
+                "word": "taking its toll",
+                "partOfSpeech": "idiom",
+                "sentence": "Persistent inflation is taking its toll on household budgets across the country.",
+                "trSentence": "Sürekli enflasyon ülke genelinde hane bütçeleri üzerinde ağır bir etki yaratıyor.",
+                "definition": "Cause gradual damage or suffering to something."
+            },
+            {
+                "word": "took its toll",
+                "partOfSpeech": "idiom",
+                "sentence": "Last winter's severe cold snap took its toll on the region's aging power grid.",
+                "trSentence": "Geçen kışın şiddetli soğuk dalgası bölgenin yaşlanan elektrik şebekesi üzerinde ağır bir etki yaptı.",
+                "definition": "Cause gradual damage or suffering to something."
+            },
+            {
+                "word": "taken its toll",
+                "partOfSpeech": "idiom",
+                "sentence": "Decades of pollution have finally taken its toll on the river's vibrant ecosystem.",
+                "trSentence": "On yıllarca süren kirlilik sonunda nehrin canlı ekosistemi üzerinde ağır bir etki bıraktı.",
+                "definition": "Cause gradual damage or suffering to something."
+            }
+        ]
+    },
+    {
+        "root": "deep down",
+        "meanings": [
+            {
+                "sentence": "Deep down, she knew the city would never truly feel like home to her.",
+                "trSentence": "İçten içe, şehrin ona asla gerçek bir yuva gibi hissettirmeyeceğini biliyordu.",
+                "definition": "in one's innermost feelings or essential nature",
+                "partOfSpeech": "idiom"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "deep-down",
+                "partOfSpeech": "compound adjective",
+                "sentence": "He had a deep-down suspicion that the contract hid unpleasant surprises.",
+                "trSentence": "Sözleşmenin nahoş sürprizler barındırdığından derinden bir şüphe duyuyordu.",
+                "definition": "felt strongly but not openly acknowledged"
+            },
+            {
+                "word": "deep down inside",
+                "partOfSpeech": "set phrase",
+                "sentence": "Deep down inside, we all crave genuine human connection despite our busy routines.",
+                "trSentence": "İçten içe hepimiz yoğun rutinlerimize rağmen gerçek insan bağlantısı arzularız.",
+                "definition": "in the deepest part of someone emotionally"
+            }
+        ]
+    },
+    {
+        "root": "examine",
+        "meanings": [
+            {
+                "sentence": "Scientists will examine the soil samples to understand the planet's geological history.",
+                "trSentence": "Bilim insanları gezegenin jeolojik geçmişini anlamak için toprak örneklerini inceleyecek.",
+                "definition": "inspect carefully to discover facts",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Universities regularly examine students at the end of each semester to ensure learning outcomes.",
+                "trSentence": "Üniversiteler her dönemin sonunda öğrencileri öğrenme çıktıları için düzenli olarak sınava sokar.",
+                "definition": "test someone's knowledge through an assessment",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "examines",
+                "partOfSpeech": "verb",
+                "sentence": "A forensic scientist examines each fingerprint with high-magnification lenses to ensure accurate identification.",
+                "trSentence": "Bir adli bilimci, doğru kimlik tespiti için her parmak izini yüksek büyütmeli mercekle inceler.",
+                "definition": "looks at something closely for information"
+            },
+            {
+                "word": "examined",
+                "partOfSpeech": "verb",
+                "sentence": "The mechanic carefully examined the engine and quickly found the source of the odd noise.",
+                "trSentence": "Tamirci motoru dikkatle inceledi ve garip sesin kaynağını hızla buldu.",
+                "definition": "inspected thoroughly"
+            },
+            {
+                "word": "examining",
+                "partOfSpeech": "verb",
+                "sentence": "Researchers are examining satellite images to map previously undocumented sections of the rainforest.",
+                "trSentence": "Araştırmacılar, uydu görüntülerini inceleyerek yağmur ormanının daha önce belgelenmemiş bölümlerini haritalıyor.",
+                "definition": "currently looking at something carefully"
+            },
+            {
+                "word": "examiner",
+                "partOfSpeech": "noun",
+                "sentence": "The driving test examiner remained silent while noting each critical error the candidate made.",
+                "trSentence": "Sürücü sınavı görevlisi, adayın yaptığı her kritik hatayı not alırken sessiz kaldı.",
+                "definition": "person who tests or inspects others"
+            },
+            {
+                "word": "examiners",
+                "partOfSpeech": "noun",
+                "sentence": "Independent examiners reviewed the thesis to guarantee impartial evaluation of the doctoral research.",
+                "trSentence": "Bağımsız değerlendiriciler, doktora araştırmasının tarafsız incelenmesini sağlamak için tezi inceledi.",
+                "definition": "people who carry out tests or inspections"
+            },
+            {
+                "word": "examination",
+                "partOfSpeech": "noun",
+                "sentence": "A thorough medical examination revealed the athlete's minor heart irregularity before the competition.",
+                "trSentence": "Kapsamlı bir tıbbi muayene, yarışma öncesi sporcunun küçük kalp düzensizliğini ortaya çıkardı.",
+                "definition": "detailed inspection or test"
+            },
+            {
+                "word": "examinations",
+                "partOfSpeech": "noun",
+                "sentence": "End-of-term examinations often cause significant stress for high-achieving secondary school students.",
+                "trSentence": "Dönem sonu sınavları, yüksek başarı hedefleyen lise öğrencilerinde genellikle ciddi stres yaratır.",
+                "definition": "formal tests, especially academic"
+            },
+            {
+                "word": "reexamine",
+                "partOfSpeech": "verb",
+                "sentence": "The committee agreed to reexamine the policy after unexpected public backlash emerged online.",
+                "trSentence": "Komite, beklenmedik kamu tepkisi sonrası politikayı yeniden gözden geçirmeye karar verdi.",
+                "definition": "inspect or consider again"
+            },
+            {
+                "word": "reexamined",
+                "partOfSpeech": "verb",
+                "sentence": "Once new evidence surfaced, detectives reexamined the archived case with completely fresh perspectives.",
+                "trSentence": "Yeni kanıt ortaya çıkınca dedektifler arşivlenmiş davayı tamamen yeni bakış açılarıyla yeniden inceledi.",
+                "definition": "looked at again"
+            },
+            {
+                "word": "reexamining",
+                "partOfSpeech": "verb",
+                "sentence": "Historians are reexamining colonial records to highlight overlooked indigenous contributions.",
+                "trSentence": "Tarihçiler, gözden kaçan yerli katkıları ortaya çıkarmak için sömürge kayıtlarını yeniden inceliyor.",
+                "definition": "currently looking at again"
+            },
+            {
+                "word": "reexamines",
+                "partOfSpeech": "verb",
+                "sentence": "The judge often reexamines key testimonies before drafting her closing remarks.",
+                "trSentence": "Yargıç, kapanış konuşmasını yazmadan önce önemli tanıklıkları sık sık yeniden inceler.",
+                "definition": "looks at again"
+            },
+            {
+                "word": "unexamined",
+                "partOfSpeech": "adjective",
+                "sentence": "Many startups collapse due to unexamined assumptions about market demand and user behavior.",
+                "trSentence": "Pek çok girişim, pazar talebi ve kullanıcı davranışı hakkında sorgulanmamış varsayımlar yüzünden çöker.",
+                "definition": "not inspected or questioned"
+            },
+            {
+                "word": "cross-examine",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "Defense lawyers will cross-examine the witness to expose inconsistencies in his testimony.",
+                "trSentence": "Savunma avukatları, tanığın ifadesindeki tutarsızlıkları ortaya çıkarmak için çapraz sorguya çekecek.",
+                "definition": "question a witness intensively"
+            },
+            {
+                "word": "cross-examined",
+                "partOfSpeech": "verb",
+                "sentence": "During trial, the expert was cross-examined about possible flaws in his methodology.",
+                "trSentence": "Duruşma sırasında, uzman yöntemindeki olası kusurlar hakkında çapraz sorguya alındı.",
+                "definition": "questioned intensively in court"
+            },
+            {
+                "word": "cross-examines",
+                "partOfSpeech": "verb",
+                "sentence": "She routinely cross-examines investigators to verify every detail of complex corruption cases.",
+                "trSentence": "Komplike yolsuzluk davalarının her ayrıntısını doğrulamak için araştırmacıları rutin olarak çapraz sorgular.",
+                "definition": "questions intensively in court"
+            },
+            {
+                "word": "cross-examining",
+                "partOfSpeech": "verb",
+                "sentence": "The prosecutor spent hours cross-examining the defendant, hoping contradictions would emerge.",
+                "trSentence": "Savcı, çelişkilerin ortaya çıkmasını umarak sanığı saatlerce çapraz sorguladı.",
+                "definition": "currently questioning intensively"
+            },
+            {
+                "word": "cross-examination",
+                "partOfSpeech": "noun",
+                "sentence": "Effective cross-examination can dramatically sway jurors' perceptions during a criminal trial.",
+                "trSentence": "Etkili çapraz sorgu, ceza yargılamasında jüri üyelerinin algılarını önemli ölçüde değiştirebilir.",
+                "definition": "intense courtroom questioning"
+            },
+            {
+                "word": "re-examination",
+                "partOfSpeech": "noun",
+                "sentence": "The appeal court ordered a re-examination of the forensic reports to verify accuracy.",
+                "trSentence": "Temyiz mahkemesi, adli raporların doğruluğunu onaylamak için yeniden inceleme emri verdi.",
+                "definition": "second or renewed inspection"
+            },
+            {
+                "word": "self-examination",
+                "partOfSpeech": "compound noun",
+                "sentence": "Regular breast self-examination increases early detection of potential abnormalities.",
+                "trSentence": "Düzenli meme öz muayenesi, olası anormalliklerin erken tespitini artırır.",
+                "definition": "checking oneself for problems"
+            },
+            {
+                "word": "examinee",
+                "partOfSpeech": "noun",
+                "sentence": "Each examinee received identical materials to ensure fairness throughout the certification test.",
+                "trSentence": "Her sınava giren, sertifika testinde adaleti sağlamak için aynı materyalleri aldı.",
+                "definition": "person being tested"
+            },
+            {
+                "word": "pre-examination",
+                "partOfSpeech": "noun",
+                "sentence": "Patients must undergo a brief pre-examination interview before any surgical procedure.",
+                "trSentence": "Hastalar, herhangi bir cerrahi işlemden önce kısa bir ön muayene görüşmesi geçirmek zorundadır.",
+                "definition": "assessment conducted beforehand"
+            }
+        ]
+    },
+    {
+        "root": "impair",
+        "meanings": [
+            {
+                "sentence": "Excessive sun exposure can impair the delicate sensors that guide the satellite's orientation in space.",
+                "trSentence": "Aşırı güneş ışığı, uydunun yönelimini belirleyen hassas sensörleri zayıflatıp işlevlerini bozabilir.",
+                "definition": "damage or weaken so it functions less effectively",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Drinking two strong cocktails may impair your ability to drive safely even on familiar rural roads.",
+                "trSentence": "İki güçlü kokteyl içmek, tanıdık kırsal yollarda bile güvenli sürüş yeteneğinizi azaltabilir.",
+                "definition": "diminish mental or physical capacity, often legally relevant",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "impairs",
+                "partOfSpeech": "verb",
+                "sentence": "Chronic sleep deprivation significantly impairs students' memory consolidation during stressful exam periods.",
+                "trSentence": "Kronik uyku eksikliği, öğrencilerin stresli sınav dönemlerinde hafıza pekiştirmesini ciddi şekilde bozar.",
+                "definition": "weakens or damages something"
+            },
+            {
+                "word": "impaired",
+                "partOfSpeech": "adjective",
+                "sentence": "After the accident, he returned to work with slightly impaired hand coordination for typing.",
+                "trSentence": "Kazadan sonra, yazı yazarken hafifçe bozulmuş el koordinasyonu ile işe döndü.",
+                "definition": "made weaker or less effective"
+            },
+            {
+                "word": "impairing",
+                "partOfSpeech": "verb",
+                "sentence": "Loud construction noise was constantly impairing my concentration during the online seminar yesterday.",
+                "trSentence": "Yüksek inşaat gürültüsü, dün çevrimiçi seminer sırasında sürekli olarak dikkatimi azaltıyordu.",
+                "definition": "actively weakening or diminishing"
+            },
+            {
+                "word": "impairment",
+                "partOfSpeech": "noun",
+                "sentence": "The study investigates long-term cognitive impairment in patients recovering from severe viral infections.",
+                "trSentence": "Çalışma, şiddetli viral enfeksiyondan iyileşen hastalarda uzun vadeli bilişsel bozulmayı araştırıyor.",
+                "definition": "state of being weakened or damaged"
+            },
+            {
+                "word": "impairments",
+                "partOfSpeech": "noun",
+                "sentence": "Early intervention can reduce developmental impairments that appear in prematurely born infants.",
+                "trSentence": "Erken müdahale, prematüre doğan bebeklerde ortaya çıkan gelişimsel bozuklukları azaltabilir.",
+                "definition": "instances of weakened abilities or functions"
+            },
+            {
+                "word": "unimpaired",
+                "partOfSpeech": "adjective",
+                "sentence": "Despite his age, her hearing remained completely unimpaired throughout the lengthy music career.",
+                "trSentence": "Yaşına rağmen, işitmesi uzun müzik kariyeri boyunca tamamen bozulmamış kaldı.",
+                "definition": "not damaged, fully intact"
+            },
+            {
+                "word": "visual impairment",
+                "partOfSpeech": "compound noun",
+                "sentence": "The university offers assistive technologies for students with visual impairment during computer-based examinations.",
+                "trSentence": "Üniversite, bilgisayarlı sınavlarda görme bozukluğu olan öğrenciler için destek teknolojileri sunuyor.",
+                "definition": "partial or total loss of sight"
+            },
+            {
+                "word": "hearing impairment",
+                "partOfSpeech": "compound noun",
+                "sentence": "Modern hearing aids have transformed daily communication for many people with hearing impairment.",
+                "trSentence": "Modern işitme cihazları, işitme bozukluğu olan birçok kişi için günlük iletişimi dönüştürdü.",
+                "definition": "partial or total loss of hearing"
+            },
+            {
+                "word": "impaired driving",
+                "partOfSpeech": "compound noun",
+                "sentence": "Police increased checkpoints to discourage impaired driving during the holiday weekend.",
+                "trSentence": "Polis, tatil hafta sonu boyunca alkollü araç kullanımı caydırmak için kontrol noktalarını artırdı.",
+                "definition": "driving while ability is weakened by substances"
+            }
+        ]
+    },
+    {
+        "root": "expend",
+        "meanings": [
+            {
+                "sentence": "Small startups must carefully expend limited capital when trying to scale in competitive markets.",
+                "trSentence": "Küçük girişimler, rekabetçi pazarlarda ölçeklenmeye çalışırken sınırlı sermayeyi dikkatle harcamalıdır.",
+                "definition": "spend or pay out money",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "You will need to expend considerable effort to finish the translation before tonight's tight editorial deadline.",
+                "trSentence": "Bu akşamki sıkı editoryal teslim tarihinden önce çeviriyi bitirmek için hatırı sayılır çaba harcamanız gerekecek.",
+                "definition": "use up energy, effort, or resources",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "expends",
+                "partOfSpeech": "verb",
+                "sentence": "The charity expends most donations on emergency food supplies during harsh winter storms.",
+                "trSentence": "Hayır kurumu, sert kış fırtınalarında acil gıda malzemeleri için bağışların çoğunu harcar.",
+                "definition": "spends or uses up"
+            },
+            {
+                "word": "expended",
+                "partOfSpeech": "verb",
+                "sentence": "The engineer expended several hours troubleshooting the unexpected server outage on Friday afternoon.",
+                "trSentence": "Mühendis, Cuma öğleden sonra beklenmeyen sunucu kesintisini gidermek için birkaç saat harcadı.",
+                "definition": "used up resources or effort"
+            },
+            {
+                "word": "expending",
+                "partOfSpeech": "verb",
+                "sentence": "Athletes avoid expending unnecessary energy before the decisive sprint to conserve strength.",
+                "trSentence": "Sporcular, kuvvetlerini korumak için belirleyici sprintten önce gereksiz enerji harcamaktan kaçınır.",
+                "definition": "using up while in progress"
+            },
+            {
+                "word": "expenditure",
+                "partOfSpeech": "noun",
+                "sentence": "Unexpected medical expenditure forced the family to postpone their planned summer vacation abroad.",
+                "trSentence": "Beklenmedik tıbbi harcama, ailenin yurt dışındaki planlı yaz tatilini ertelemeye zorladı.",
+                "definition": "amount of money spent"
+            },
+            {
+                "word": "expenditures",
+                "partOfSpeech": "noun",
+                "sentence": "Government quarterly expenditures will increase due to rising infrastructure and healthcare commitments.",
+                "trSentence": "Hükümetin üç aylık harcamaları, artan altyapı ve sağlık taahhütleri nedeniyle artacak.",
+                "definition": "amounts of money spent"
+            },
+            {
+                "word": "expendable",
+                "partOfSpeech": "adjective",
+                "sentence": "In low-budget missions, some expendable components are designed for single use and easy replacement.",
+                "trSentence": "Düşük bütçeli görevlerde, bazı harcanabilir bileşenler tek kullanımlık ve kolayca değiştirilebilir olarak tasarlanır.",
+                "definition": "intended to be used up and discarded"
+            },
+            {
+                "word": "expendables",
+                "partOfSpeech": "noun",
+                "sentence": "The quartermaster ordered fresh expendables such as batteries, rations, and printer cartridges for the expedition.",
+                "trSentence": "Malzeme subayı, sefer için piller, erzak ve yazıcı kartuşları gibi yeni sarf malzemeleri sipariş etti.",
+                "definition": "items meant to be used up"
+            },
+            {
+                "word": "unexpended",
+                "partOfSpeech": "adjective",
+                "sentence": "Any unexpended grant funds must be returned to the foundation by fiscal year end.",
+                "trSentence": "Harcanmamış hibe fonları, mali yıl sonuna kadar vakfa iade edilmelidir.",
+                "definition": "not yet spent"
+            },
+            {
+                "word": "capital expenditure",
+                "partOfSpeech": "compound noun",
+                "sentence": "The board deferred the large capital expenditure on factory automation until market demand stabilizes.",
+                "trSentence": "Yönetim kurulu, piyasa talebi istikrar kazanana kadar fabrikadaki otomasyon için büyük sermaye harcamasını erteledi.",
+                "definition": "money spent on long-term assets"
+            },
+            {
+                "word": "operating expenditure",
+                "partOfSpeech": "compound noun",
+                "sentence": "Higher energy prices pushed the airline's monthly operating expenditure beyond previously forecast budget limits.",
+                "trSentence": "Daha yüksek enerji fiyatları, havayolunun aylık işletme giderini önceden öngörülen bütçe sınırlarının ötesine taşıdı.",
+                "definition": "money spent on day-to-day operations"
+            }
+        ]
+    },
+    {
+        "root": "precede",
+        "meanings": [
+            {
+                "sentence": "Economic downturns often precede significant political shifts in countries with fragile democratic institutions.",
+                "trSentence": "Ekonomik durgunluklar, kırılgan demokratik kurumlara sahip ülkelerde önemli siyasi değişimlerden önce gelir.",
+                "definition": "come before in time",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "A short video montage will precede the keynote address to summarize last year's research milestones.",
+                "trSentence": "Geçen yılın araştırma kilometre taşlarını özetlemek için kısa bir video montajı açılış konuşmasından önce gösterilecek.",
+                "definition": "come before in order or sequence",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Please precede your arguments with a brief overview of the relevant legislation for unfamiliar committee members.",
+                "trSentence": "Lütfen komite üyelerinin aşina olmadığı durumlar için ilgili mevzuata kısa bir genel bakışla argümanlarınıza giriş yapın.",
+                "definition": "introduce by coming before",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "precedes",
+                "partOfSpeech": "verb",
+                "sentence": "The introduction precedes the data analysis section to give readers essential background on the experiment.",
+                "trSentence": "Giriş, okuyuculara deney hakkında gerekli arka planı sunmak için veri analiz bölümünden önce gelir.",
+                "definition": "comes before something"
+            },
+            {
+                "word": "preceded",
+                "partOfSpeech": "verb",
+                "sentence": "Heavy rainfall preceded the landslide that blocked the mountain pass for two days.",
+                "trSentence": "Yoğun yağış, iki gün boyunca dağ geçidini kapatan heyelandan önce geldi.",
+                "definition": "came before"
+            },
+            {
+                "word": "preceding",
+                "partOfSpeech": "adjective",
+                "sentence": "Refer to the preceding chapter if any terminology in this section seems unfamiliar or ambiguous.",
+                "trSentence": "Bu bölümdeki herhangi bir terim yabancı veya belirsiz görünüyorsa önceki bölüme bakın.",
+                "definition": "going or occurring before"
+            },
+            {
+                "word": "precedence",
+                "partOfSpeech": "noun",
+                "sentence": "Safety considerations take precedence over speed when designing autonomous delivery drones.",
+                "trSentence": "Güvenlik hususları, otonom teslimat dronları tasarlanırken hızın önüne geçer.",
+                "definition": "priority in importance or rank"
+            },
+            {
+                "word": "precedent",
+                "partOfSpeech": "noun",
+                "sentence": "The court's bold decision set a significant precedent for future environmental litigation.",
+                "trSentence": "Mahkemenin cesur kararı, gelecekteki çevre davaları için önemli bir emsal oluşturdu.",
+                "definition": "earlier example guiding future actions"
+            },
+            {
+                "word": "precedents",
+                "partOfSpeech": "noun",
+                "sentence": "Lawyers cited several historical precedents to strengthen their argument against the new regulation.",
+                "trSentence": "Avukatlar, yeni düzenlemeye karşı argümanlarını güçlendirmek için birkaç tarihi emsal gösterdi.",
+                "definition": "earlier examples"
+            },
+            {
+                "word": "precedential",
+                "partOfSpeech": "adjective",
+                "sentence": "A precedential opinion from a higher court binds lower courts within the same jurisdiction.",
+                "trSentence": "Üst mahkemeden gelen bağlayıcı bir karar, aynı yargı alanındaki alt mahkemeleri bağlar.",
+                "definition": "serving as an authority for future cases"
+            },
+            {
+                "word": "unprecedented",
+                "partOfSpeech": "adjective",
+                "sentence": "The pandemic caused unprecedented global disruptions to supply chains and consumer behavior in 2020.",
+                "trSentence": "Pandemi, 2020'de tedarik zincirlerinde ve tüketici davranışlarında eşi görülmemiş küresel aksaklıklara neden oldu.",
+                "definition": "never happened or known before"
+            },
+            {
+                "word": "unprecedentedly",
+                "partOfSpeech": "adverb",
+                "sentence": "Temperatures rose unprecedentedly fast this decade, alarming climate scientists worldwide.",
+                "trSentence": "Sıcaklıklar bu on yılda eşi görülmemiş hızda yükselerek dünya çapındaki iklim bilimcilerini alarma geçirdi.",
+                "definition": "in a never-before manner"
+            },
+            {
+                "word": "legal precedent",
+                "partOfSpeech": "compound noun",
+                "sentence": "Establishing a clear legal precedent helps future courts decide similar digital privacy disputes consistently.",
+                "trSentence": "Açık bir yasal emsal oluşturmak, gelecekteki mahkemelerin benzer dijital gizlilik anlaşmazlıklarını tutarlı şekilde çözmesine yardımcı olur.",
+                "definition": "prior ruling guiding law"
+            }
+        ]
+    },
+    {
+        "root": "prevail",
+        "meanings": [
+            {
+                "sentence": "In rural areas, traditional farming methods still prevail despite government incentives for modern equipment.",
+                "trSentence": "Kırsal bölgelerde, hükümetin modern ekipman teşviklerine rağmen geleneksel tarım yöntemleri hâlâ egemen durumda.",
+                "definition": "exist or dominate widely",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Although underfunded, the local team managed to prevail against seasoned champions in the tense regional final.",
+                "trSentence": "Yetersiz bütçeye rağmen yerel takım, gergin bölge finalinde deneyimli şampiyonlara karşı galip gelmeyi başardı.",
+                "definition": "win or succeed after struggle",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "She finally prevailed upon her skeptical father to attend the graduation ceremony despite his busy schedule.",
+                "trSentence": "Yoğun programına rağmen kızı mezuniyet törenine katılmaya babasını nihayet ikna etti.",
+                "definition": "persuade someone with effort",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "prevails",
+                "partOfSpeech": "verb",
+                "sentence": "In many folklore stories, good ultimately prevails over evil, reinforcing community values through generations.",
+                "trSentence": "Pek çok halk öyküsünde iyilik sonunda kötülüğe üstün gelir ve toplumsal değerleri pekiştirir.",
+                "definition": "wins or dominates"
+            },
+            {
+                "word": "prevailed",
+                "partOfSpeech": "verb",
+                "sentence": "After weeks of negotiation, a fair compromise finally prevailed, satisfying both union leaders and management.",
+                "trSentence": "Haftalar süren müzakerelerin ardından adil bir uzlaşma sonunda kabul edildi ve her iki tarafı da memnun etti.",
+                "definition": "won or dominated previously"
+            },
+            {
+                "word": "prevailing",
+                "partOfSpeech": "adjective",
+                "sentence": "Engineers designed the coastal homes to withstand the prevailing winds that batter the peninsula each winter.",
+                "trSentence": "Mühendisler, yarımadayı her kış döven baskın rüzgârlara dayanması için kıyı evlerini tasarladı.",
+                "definition": "currently dominant or widespread"
+            },
+            {
+                "word": "prevalence",
+                "partOfSpeech": "noun",
+                "sentence": "Researchers tracked the prevalence of diabetes across urban communities to develop targeted public health interventions.",
+                "trSentence": "Araştırmacılar, şehir topluluklarında diyabetin yaygınlığını izleyerek hedefe yönelik halk sağlığı müdahaleleri geliştirdi.",
+                "definition": "rate of common occurrence"
+            },
+            {
+                "word": "prevalent",
+                "partOfSpeech": "adjective",
+                "sentence": "Smartphone usage is prevalent among teenagers, affecting sleep patterns and in-person social interaction frequency.",
+                "trSentence": "Akıllı telefon kullanımı ergenler arasında yaygındır ve uyku düzeni ile yüz yüze sosyal etkileşimi etkiler.",
+                "definition": "widespread, common at present"
+            },
+            {
+                "word": "prevalently",
+                "partOfSpeech": "adverb",
+                "sentence": "Solar panels are prevalently installed on new houses in regions offering generous green-energy subsidies.",
+                "trSentence": "Cömert yeşil enerji teşvikleri sunan bölgelerde yeni evlere güneş panelleri yaygın olarak kuruluyor.",
+                "definition": "in a widespread manner"
+            },
+            {
+                "word": "prevail upon",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "Friends tried to prevail upon the hesitant student to apply for the competitive overseas fellowship program.",
+                "trSentence": "Arkadaşları, kararsız öğrenciyi rekabetçi yurt dışı burs programına başvurmaya ikna etmeye çalıştı.",
+                "definition": "persuade someone strongly"
+            },
+            {
+                "word": "prevailing wind",
+                "partOfSpeech": "compound noun",
+                "sentence": "The architect oriented the building away from the prevailing wind to reduce heating costs during winter.",
+                "trSentence": "Mimar, kışın ısınma maliyetlerini azaltmak için binayı baskın rüzgârdan uzak yöne çevirdi.",
+                "definition": "most common regional wind"
+            },
+            {
+                "word": "prevalence rate",
+                "partOfSpeech": "compound noun",
+                "sentence": "Public health officials monitor the prevalence rate of influenza annually to allocate sufficient vaccine supplies.",
+                "trSentence": "Halk sağlığı yetkilileri, yeterli aşı arzı sağlamak için gripin yaygınlık oranını yıllık olarak izler.",
+                "definition": "percentage showing how common"
+            },
+            {
+                "word": "prevailing wage",
+                "partOfSpeech": "compound noun",
+                "sentence": "Contractors must pay workers at least the prevailing wage set by the state's labor department.",
+                "trSentence": "Yükleniciler, işçilere en azından eyalet çalışma dairesinin belirlediği geçerli ücreti ödemelidir.",
+                "definition": "standard wage for locality"
+            }
+        ]
+    },
+    {
+        "root": "account",
+        "meanings": [
+            {
+                "sentence": "The auditor asked the manager to account for the missing inventory listed on last month's balance sheet.",
+                "trSentence": "Denetçi, geçen ayın bilançosunda listelenen eksik envanter için müdürden açıklama yapmasını istedi.",
+                "definition": "explain cause or location of",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Every business must keep an accurate account of daily sales to satisfy regulatory filing requirements.",
+                "trSentence": "Her işletme, düzenleyici beyan gerekliliklerini karşılamak için günlük satışların doğru bir kaydını tutmalıdır.",
+                "definition": "financial record or statement",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "Witnesses provided a vivid account of the meteor's bright flash as it streaked across the night sky.",
+                "trSentence": "Tanıklar, göktaşının gece gökyüzünü katederken oluşturduğu parlak ışığı canlı bir şekilde anlattı.",
+                "definition": "detailed description of events",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "accounts",
+                "partOfSpeech": "noun",
+                "sentence": "Corporate annual reports contain detailed accounts of revenue streams, expenses, and future investment plans.",
+                "trSentence": "Kurumsal yıllık raporlar, gelir akışları, giderler ve gelecekteki yatırımların ayrıntılı kayıtlarını içerir.",
+                "definition": "financial or narrative records"
+            },
+            {
+                "word": "accounted",
+                "partOfSpeech": "verb",
+                "sentence": "All project funds were fully accounted for by the finance team following the external compliance audit.",
+                "trSentence": "Tüm proje fonları, dış uyumluluk denetimi sonrasında finans ekibi tarafından tamamen kayda geçirildi.",
+                "definition": "recorded or explained"
+            },
+            {
+                "word": "accounting",
+                "partOfSpeech": "noun",
+                "sentence": "Studying managerial accounting helps executives interpret cost data when making strategic product line decisions.",
+                "trSentence": "Yönetim muhasebesi çalışmak, yöneticilerin stratejik ürün kararları alırken maliyet verilerini yorumlamasına yardımcı olur.",
+                "definition": "process of recording finances"
+            },
+            {
+                "word": "accountant",
+                "partOfSpeech": "noun",
+                "sentence": "The accountant prepared quarterly tax filings and ensured every allowable deduction reduced the small firm's liabilities.",
+                "trSentence": "Muhasebeci, üç aylık vergi beyannamelerini hazırladı ve tüm indirimlerin küçük firmanın yükümlülüklerini azalttığından emin oldu.",
+                "definition": "finance recording professional"
+            },
+            {
+                "word": "accountants",
+                "partOfSpeech": "noun",
+                "sentence": "Modern accountants increasingly rely on automated cloud platforms to streamline payroll and invoice processing tasks.",
+                "trSentence": "Modern muhasebeciler, bordro ve fatura işlemlerini kolaylaştırmak için otomatik bulut platformlarına giderek daha fazla güveniyor.",
+                "definition": "professional finance record keepers"
+            },
+            {
+                "word": "accountable",
+                "partOfSpeech": "adjective",
+                "sentence": "Transparent reporting systems keep public officials accountable to taxpayers and discourage misuse of municipal funds.",
+                "trSentence": "Şeffaf raporlama sistemleri, kamu görevlilerini vergi mükelleflerine karşı sorumlu kılar ve belediye fonlarının kötüye kullanımını engeller.",
+                "definition": "responsible for actions"
+            },
+            {
+                "word": "accountability",
+                "partOfSpeech": "noun",
+                "sentence": "Journalists demanded clear accountability after the data breach exposed thousands of customers' private medical histories.",
+                "trSentence": "Gazeteciler, veri ihlali binlerce müşterinin gizli tıbbi geçmişini açığa çıkardığında net sorumluluk talep etti.",
+                "definition": "obligation to justify actions"
+            },
+            {
+                "word": "unaccounted",
+                "partOfSpeech": "adjective",
+                "sentence": "Several laptops remained unaccounted during the inventory check, prompting an immediate internal investigation.",
+                "trSentence": "Envanter kontrolü sırasında birkaç dizüstü bilgisayar kayıpsız bulundu ve hemen dahili soruşturma başlatıldı.",
+                "definition": "not explained or located"
+            },
+            {
+                "word": "accountancy",
+                "partOfSpeech": "noun",
+                "sentence": "She chose to study accountancy at university, aiming to qualify as a chartered auditor.",
+                "trSentence": "Üniversitede muhasebecilik okumayı seçti ve yeminli denetçi olarak yetkinleşmeyi hedefledi.",
+                "definition": "profession of financial recording"
+            },
+            {
+                "word": "account for",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "Imported goods now account for nearly half of the country's domestic furniture sales.",
+                "trSentence": "İthal mallar artık ülkenin yerli mobilya satışlarının neredeyse yarısını oluşturuyor.",
+                "definition": "constitute or explain portion"
+            },
+            {
+                "word": "bank account",
+                "partOfSpeech": "compound noun",
+                "sentence": "Parents opened a joint bank account to manage tuition payments and monthly living expenses for their daughter.",
+                "trSentence": "Ebeveynler, kızlarının öğrenim ücretleri ile aylık giderlerini yönetmek için ortak bir banka hesabı açtı.",
+                "definition": "deposit facility at bank"
+            },
+            {
+                "word": "take into account",
+                "partOfSpeech": "set phrase",
+                "sentence": "Urban planners must take into account future population growth when designing public transport networks.",
+                "trSentence": "Şehir plancıları, toplu taşıma ağlarını tasarlarken gelecekteki nüfus artışını hesaba katmalıdır.",
+                "definition": "consider as important factor"
+            },
+            {
+                "word": "on account of",
+                "partOfSpeech": "set phrase",
+                "sentence": "Flights were canceled on account of dense fog blanketing the airport and nearby highways.",
+                "trSentence": "Yoğun sis havaalanını ve çevredeki otoyolları kapladığı için uçuşlar iptal edildi.",
+                "definition": "because of; due to"
+            },
+            {
+                "word": "account book",
+                "partOfSpeech": "compound noun",
+                "sentence": "The museum displayed an eighteenth-century account book that recorded tea shipments and corresponding sailor wages.",
+                "trSentence": "Müze, çay sevkiyatlarını ve ilgili denizci maaşlarını kaydeden on sekizinci yüzyıla ait bir hesap defterini sergiledi.",
+                "definition": "ledger for financial entries"
+            }
+        ]
+    },
+    
 ]

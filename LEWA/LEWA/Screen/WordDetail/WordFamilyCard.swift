@@ -18,7 +18,7 @@ struct WordFamilyCard: View {
                 Text(family.word)
                     .font(.headline)
                     .foregroundColor(.primary)
-                Text("(\(family.partOfSpeech.rawValue))")
+                Text("(\(family.partOfSpeech))")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             }
