@@ -24,7 +24,7 @@ struct WordDetailView: View {
         ScrollViewReader(content: { proxy in
             List {
                 HStack {
-                    Text(word.root)
+                    Text(word.root.capitalized)
                         .font(.largeTitle)
                     SpeakerButton(text: word.root)
                 }

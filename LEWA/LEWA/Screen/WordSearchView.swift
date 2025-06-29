@@ -11,9 +11,9 @@ import SwiftUI
 struct WordSearchView: View {
     @State private var searchText = ""
     @State private var debouncedSearchText = ""
-    @State private var isSearching = false
+    @State private var isSearching = true
     @State private var debounceWorkItem: DispatchWorkItem?
-    @State private var showRootsOnly = false
+    @State private var showRootsOnly = true
 
     let words: [Word]
 
@@ -26,7 +26,6 @@ struct WordSearchView: View {
         }
         return showRootsOnly ? combined.filter { $0.3 } : combined
     }
-
 
     private var filteredWords: [(display: String, word: Word, root: String, isRoot: Bool)] {
         guard !debouncedSearchText.isEmpty else { return allWords }
