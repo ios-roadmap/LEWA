@@ -7285,6 +7285,503 @@
                 "definition": "the accuracy and consistency of stored data"
             }
         ]
+    },
+    {
+      "root": "precursor",
+      "meanings": [
+        {
+          "sentence": "The Wright Flyer is considered a precursor of modern airplanes.",
+          "trSentence": "Wright Flyer modern uçakların öncüsü olarak kabul edilir.",
+          "definition": "Something that comes before another of the same kind and helps to develop or influence it.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "Cholesterol is a precursor of several steroid hormones.",
+          "trSentence": "Kolesterol birkaç steroid hormonunun öncüsüdür.",
+          "definition": "A chemical compound that precedes another in a biochemical pathway.",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "precursory",
+          "partOfSpeech": "adjective",
+          "sentence": "The scientist observed precursory tremors before the main earthquake.",
+          "trSentence": "Bilim insanı asıl depremden önce öncü sarsıntıları gözlemledi.",
+          "definition": "Relating to or serving as an early indicator or warning of something to come."
+        },
+        {
+          "word": "precursors",
+          "partOfSpeech": "noun",
+          "sentence": "Small ice crystals act as precursors to larger snowflakes.",
+          "trSentence": "Küçük buz kristalleri daha büyük kar tanelerinin öncüleridir.",
+          "definition": "Plural form of precursor; entities that precede and signal the development of something."
+        },
+        {
+          "word": "precursor cell",
+          "partOfSpeech": "compound noun",
+          "sentence": "A precursor cell can differentiate into multiple blood cell types.",
+          "trSentence": "Bir öncü hücre birçok kan hücresi tipine farklılaşabilir.",
+          "definition": "An immature cell that can develop into one or more specialized cell types."
+        }
+      ]
+    },
+    {
+      "root": "sleep on it",
+      "meanings": [
+        {
+          "sentence": "I'm not sure whether to accept the offer; I'll sleep on it tonight.",
+          "trSentence": "Teklifi kabul edip etmemekte emin değilim; bu gece üzerine uyuyacağım.",
+          "definition": "To postpone making a decision until the following day, after giving it more thought.",
+          "partOfSpeech": "idiom"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "slept on it",
+          "partOfSpeech": "idiom",
+          "sentence": "She wished she had slept on it before replying.",
+          "trSentence": "Cevap vermeden önce üzerine uyusaydı keşke.",
+          "definition": "Past tense form of 'sleep on it'."
+        },
+        {
+          "word": "sleeping on it",
+          "partOfSpeech": "idiom",
+          "sentence": "He is sleeping on it and will get back to us tomorrow.",
+          "trSentence": "Üzerinde düşünüyor ve yarın bize dönecek.",
+          "definition": "Present participle or gerund form of 'sleep on it'."
+        }
+      ]
+    },
+    {
+      "root": "press on",
+      "meanings": [
+        {
+          "sentence": "Despite the heavy rain, the hikers decided to press on.",
+          "trSentence": "Şiddetli yağmura rağmen yürüyüşçüler devam etmeye karar verdi.",
+          "definition": "To continue moving forward or persist with an activity despite difficulties.",
+          "partOfSpeech": "phrasal verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "pressed on",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "We pressed on until we reached the village.",
+          "trSentence": "Köye ulaşana kadar devam ettik.",
+          "definition": "Past tense form of 'press on'."
+        },
+        {
+          "word": "presses on",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "She presses on with her research, unfazed by setbacks.",
+          "trSentence": "O, araştırmasına aksiliklerden etkilenmeden devam eder.",
+          "definition": "Third-person singular present form of 'press on'."
+        },
+        {
+          "word": "pressing on",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "Pressing on despite exhaustion, the team finished the project.",
+          "trSentence": "Yorgunluğa rağmen devam eden ekip projeyi bitirdi.",
+          "definition": "Present participle or gerund form of 'press on'."
+        }
+      ]
+    },
+    {
+      "root": "press on",
+      "meanings": [
+        {
+          "sentence": "Despite the heavy rain, the hikers decided to press on.",
+          "trSentence": "Şiddetli yağmura rağmen yürüyüşçüler devam etmeye karar verdi.",
+          "definition": "To continue moving forward or persist with an activity despite difficulties.",
+          "partOfSpeech": "phrasal verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "pressed on",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "We pressed on until we reached the village.",
+          "trSentence": "Köye ulaşana kadar devam ettik.",
+          "definition": "Past tense form of 'press on'."
+        },
+        {
+          "word": "presses on",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "She presses on with her research, unfazed by setbacks.",
+          "trSentence": "O, araştırmasına aksiliklerden etkilenmeden devam eder.",
+          "definition": "Third-person singular present form of 'press on'."
+        },
+        {
+          "word": "pressing on",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "Pressing on despite exhaustion, the team finished the project.",
+          "trSentence": "Yorgunluğa rağmen devam eden ekip projeyi bitirdi.",
+          "definition": "Present participle or gerund form of 'press on'."
+        }
+      ]
+    },
+    {
+      "root": "leap",
+      "meanings": [
+        {
+          "sentence": "The cat made a quick leap onto the windowsill.",
+          "trSentence": "Kedi pencere pervazına hızlı bir sıçrayış yaptı.",
+          "definition": "A sudden jump from one place to another.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "He decided to leap over the stream.",
+          "trSentence": "Dereyi üzerinden atlamaya karar verdi.",
+          "definition": "To jump high or a long distance.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "There has been a leap in technology over the last decade.",
+          "trSentence": "Son on yılda teknolojide büyük bir sıçrama oldu.",
+          "definition": "A sudden and significant increase or advance.",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "leaps",
+          "partOfSpeech": "noun",
+          "sentence": "Small leaps in improvement can add up over time.",
+          "trSentence": "Küçük gelişme sıçramaları zamanla birikebilir.",
+          "definition": "Plural form of leap; multiple jumps or advances."
+        },
+        {
+          "word": "leaped",
+          "partOfSpeech": "verb",
+          "sentence": "She leaped across the gap effortlessly.",
+          "trSentence": "O, aralığı zahmetsizce atladı.",
+          "definition": "Simple past and past participle form (especially in American English)."
+        },
+        {
+          "word": "leapt",
+          "partOfSpeech": "verb",
+          "sentence": "The deer leapt over the fence.",
+          "trSentence": "Geyik çitin üzerinden atladı.",
+          "definition": "Simple past and past participle form (especially in British English)."
+        },
+        {
+          "word": "leaping",
+          "partOfSpeech": "verb",
+          "sentence": "Leaping over obstacles requires practice.",
+          "trSentence": "Engellerin üzerinden atlamak pratik gerektirir.",
+          "definition": "Present participle or gerund form of leap."
+        },
+        {
+          "word": "leap year",
+          "partOfSpeech": "compound noun",
+          "sentence": "February has 29 days in a leap year.",
+          "trSentence": "Artık yılda Şubat ayı 29 gündür.",
+          "definition": "A calendar year containing an additional day (February 29) to keep the calendar year synchronized with the astronomical year."
+        },
+        {
+          "word": "leapfrog",
+          "partOfSpeech": "compound noun",
+          "sentence": "The company's innovation allowed it to play leapfrog over its competitors.",
+          "trSentence": "Şirketin yeniliği rakiplerinin önüne sıçrama yapmasını sağladı.",
+          "definition": "A move in which someone or something surpasses others quickly by making a major advance."
+        }
+      ]
+    },
+    {
+      "root": "vet",
+      "meanings": [
+        {
+          "sentence": "She took her dog to the vet for a routine check-up.",
+          "trSentence": "Köpeğini rutin kontrol için veterinere götürdü.",
+          "definition": "A veterinarian; a medical professional who treats animals.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "The HR department must vet all candidates before interviews.",
+          "trSentence": "İK departmanı görüşmelerden önce tüm adayları incelemek zorundadır.",
+          "definition": "To examine or evaluate someone or something carefully, especially for suitability or reliability.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "The decorated war vet gave a moving speech.",
+          "trSentence": "Madalya almış savaş gazisi etkileyici bir konuşma yaptı.",
+          "definition": "Informal abbreviation for a military veteran.",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "vets",
+          "partOfSpeech": "noun",
+          "sentence": "Many vets volunteer at animal shelters on weekends.",
+          "trSentence": "Pek çok veteriner hafta sonları hayvan barınaklarında gönüllü olur.",
+          "definition": "Plural of vet; also third-person singular present of the verb 'vet'."
+        },
+        {
+          "word": "vetted",
+          "partOfSpeech": "verb",
+          "sentence": "All reports were vetted by independent experts.",
+          "trSentence": "Tüm raporlar bağımsız uzmanlar tarafından incelendi.",
+          "definition": "Past tense and past participle of vet."
+        },
+        {
+          "word": "vetting",
+          "partOfSpeech": "verb",
+          "sentence": "The committee is vetting the proposals this week.",
+          "trSentence": "Komite bu hafta önerileri inceliyor.",
+          "definition": "Present participle or gerund of vet."
+        },
+        {
+          "word": "vettable",
+          "partOfSpeech": "adjective",
+          "sentence": "Only vettable information should be included in the dossier.",
+          "trSentence": "Dosyaya yalnızca incelenebilir bilgiler dahil edilmelidir.",
+          "definition": "Capable of being vetted; able to be examined for suitability."
+        }
+      ]
+    },
+    {
+      "root": "prophylactic",
+      "meanings": [
+        {
+          "sentence": "Medical staff were given prophylactic antibiotics after the exposure.",
+          "trSentence": "Maruziyetten sonra sağlık personeline koruyucu antibiyotik verildi.",
+          "definition": "Intended to prevent disease or infection.",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "sentence": "Using a prophylactic is essential for safe sex.",
+          "trSentence": "Güvenli cinsel ilişki için koruyucu kullanmak esastır.",
+          "definition": "A medicine, device, or measure that prevents disease, especially a condom.",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "prophylactics",
+          "partOfSpeech": "noun",
+          "sentence": "Prophylactics are readily available in most pharmacies.",
+          "trSentence": "Koruyucular çoğu eczanede kolayca bulunur.",
+          "definition": "Plural form of prophylactic."
+        },
+        {
+          "word": "prophylactically",
+          "partOfSpeech": "adverb",
+          "sentence": "The drug can be taken prophylactically before travel.",
+          "trSentence": "İlaç seyahat öncesinde koruyucu amaçlı alınabilir.",
+          "definition": "In a manner intended to prevent disease."
+        },
+        {
+          "word": "prophylaxis",
+          "partOfSpeech": "noun",
+          "sentence": "Malaria prophylaxis is recommended for travelers to the region.",
+          "trSentence": "Bölgeye seyahat edenler için sıtma profilaksisi önerilir.",
+          "definition": "Action taken to prevent disease, especially by specified means or against a specified disease."
+        }
+      ]
+    },
+    {
+      "root": "tenure",
+      "meanings": [
+        {
+          "sentence": "During her five-year tenure as CEO, the company doubled its revenue.",
+          "trSentence": "CEO olarak beş yıllık görev süresi boyunca şirket gelirini iki katına çıkardı.",
+          "definition": "The period of time during which someone holds a position or office.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "Academic tenure protects scholars' freedom to pursue controversial research.",
+          "trSentence": "Akademik kadro, araştırmacıların tartışmalı çalışmaları sürdürme özgürlüğünü korur.",
+          "definition": "A permanent and secure academic position that is difficult to terminate.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "The university plans to tenure three professors next year.",
+          "trSentence": "Üniversite gelecek yıl üç profesöre kadro vermeyi planlıyor.",
+          "definition": "To grant someone a tenured position, especially in academia.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "tenures",
+          "partOfSpeech": "noun",
+          "sentence": "Short political tenures can hinder long-term planning.",
+          "trSentence": "Kısa siyasi görev süreleri uzun vadeli planlamayı engelleyebilir.",
+          "definition": "Plural form of tenure; also third-person singular present of the verb 'tenure'."
+        },
+        {
+          "word": "tenured",
+          "partOfSpeech": "adjective",
+          "sentence": "She became a tenured professor after seven years of teaching.",
+          "trSentence": "Yedi yıllık öğretimden sonra kadrolu profesör oldu.",
+          "definition": "Having been granted tenure; holding a permanent position."
+        },
+        {
+          "word": "tenuring",
+          "partOfSpeech": "verb",
+          "sentence": "The committee is tenuring several junior faculty this semester.",
+          "trSentence": "Komite bu dönem birkaç genç öğretim üyesine kadro veriyor.",
+          "definition": "Present participle or gerund of tenure."
+        },
+        {
+          "word": "tenure-track",
+          "partOfSpeech": "compound adjective",
+          "sentence": "He accepted a tenure-track position at the university.",
+          "trSentence": "Üniversitede kadroya giden bir pozisyonu kabul etti.",
+          "definition": "Describing a job path that can lead to a tenured appointment."
+        }
+      ]
+    },
+    {
+      "root": "stir",
+      "meanings": [
+        {
+          "sentence": "She stirred the soup gently, making sure nothing stuck to the bottom of the pan.",
+          "trSentence": "Tencerenin dibine hiçbir şeyin yapışmadığından emin olarak çorbayı nazikçe karıştırdı.",
+          "definition": "to mix a substance by moving it round and round with a spoon or similar utensil",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "The documentary stirred a deep sense of injustice in viewers.",
+          "trSentence": "Belgesel, izleyicilerde derin bir adaletsizlik duygusu uyandırdı.",
+          "definition": "to arouse strong feelings or cause something to begin",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "stir up",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "The politician tried to stir up anger against the new law.",
+          "trSentence": "Politikacı, yeni yasaya karşı öfke uyandırmaya çalıştı.",
+          "definition": "to deliberately provoke emotion or trouble"
+        },
+        {
+          "word": "stirs",
+          "partOfSpeech": "verb",
+          "sentence": "He always stirs his coffee before taking a sip.",
+          "trSentence": "Bir yudum almadan önce kahvesini her zaman karıştırır.",
+          "definition": "third-person singular of stir"
+        },
+        {
+          "word": "stirred",
+          "partOfSpeech": "verb",
+          "sentence": "The announcement stirred a wave of excitement.",
+          "trSentence": "Duyuru bir heyecan dalgası yarattı.",
+          "definition": "past tense and past participle of stir"
+        },
+        {
+          "word": "stirring",
+          "partOfSpeech": "noun",
+          "sentence": "There was a stirring of leaves outside the window.",
+          "trSentence": "Pencerenin dışında yaprakların hafif bir kımıldanışı vardı.",
+          "definition": "a slight movement or beginning of activity"
+        },
+        {
+          "word": "stirrer",
+          "partOfSpeech": "noun",
+          "sentence": "Use a wooden stirrer instead of a metal spoon.",
+          "trSentence": "Metal kaşık yerine ahşap bir karıştırıcı kullan.",
+          "definition": "a device or person that stirs"
+        },
+        {
+          "word": "stirringly",
+          "partOfSpeech": "adverb",
+          "sentence": "The anthem was stirringly sung by the choir.",
+          "trSentence": "Marş koro tarafından etkileyici bir şekilde söylendi.",
+          "definition": "in a way that arouses emotion"
+        }
+      ]
+    },
+    {
+      "root": "accuse",
+      "meanings": [
+        {
+          "sentence": "They accused him of theft without any concrete evidence.",
+          "trSentence": "Somut bir kanıt olmadan onu hırsızlıkla suçladılar.",
+          "definition": "to say that someone has done something wrong or illegal",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "accusation",
+          "partOfSpeech": "noun",
+          "sentence": "The accusation shocked everyone in the courtroom.",
+          "trSentence": "Suçlama mahkemedeki herkesi şoke etti.",
+          "definition": "a claim that someone has done something wrong"
+        },
+        {
+          "word": "accusations",
+          "partOfSpeech": "noun",
+          "sentence": "False accusations can ruin reputations.",
+          "trSentence": "Yanlış suçlamalar itibarları mahvedebilir.",
+          "definition": "plural of accusation"
+        },
+        {
+          "word": "accuser",
+          "partOfSpeech": "noun",
+          "sentence": "The accused faced his accuser during the hearing.",
+          "trSentence": "Sanık, duruşma sırasında suçlayıcısıyla yüzleşti.",
+          "definition": "a person who accuses"
+        },
+        {
+          "word": "accused",
+          "partOfSpeech": "noun",
+          "sentence": "The accused stood silently while the charges were read.",
+          "trSentence": "Suçlanan, suçlamalar okunurken sessizce durdu.",
+          "definition": "a person charged with a crime"
+        },
+        {
+          "word": "accusing",
+          "partOfSpeech": "adjective",
+          "sentence": "She gave him an accusing glare.",
+          "trSentence": "Ona suçlayıcı bir bakış attı.",
+          "definition": "suggesting someone has done something wrong"
+        },
+        {
+          "word": "accusatory",
+          "partOfSpeech": "adjective",
+          "sentence": "His tone was harsh and accusatory.",
+          "trSentence": "Onun tonu sert ve suçlayıcıydı.",
+          "definition": "containing or implying accusation"
+        },
+        {
+          "word": "self-accusation",
+          "partOfSpeech": "noun",
+          "sentence": "Feelings of self-accusation kept her awake at night.",
+          "trSentence": "Öz-suçlama duyguları onu geceleri uyanık tuttu.",
+          "definition": "the act of blaming oneself"
+        }
+      ]
+    },
+    {
+      "root": "paramount",
+      "meanings": [
+        {
+          "sentence": "Safety is of paramount importance on a construction site.",
+          "trSentence": "Bir inşaat alanında güvenlik en üstün önem taşır.",
+          "definition": "more important than anything else; supreme",
+          "partOfSpeech": "adjective"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "paramountcy",
+          "partOfSpeech": "noun",
+          "sentence": "The court affirmed the paramountcy of constitutional rights.",
+          "trSentence": "Mahkeme, anayasal hakların üstünlüğünü onayladı.",
+          "definition": "the state of being paramount; supremacy"
+        },
+        {
+          "word": "paramountly",
+          "partOfSpeech": "adverb",
+          "sentence": "The project is paramountly a matter of public health.",
+          "trSentence": "Proje, her şeyden önce bir halk sağlığı meselesidir.",
+          "definition": "supremely; above all"
+        }
+      ]
     }
-    
 ]

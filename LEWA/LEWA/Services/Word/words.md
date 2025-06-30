@@ -175,3 +175,23 @@ gem,gemstone,gemologist,gemology,gemmed,gemlike
 exceed,exceeding,exceedingly,exceeded,exceedance,exceed expectations
 
 integrity,integral,integrate,integration,integrated,data integrity
+
+precursor,precursory,precursors,precursor cell
+
+sleep on it,slept on it,sleeping on it
+
+press on,pressed on,presses on,pressing on
+
+leap,leaps,leaped,leapt,leaping,leap year,leapfrog
+
+vet,vets,vetted,vetting,vettable
+
+prophylactic,prophylactics,prophylactically,prophylaxis
+
+tenure,tenures,tenured,tenuring,tenure-track
+
+stir,stir up,stirs,stirred,stirring,stirrer,stirringly
+
+accuse,accusation,accusations,accuser,accused,accusing,accusatory,self-accusation
+
+paramount,paramountcy,paramountly
