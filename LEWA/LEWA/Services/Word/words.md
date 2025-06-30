@@ -66,7 +66,7 @@ era,eras,pre-era,modern era,golden era
 
 prone,proneness,accident-prone,error-prone,injury-prone,disease-prone
 
-remedy,remedies,remedied,remedying,remedial,remedially,remediable,irremediable,irremediably,home remedy,legal remedy,remedial class,remedial action
+remedy,remedies,remedied,remedying,remediation,remedial,remedially,remediable,irremediable,irremediably,unremedied
 
 prolong,prolongs,prolonged,prolonging,prolongation,prolongations,prolongable,unprolonged,life-prolonging,prolonged exposure
 
@@ -217,3 +217,105 @@ sing,unsung,singer,singers,singing,sings,sang,sung,singable,song,songs
 crunch,cruncher,crunched,crunches,crunching,crunchiness,crunchier,crunchiest,crunchy,crunch time
 
 damp,damped,dampen,dampened,dampening,dampens,damper,dampers,dampish,dampness,damping,undamped
+
+perspire,perspiration,perspiring,perspired,perspires,perspiratory,antiperspirant,overperspire
+
+execute,execution,executable,executor,executioner,executive,executively
+
+observe,observation,observer,observable,observance,observatory,observational,unobserved,observant
+
+get ahead,gets ahead,got ahead,getting ahead
+
+pursue,pursuit,pursuer,pursued,pursuing,pursuable,unpursued,pursuance
+
+grasp,grasps,grasped,grasping,graspable
+
+light,lights,lighting,lighted,lighten,lightening,lightness,lightly,alight,alighted,alighting,daylight,highlight,lamplight,moonlight
+
+on matters of principle
+
+lights, lighted, lit, lighting, lighter, lightest, lighten, lightness, lightless, delight, delight, moonlight, moonlight, daylight, sunlight, flashlight, limelight, starlight, highlight, highlight, headlight, lighthouse, skylight, light up, see the light, in the light of, lightening, lightly, alight, alighted, alighting, lamplight
+
+principle,principles,principled,unprincipled,principle-based,in principle,on principle
+
+variable,variables,variably,variability,invariable,invariably,invariability,dependent variable,independent variable
+
+over,overly,overdo,overdoes,overdid,overdone,overdoing,override,overrode,overridden,overriding,overthrow,overthrew,overthrown,overthrowing,moreover
+
+inferior,inferiors,inferiority,inferiority complex,inferiorly,inferior quality,inferior to
+
+gob,gobs,gobbed,gobbing,goblet,goblets,gob of spit
+
+consent,consents,consented,consenting,consensual,consensually,consensus,prior consent,give consent
+
+drive,drives,drove,driven,driving,driver,drivable,drive out,drives out,drove out,driven out,driving out
+
+gutter,gutters,gutters,guttered,guttering,gutter ball,gutter press,in the gutter
+
+insane,insanely,insanity,insane asylum,insanity defense,drive someone insane
+
+line,lines,lined,lining,linear,linearly,bowline,headline,clothesline,in line
+
+sail,sails,sailed,sailing,sailboat,sail away,set sail
+
+bear,bears,bore,borne,bearing,bearable,bearably,unbearable,unbearably,bearer,bear market,bear in mind
+
+heresy,heresies,heretic,heretical,heretically
+
+agony,agonies,agonize,agonizes,agonized,agonizing,agonizingly,agony aunt
+
+perfect,perfects,perfected,perfecting,imperfect,perfectly,imperfection,perfection,perfectionist,perfectionism,perfect storm,perfect fit
+
+ugly,uglier,ugliest,ugliness,ugly duckling,ugly truth,ugly duckling story
+
+vulnerable,invulnerable,vulnerability,vulnerably,invulnerability,invulnerably,vulnerable to,vulnerable population
+
+steer,steers,steered,steering,steerable,steerability,steerage,power steering,steer clear,steer away
+
+just,juster,justest,unjust,justly,justice,justify,justification,just as
+
+much,more,most,as much,as much as,so much
+
+determine,determines,determined,determining,determination,determinations,determinant,determinants,determinable,determinate,determinately,indeterminate,indeterminately,predetermined,self-determination
+
+prejudice,prejudices,prejudiced,prejudicing,prejudicial,prejudicially,unprejudiced,racial prejudice,prejudice against,hold a prejudice
+
+bless,blesses,blessed,blessing,blessedness,unblessed,blessing in disguise,count one's blessings
+
+hazard,hazards,hazarded,hazarding,hazardous,hazardously,hazard ratio,hazard a guess
+
+wound,wounds,wounded,wounding,wound healing,reopen old wounds
+
+imitate,imitates,imitated,imitating,imitation,imitations,imitative,imitatively,imitation leather,in imitation of
+
+conceive,conceives,conceived,conceiving,conception,conceptions,conceivable,inconceivable,conceivably,concept,conceptual,conceptualize,conceive of
+
+hang,hangs,hung,hanging,hanger,hanger-on,hangover,get the hang of,hang out,hangs out,hung out,hanging out,hangout
+
+stumble,stumbles,stumbled,stumbling,stumbler,stumblingly,stumbling block,stumble upon
+
+enthusiasm,enthusiasms,enthusiast,enthusiastic,enthusiastically,enthusiasm for,boundless enthusiasm
+
+cluck,clucks,clucked,clucking
+
+control,controls,controlled,controlling,controller,controllable,uncontrollable,pest control,quality control,under control,take control
+
+owner,owners,ownership,ownerless,homeowner,homeowners,landowner,co-owner,property owner
+
+skip,skips,skipped,skipping,skipper,skippable,skip town,skip out,skip class
+
+mince,minces,minced,mincing,mincer,mincemeat,mince words
+
+amen,amens,amenable,amenably,amenability,amen corner,say amen to
+
+infest,infests,infested,infesting,infestation,infestations,infest with
+
+crimp,crimps,crimped,crimping,crimper,crimpable,financial crimp,crimped hair
+
+kraft,kraft paper,kraft box,kraft bag,Kraft Foods,kraftboard
+
+humid,humidity,humidify,humidifier,dehumidify,dehumidifier,humid climate,humid air
+
+board,boards,boarded,boarding,boarder,cardboard,cardboard box,boardroom,boardwalk,room and board
+
+pop,pops,popped,popping,pop down,pops down,popped down,popping down,soda pop,pop music
