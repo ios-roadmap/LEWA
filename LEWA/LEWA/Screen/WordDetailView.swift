@@ -24,20 +24,17 @@ struct WordDetailView: View {
                     Text(word.root.capitalized)
                         .font(.largeTitle)
                     SpeakerButton(text: word.root)
+                        .font(.headline)
                 }
                 .fontWeight(.bold)
                 .removeListRowFormatting()
                 
                 Section {
-                    CarouselView(items: word.meanings) { meaning in
-                        MeaningView(meaning: meaning)
-                            .padding()
-                            .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
-                            .listRowSeparator(.hidden)
-                            .listRowBackground(Color.clear)
+                    ForEach(word.meanings) { meaning in
+                        WordDefinitionCardView(definition: meaning)
                     }
                     .listRowSeparator(.hidden)
-                    .removeListRowFormatting()
+                    .listRowBackground(Color.clear)
                 } header: {
                     Text("Meanings").bold().font(.headline).foregroundStyle(.red)
                 }
@@ -45,7 +42,7 @@ struct WordDetailView: View {
                 if !word.wordFamilies.isEmpty {
                     Section {
                         ForEach(word.wordFamilies) { family in
-                            WordFamilyCard(family: family)
+                            WordDefinitionCardView(definition: family)
                                 .id(family.id)
                         }
                         .listRowSeparator(.hidden)

@@ -67,21 +67,26 @@ struct Word: Codable, Identifiable, Hashable {
     }
 }
 
-struct Meaning: Codable, Identifiable, Hashable {
+protocol DefinitionRepresentable: Identifiable, Codable, Hashable {
+    var id: UUID { get }
+    var sentence: String { get }
+    var definition: String { get }
+    var partOfSpeech: String { get }
+}
+
+struct Meaning: DefinitionRepresentable {
     var id: UUID
     let sentence: String
-//    let trSentence: String
     let definition: String
     let partOfSpeech: String
-    
+
     init(id: UUID = UUID(), sentence: String, definition: String, partOfSpeech: String) {
         self.id = id
         self.sentence = sentence
         self.definition = definition
         self.partOfSpeech = partOfSpeech
     }
-    
-    // Custom Decoder
+
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.id = (try? container.decode(UUID.self, forKey: .id)) ?? UUID()
@@ -89,7 +94,7 @@ struct Meaning: Codable, Identifiable, Hashable {
         self.definition = try container.decode(String.self, forKey: .definition)
         self.partOfSpeech = try container.decode(String.self, forKey: .partOfSpeech)
     }
-    
+
     static var mock: Self {
         .init(
             sentence: "She read an interesting book about ancient history.",
@@ -99,13 +104,13 @@ struct Meaning: Codable, Identifiable, Hashable {
     }
 }
 
-struct WordFamily: Codable, Identifiable, Hashable {
+struct WordFamily: DefinitionRepresentable {
     var id: UUID
     let word: String
-    let partOfSpeech: String
     let sentence: String
     let definition: String
-    
+    let partOfSpeech: String
+
     init(id: UUID = UUID(), word: String, partOfSpeech: String, sentence: String, definition: String) {
         self.id = id
         self.word = word
@@ -113,8 +118,8 @@ struct WordFamily: Codable, Identifiable, Hashable {
         self.sentence = sentence
         self.definition = definition
     }
-    
-    init(from decoder: any Decoder) throws {
+
+    init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.id = (try? container.decode(UUID.self, forKey: .id)) ?? UUID()
         self.word = try container.decode(String.self, forKey: .word)
