@@ -70,14 +70,13 @@ struct Word: Codable, Identifiable, Hashable {
 struct Meaning: Codable, Identifiable, Hashable {
     var id: UUID
     let sentence: String
-    let trSentence: String
+//    let trSentence: String
     let definition: String
     let partOfSpeech: String
     
-    init(id: UUID = UUID(), sentence: String, trSentence: String, definition: String, partOfSpeech: String) {
+    init(id: UUID = UUID(), sentence: String, definition: String, partOfSpeech: String) {
         self.id = id
         self.sentence = sentence
-        self.trSentence = trSentence
         self.definition = definition
         self.partOfSpeech = partOfSpeech
     }
@@ -87,7 +86,6 @@ struct Meaning: Codable, Identifiable, Hashable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.id = (try? container.decode(UUID.self, forKey: .id)) ?? UUID()
         self.sentence = try container.decode(String.self, forKey: .sentence)
-        self.trSentence = try container.decode(String.self, forKey: .trSentence)
         self.definition = try container.decode(String.self, forKey: .definition)
         self.partOfSpeech = try container.decode(String.self, forKey: .partOfSpeech)
     }
@@ -95,7 +93,6 @@ struct Meaning: Codable, Identifiable, Hashable {
     static var mock: Self {
         .init(
             sentence: "She read an interesting book about ancient history.",
-            trSentence: "O, antik tarih hakkında ilginç bir kitap okudu.",
             definition: "A set of written or printed pages, usually bound with a cover.",
             partOfSpeech: ".noun"
         )
@@ -107,15 +104,13 @@ struct WordFamily: Codable, Identifiable, Hashable {
     let word: String
     let partOfSpeech: String
     let sentence: String
-    let trSentence: String
     let definition: String
     
-    init(id: UUID = UUID(), word: String, partOfSpeech: String, sentence: String, trSentence: String, definition: String) {
+    init(id: UUID = UUID(), word: String, partOfSpeech: String, sentence: String, definition: String) {
         self.id = id
         self.word = word
         self.partOfSpeech = partOfSpeech
         self.sentence = sentence
-        self.trSentence = trSentence
         self.definition = definition
     }
     
@@ -125,7 +120,6 @@ struct WordFamily: Codable, Identifiable, Hashable {
         self.word = try container.decode(String.self, forKey: .word)
         self.partOfSpeech = try container.decode(String.self, forKey: .partOfSpeech)
         self.sentence = try container.decode(String.self, forKey: .sentence)
-        self.trSentence = try container.decode(String.self, forKey: .trSentence)
         self.definition = try container.decode(String.self, forKey: .definition)
     }
 
@@ -134,7 +128,6 @@ struct WordFamily: Codable, Identifiable, Hashable {
             word: "word1",
             partOfSpeech: ".adjective",
             sentence: "sentence1",
-            trSentence: "trSentence1",
             definition: "definition"
         )
     }

@@ -29,23 +29,14 @@ struct WordFamilyCard: View {
             
             // Sentence toggle
             Group {
-                if showEnglishSentence {
-                    HStack(spacing: 8) {
-                        SpeakerButton(text: family.sentence)
-                        
-                        Text("\(family.sentence)")
-                            .font(.callout)
-                            .foregroundColor(.blue)
-                            .onTapGesture {
-                                showEnglishSentence = false
-                            }
-                    }
-                } else {
-                    Text("\(family.trSentence)")
+                HStack(spacing: 8) {
+                    SpeakerButton(text: family.sentence)
+                    
+                    Text("\(family.sentence)")
                         .font(.callout)
-                        .foregroundColor(.green)
+                        .foregroundColor(.blue)
                         .onTapGesture {
-                            showEnglishSentence = true
+                            showEnglishSentence = false
                         }
                 }
             }

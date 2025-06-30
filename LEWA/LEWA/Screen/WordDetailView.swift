@@ -16,9 +16,6 @@ struct WordDetailView: View {
     
     @State private var isStarred: Bool = false
     @State private var starredWord: StarredWord? = nil
-
-    
-    @State private var showTurkish: Bool = false
     
     var body: some View {
         ScrollViewReader(content: { proxy in
@@ -32,10 +29,8 @@ struct WordDetailView: View {
                 .removeListRowFormatting()
                 
                 Section {
-                    CarouselView(items: word.meanings, onSelectionChange: {
-                        showTurkish = false
-                    }) { meaning in
-                        MeaningView(meaning: meaning, showTurkish: $showTurkish)
+                    CarouselView(items: word.meanings) { meaning in
+                        MeaningView(meaning: meaning)
                             .padding()
                             .listRowInsets(.init(top: 0, leading: 0, bottom: 0, trailing: 0))
                             .listRowSeparator(.hidden)
@@ -77,21 +72,9 @@ struct WordDetailView: View {
                     Image(systemName: isStarred ? "star.fill" : "star")
                 }
             }
-            
-            ToolbarItem(placement: .topBarLeading) {
-                Button(action: toggleShowTurkish) {
-                    Image(systemName: "arrow.2.squarepath")
-                }
-            }
         }
     }
-    
-    private func toggleShowTurkish() {
-        withAnimation(.spring(response: 0.5, dampingFraction: 0.7)) {
-            showTurkish.toggle()
-        }
-    }
-    
+
     private func loadStarredState() {
         let wordID = word.id // Veya word.root, senin id’in o zaten
         let fetchDescriptor = FetchDescriptor<StarredWord>(predicate: #Predicate<StarredWord> { starred in

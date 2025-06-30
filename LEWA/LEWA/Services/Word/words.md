@@ -195,3 +195,25 @@ stir,stir up,stirs,stirred,stirring,stirrer,stirringly
 accuse,accusation,accusations,accuser,accused,accusing,accusatory,self-accusation
 
 paramount,paramountcy,paramountly
+
+pry,prying eyes,prying,pries,pried,pryer,pry bar,pry into,pry out
+
+scoop,scoop up,scoops,scooped,scooping,scooper,scoopful
+
+word,it oher words,in other words,words,wording,worded,wordy,wordless
+
+take,take to mean,takes,took,taken,taking
+
+strike,on strike,striker,striking,strikingly,stricken,strikes
+
+redundant,redundancy,redundancies,redundantly
+
+work,workload,working,worked,works,worker,workplace,workable,workout,workmanship
+
+apprentice,apprenticeship,apprenticeships,apprenticed,apprenticing,apprentices
+
+sing,unsung,singer,singers,singing,sings,sang,sung,singable,song,songs
+
+crunch,cruncher,crunched,crunches,crunching,crunchiness,crunchier,crunchiest,crunchy,crunch time
+
+damp,damped,dampen,dampened,dampening,dampens,damper,dampers,dampish,dampness,damping,undamped

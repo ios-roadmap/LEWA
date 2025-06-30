@@ -11,7 +11,6 @@ struct CarouselView<Content: View, T: Hashable>: View {
     
     var items: [T]
     @State private var selection: T? = nil
-    var onSelectionChange: (() -> Void)?
     @ViewBuilder var content: (T) -> Content
     
     var body: some View {
@@ -36,7 +35,6 @@ struct CarouselView<Content: View, T: Hashable>: View {
                             .onAppear {
                                 updateSelectionIfNeeded()
                             }
-                        
                     }
                 }
             }
@@ -44,9 +42,6 @@ struct CarouselView<Content: View, T: Hashable>: View {
             .scrollTargetLayout()
             .scrollTargetBehavior(.paging)
             .scrollPosition(id: $selection)
-            .onScrollPhaseChange { oldPhase, newPhase in
-                onSelectionChange?()
-            }
             
             HStack(spacing: 8) {
                 ForEach(items, id: \.self) { item in
@@ -63,6 +58,5 @@ struct CarouselView<Content: View, T: Hashable>: View {
         if selection == nil || selection == items.last {
             selection = items.first
         }
-        
     }
 }

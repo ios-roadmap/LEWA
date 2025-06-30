@@ -4,13 +4,11 @@
         "meanings": [
             {
                 "sentence": "He scissored the shiny red ribbon neatly before wrapping the birthday present.",
-                "trSentence": "Doğum günü paketini sarmadan önce parlak kırmızı kurdeleyi düzgünce makasla kesti.",
                 "definition": "Cut something using scissors.",
                 "partOfSpeech": "verb"
             },
             {
                 "sentence": "The tailor's quick scissor left a perfectly straight edge along the fabric.",
-                "trSentence": "Terzinin hızlı makas darbesi kumaş boyunca mükemmel düz bir kenar bıraktı.",
                 "definition": "Single blade or cut made by scissors.",
                 "partOfSpeech": "noun"
             }
@@ -20,35 +18,30 @@
                 "word": "scissors",
                 "partOfSpeech": "noun",
                 "sentence": "She couldn't find her scissors, so she borrowed mine to cut the photos.",
-                "trSentence": "Makasını bulamayınca fotoğrafları kesmek için benimkini ödünç aldı.",
                 "definition": "A cutting tool with two crossed blades."
             },
             {
                 "word": "scissored",
                 "partOfSpeech": "verb",
                 "sentence": "The artist scissored delicate snowflakes from thin white paper for the window display.",
-                "trSentence": "Sanatçı, vitrin dekoru için ince beyaz kâğıttan zarif kar taneleri makasla kesti.",
                 "definition": "Cut with scissors in the past."
             },
             {
                 "word": "scissoring",
                 "partOfSpeech": "noun",
                 "sentence": "Continuous scissoring of the cloth produced soft fringes around the cushion edges.",
-                "trSentence": "Kumaşın sürekli makasla kesilmesi yastık kenarlarında yumuşak püsküller oluşturdu.",
                 "definition": "The act of cutting using scissors."
             },
             {
                 "word": "scissorless",
                 "partOfSpeech": "adjective",
                 "sentence": "Facing scissorless packaging, he improvised by tearing the plastic with his keys.",
-                "trSentence": "Makas gerektiren ambalajla karşılaşınca plastiği anahtarıyla yırtarak çözdü.",
                 "definition": "Without any scissors available."
             },
             {
                 "word": "scissory",
                 "partOfSpeech": "adjective",
                 "sentence": "The dancer's scissory leg movements impressed the judges during the contemporary routine.",
-                "trSentence": "Dansçının makas tarzı bacak hareketleri modern rutinde jüriyi etkiledi.",
                 "definition": "Resembling the motion of scissors."
             }
         ]
@@ -58,19 +51,16 @@
         "meanings": [
             {
                 "sentence": "His sloppy handwriting made the teacher struggle to read the final exam answers.",
-                "trSentence": "Karmakarışık el yazısı, öğretmenin final sınavı cevaplarını okumakta zorlanmasına neden oldu.",
                 "definition": "Untidy or careless in appearance or work.",
                 "partOfSpeech": "adjective"
             },
             {
                 "sentence": "After the heavy rain, the football field turned into a sloppy mixture of mud and water.",
-                "trSentence": "Şiddetli yağmurdan sonra futbol sahası çamur ve sudan oluşan sulu bir karışıma dönüştü.",
                 "definition": "Wet and muddy; containing too much liquid.",
                 "partOfSpeech": "adjective"
             },
             {
                 "sentence": "The film's sloppy romantic ending left many viewers rolling their eyes rather than crying.",
-                "trSentence": "Filmin aşırı duygusal sonu, birçok izleyicinin ağlamak yerine gözlerini devirmesine yol açtı.",
                 "definition": "Excessively sentimental or mawkish.",
                 "partOfSpeech": "adjective"
             }
@@ -80,35 +70,30 @@
                 "word": "sloppier",
                 "partOfSpeech": "adjective",
                 "sentence": "Her desk became even sloppier after the all-night study session before finals week.",
-                "trSentence": "Finaller haftası öncesinde sabaha kadar süren çalışma sonrası masası daha da dağınık oldu.",
                 "definition": "More untidy or careless than before."
             },
             {
                 "word": "sloppiest",
                 "partOfSpeech": "adjective",
                 "sentence": "That was the sloppiest lab report I have ever graded in my career.",
-                "trSentence": "Bu, kariyerim boyunca notlandırdığım en özensiz laboratuvar raporuydu.",
                 "definition": "Most untidy or careless."
             },
             {
                 "word": "sloppily",
                 "partOfSpeech": "adverb",
                 "sentence": "He packed his suitcase so sloppily that clothes spilled out when he arrived.",
-                "trSentence": "Valizini o kadar gelişigüzel topladı ki vardığında kıyafetler dışarı döküldü.",
                 "definition": "In an untidy or careless way."
             },
             {
                 "word": "sloppiness",
                 "partOfSpeech": "noun",
                 "sentence": "Sloppiness in data entry can lead to costly errors in financial reports.",
-                "trSentence": "Veri girişindeki özensizlik, finansal raporlarda pahalı hatalara yol açabilir.",
                 "definition": "State of being untidy or careless."
             },
             {
                 "word": "sloppy joe",
                 "partOfSpeech": "noun",
                 "sentence": "She served a spicy sloppy joe for lunch, spilling meat sauce over toasted buns.",
-                "trSentence": "Öğle yemeğinde baharatlı bir sloppy joe servis etti, et sosu kızarmış ekmeklerin üzerine taştı.",
                 "definition": "American sandwich of seasoned loose ground beef."
             }
         ]
@@ -118,13 +103,11 @@
         "meanings": [
             {
                 "sentence": "The young actor became a global celebrity after the blockbuster film broke box office records worldwide.",
-                "trSentence": "Genç oyuncu, gişe rekorları kıran filmden sonra küresel bir ünlü oldu.",
                 "definition": "A person who is widely famous.",
                 "partOfSpeech": "noun"
             },
             {
                 "sentence": "With sudden celebrity came intrusive paparazzi, leaving her little privacy in everyday public life.",
-                "trSentence": "Ani şöhretle beraber rahatsız edici paparazziler geldi ve günlük hayatında ona az mahremiyet bıraktı.",
                 "definition": "The condition of widespread fame.",
                 "partOfSpeech": "noun"
             }
@@ -134,28 +117,24 @@
                 "word": "celebrities",
                 "partOfSpeech": "noun",
                 "sentence": "Many celebrities use social media to connect directly with fans and control their personal narratives.",
-                "trSentence": "Birçok ünlü, hayranlarla doğrudan iletişim kurmak ve kişisel hikâyelerini kontrol etmek için sosyal medyayı kullanıyor.",
                 "definition": "Famous people collectively."
             },
             {
                 "word": "noncelebrity",
                 "partOfSpeech": "noun",
                 "sentence": "Despite her viral videos, she insisted she would remain a humble noncelebrity with a normal routine.",
-                "trSentence": "Viral videolarına rağmen, alçakgönüllü ve normal rutinli bir ünlü olmayan olarak kalacağını söyledi.",
                 "definition": "Person who is not famous."
             },
             {
                 "word": "celebrityhood",
                 "partOfSpeech": "noun",
                 "sentence": "The sudden leap into celebrityhood overwhelmed him, so he hired a mentor to navigate public scrutiny.",
-                "trSentence": "Bir anda ünlü olma durumu onu bunaltınca, kamusal incelemeyle başa çıkmak için bir mentor tuttu.",
                 "definition": "State or condition of being a celebrity."
             },
             {
                 "word": "celebritydom",
                 "partOfSpeech": "noun",
                 "sentence": "Social media influencers form a new branch of celebritydom that brands now target for digital advertising.",
-                "trSentence": "Sosyal medya fenomenleri, markaların dijital reklam için hedeflediği ünlüler âleminin yeni bir dalını oluşturuyor.",
                 "definition": "World or realm inhabited by celebrities."
             }
         ]
@@ -165,13 +144,11 @@
         "meanings": [
             {
                 "sentence": "Persistent jank in the application made every animation stutter during the demonstration.",
-                "trSentence": "Uygulamadaki kalıcı bozukluk, sunum sırasında her animasyonu takılttı.",
                 "definition": "Lag or glitch causing poor performance.",
                 "partOfSpeech": "noun"
             },
             {
                 "sentence": "The makeshift bridge looked janky and swayed dangerously with every windy gust.",
-                "trSentence": "Derme çatma köprü bozuk görünüyor ve her rüzgâr esintisiyle tehlikeli şekilde sallanıyordu.",
                 "definition": "Poorly made; unreliable or shaky.",
                 "partOfSpeech": "adjective"
             }
@@ -181,56 +158,48 @@
                 "word": "janky",
                 "partOfSpeech": "adjective",
                 "sentence": "The startup's janky prototype functioned, but wires dangled and panels rattled at every vibration.",
-                "trSentence": "Girişimin bozuk prototipi çalıştı, ancak her titreşimde kablolar sallandı ve paneller gıcırdadı.",
                 "definition": "Of low quality; unstable or poorly constructed."
             },
             {
                 "word": "jankier",
                 "partOfSpeech": "adjective",
                 "sentence": "This year's phone feels jankier than last year's, with buttons sticking and animations lagging.",
-                "trSentence": "Bu yılın telefonu, düğmeler takılıp animasyonlar geciktiği için geçen yılkine göre daha bozuk hissettiriyor.",
                 "definition": "Comparatively more unreliable or shabby."
             },
             {
                 "word": "jankiest",
                 "partOfSpeech": "adjective",
                 "sentence": "Out of all the rented cars, the third was the jankiest, shaking whenever it exceeded sixty kilometers.",
-                "trSentence": "Kiralanan arabaların hepsinden, üçüncüsü en bozuktu ve altmış kilometreyi aştığında titriyordu.",
                 "definition": "Supremely the most poorly made."
             },
             {
                 "word": "jankiness",
                 "partOfSpeech": "noun",
                 "sentence": "She apologized for the jankiness of her homemade 3D printer, which occasionally misaligned layers dramatically.",
-                "trSentence": "Katmanları ara sıra büyük ölçüde kaydıran ev yapımı 3B yazıcısının bozukluğundan ötürü özür diledi.",
                 "definition": "State of being janky; unreliability."
             },
             {
                 "word": "jankily",
                 "partOfSpeech": "adverb",
                 "sentence": "The drone hovered jankily, dipping unpredictably as its cheap motors struggled against the wind.",
-                "trSentence": "Rüzgâra karşı ucuz motorları zorlanırken insansız hava aracı bozukça havada asılı kaldı, öngörülemez şekilde alçalıp yükseldi.",
                 "definition": "In a janky manner; unevenly."
             },
             {
                 "word": "janks",
                 "partOfSpeech": "verb",
                 "sentence": "Every time the device overheats, it janks the graphics, causing colorful artifacts across the display.",
-                "trSentence": "Cihaz her ısındığında, grafikleri bozar ve ekran boyunca renkli bozulmalar oluşturur.",
                 "definition": "Glitches or disrupts performance."
             },
             {
                 "word": "janked",
                 "partOfSpeech": "verb",
                 "sentence": "A faulty firmware update janked the router last night, leaving everyone offline until morning.",
-                "trSentence": "Hatalı bir aygıt yazılımı güncellemesi, yönlendiriciyi dün gece bozdu ve herkesi sabaha kadar çevrimdışı bıraktı.",
                 "definition": "Damaged or broke through glitching."
             },
             {
                 "word": "janking",
                 "partOfSpeech": "verb",
                 "sentence": "Developers spent hours fixing code after janking the interface with an experimental rendering engine.",
-                "trSentence": "Geliştiriciler, deneysel bir işleme motoruyla arayüzü bozduktan sonra kodu düzeltmek için saatler harcadı.",
                 "definition": "Causing jank; glitching continuously."
             }
         ]
@@ -240,13 +209,11 @@
         "meanings": [
             {
                 "sentence": "The engineer discovered a serious defect in the bridge's support beams during routine inspection.",
-                "trSentence": "Mühendis rutin inceleme sırasında köprünün destek kirişlerinde ciddi bir kusur buldu.",
                 "definition": "A flaw or imperfection in something made.",
                 "partOfSpeech": "noun"
             },
             {
                 "sentence": "After months of planning, the spy decided to defect and reveal government secrets to the opposition.",
-                "trSentence": "Aylarca plan yaptıktan sonra ajan firar edip hükümet sırlarını muhalefete açıklamaya karar verdi.",
                 "definition": "To abandon loyalty to join an opposing side.",
                 "partOfSpeech": "verb"
             }
@@ -256,77 +223,66 @@
                 "word": "defects",
                 "partOfSpeech": "noun",
                 "sentence": "Tiny surface defects can weaken the glass and cause sudden shattering under pressure.",
-                "trSentence": "Küçük yüzey kusurları camı zayıflatabilir ve basınç altında aniden kırılmasına yol açabilir.",
                 "definition": "Imperfections or flaws, plural of defect."
             },
             {
                 "word": "defected",
                 "partOfSpeech": "verb",
                 "sentence": "Several athletes defected from the team after disagreements over unpaid wages and training conditions.",
-                "trSentence": "Bazı sporcular ödenmemiş ücretler ve antrenman koşulları nedeniyle takımdan ayrılıp başka tarafa geçti.",
                 "definition": "Past tense of defect, switched allegiance."
             },
             {
                 "word": "defecting",
                 "partOfSpeech": "verb",
                 "sentence": "Defecting during an international tour put the musician's family at serious risk of retaliation.",
-                "trSentence": "Uluslararası turne sırasında firar etmek, müzisyenin ailesini ciddi misilleme riski altına soktu.",
                 "definition": "Act of leaving one's side for another."
             },
             {
                 "word": "defector",
                 "partOfSpeech": "noun",
                 "sentence": "The court granted asylum to the high-ranking defector who exposed systemic corruption in the army.",
-                "trSentence": "Mahkeme, ordudaki sistemik yolsuzluğu ifşa eden üst düzey firariye sığınma hakkı verdi.",
                 "definition": "Person who abandons allegiance to join another."
             },
             {
                 "word": "defection",
                 "partOfSpeech": "noun",
                 "sentence": "The senator's defection shocked the party and triggered a sudden vote of no confidence.",
-                "trSentence": "Senatörün taraf değiştirmesi partiyi şok etti ve ani bir güvensizlik oylaması başlattı.",
                 "definition": "Act of deserting one's cause or country."
             },
             {
                 "word": "defections",
                 "partOfSpeech": "noun",
                 "sentence": "Multiple defections within the cabinet signaled growing dissatisfaction with the prime minister's policies.",
-                "trSentence": "Kabine içindeki çok sayıda taraf değişikliği, başbakanın politikalarına artan memnuniyetsizliği gösterdi.",
                 "definition": "Instances of people abandoning allegiance."
             },
             {
                 "word": "defective",
                 "partOfSpeech": "adjective",
                 "sentence": "The retailer recalled thousands of defective chargers that posed a serious fire hazard to consumers.",
-                "trSentence": "Perakendeci, tüketiciler için ciddi yangın tehlikesi oluşturan binlerce kusurlu şarj cihazını geri çağırdı.",
                 "definition": "Having a fault; not working properly."
             },
             {
                 "word": "defectively",
                 "partOfSpeech": "adverb",
                 "sentence": "The machine was assembled so defectively that it broke down within the first hour of testing.",
-                "trSentence": "Makine o kadar kusurlu monte edildi ki testin ilk saatinde bozuldu.",
                 "definition": "In a faulty or flawed manner."
             },
             {
                 "word": "defectiveness",
                 "partOfSpeech": "noun",
                 "sentence": "Engineers evaluated the material's defectiveness to determine whether microcracks would propagate under load.",
-                "trSentence": "Mühendisler, mikro çatlakların yük altında büyüyüp büyümeyeceğini anlamak için malzemenin kusurluluk oranını değerlendirdi.",
                 "definition": "Quality of being flawed or faulty."
             },
             {
                 "word": "defectless",
                 "partOfSpeech": "adjective",
                 "sentence": "Modern semiconductor production aims for virtually defectless wafers to improve chip performance and reliability.",
-                "trSentence": "Modern yarı iletken üretimi, çip performansını ve güvenilirliğini artırmak için neredeyse kusursuz plakalar hedefler.",
                 "definition": "Free from defects; flawless."
             },
             {
                 "word": "nondefective",
                 "partOfSpeech": "adjective",
                 "sentence": "Statisticians classified each sample as defective or nondefective before calculating the overall failure rate.",
-                "trSentence": "İstatistikçiler, genel arıza oranını hesaplamadan önce her numuneyi kusurlu ya da kusursuz olarak sınıflandırdı.",
                 "definition": "Not flawed; meeting quality standards."
             }
         ]
@@ -336,13 +292,11 @@
         "meanings": [
             {
                 "sentence": "The daycare offers a nursery where toddlers can nap safely while their parents attend language classes.",
-                "trSentence": "Kreş, ebeveynleri dil derslerine katılırken küçük çocukların güvenle uyuyabileceği bir bebek odası sunuyor.",
                 "definition": "Place for caring for very young children.",
                 "partOfSpeech": "noun"
             },
             {
                 "sentence": "She bought rare orchids from a local nursery that specializes in cultivating endangered tropical plants.",
-                "trSentence": "Nadir orkide türlerini yetiştiren yerel bir fidanlıktan alışveriş yaptı.",
                 "definition": "Garden center where plants are grown for sale.",
                 "partOfSpeech": "noun"
             }
@@ -352,14 +306,12 @@
                 "word": "nurseries",
                 "partOfSpeech": "noun",
                 "sentence": "Modern nurseries now use video monitors so parents can check on their babies from other rooms.",
-                "trSentence": "Günümüz kreşleri, ebeveynlerin diğer odalardan bebeklerini kontrol edebilmesi için video kameraları kullanıyor.",
                 "definition": "Plural of nursery; child-care facilities."
             },
             {
                 "word": "nonnursery",
                 "partOfSpeech": "adjective",
                 "sentence": "The store stocks both nursery and nonnursery furniture to serve families at every life stage.",
-                "trSentence": "Mağaza, ailelerin her yaşam evresine hizmet etmek için hem bebek odası hem de bebek odası olmayan mobilyalar satıyor.",
                 "definition": "Not intended for a nursery."
             }
         ]
@@ -369,7 +321,6 @@
         "meanings": [
             {
                 "sentence": "Children usually begin kindergarten at age five to develop social skills and basic literacy through play.",
-                "trSentence": "Çocuklar genellikle beş yaşında, oyun yoluyla sosyal beceri ve temel okuryazarlık geliştirmek için anaokuluna başlar.",
                 "definition": "School class for children aged about five.",
                 "partOfSpeech": "noun"
             }
@@ -379,28 +330,24 @@
                 "word": "kindergartens",
                 "partOfSpeech": "noun",
                 "sentence": "Public kindergartens often adopt a play-based curriculum to encourage curiosity and collaboration among young learners.",
-                "trSentence": "Devlet anaokulları, küçük öğrenciler arasında merak ve işbirliğini teşvik etmek için genellikle oyun temelli müfredat benimser.",
                 "definition": "Plural of kindergarten; early-years schools."
             },
             {
                 "word": "prekindergarten",
                 "partOfSpeech": "noun",
                 "sentence": "Low-income families receive vouchers for prekindergarten programs that prepare four-year-olds for formal schooling.",
-                "trSentence": "Düşük gelirli aileler, dört yaşındakileri resmî eğitime hazırlayan okul-öncesi programlar için kupon alır.",
                 "definition": "Schooling the year before kindergarten."
             },
             {
                 "word": "prekindergartens",
                 "partOfSpeech": "noun",
                 "sentence": "The city built three new prekindergartens to reduce long waiting lists for early childhood education.",
-                "trSentence": "Şehir, erken çocukluk eğitimi için uzun bekleme listelerini azaltmak amacıyla üç yeni okul-öncesi açtı.",
                 "definition": "Plural of prekindergarten institutions."
             },
             {
                 "word": "kindergartner",
                 "partOfSpeech": "noun",
                 "sentence": "Each kindergartner proudly read a short sentence aloud during the class's first literacy presentation.",
-                "trSentence": "Her anaokulu öğrencisi, sınıfın ilk okuryazarlık sunumu sırasında kısa bir cümleyi yüksek sesle okudu.",
                 "definition": "Child attending kindergarten."
             }
         ]
@@ -410,13 +357,11 @@
         "meanings": [
             {
                 "sentence": "The progressive university decided to coeducate its formerly single-gender residence halls starting this autumn.",
-                "trSentence": "İlerici üniversite, bu sonbahardan itibaren önceden tek cinsiyetli yurtlarını karma eğitime açmaya karar verdi.",
                 "definition": "To educate males and females together.",
                 "partOfSpeech": "verb"
             },
             {
                 "sentence": "Many parents prefer a coeducational environment believing it reflects the mixed realities of modern workplaces.",
-                "trSentence": "Birçok ebeveyn, karma bir ortamın modern iş yerlerinin karışık gerçeklerini yansıttığına inanarak bunu tercih ediyor.",
                 "definition": "Educating males and females together.",
                 "partOfSpeech": "adjective"
             }
@@ -426,42 +371,36 @@
                 "word": "coeducates",
                 "partOfSpeech": "verb",
                 "sentence": "The new community college coeducates its workforce programs to ensure equal opportunities for all genders.",
-                "trSentence": "Yeni toplum koleji, tüm cinsiyetler için eşit fırsatlar sağlamak amacıyla mesleki programlarını karma olarak yürütüyor.",
                 "definition": "Teaches males and females together."
             },
             {
                 "word": "coeducated",
                 "partOfSpeech": "verb",
                 "sentence": "The boarding school first coeducated male and female pupils in 1975 after intense public debate.",
-                "trSentence": "Yatılı okul, yoğun kamu tartışmasından sonra 1975 yılında ilk kez erkek ve kız öğrencileri birlikte eğitti.",
                 "definition": "Past tense of coeducate."
             },
             {
                 "word": "coeducating",
                 "partOfSpeech": "verb",
                 "sentence": "Researchers examined challenges in coeducating adolescents from conservative communities that traditionally favor single-sex schooling.",
-                "trSentence": "Araştırmacılar, geleneksel olarak tek cinsiyetli okulları tercih eden muhafazakâr topluluklardan ergenlerin karma eğitimindeki zorlukları inceledi.",
                 "definition": "Educating males and females together, participle."
             },
             {
                 "word": "coeducation",
                 "partOfSpeech": "noun",
                 "sentence": "Coeducation gained popularity as societies recognized the social and economic benefits of mixed-gender classrooms.",
-                "trSentence": "Toplumlar karma sınıfların sosyal ve ekonomik faydalarını fark ettikçe karma eğitim popülerlik kazandı.",
                 "definition": "Education of males and females together."
             },
             {
                 "word": "coeducational",
                 "partOfSpeech": "adjective",
                 "sentence": "Historically single-sex colleges gradually became coeducational in response to legal and cultural pressure for gender equality.",
-                "trSentence": "Tarihsel olarak tek cinsiyetli kolejler, cinsiyet eşitliği için yasal ve kültürel baskıya yanıt olarak kademeli olarak karma hâle geldi.",
                 "definition": "Open to both male and female students."
             },
             {
                 "word": "coeducationally",
                 "partOfSpeech": "adverb",
                 "sentence": "The institution has been run coeducationally for over two decades without significant disciplinary issues.",
-                "trSentence": "Kurum, önemli disiplin sorunları olmadan yirmi yılı aşkın süredir karma olarak işletilmektedir.",
                 "definition": "In a coeducational manner."
             },
             {
@@ -997,7 +936,6 @@
                 "word": "demandable",
                 "partOfSpeech": "adjective",
                 "sentence": "The policy states that only demandable debts will accrue interest after the contractual grace period ends.",
-                "trSentence": "Politika, sözleşmedeki ek süre sona erdikten sonra yalnızca talep edilebilir borçların faiz işleteceğini belirtir.",
                 "definition": "Capable of being rightfully demanded."
             }
         ]
@@ -1117,7 +1055,6 @@
         "meanings": [
             {
                 "sentence": "The driver turned around quickly after realizing the narrow lane was actually a dead end.",
-                "trSentence": "Sürücü, dar sokağın aslında çıkmaz sokak olduğunu fark edince hızla geri döndü.",
                 "definition": "Road closed at one end, no exit.",
                 "partOfSpeech": "noun"
             },
@@ -2980,13 +2917,11 @@
         "meanings": [
             {
                 "sentence": "Doctors may prolong a patient's life by adjusting medication and providing specialized care.",
-                "trSentence": "Doktorlar, ilacı ayarlayıp özel bakım sağlayarak bir hastanın hayatını uzatabilir.",
                 "definition": "make something continue for longer",
                 "partOfSpeech": "verb"
             },
             {
                 "sentence": "Skilled guitarists often prolong the final note, creating suspense before the audience applause bursts.",
-                "trSentence": "Usta gitaristler son notayı uzatarak seyirci alkışından önce gerilim yaratır.",
                 "definition": "extend the duration of a musical sound",
                 "partOfSpeech": "verb"
             }
@@ -2996,63 +2931,54 @@
                 "word": "prolongs",
                 "partOfSpeech": "verb",
                 "sentence": "Regular stretching prolongs muscle flexibility, reducing injury risk for runners during intense training seasons.",
-                "trSentence": "Düzenli esneme, koşucular için yoğun antrenman dönemlerinde kas esnekliğini uzatarak sakatlanma riskini azaltır.",
                 "definition": "makes something last longer"
             },
             {
                 "word": "prolonged",
                 "partOfSpeech": "adjective",
                 "sentence": "Prolonged drought devastated the region, lowering river levels and threatening local agricultural livelihoods.",
-                "trSentence": "Uzun süren kuraklık bölgeyi harap etti, nehir seviyelerini düşürüp yerel tarımı tehdit etti.",
                 "definition": "continuing for an extended time"
             },
             {
                 "word": "prolonging",
                 "partOfSpeech": "verb",
                 "sentence": "He avoided sugar, prolonging the battery-like focus needed to finish the lengthy coding assignment.",
-                "trSentence": "Şekerden kaçınarak uzun kodlama ödevini bitirmek için gereken pile benzer dikkati uzattı.",
                 "definition": "continually extending something's duration"
             },
             {
                 "word": "prolongation",
                 "partOfSpeech": "noun",
                 "sentence": "The treaty allowed a four-year prolongation of peacekeeping operations along the disputed frontier.",
-                "trSentence": "Antlaşma, tartışmalı sınır boyunca barışı koruma operasyonlarının dört yıllık uzatılmasına izin verdi.",
                 "definition": "act of extending time"
             },
             {
                 "word": "prolongations",
                 "partOfSpeech": "noun",
                 "sentence": "Repeated prolongations of deadline eroded client trust and jeopardized the consultancy's reputation.",
-                "trSentence": "Son teslim tarihinin tekrar tekrar uzatılması, müşteri güvenini aşındırdı ve danışmanlığın itibarını tehlikeye attı.",
                 "definition": "instances of extension"
             },
             {
                 "word": "prolongable",
                 "partOfSpeech": "adjective",
                 "sentence": "Certain lightweight polymers are surprisingly prolongable when carefully stretched at controlled temperatures.",
-                "trSentence": "Bazı hafif polimerler, kontrollü sıcaklıklarda dikkatle gerildiğinde şaşırtıcı derecede uzatılabilir.",
                 "definition": "capable of being lengthened"
             },
             {
                 "word": "unprolonged",
                 "partOfSpeech": "adjective",
                 "sentence": "The rain was brief and unprolonged, leaving festival organizers relieved about outdoor equipment safety.",
-                "trSentence": "Yağmur kısa ve uzamamıştı, festival organizatörlerini açık hava ekipman güvenliği konusunda rahatlattı.",
                 "definition": "not extended in time"
             },
             {
                 "word": "life-prolonging",
                 "partOfSpeech": "compound adjective",
                 "sentence": "Researchers study life-prolonging therapies, including calorie restriction mimetics and advanced gene editing techniques.",
-                "trSentence": "Araştırmacılar, kalori kısıtlama benzeri maddeler ve gelişmiş gen düzenleme teknikleri dâhil yaşam uzatan tedavileri inceliyor.",
                 "definition": "extending human lifespan"
             },
             {
                 "word": "prolonged exposure",
                 "partOfSpeech": "collocation",
                 "sentence": "Prolonged exposure to ultraviolet light can degrade plastic facades, causing discoloration and structural brittleness over years.",
-                "trSentence": "Ultraviyole ışığa uzun süre maruz kalmak, plastik cepheleri bozarak yıllar içinde renk solmasına ve kırılganlığa neden olabilir.",
                 "definition": "extended contact with harmful factor"
             }
         ]
@@ -3062,13 +2988,11 @@
         "meanings": [
             {
                 "sentence": "The scientist became prominent after publishing groundbreaking findings on renewable hydrogen production methods in top journals.",
-                "trSentence": "Bilim insanı, önde gelen dergilerde yenilenebilir hidrojen üretim yöntemleri üzerine çığır açan bulgular yayımladıktan sonra tanınmış oldu.",
                 "definition": "important and widely recognized",
                 "partOfSpeech": "adjective"
             },
             {
                 "sentence": "A prominent ridge runs along the smartphone's back, housing the new camera array and improving grip.",
-                "trSentence": "Akıllı telefonun arkasında, yeni kamera dizisini barındıran ve tutuşu iyileştiren belirgin bir çıkıntı uzanır.",
                 "definition": "sticking out or easily noticeable",
                 "partOfSpeech": "adjective"
             }
@@ -3078,49 +3002,42 @@
                 "word": "prominence",
                 "partOfSpeech": "noun",
                 "sentence": "Media attention increased the singer's prominence, filling large arenas throughout her world tour.",
-                "trSentence": "Medya ilgisi, şarkıcının ününü artırdı ve dünya turu boyunca büyük arenaları doldurdu.",
                 "definition": "state of being famous or noticeable"
             },
             {
                 "word": "prominences",
                 "partOfSpeech": "noun",
                 "sentence": "Astronomers photographed solar prominences, massive plasma loops emerging dramatically from the sun's surface.",
-                "trSentence": "Gökbilimciler, güneş yüzeyinden etkileyici biçimde çıkan dev plazma halkaları olan güneş çıkıntılarını fotoğrafladı.",
                 "definition": "notable projections on a surface"
             },
             {
                 "word": "prominently",
                 "partOfSpeech": "adverb",
                 "sentence": "Nutritional information is prominently displayed on the packaging to guide consumers toward healthier meal choices.",
-                "trSentence": "Beslenme bilgisi, tüketicileri daha sağlıklı yemek tercihlerine yönlendirmek için ambalaj üzerinde belirgin şekilde gösterilir.",
                 "definition": "in a way that stands out widely"
             },
             {
                 "word": "nonprominent",
                 "partOfSpeech": "adjective",
                 "sentence": "Research aims to support nonprominent dialects, preserving linguistic diversity endangered by aggressive standardization.",
-                "trSentence": "Araştırma, saldırgan standartlaşma nedeniyle tehlikeye giren dil çeşitliliğini korumak için önemsiz lehçeleri desteklemeyi hedefliyor.",
                 "definition": "not easily noticeable or famous"
             },
             {
                 "word": "prominent role",
                 "partOfSpeech": "collocation",
                 "sentence": "Local journalists played a prominent role in uncovering corruption, prompting swift reforms within the city council.",
-                "trSentence": "Yerel gazeteciler, yolsuzluğu ortaya çıkarmada önemli bir rol oynadı ve belediye meclisinde hızlı reformlara yol açtı.",
                 "definition": "important function or position"
             },
             {
                 "word": "prominent figure",
                 "partOfSpeech": "collocation",
                 "sentence": "As a prominent figure in tech, she advocates ethical AI standards during international policy debates.",
-                "trSentence": "Teknoloji alanında önde gelen bir isim olarak, uluslararası politika tartışmalarında etik yapay zekâ standartlarını savunuyor.",
                 "definition": "well-known person"
             },
             {
                 "word": "prominent feature",
                 "partOfSpeech": "collocation",
                 "sentence": "The castle's prominent feature is a tall limestone tower visible from miles across the valley floor.",
-                "trSentence": "Kalede belirgin özellik, vadinin tabanından kilometrelerce uzaktan görülebilen yüksek bir kireçtaşı kulesidir.",
                 "definition": "noticeable characteristic"
             }
         ]
@@ -3130,13 +3047,11 @@
         "meanings": [
             {
                 "sentence": "During the crisis, the bank maintained a steady interest rate to reassure nervous small-business owners.",
-                "trSentence": "Kriz sırasında banka, küçük işletme sahiplerini rahatlatmak için sabit bir faiz oranı korudu.",
                 "definition": "constant, regular, not fluctuating",
                 "partOfSpeech": "adjective"
             },
             {
                 "sentence": "The climber paused, took a deep breath, and tried to steady his trembling hands before the final move.",
-                "trSentence": "Dağcı durdu, derin bir nefes aldı ve son hamle öncesinde titreyen ellerini sabitlemeye çalıştı.",
                 "definition": "make or become firm, stable, balanced",
                 "partOfSpeech": "verb"
             }
@@ -3146,21 +3061,18 @@
                 "word": "steadies",
                 "partOfSpeech": "verb",
                 "sentence": "Controlled breathing steadies an orchestra conductor’s baton during complex tempo changes.",
-                "trSentence": "Kontrollü nefes, karmaşık tempo değişikliklerinde bir orkestra şefinin bagetini dengeler.",
                 "definition": "makes something stable"
             },
             {
                 "word": "steadied",
                 "partOfSpeech": "verb",
                 "sentence": "She steadied the camera against the railing to capture the city lights without blur.",
-                "trSentence": "Şehri netsiz çekmemek için kamerayı korkuluğa dayayarak sabitledi.",
                 "definition": "made firm or stable"
             },
             {
                 "word": "steadying",
                 "partOfSpeech": "verb",
                 "sentence": "A mentor’s calm advice was steadying the anxious intern before every public presentation.",
-                "trSentence": "Bir mentörün sakin tavsiyesi, her sunumdan önce endişeli stajyeri sakinleştiriyordu.",
                 "definition": "acting to stabilize"
             },
             {
@@ -3862,14 +3774,12 @@
                 "word": "room service",
                 "partOfSpeech": "compound noun",
                 "sentence": "After a late landing, the pilot ordered pasta from room service and reviewed tomorrow’s flight plan.",
-                "trSentence": "Geç inişten sonra pilot, oda servisiyle makarna sipariş etti ve yarının uçuş planını gözden geçirdi.",
                 "definition": "hotel meal delivery to rooms"
             },
             {
                 "word": "roommate",
                 "partOfSpeech": "compound noun",
                 "sentence": "Her roommate practiced violin each dawn, but soft earplugs kept the early melodies from disrupting sleep.",
-                "trSentence": "Oda arkadaşı her şafak keman çalışırdı; yumuşak kulak tıkaçları erken ezgilerin uykuyu bölmesini engelledi.",
                 "definition": "person sharing living quarters"
             }
         ]
@@ -3879,13 +3789,11 @@
         "meanings": [
             {
                 "sentence": "Many schools still rely on rote to teach multiplication tables, despite research encouraging concept-focused methods.",
-                "trSentence": "Pek çok okul, kavram odaklı yöntemleri öne çıkaran araştırmalara rağmen çarpım tablosunu ezberle öğretmeye hâlâ bel bağlar.",
                 "definition": "mechanical repetition used to memorize",
                 "partOfSpeech": "noun"
             },
             {
                 "sentence": "During dawn patrol, sailors checked instruments by rote, their movements automatic from years of rigorous training.",
-                "trSentence": "Gün doğumu devriyesinde denizciler, yılların sıkı eğitimiyle hareketleri otomatikleşmiş halde cihazları ezbere kontrol etti.",
                 "definition": "habitual routine done automatically",
                 "partOfSpeech": "noun"
             }
@@ -3895,35 +3803,30 @@
                 "word": "rotes",
                 "partOfSpeech": "noun",
                 "sentence": "Linguists studied traditional chant rotes that village elders used to preserve genealogies across generations.",
-                "trSentence": "Dilbilimciler, köy büyüklerinin soyları kuşaklar boyunca korumak için kullandığı geleneksel ilahi ezberlerini inceledi.",
                 "definition": "acts of repeated memorization"
             },
             {
                 "word": "rote learning",
                 "partOfSpeech": "compound noun",
                 "sentence": "Critics argue rote learning limits curiosity because students seldom ask why formulas actually work.",
-                "trSentence": "Eleştirmenler, ezberci öğrenimin merakı sınırladığını çünkü öğrencilerin formüllerin neden işlediğini nadiren sorduklarını savunur.",
                 "definition": "memorization through repetition"
             },
             {
                 "word": "rote memorization",
                 "partOfSpeech": "compound noun",
                 "sentence": "Entrance exams often reward rote memorization rather than analytical problem-solving skills.",
-                "trSentence": "Giriş sınavları çoğu zaman analitik problem çözme yerine ezberci hafızayı ödüllendirir.",
                 "definition": "learning lists by repeating"
             },
             {
                 "word": "learn by rote",
                 "partOfSpeech": "set phrase",
                 "sentence": "Opera singers must learn arias by rote before focusing on stage expressions and dramatic nuance.",
-                "trSentence": "Opera şarkıcıları, sahne ifadelerine ve dramatik nüanslara odaklanmadan önce aryaları ezbere öğrenmeli.",
                 "definition": "memorize through mere repetition"
             },
             {
                 "word": "rote learner",
                 "partOfSpeech": "compound noun",
                 "sentence": "As a rote learner, he recalled dates flawlessly yet struggled to interpret historical motives.",
-                "trSentence": "Ezberci bir öğrenen olarak tarihleri kusursuz hatırladı ama tarihsel motivasyonları yorumlamakta zorlandı.",
                 "definition": "person who memorizes mechanically"
             },
             {
@@ -3969,28 +3872,24 @@
                 "word": "ran",
                 "partOfSpeech": "verb",
                 "sentence": "The toddler ran across the lawn, chasing bubbles that sparkled like tiny rainbows in the sunlight.",
-                "trSentence": "Yürümeye yeni başlayan çocuk, güneş ışığında küçük gökkuşakları gibi parlayan baloncukların peşinden çimlerde koştu.",
                 "definition": "moved quickly in the past"
             },
             {
                 "word": "running",
                 "partOfSpeech": "noun",
                 "sentence": "Regular running improves mood by releasing endorphins, according to numerous peer-reviewed psychology studies.",
-                "trSentence": "Çok sayıda hakemli psikoloji çalışmasına göre düzenli koşu, endorfin salgılayarak ruh hâlini iyileştirir.",
                 "definition": "act of jogging or racing"
             },
             {
                 "word": "runner",
                 "partOfSpeech": "noun",
                 "sentence": "Each elite runner carried an RFID chip that recorded split times at every five-kilometre checkpoint.",
-                "trSentence": "Her elit koşucu, her beş kilometredeki kontrol noktasında ara zamanları kaydeden bir RFID çipi taşıdı.",
                 "definition": "person who runs races"
             },
             {
                 "word": "runners",
                 "partOfSpeech": "noun",
                 "sentence": "Trail runners packed emergency whistles and thermal blankets before tackling the remote snow-covered ridge.",
-                "trSentence": "Patika koşucuları, uzak karla kaplı sırtı aşmadan önce acil durum düdükleri ve termal battaniyeler hazırladı.",
                 "definition": "people who run on trails"
             },
             {
@@ -4113,14 +4012,12 @@
                 "word": "exhilarating",
                 "partOfSpeech": "adjective",
                 "sentence": "The roller coaster gave us an exhilarating rush that left everyone screaming with joy.",
-                "trSentence": "Lunapark treni, herkesi sevinç çığlıklarına boğan heyecan verici bir coşku yarattı.",
                 "definition": "Extremely exciting and joyful."
             },
             {
                 "word": "exhilarated",
                 "partOfSpeech": "adjective",
                 "sentence": "She felt exhilarated after finishing her first marathon despite the pouring rain.",
-                "trSentence": "Yoğun yağmura rağmen ilk maratonunu bitirdikten sonra kendini coşkulu hissetti.",
                 "definition": "Filled with lively excitement."
             },
             {
@@ -4249,21 +4146,18 @@
                 "word": "chicness",
                 "partOfSpeech": "noun",
                 "sentence": "Interior magazines praised the effortless chicness of the Scandinavian-inspired loft renovation.",
-                "trSentence": "İç mimarlık dergileri, İskandinav esintili loft yenilemesinin zahmetsiz şıklığını övdü.",
                 "definition": "Quality of being chic."
             },
             {
                 "word": "chicly",
                 "partOfSpeech": "adverb",
                 "sentence": "He arrived chicly dressed in a tailored suit and minimalist leather sneakers.",
-                "trSentence": "Özel dikim takım elbise ve minimalist deri spor ayakkabılarla şıkça giyinmiş olarak geldi.",
                 "definition": "In a chic manner."
             },
             {
                 "word": "boho chic",
                 "partOfSpeech": "compound adjective",
                 "sentence": "Festivalgoers favored the relaxed boho chic vibe of flowing dresses and wide-brimmed hats.",
-                "trSentence": "Festival ziyaretçileri, dökümlü elbiseler ve geniş kenarlı şapkaların rahat boho şıklığı havasını tercih etti.",
                 "definition": "Fashion style blending bohemian and chic elements."
             }
         ]
@@ -4364,14 +4258,12 @@
                 "word": "arose",
                 "partOfSpeech": "verb",
                 "sentence": "A technical issue arose during the live broadcast and interrupted the interview.",
-                "trSentence": "Canlı yayında bir teknik sorun çıktı ve röportajı yarıda kesti.",
                 "definition": "Simple past form of arise."
             },
             {
                 "word": "arisen",
                 "partOfSpeech": "verb",
                 "sentence": "Serious complications have arisen since we delayed updating the security software.",
-                "trSentence": "Güvenlik yazılımını güncellemeyi geciktirdiğimizden beri ciddi komplikasyonlar ortaya çıktı.",
                 "definition": "Past participle of arise."
             },
             {
@@ -4385,7 +4277,6 @@
                 "word": "re-arise",
                 "partOfSpeech": "verb",
                 "sentence": "Old tensions may re-arise if negotiations break down again soon.",
-                "trSentence": "Müzakereler yeniden bozulursa eski gerginlikler yakında tekrar ortaya çıkabilir.",
                 "definition": "Arise once more after subsiding."
             },
             {
@@ -4535,28 +4426,25 @@
                 "word": "reblend",
                 "partOfSpeech": "verb",
                 "sentence": "If the paint separates overnight, simply reblend it before applying another coat.",
-                "trSentence": "Boya gece ayrışırsa, başka bir kat sürmeden önce yeniden karıştırın.",
                 "definition": "Blend again after separation."
             },
             {
                 "word": "blend in",
                 "partOfSpeech": "phrasal verb",
                 "sentence": "Migrating birds blend in with grey clouds, making them hard to spot.",
-                "trSentence": "Göçmen kuşlar gri bulutlarla uyum sağlayarak fark edilmelerini zorlaştırır.",
                 "definition": "Become inconspicuous within surroundings."
             },
             {
                 "word": "blend into",
                 "partOfSpeech": "phrasal verb",
                 "sentence": "The artist made the horizon blend into the sea using delicate brushstrokes.",
-                "trSentence": "Sanatçı, ufkun denize karışmasını ince fırça darbeleriyle sağladı.",
+                "": "Sanatçı, ufkun denize karışmasını ince fırça darbeleriyle sağladı.",
                 "definition": "Gradually merge with something else."
             },
             {
                 "word": "blended learning",
                 "partOfSpeech": "compound noun",
                 "sentence": "Universities implement blended learning to combine online lectures with in-person discussion sessions.",
-                "trSentence": "Üniversiteler, çevrim içi dersleri yüz yüze tartışmalarla birleştirmek için harmanlanmış öğrenimi kullanıyor.",
                 "definition": "Educational model mixing digital and classroom methods."
             }
         ]
@@ -4566,19 +4454,16 @@
         "meanings": [
             {
                 "sentence": "In spring, cherry trees bloom spectacularly, covering the park with delicate pink petals.",
-                "trSentence": "İlkbaharda kiraz ağaçları muhteşem şekilde çiçek açarak parkı nazik pembe yapraklarla kaplar.",
                 "definition": "Produce flowers; flower.",
                 "partOfSpeech": "verb"
             },
             {
                 "sentence": "His confidence began to bloom after he completed the challenging internship successfully.",
-                "trSentence": "Zorlu stajı başarıyla tamamladıktan sonra özgüveni filizlenmeye başladı.",
                 "definition": "Develop or flourish successfully.",
                 "partOfSpeech": "verb"
             },
             {
                 "sentence": "The rose was at its peak bloom, releasing a sweet fragrance into the air.",
-                "trSentence": "Gül tam çiçeklenme dönemindeydi ve havaya tatlı bir koku yayıyordu.",
                 "definition": "State of a flower when fully open.",
                 "partOfSpeech": "noun"
             }
@@ -4588,7 +4473,6 @@
                 "word": "blooms",
                 "partOfSpeech": "verb",
                 "sentence": "Whenever stress subsides, creativity blooms and fresh ideas appear almost effortlessly.",
-                "trSentence": "Stres azaldığında yaratıcılık çiçek açar ve yeni fikirler neredeyse zahmetsizce ortaya çıkar.",
                 "definition": "Third-person singular present of bloom."
             },
             {
@@ -4690,42 +4574,36 @@
                 "word": "bursted",
                 "partOfSpeech": "verb",
                 "sentence": "The old dam finally bursted after decades of neglect and constant heavy rainfall.",
-                "trSentence": "Eski baraj, yıllarca ihmal ve sürekli yoğun yağıştan sonra sonunda patladı.",
                 "definition": "Nonstandard simple past of burst."
             },
             {
                 "word": "burstable",
                 "partOfSpeech": "adjective",
                 "sentence": "Cloud services use burstable performance instances that handle occasional traffic spikes economically.",
-                "trSentence": "Bulut hizmetleri, ara sıra trafik artışlarını ekonomik biçimde karşılayan artırılabilir performans örnekleri kullanır.",
                 "definition": "Capable of increasing capacity suddenly."
             },
             {
                 "word": "burstiness",
                 "partOfSpeech": "noun",
                 "sentence": "Network engineers measure burstiness to predict sudden peaks in data traffic accurately.",
-                "trSentence": "Ağ mühendisleri ani veri trafiği zirvelerini öngörmek için patlamalılığı ölçer.",
                 "definition": "Quality of occurring in sudden short bursts."
             },
             {
                 "word": "burst into",
                 "partOfSpeech": "phrasal verb",
                 "sentence": "Crowds burst into applause as the athlete crossed the finish line with record speed.",
-                "trSentence": "Sporcu rekor hızla bitiş çizgisini geçince kalabalık alkışa boğuldu.",
                 "definition": "Suddenly enter a state or action."
             },
             {
                 "word": "burst out",
                 "partOfSpeech": "phrasal verb",
                 "sentence": "She couldn't hold back and burst out laughing at the comedian's unexpected joke.",
-                "trSentence": "Komedyenin beklenmedik şakasına dayanamayarak kahkaha patlattı.",
                 "definition": "Suddenly express something loudly."
             },
             {
                 "word": "burst open",
                 "partOfSpeech": "phrasal verb",
                 "sentence": "The freezer door burst open, spilling frozen peas and ice across the kitchen floor.",
-                "trSentence": "Derin dondurucu kapısı aniden açıldı, mutfak zeminine bezelye ve buz saçtı.",
                 "definition": "Fly open suddenly due to pressure."
             }
         ]
@@ -4843,7 +4721,6 @@
             },
             {
                 "sentence": "The university can flunk any student whose GPA stays below two point zero for consecutive semesters.",
-                "trSentence": "Üniversite, ardışık dönemlerde not ortalaması iki puanın altında kalan her öğrenciyi okuldan atabilir.",
                 "definition": "Dismiss or expel for continued poor performance.",
                 "partOfSpeech": "verb"
             }
@@ -4853,14 +4730,12 @@
                 "word": "flunks",
                 "partOfSpeech": "verb",
                 "sentence": "If he flunks again this term, he may lose his scholarship permanently.",
-                "trSentence": "Bu dönem yine kalırsa bursunu kalıcı olarak kaybedebilir.",
                 "definition": "Third-person singular present form of flunk."
             },
             {
                 "word": "flunked",
                 "partOfSpeech": "verb",
                 "sentence": "She flunked organic chemistry once but passed easily after hiring a private tutor.",
-                "trSentence": "Organik kimyadan bir kez kaldı fakat özel öğretmen tuttuktan sonra kolayca geçti.",
                 "definition": "Simple past form of flunk."
             },
             {
@@ -5066,7 +4941,6 @@
             },
             {
                 "sentence": "Crafty tailors once cabbaged spare cloth scraps to sell quietly and boost their small wages.",
-                "trSentence": "Kurnaz terziler, düşük maaşlarını artırmak için fazla kumaş parçalarını gizlice yürütürdü.",
                 "definition": "Steal small pieces, especially fabric.",
                 "partOfSpeech": "verb"
             }
@@ -5076,14 +4950,12 @@
                 "word": "cabbages",
                 "partOfSpeech": "noun",
                 "sentence": "Farmers displayed gigantic cabbages at the harvest fair's annual biggest-vegetable contest.",
-                "trSentence": "Çiftçiler, hasat panayırının yıllık en büyük sebze yarışmasında dev lahanalar sergiledi.",
                 "definition": "Plural of cabbage."
             },
             {
                 "word": "cabbaged",
                 "partOfSpeech": "verb",
                 "sentence": "He cabbaged several fabric offcuts from the workshop and sold them at the market.",
-                "trSentence": "Atölyeden birkaç kumaş parçasını yürütüp pazarda sattı.",
                 "definition": "Simple past of cabbage (steal scraps)."
             },
             {
@@ -5343,21 +5215,18 @@
                 "word": "rigidities",
                 "partOfSpeech": "noun",
                 "sentence": "Different alloys display varying rigidities, allowing engineers to choose materials for specialized load-bearing parts.",
-                "trSentence": "Farklı alaşımlar değişen sertlikler gösterir ve mühendislerin özel yük taşıyan parçalar için malzeme seçmesine olanak tanır.",
                 "definition": "Plural of rigidity; degrees of stiffness."
             },
             {
                 "word": "rigid body",
                 "partOfSpeech": "compound noun",
                 "sentence": "In physics, a rigid body assumption ignores deformation, simplifying calculations of rotational motion.",
-                "trSentence": "Fizikte, katı cisim varsayımı deformasyonu yok sayarak dönme hareketi hesaplamalarını basitleştirir.",
                 "definition": "Object assumed perfectly undeformable in mechanics."
             },
             {
                 "word": "rigid rule",
                 "partOfSpeech": "collocation",
                 "sentence": "The scholarship has a rigid rule prohibiting any gap semesters without explicit approval from the dean.",
-                "trSentence": "Bursun, dekanın açık onayı olmadan dönem arası verilmesini yasaklayan katı bir kuralı vardır.",
                 "definition": "Strict regulation applied without flexibility."
             }
         ]
@@ -5466,7 +5335,6 @@
                 "word": "bedroom",
                 "partOfSpeech": "compound noun",
                 "sentence": "Guests stayed in the spare bedroom overlooking orchards and distant mountains bathed in dawn light.",
-                "trSentence": "Misafirler, sabah ışığında dağlara bakan yedek yatak odasında kaldı.",
                 "definition": "Room primarily used for sleeping."
             }
         ]
@@ -5482,7 +5350,6 @@
             },
             {
                 "sentence": "Oxygen plays a vital role in cellular respiration, enabling every human organ to continue functioning properly.",
-                "trSentence": "Oksijen, hücresel solunumda hayati bir rol oynayarak her insan organının düzgün çalışmaya devam etmesini sağlar.",
                 "definition": "Connected to or necessary for life itself.",
                 "partOfSpeech": "adjective"
             }
@@ -7287,501 +7154,1230 @@
         ]
     },
     {
-      "root": "precursor",
-      "meanings": [
-        {
-          "sentence": "The Wright Flyer is considered a precursor of modern airplanes.",
-          "trSentence": "Wright Flyer modern uçakların öncüsü olarak kabul edilir.",
-          "definition": "Something that comes before another of the same kind and helps to develop or influence it.",
-          "partOfSpeech": "noun"
-        },
-        {
-          "sentence": "Cholesterol is a precursor of several steroid hormones.",
-          "trSentence": "Kolesterol birkaç steroid hormonunun öncüsüdür.",
-          "definition": "A chemical compound that precedes another in a biochemical pathway.",
-          "partOfSpeech": "noun"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "precursory",
-          "partOfSpeech": "adjective",
-          "sentence": "The scientist observed precursory tremors before the main earthquake.",
-          "trSentence": "Bilim insanı asıl depremden önce öncü sarsıntıları gözlemledi.",
-          "definition": "Relating to or serving as an early indicator or warning of something to come."
-        },
-        {
-          "word": "precursors",
-          "partOfSpeech": "noun",
-          "sentence": "Small ice crystals act as precursors to larger snowflakes.",
-          "trSentence": "Küçük buz kristalleri daha büyük kar tanelerinin öncüleridir.",
-          "definition": "Plural form of precursor; entities that precede and signal the development of something."
-        },
-        {
-          "word": "precursor cell",
-          "partOfSpeech": "compound noun",
-          "sentence": "A precursor cell can differentiate into multiple blood cell types.",
-          "trSentence": "Bir öncü hücre birçok kan hücresi tipine farklılaşabilir.",
-          "definition": "An immature cell that can develop into one or more specialized cell types."
-        }
-      ]
+        "root": "precursor",
+        "meanings": [
+            {
+                "sentence": "The Wright Flyer is considered a precursor of modern airplanes.",
+                "trSentence": "Wright Flyer modern uçakların öncüsü olarak kabul edilir.",
+                "definition": "Something that comes before another of the same kind and helps to develop or influence it.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "Cholesterol is a precursor of several steroid hormones.",
+                "trSentence": "Kolesterol birkaç steroid hormonunun öncüsüdür.",
+                "definition": "A chemical compound that precedes another in a biochemical pathway.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "precursory",
+                "partOfSpeech": "adjective",
+                "sentence": "The scientist observed precursory tremors before the main earthquake.",
+                "trSentence": "Bilim insanı asıl depremden önce öncü sarsıntıları gözlemledi.",
+                "definition": "Relating to or serving as an early indicator or warning of something to come."
+            },
+            {
+                "word": "precursors",
+                "partOfSpeech": "noun",
+                "sentence": "Small ice crystals act as precursors to larger snowflakes.",
+                "trSentence": "Küçük buz kristalleri daha büyük kar tanelerinin öncüleridir.",
+                "definition": "Plural form of precursor; entities that precede and signal the development of something."
+            },
+            {
+                "word": "precursor cell",
+                "partOfSpeech": "compound noun",
+                "sentence": "A precursor cell can differentiate into multiple blood cell types.",
+                "trSentence": "Bir öncü hücre birçok kan hücresi tipine farklılaşabilir.",
+                "definition": "An immature cell that can develop into one or more specialized cell types."
+            }
+        ]
     },
     {
-      "root": "sleep on it",
-      "meanings": [
-        {
-          "sentence": "I'm not sure whether to accept the offer; I'll sleep on it tonight.",
-          "trSentence": "Teklifi kabul edip etmemekte emin değilim; bu gece üzerine uyuyacağım.",
-          "definition": "To postpone making a decision until the following day, after giving it more thought.",
-          "partOfSpeech": "idiom"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "slept on it",
-          "partOfSpeech": "idiom",
-          "sentence": "She wished she had slept on it before replying.",
-          "trSentence": "Cevap vermeden önce üzerine uyusaydı keşke.",
-          "definition": "Past tense form of 'sleep on it'."
-        },
-        {
-          "word": "sleeping on it",
-          "partOfSpeech": "idiom",
-          "sentence": "He is sleeping on it and will get back to us tomorrow.",
-          "trSentence": "Üzerinde düşünüyor ve yarın bize dönecek.",
-          "definition": "Present participle or gerund form of 'sleep on it'."
-        }
-      ]
+        "root": "sleep on it",
+        "meanings": [
+            {
+                "sentence": "I'm not sure whether to accept the offer; I'll sleep on it tonight.",
+                "trSentence": "Teklifi kabul edip etmemekte emin değilim; bu gece üzerine uyuyacağım.",
+                "definition": "To postpone making a decision until the following day, after giving it more thought.",
+                "partOfSpeech": "idiom"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "slept on it",
+                "partOfSpeech": "idiom",
+                "sentence": "She wished she had slept on it before replying.",
+                "trSentence": "Cevap vermeden önce üzerine uyusaydı keşke.",
+                "definition": "Past tense form of 'sleep on it'."
+            },
+            {
+                "word": "sleeping on it",
+                "partOfSpeech": "idiom",
+                "sentence": "He is sleeping on it and will get back to us tomorrow.",
+                "trSentence": "Üzerinde düşünüyor ve yarın bize dönecek.",
+                "definition": "Present participle or gerund form of 'sleep on it'."
+            }
+        ]
     },
     {
-      "root": "press on",
-      "meanings": [
-        {
-          "sentence": "Despite the heavy rain, the hikers decided to press on.",
-          "trSentence": "Şiddetli yağmura rağmen yürüyüşçüler devam etmeye karar verdi.",
-          "definition": "To continue moving forward or persist with an activity despite difficulties.",
-          "partOfSpeech": "phrasal verb"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "pressed on",
-          "partOfSpeech": "phrasal verb",
-          "sentence": "We pressed on until we reached the village.",
-          "trSentence": "Köye ulaşana kadar devam ettik.",
-          "definition": "Past tense form of 'press on'."
-        },
-        {
-          "word": "presses on",
-          "partOfSpeech": "phrasal verb",
-          "sentence": "She presses on with her research, unfazed by setbacks.",
-          "trSentence": "O, araştırmasına aksiliklerden etkilenmeden devam eder.",
-          "definition": "Third-person singular present form of 'press on'."
-        },
-        {
-          "word": "pressing on",
-          "partOfSpeech": "phrasal verb",
-          "sentence": "Pressing on despite exhaustion, the team finished the project.",
-          "trSentence": "Yorgunluğa rağmen devam eden ekip projeyi bitirdi.",
-          "definition": "Present participle or gerund form of 'press on'."
-        }
-      ]
+        "root": "press on",
+        "meanings": [
+            {
+                "sentence": "Despite the heavy rain, the hikers decided to press on.",
+                "trSentence": "Şiddetli yağmura rağmen yürüyüşçüler devam etmeye karar verdi.",
+                "definition": "To continue moving forward or persist with an activity despite difficulties.",
+                "partOfSpeech": "phrasal verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "pressed on",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "We pressed on until we reached the village.",
+                "trSentence": "Köye ulaşana kadar devam ettik.",
+                "definition": "Past tense form of 'press on'."
+            },
+            {
+                "word": "presses on",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "She presses on with her research, unfazed by setbacks.",
+                "trSentence": "O, araştırmasına aksiliklerden etkilenmeden devam eder.",
+                "definition": "Third-person singular present form of 'press on'."
+            },
+            {
+                "word": "pressing on",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "Pressing on despite exhaustion, the team finished the project.",
+                "trSentence": "Yorgunluğa rağmen devam eden ekip projeyi bitirdi.",
+                "definition": "Present participle or gerund form of 'press on'."
+            }
+        ]
     },
     {
-      "root": "press on",
-      "meanings": [
-        {
-          "sentence": "Despite the heavy rain, the hikers decided to press on.",
-          "trSentence": "Şiddetli yağmura rağmen yürüyüşçüler devam etmeye karar verdi.",
-          "definition": "To continue moving forward or persist with an activity despite difficulties.",
-          "partOfSpeech": "phrasal verb"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "pressed on",
-          "partOfSpeech": "phrasal verb",
-          "sentence": "We pressed on until we reached the village.",
-          "trSentence": "Köye ulaşana kadar devam ettik.",
-          "definition": "Past tense form of 'press on'."
-        },
-        {
-          "word": "presses on",
-          "partOfSpeech": "phrasal verb",
-          "sentence": "She presses on with her research, unfazed by setbacks.",
-          "trSentence": "O, araştırmasına aksiliklerden etkilenmeden devam eder.",
-          "definition": "Third-person singular present form of 'press on'."
-        },
-        {
-          "word": "pressing on",
-          "partOfSpeech": "phrasal verb",
-          "sentence": "Pressing on despite exhaustion, the team finished the project.",
-          "trSentence": "Yorgunluğa rağmen devam eden ekip projeyi bitirdi.",
-          "definition": "Present participle or gerund form of 'press on'."
-        }
-      ]
+        "root": "press on",
+        "meanings": [
+            {
+                "sentence": "Despite the heavy rain, the hikers decided to press on.",
+                "trSentence": "Şiddetli yağmura rağmen yürüyüşçüler devam etmeye karar verdi.",
+                "definition": "To continue moving forward or persist with an activity despite difficulties.",
+                "partOfSpeech": "phrasal verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "pressed on",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "We pressed on until we reached the village.",
+                "trSentence": "Köye ulaşana kadar devam ettik.",
+                "definition": "Past tense form of 'press on'."
+            },
+            {
+                "word": "presses on",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "She presses on with her research, unfazed by setbacks.",
+                "trSentence": "O, araştırmasına aksiliklerden etkilenmeden devam eder.",
+                "definition": "Third-person singular present form of 'press on'."
+            },
+            {
+                "word": "pressing on",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "Pressing on despite exhaustion, the team finished the project.",
+                "trSentence": "Yorgunluğa rağmen devam eden ekip projeyi bitirdi.",
+                "definition": "Present participle or gerund form of 'press on'."
+            }
+        ]
     },
     {
-      "root": "leap",
+        "root": "leap",
+        "meanings": [
+            {
+                "sentence": "The cat made a quick leap onto the windowsill.",
+                "trSentence": "Kedi pencere pervazına hızlı bir sıçrayış yaptı.",
+                "definition": "A sudden jump from one place to another.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "He decided to leap over the stream.",
+                "trSentence": "Dereyi üzerinden atlamaya karar verdi.",
+                "definition": "To jump high or a long distance.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "There has been a leap in technology over the last decade.",
+                "trSentence": "Son on yılda teknolojide büyük bir sıçrama oldu.",
+                "definition": "A sudden and significant increase or advance.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "leaps",
+                "partOfSpeech": "noun",
+                "sentence": "Small leaps in improvement can add up over time.",
+                "trSentence": "Küçük gelişme sıçramaları zamanla birikebilir.",
+                "definition": "Plural form of leap; multiple jumps or advances."
+            },
+            {
+                "word": "leaped",
+                "partOfSpeech": "verb",
+                "sentence": "She leaped across the gap effortlessly.",
+                "trSentence": "O, aralığı zahmetsizce atladı.",
+                "definition": "Simple past and past participle form (especially in American English)."
+            },
+            {
+                "word": "leapt",
+                "partOfSpeech": "verb",
+                "sentence": "The deer leapt over the fence.",
+                "trSentence": "Geyik çitin üzerinden atladı.",
+                "definition": "Simple past and past participle form (especially in British English)."
+            },
+            {
+                "word": "leaping",
+                "partOfSpeech": "verb",
+                "sentence": "Leaping over obstacles requires practice.",
+                "trSentence": "Engellerin üzerinden atlamak pratik gerektirir.",
+                "definition": "Present participle or gerund form of leap."
+            },
+            {
+                "word": "leap year",
+                "partOfSpeech": "compound noun",
+                "sentence": "February has 29 days in a leap year.",
+                "trSentence": "Artık yılda Şubat ayı 29 gündür.",
+                "definition": "A calendar year containing an additional day (February 29) to keep the calendar year synchronized with the astronomical year."
+            },
+            {
+                "word": "leapfrog",
+                "partOfSpeech": "compound noun",
+                "sentence": "The company's innovation allowed it to play leapfrog over its competitors.",
+                "trSentence": "Şirketin yeniliği rakiplerinin önüne sıçrama yapmasını sağladı.",
+                "definition": "A move in which someone or something surpasses others quickly by making a major advance."
+            }
+        ]
+    },
+    {
+        "root": "vet",
+        "meanings": [
+            {
+                "sentence": "She took her dog to the vet for a routine check-up.",
+                "trSentence": "Köpeğini rutin kontrol için veterinere götürdü.",
+                "definition": "A veterinarian; a medical professional who treats animals.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The HR department must vet all candidates before interviews.",
+                "trSentence": "İK departmanı görüşmelerden önce tüm adayları incelemek zorundadır.",
+                "definition": "To examine or evaluate someone or something carefully, especially for suitability or reliability.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The decorated war vet gave a moving speech.",
+                "trSentence": "Madalya almış savaş gazisi etkileyici bir konuşma yaptı.",
+                "definition": "Informal abbreviation for a military veteran.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "vets",
+                "partOfSpeech": "noun",
+                "sentence": "Many vets volunteer at animal shelters on weekends.",
+                "trSentence": "Pek çok veteriner hafta sonları hayvan barınaklarında gönüllü olur.",
+                "definition": "Plural of vet; also third-person singular present of the verb 'vet'."
+            },
+            {
+                "word": "vetted",
+                "partOfSpeech": "verb",
+                "sentence": "All reports were vetted by independent experts.",
+                "trSentence": "Tüm raporlar bağımsız uzmanlar tarafından incelendi.",
+                "definition": "Past tense and past participle of vet."
+            },
+            {
+                "word": "vetting",
+                "partOfSpeech": "verb",
+                "sentence": "The committee is vetting the proposals this week.",
+                "trSentence": "Komite bu hafta önerileri inceliyor.",
+                "definition": "Present participle or gerund of vet."
+            },
+            {
+                "word": "vettable",
+                "partOfSpeech": "adjective",
+                "sentence": "Only vettable information should be included in the dossier.",
+                "trSentence": "Dosyaya yalnızca incelenebilir bilgiler dahil edilmelidir.",
+                "definition": "Capable of being vetted; able to be examined for suitability."
+            }
+        ]
+    },
+    {
+        "root": "prophylactic",
+        "meanings": [
+            {
+                "sentence": "Medical staff were given prophylactic antibiotics after the exposure.",
+                "trSentence": "Maruziyetten sonra sağlık personeline koruyucu antibiyotik verildi.",
+                "definition": "Intended to prevent disease or infection.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "sentence": "Using a prophylactic is essential for safe sex.",
+                "trSentence": "Güvenli cinsel ilişki için koruyucu kullanmak esastır.",
+                "definition": "A medicine, device, or measure that prevents disease, especially a condom.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "prophylactics",
+                "partOfSpeech": "noun",
+                "sentence": "Prophylactics are readily available in most pharmacies.",
+                "trSentence": "Koruyucular çoğu eczanede kolayca bulunur.",
+                "definition": "Plural form of prophylactic."
+            },
+            {
+                "word": "prophylactically",
+                "partOfSpeech": "adverb",
+                "sentence": "The drug can be taken prophylactically before travel.",
+                "trSentence": "İlaç seyahat öncesinde koruyucu amaçlı alınabilir.",
+                "definition": "In a manner intended to prevent disease."
+            },
+            {
+                "word": "prophylaxis",
+                "partOfSpeech": "noun",
+                "sentence": "Malaria prophylaxis is recommended for travelers to the region.",
+                "trSentence": "Bölgeye seyahat edenler için sıtma profilaksisi önerilir.",
+                "definition": "Action taken to prevent disease, especially by specified means or against a specified disease."
+            }
+        ]
+    },
+    {
+        "root": "tenure",
+        "meanings": [
+            {
+                "sentence": "During her five-year tenure as CEO, the company doubled its revenue.",
+                "trSentence": "CEO olarak beş yıllık görev süresi boyunca şirket gelirini iki katına çıkardı.",
+                "definition": "The period of time during which someone holds a position or office.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "Academic tenure protects scholars' freedom to pursue controversial research.",
+                "trSentence": "Akademik kadro, araştırmacıların tartışmalı çalışmaları sürdürme özgürlüğünü korur.",
+                "definition": "A permanent and secure academic position that is difficult to terminate.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The university plans to tenure three professors next year.",
+                "trSentence": "Üniversite gelecek yıl üç profesöre kadro vermeyi planlıyor.",
+                "definition": "To grant someone a tenured position, especially in academia.",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "tenures",
+                "partOfSpeech": "noun",
+                "sentence": "Short political tenures can hinder long-term planning.",
+                "trSentence": "Kısa siyasi görev süreleri uzun vadeli planlamayı engelleyebilir.",
+                "definition": "Plural form of tenure; also third-person singular present of the verb 'tenure'."
+            },
+            {
+                "word": "tenured",
+                "partOfSpeech": "adjective",
+                "sentence": "She became a tenured professor after seven years of teaching.",
+                "trSentence": "Yedi yıllık öğretimden sonra kadrolu profesör oldu.",
+                "definition": "Having been granted tenure; holding a permanent position."
+            },
+            {
+                "word": "tenuring",
+                "partOfSpeech": "verb",
+                "sentence": "The committee is tenuring several junior faculty this semester.",
+                "trSentence": "Komite bu dönem birkaç genç öğretim üyesine kadro veriyor.",
+                "definition": "Present participle or gerund of tenure."
+            },
+            {
+                "word": "tenure-track",
+                "partOfSpeech": "compound adjective",
+                "sentence": "He accepted a tenure-track position at the university.",
+                "trSentence": "Üniversitede kadroya giden bir pozisyonu kabul etti.",
+                "definition": "Describing a job path that can lead to a tenured appointment."
+            }
+        ]
+    },
+    {
+        "root": "stir",
+        "meanings": [
+            {
+                "sentence": "She stirred the soup gently, making sure nothing stuck to the bottom of the pan.",
+                "trSentence": "Tencerenin dibine hiçbir şeyin yapışmadığından emin olarak çorbayı nazikçe karıştırdı.",
+                "definition": "to mix a substance by moving it round and round with a spoon or similar utensil",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The documentary stirred a deep sense of injustice in viewers.",
+                "trSentence": "Belgesel, izleyicilerde derin bir adaletsizlik duygusu uyandırdı.",
+                "definition": "to arouse strong feelings or cause something to begin",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "stir up",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "The politician tried to stir up anger against the new law.",
+                "trSentence": "Politikacı, yeni yasaya karşı öfke uyandırmaya çalıştı.",
+                "definition": "to deliberately provoke emotion or trouble"
+            },
+            {
+                "word": "stirs",
+                "partOfSpeech": "verb",
+                "sentence": "He always stirs his coffee before taking a sip.",
+                "trSentence": "Bir yudum almadan önce kahvesini her zaman karıştırır.",
+                "definition": "third-person singular of stir"
+            },
+            {
+                "word": "stirred",
+                "partOfSpeech": "verb",
+                "sentence": "The announcement stirred a wave of excitement.",
+                "trSentence": "Duyuru bir heyecan dalgası yarattı.",
+                "definition": "past tense and past participle of stir"
+            },
+            {
+                "word": "stirring",
+                "partOfSpeech": "noun",
+                "sentence": "There was a stirring of leaves outside the window.",
+                "trSentence": "Pencerenin dışında yaprakların hafif bir kımıldanışı vardı.",
+                "definition": "a slight movement or beginning of activity"
+            },
+            {
+                "word": "stirrer",
+                "partOfSpeech": "noun",
+                "sentence": "Use a wooden stirrer instead of a metal spoon.",
+                "trSentence": "Metal kaşık yerine ahşap bir karıştırıcı kullan.",
+                "definition": "a device or person that stirs"
+            },
+            {
+                "word": "stirringly",
+                "partOfSpeech": "adverb",
+                "sentence": "The anthem was stirringly sung by the choir.",
+                "trSentence": "Marş koro tarafından etkileyici bir şekilde söylendi.",
+                "definition": "in a way that arouses emotion"
+            }
+        ]
+    },
+    {
+        "root": "accuse",
+        "meanings": [
+            {
+                "sentence": "They accused him of theft without any concrete evidence.",
+                "trSentence": "Somut bir kanıt olmadan onu hırsızlıkla suçladılar.",
+                "definition": "to say that someone has done something wrong or illegal",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "accusation",
+                "partOfSpeech": "noun",
+                "sentence": "The accusation shocked everyone in the courtroom.",
+                "trSentence": "Suçlama mahkemedeki herkesi şoke etti.",
+                "definition": "a claim that someone has done something wrong"
+            },
+            {
+                "word": "accusations",
+                "partOfSpeech": "noun",
+                "sentence": "False accusations can ruin reputations.",
+                "trSentence": "Yanlış suçlamalar itibarları mahvedebilir.",
+                "definition": "plural of accusation"
+            },
+            {
+                "word": "accuser",
+                "partOfSpeech": "noun",
+                "sentence": "The accused faced his accuser during the hearing.",
+                "trSentence": "Sanık, duruşma sırasında suçlayıcısıyla yüzleşti.",
+                "definition": "a person who accuses"
+            },
+            {
+                "word": "accused",
+                "partOfSpeech": "noun",
+                "sentence": "The accused stood silently while the charges were read.",
+                "trSentence": "Suçlanan, suçlamalar okunurken sessizce durdu.",
+                "definition": "a person charged with a crime"
+            },
+            {
+                "word": "accusing",
+                "partOfSpeech": "adjective",
+                "sentence": "She gave him an accusing glare.",
+                "trSentence": "Ona suçlayıcı bir bakış attı.",
+                "definition": "suggesting someone has done something wrong"
+            },
+            {
+                "word": "accusatory",
+                "partOfSpeech": "adjective",
+                "sentence": "His tone was harsh and accusatory.",
+                "trSentence": "Onun tonu sert ve suçlayıcıydı.",
+                "definition": "containing or implying accusation"
+            },
+            {
+                "word": "self-accusation",
+                "partOfSpeech": "noun",
+                "sentence": "Feelings of self-accusation kept her awake at night.",
+                "trSentence": "Öz-suçlama duyguları onu geceleri uyanık tuttu.",
+                "definition": "the act of blaming oneself"
+            }
+        ]
+    },
+    {
+        "root": "paramount",
+        "meanings": [
+            {
+                "sentence": "Safety is of paramount importance on a construction site.",
+                "trSentence": "Bir inşaat alanında güvenlik en üstün önem taşır.",
+                "definition": "more important than anything else; supreme",
+                "partOfSpeech": "adjective"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "paramountcy",
+                "partOfSpeech": "noun",
+                "sentence": "The court affirmed the paramountcy of constitutional rights.",
+                "trSentence": "Mahkeme, anayasal hakların üstünlüğünü onayladı.",
+                "definition": "the state of being paramount; supremacy"
+            },
+            {
+                "word": "paramountly",
+                "partOfSpeech": "adverb",
+                "sentence": "The project is paramountly a matter of public health.",
+                "trSentence": "Proje, her şeyden önce bir halk sağlığı meselesidir.",
+                "definition": "supremely; above all"
+            }
+        ]
+    },
+    {
+        "root": "pry",
+        "meanings": [
+            {
+                "sentence": "Reporters tried to pry into the actor’s private life.",
+                "trSentence": "Muhabirler, oyuncunun özel hayatına girmeye çalıştı.",
+                "definition": "to inquire impertinently or unnecessarily into something private",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "He used a screwdriver to pry the lid open.",
+                "trSentence": "Kapağı açmak için tornavidayı levye gibi kullandı.",
+                "definition": "to lever or force something open or apart",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "prying eyes",
+                "partOfSpeech": "collocation",
+                "sentence": "She kept the letter hidden from prying eyes.",
+                "trSentence": "Mektubu meraklı gözlerden uzak tuttu.",
+                "definition": "people looking inquisitively into private matters"
+            },
+            {
+                "word": "prying",
+                "partOfSpeech": "noun",
+                "sentence": "Constant prying can damage a friendship.",
+                "trSentence": "Sürekli meraklıca araştırma bir arkadaşlığa zarar verebilir.",
+                "definition": "the act of snooping or nosing into affairs"
+            },
+            {
+                "word": "pries",
+                "partOfSpeech": "verb",
+                "sentence": "He pries the crate open every morning.",
+                "trSentence": "Kasayı her sabah levereyle açar.",
+                "definition": "third-person singular of pry"
+            },
+            {
+                "word": "pried",
+                "partOfSpeech": "verb",
+                "sentence": "They pried the boards apart to see inside.",
+                "trSentence": "İçini görmek için tahtaları zorlayarak ayırdılar.",
+                "definition": "past tense and past participle of pry"
+            },
+            {
+                "word": "pryer",
+                "partOfSpeech": "noun",
+                "sentence": "Nobody likes a pryer who asks too many personal questions.",
+                "trSentence": "Çok fazla kişisel soru soran meraklıyı kimse sevmez.",
+                "definition": "a person who pries"
+            },
+            {
+                "word": "pry bar",
+                "partOfSpeech": "compound noun",
+                "sentence": "Grab a pry bar to lift the nail out.",
+                "trSentence": "Çiviyi çıkarmak için bir levye al.",
+                "definition": "a crowbar-like tool used for levering"
+            },
+            {
+                "word": "pry into",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "They have no right to pry into your finances.",
+                "trSentence": "Mali durumunuza burnunu sokmaya hakları yok.",
+                "definition": "to investigate offensively or impertinently"
+            },
+            {
+                "word": "pry out",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "She finally pried the secret out of him.",
+                "trSentence": "Sonunda sırrı ondan zorlukla öğrendi.",
+                "definition": "to extract something with effort or leverage"
+            }
+        ]
+    },
+    {
+        "root": "scoop",
+        "meanings": [
+            {
+                "sentence": "Use a ladle to scoop the soup into bowls.",
+                "trSentence": "Çorbayı kâselere koymak için kepçe kullan.",
+                "definition": "to pick up or move something with a rounded utensil or one’s hands",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The website broke the story and got the scoop.",
+                "trSentence": "Site haberi ilk duyurdu ve özel haberi kaptı.",
+                "definition": "an exclusive piece of news published before anyone else",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "scoop up",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "She scooped up the toys in one quick motion.",
+                "trSentence": "Oyuncakları tek hamlede topladı.",
+                "definition": "to lift or gather swiftly and in quantity"
+            },
+            {
+                "word": "scoops",
+                "partOfSpeech": "verb",
+                "sentence": "He scoops ice cream for customers all day.",
+                "trSentence": "Bütün gün müşterilere dondurma koyar.",
+                "definition": "third-person singular of scoop"
+            },
+            {
+                "word": "scooped",
+                "partOfSpeech": "verb",
+                "sentence": "We scooped sand into the bucket.",
+                "trSentence": "Kumları kovaya doldurduk.",
+                "definition": "past tense and past participle of scoop"
+            },
+            {
+                "word": "scooping",
+                "partOfSpeech": "noun",
+                "sentence": "Continuous scooping had worn the edges of the shovel.",
+                "trSentence": "Sürekli küreme, küreğin kenarlarını aşındırmıştı.",
+                "definition": "the act of taking up with a scoop"
+            },
+            {
+                "word": "scooper",
+                "partOfSpeech": "noun",
+                "sentence": "A small metal scooper makes serving easier.",
+                "trSentence": "Küçük metal kepçe servisi kolaylaştırır.",
+                "definition": "a utensil or person that scoops"
+            },
+            {
+                "word": "scoopful",
+                "partOfSpeech": "noun",
+                "sentence": "Add one scoopful of coffee to the filter.",
+                "trSentence": "Filtreye bir kepçe dolusu kahve ekle.",
+                "definition": "as much as a scoop can hold"
+            }
+        ]
+    },
+    {
+        "root": "word",
+        "meanings": [
+            {
+                "sentence": "She paused, searching for the right word.",
+                "trSentence": "Durakladı, doğru kelimeyi aradı.",
+                "definition": "a single distinct meaningful element of speech or writing",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "it oher words",
+                "partOfSpeech": "expression",
+                "sentence": "It oher words, the policy failed. (sic)",
+                "trSentence": "Başka bir deyişle, politika başarısız oldu. (yazım hatalı örnek)",
+                "definition": "intended as a reformulation; misspelled form of “in other words”"
+            },
+            {
+                "word": "in other words",
+                "partOfSpeech": "expression",
+                "sentence": "In other words, we need to start over.",
+                "trSentence": "Başka bir deyişle, yeniden başlamamız gerekiyor.",
+                "definition": "stated differently; to put it another way"
+            },
+            {
+                "word": "words",
+                "partOfSpeech": "noun",
+                "sentence": "His words carried great weight.",
+                "trSentence": "Sözleri büyük ağırlık taşıyordu.",
+                "definition": "plural of word"
+            },
+            {
+                "word": "wording",
+                "partOfSpeech": "noun",
+                "sentence": "The legal wording is very precise.",
+                "trSentence": "Hukuki ifade çok hassastır.",
+                "definition": "the particular choice of words in a text"
+            },
+            {
+                "word": "worded",
+                "partOfSpeech": "adjective",
+                "sentence": "It was a strongly worded letter.",
+                "trSentence": "Bu, sert ifadelerle yazılmış bir mektuptu.",
+                "definition": "expressed in specified words"
+            },
+            {
+                "word": "wordy",
+                "partOfSpeech": "adjective",
+                "sentence": "His essay is too wordy and lacks focus.",
+                "trSentence": "Makalası çok sözcüklü ve odaklanmamış.",
+                "definition": "using or containing too many words"
+            },
+            {
+                "word": "wordless",
+                "partOfSpeech": "adjective",
+                "sentence": "She gave him a wordless nod.",
+                "trSentence": "Ona sessizce başını salladı.",
+                "definition": "silent; without words"
+            }
+        ]
+    },
+    {
+        "root": "take",
+        "meanings": [
+            {
+                "sentence": "Take this book and read the first chapter.",
+                "trSentence": "Bu kitabı al ve ilk bölümü oku.",
+                "definition": "to get into one’s hands; grasp, acquire, or capture",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "I take your silence to mean you agree.",
+                "trSentence": "Sessizliğini kabul ettiğin şeklinde yorumluyorum.",
+                "definition": "to interpret or understand something in a particular way",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "take to mean",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "Don’t take her words to mean she’s angry.",
+                "trSentence": "Sözlerini kızgın olduğu anlamına alma.",
+                "definition": "to understand or interpret as"
+            },
+            {
+                "word": "takes",
+                "partOfSpeech": "verb",
+                "sentence": "It takes courage to speak out.",
+                "trSentence": "Konuşmak cesaret ister.",
+                "definition": "third-person singular of take"
+            },
+            {
+                "word": "took",
+                "partOfSpeech": "verb",
+                "sentence": "He took the keys and left.",
+                "trSentence": "Anahtarları aldı ve gitti.",
+                "definition": "simple past of take"
+            },
+            {
+                "word": "taken",
+                "partOfSpeech": "verb",
+                "sentence": "All the seats were taken.",
+                "trSentence": "Bütün koltuklar alınmıştı.",
+                "definition": "past participle of take"
+            },
+            {
+                "word": "taking",
+                "partOfSpeech": "noun",
+                "sentence": "The gradual taking of power worried the citizens.",
+                "trSentence": "Gücün yavaşça ele geçirilmesi vatandaşları endişelendirdi.",
+                "definition": "the act of taking"
+            }
+        ]
+    },
+    {
+        "root": "strike",
+        "meanings": [
+            {
+                "sentence": "The workers decided to strike for better wages.",
+                "trSentence": "İşçiler daha iyi maaşlar için greve gitmeye karar verdi.",
+                "definition": "to refuse to work as a form of organized protest",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "A lightning strike damaged the old oak tree.",
+                "trSentence": "Bir yıldırım düşmesi eski meşe ağacına zarar verdi.",
+                "definition": "a sudden hitting or impact",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "Her striking red dress caught everyone's eye.",
+                "trSentence": "Onun çarpıcı kırmızı elbisesi herkesin dikkatini çekti.",
+                "definition": "impressive or noticeable",
+                "partOfSpeech": "adjective"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "on strike",
+                "partOfSpeech": "expression",
+                "sentence": "The factory has been on strike since Monday.",
+                "trSentence": "Fabrika pazartesiden beri grevde.",
+                "definition": "engaged in a work stoppage"
+            },
+            {
+                "word": "striker",
+                "partOfSpeech": "noun",
+                "sentence": "Each striker held a sign demanding safety improvements.",
+                "trSentence": "Her grevci güvenlik iyileştirmeleri talep eden bir pankart tuttu.",
+                "definition": "a person who is on strike"
+            },
+            {
+                "word": "striking",
+                "partOfSpeech": "adjective",
+                "sentence": "The artist used striking colors in the mural.",
+                "trSentence": "Sanatçı duvar resminde çarpıcı renkler kullandı.",
+                "definition": "very noticeable or impressive"
+            },
+            {
+                "word": "strikingly",
+                "partOfSpeech": "adverb",
+                "sentence": "The twins are strikingly similar.",
+                "trSentence": "İkizler çarpıcı şekilde benziyor.",
+                "definition": "in a way that attracts attention"
+            },
+            {
+                "word": "stricken",
+                "partOfSpeech": "adjective",
+                "sentence": "The drought-stricken region needed aid.",
+                "trSentence": "Kuraklıktan etkilenen bölgenin yardıma ihtiyacı vardı.",
+                "definition": "seriously affected by an undesirable condition"
+            },
+            {
+                "word": "strikes",
+                "partOfSpeech": "verb",
+                "sentence": "He strikes the bell every hour.",
+                "trSentence": "O, saatte bir çanı çalar.",
+                "definition": "third-person singular of strike"
+            }
+        ]
+    },
+    {
+        "root": "redundant",
+        "meanings": [
+            {
+                "sentence": "These instructions are redundant because they repeat earlier steps.",
+                "definition": "no longer needed; superfluous",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "sentence": "Two hundred employees were made redundant after the merger.",
+                "definition": "dismissed from employment because the job is no longer necessary",
+                "partOfSpeech": "adjective"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "redundancy",
+                "partOfSpeech": "noun",
+                "sentence": "Automation reduced the risk of redundancy.",
+                "definition": "the state of being unnecessary or laid off"
+            },
+            {
+                "word": "redundancies",
+                "partOfSpeech": "noun",
+                "sentence": "Several redundancies were announced in the quarterly report.",
+                "definition": "plural of redundancy"
+            },
+            {
+                "word": "redundantly",
+                "partOfSpeech": "adverb",
+                "sentence": "The phrase was redundantly repeated in the document.",
+                "definition": "in a way that is unnecessary or repetitive"
+            }
+        ]
+    },
+    {
+        "root": "work",
+        "meanings": [
+            {
+                "sentence": "I have to work late tonight to finish the report.",
+                "definition": "to perform duties or tasks for employment or purpose",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "His latest work is a novel set in Istanbul.",
+                "definition": "a task, job, or artistic creation",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "workload",
+                "partOfSpeech": "compound noun",
+                "sentence": "My workload has doubled this semester.",
+                "definition": "the amount of work to be done"
+            },
+            {
+                "word": "working",
+                "partOfSpeech": "adjective",
+                "sentence": "They visited the site to see a working prototype.",
+                "definition": "functioning or operational"
+            },
+            {
+                "word": "worked",
+                "partOfSpeech": "verb",
+                "sentence": "She worked in finance for ten years.",
+                "definition": "past tense of work"
+            },
+            {
+                "word": "works",
+                "partOfSpeech": "noun",
+                "sentence": "The collected works of the poet were published posthumously.",
+                "definition": "creations produced by an artist or writer"
+            },
+            {
+                "word": "worker",
+                "partOfSpeech": "noun",
+                "sentence": "Every worker must wear safety goggles.",
+                "definition": "a person who works"
+            },
+            {
+                "word": "workplace",
+                "partOfSpeech": "compound noun",
+                "sentence": "Safety in the workplace is everyone's responsibility.",
+                "definition": "a location where people work"
+            },
+            {
+                "word": "workable",
+                "partOfSpeech": "adjective",
+                "sentence": "They came up with a workable solution to the problem.",
+                "definition": "able to be done or implemented"
+            },
+            {
+                "word": "workout",
+                "partOfSpeech": "noun",
+                "sentence": "Her morning workout lasts about forty minutes.",
+                "definition": "a session of physical exercise"
+            },
+            {
+                "word": "workmanship",
+                "partOfSpeech": "noun",
+                "sentence": "The table's fine workmanship impressed everyone.",
+                "definition": "skill with which something is made"
+            }
+        ]
+    },
+    {
+        "root": "apprentice",
+        "meanings": [
+            {
+                "sentence": "She started as an apprentice in a small bakery.",
+                "definition": "a person learning a trade from a skilled employer",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "He apprenticed under a master carpenter for three years.",
+                "definition": "to serve as an apprentice",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "apprenticeship",
+                "partOfSpeech": "noun",
+                "sentence": "Her apprenticeship lasted two years.",
+                "definition": "the position or period of being an apprentice"
+            },
+            {
+                "word": "apprenticeships",
+                "partOfSpeech": "noun",
+                "sentence": "Many apprenticeships combine classroom learning with on-the-job training.",
+                "definition": "plural of apprenticeship"
+            },
+            {
+                "word": "apprenticed",
+                "partOfSpeech": "verb",
+                "sentence": "He was apprenticed to a blacksmith at age fifteen.",
+                "definition": "past tense of apprentice (verb)"
+            },
+            {
+                "word": "apprenticing",
+                "partOfSpeech": "verb",
+                "sentence": "She is apprenticing with a renowned fashion designer.",
+                "definition": "present participle of apprentice (verb)"
+            },
+            {
+                "word": "apprentices",
+                "partOfSpeech": "noun",
+                "sentence": "The apprentices gathered for the morning briefing.",
+                "definition": "plural of apprentice (noun)"
+            }
+        ]
+    },
+    {
+      "root": "sing",
       "meanings": [
         {
-          "sentence": "The cat made a quick leap onto the windowsill.",
-          "trSentence": "Kedi pencere pervazına hızlı bir sıçrayış yaptı.",
-          "definition": "A sudden jump from one place to another.",
-          "partOfSpeech": "noun"
-        },
-        {
-          "sentence": "He decided to leap over the stream.",
-          "trSentence": "Dereyi üzerinden atlamaya karar verdi.",
-          "definition": "To jump high or a long distance.",
+          "sentence": "She loves to sing in the shower every morning.",
+          "definition": "to produce musical tones with the voice",
           "partOfSpeech": "verb"
         },
         {
-          "sentence": "There has been a leap in technology over the last decade.",
-          "trSentence": "Son on yılda teknolojide büyük bir sıçrama oldu.",
-          "definition": "A sudden and significant increase or advance.",
-          "partOfSpeech": "noun"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "leaps",
-          "partOfSpeech": "noun",
-          "sentence": "Small leaps in improvement can add up over time.",
-          "trSentence": "Küçük gelişme sıçramaları zamanla birikebilir.",
-          "definition": "Plural form of leap; multiple jumps or advances."
-        },
-        {
-          "word": "leaped",
-          "partOfSpeech": "verb",
-          "sentence": "She leaped across the gap effortlessly.",
-          "trSentence": "O, aralığı zahmetsizce atladı.",
-          "definition": "Simple past and past participle form (especially in American English)."
-        },
-        {
-          "word": "leapt",
-          "partOfSpeech": "verb",
-          "sentence": "The deer leapt over the fence.",
-          "trSentence": "Geyik çitin üzerinden atladı.",
-          "definition": "Simple past and past participle form (especially in British English)."
-        },
-        {
-          "word": "leaping",
-          "partOfSpeech": "verb",
-          "sentence": "Leaping over obstacles requires practice.",
-          "trSentence": "Engellerin üzerinden atlamak pratik gerektirir.",
-          "definition": "Present participle or gerund form of leap."
-        },
-        {
-          "word": "leap year",
-          "partOfSpeech": "compound noun",
-          "sentence": "February has 29 days in a leap year.",
-          "trSentence": "Artık yılda Şubat ayı 29 gündür.",
-          "definition": "A calendar year containing an additional day (February 29) to keep the calendar year synchronized with the astronomical year."
-        },
-        {
-          "word": "leapfrog",
-          "partOfSpeech": "compound noun",
-          "sentence": "The company's innovation allowed it to play leapfrog over its competitors.",
-          "trSentence": "Şirketin yeniliği rakiplerinin önüne sıçrama yapmasını sağladı.",
-          "definition": "A move in which someone or something surpasses others quickly by making a major advance."
-        }
-      ]
-    },
-    {
-      "root": "vet",
-      "meanings": [
-        {
-          "sentence": "She took her dog to the vet for a routine check-up.",
-          "trSentence": "Köpeğini rutin kontrol için veterinere götürdü.",
-          "definition": "A veterinarian; a medical professional who treats animals.",
-          "partOfSpeech": "noun"
-        },
-        {
-          "sentence": "The HR department must vet all candidates before interviews.",
-          "trSentence": "İK departmanı görüşmelerden önce tüm adayları incelemek zorundadır.",
-          "definition": "To examine or evaluate someone or something carefully, especially for suitability or reliability.",
+          "sentence": "The choir will sing the national anthem at the ceremony.",
+          "definition": "to perform a piece of music vocally",
           "partOfSpeech": "verb"
         },
         {
-          "sentence": "The decorated war vet gave a moving speech.",
-          "trSentence": "Madalya almış savaş gazisi etkileyici bir konuşma yaptı.",
-          "definition": "Informal abbreviation for a military veteran.",
-          "partOfSpeech": "noun"
+          "sentence": "The kettle began to sing as the water boiled.",
+          "definition": "to make a high-pitched whistling or ringing sound",
+          "partOfSpeech": "verb"
         }
       ],
       "wordFamilies": [
         {
-          "word": "vets",
-          "partOfSpeech": "noun",
-          "sentence": "Many vets volunteer at animal shelters on weekends.",
-          "trSentence": "Pek çok veteriner hafta sonları hayvan barınaklarında gönüllü olur.",
-          "definition": "Plural of vet; also third-person singular present of the verb 'vet'."
-        },
-        {
-          "word": "vetted",
-          "partOfSpeech": "verb",
-          "sentence": "All reports were vetted by independent experts.",
-          "trSentence": "Tüm raporlar bağımsız uzmanlar tarafından incelendi.",
-          "definition": "Past tense and past participle of vet."
-        },
-        {
-          "word": "vetting",
-          "partOfSpeech": "verb",
-          "sentence": "The committee is vetting the proposals this week.",
-          "trSentence": "Komite bu hafta önerileri inceliyor.",
-          "definition": "Present participle or gerund of vet."
-        },
-        {
-          "word": "vettable",
+          "word": "unsung",
           "partOfSpeech": "adjective",
-          "sentence": "Only vettable information should be included in the dossier.",
-          "trSentence": "Dosyaya yalnızca incelenebilir bilgiler dahil edilmelidir.",
-          "definition": "Capable of being vetted; able to be examined for suitability."
+          "sentence": "She is one of the unsung heroes of medical research.",
+          "definition": "not celebrated or praised"
+        },
+        {
+          "word": "singer",
+          "partOfSpeech": "noun",
+          "sentence": "The singer hit every note perfectly.",
+          "definition": "a person who sings"
+        },
+        {
+          "word": "singers",
+          "partOfSpeech": "noun",
+          "sentence": "Folk singers narrated local legends through music.",
+          "definition": "plural of singer"
+        },
+        {
+          "word": "singing",
+          "partOfSpeech": "noun",
+          "sentence": "Her singing brought the audience to tears.",
+          "definition": "the act or art of producing musical sounds with the voice"
+        },
+        {
+          "word": "sings",
+          "partOfSpeech": "verb",
+          "sentence": "He sings professionally in a jazz band.",
+          "definition": "third-person singular of sing"
+        },
+        {
+          "word": "sang",
+          "partOfSpeech": "verb",
+          "sentence": "They sang together around the campfire.",
+          "definition": "simple past of sing"
+        },
+        {
+          "word": "sung",
+          "partOfSpeech": "verb",
+          "sentence": "That lullaby has been sung for generations.",
+          "definition": "past participle of sing"
+        },
+        {
+          "word": "singable",
+          "partOfSpeech": "adjective",
+          "sentence": "The melody is catchy and easily singable.",
+          "definition": "easy to sing"
+        },
+        {
+          "word": "song",
+          "partOfSpeech": "noun",
+          "sentence": "That song reminds me of my childhood.",
+          "definition": "a short piece of music with words"
+        },
+        {
+          "word": "songs",
+          "partOfSpeech": "noun",
+          "sentence": "She wrote three new songs for the album.",
+          "definition": "plural of song"
         }
       ]
     },
     {
-      "root": "prophylactic",
+      "root": "crunch",
       "meanings": [
         {
-          "sentence": "Medical staff were given prophylactic antibiotics after the exposure.",
-          "trSentence": "Maruziyetten sonra sağlık personeline koruyucu antibiyotik verildi.",
-          "definition": "Intended to prevent disease or infection.",
+          "sentence": "He likes to crunch ice while thinking.",
+          "definition": "to bite or grind with a loud, crackling sound",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "The autumn leaves made a pleasant crunch under our feet.",
+          "definition": "a crisp, crushing sound",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "When the project deadline is near, it’s crunch time for the whole team.",
+          "definition": "a critical moment when decisive action is required",
+          "partOfSpeech": "set phrase"
+        },
+        {
+          "sentence": "The computer can crunch vast amounts of data in seconds.",
+          "definition": "to process numbers or information intensively",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "crunchy",
+          "partOfSpeech": "adjective",
+          "sentence": "The salad was topped with crunchy croutons.",
+          "definition": "making a firm, crisp sound when chewed"
+        },
+        {
+          "word": "crunchier",
+          "partOfSpeech": "adjective",
+          "sentence": "Fresh apples are crunchier than baked ones.",
+          "definition": "comparative form of crunchy"
+        },
+        {
+          "word": "crunchiest",
+          "partOfSpeech": "adjective",
+          "sentence": "This brand claims to have the crunchiest chips.",
+          "definition": "superlative form of crunchy"
+        },
+        {
+          "word": "crunchiness",
+          "partOfSpeech": "noun",
+          "sentence": "The crunchiness of the cereal fades if it sits in milk too long.",
+          "definition": "the quality of being crunchy"
+        },
+        {
+          "word": "crunches",
+          "partOfSpeech": "verb",
+          "sentence": "She crunches numbers for the finance department.",
+          "definition": "third-person singular of crunch"
+        },
+        {
+          "word": "crunching",
+          "partOfSpeech": "verb",
+          "sentence": "The gravel crackled under the tires, crunching loudly.",
+          "definition": "present participle of crunch"
+        },
+        {
+          "word": "crunched",
+          "partOfSpeech": "verb",
+          "sentence": "He crunched the dry leaves with every step.",
+          "definition": "simple past and past participle of crunch"
+        },
+        {
+          "word": "cruncher",
+          "partOfSpeech": "noun",
+          "sentence": "Data crunchers are in high demand in tech companies.",
+          "definition": "a person or machine that crunches data"
+        },
+        {
+          "word": "crunch time",
+          "partOfSpeech": "set phrase",
+          "sentence": "It's crunch time; the presentation is in one hour.",
+          "definition": "a period of intense pressure to meet a deadline"
+        }
+      ]
+    },
+    {
+      "root": "damp",
+      "meanings": [
+        {
+          "sentence": "The grass was still damp with morning dew.",
+          "definition": "slightly wet",
           "partOfSpeech": "adjective"
         },
         {
-          "sentence": "Using a prophylactic is essential for safe sex.",
-          "trSentence": "Güvenli cinsel ilişki için koruyucu kullanmak esastır.",
-          "definition": "A medicine, device, or measure that prevents disease, especially a condom.",
-          "partOfSpeech": "noun"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "prophylactics",
-          "partOfSpeech": "noun",
-          "sentence": "Prophylactics are readily available in most pharmacies.",
-          "trSentence": "Koruyucular çoğu eczanede kolayca bulunur.",
-          "definition": "Plural form of prophylactic."
-        },
-        {
-          "word": "prophylactically",
-          "partOfSpeech": "adverb",
-          "sentence": "The drug can be taken prophylactically before travel.",
-          "trSentence": "İlaç seyahat öncesinde koruyucu amaçlı alınabilir.",
-          "definition": "In a manner intended to prevent disease."
-        },
-        {
-          "word": "prophylaxis",
-          "partOfSpeech": "noun",
-          "sentence": "Malaria prophylaxis is recommended for travelers to the region.",
-          "trSentence": "Bölgeye seyahat edenler için sıtma profilaksisi önerilir.",
-          "definition": "Action taken to prevent disease, especially by specified means or against a specified disease."
-        }
-      ]
-    },
-    {
-      "root": "tenure",
-      "meanings": [
-        {
-          "sentence": "During her five-year tenure as CEO, the company doubled its revenue.",
-          "trSentence": "CEO olarak beş yıllık görev süresi boyunca şirket gelirini iki katına çıkardı.",
-          "definition": "The period of time during which someone holds a position or office.",
+          "sentence": "The cellar smells of damp.",
+          "definition": "moisture in the air or on a surface, often causing mildew",
           "partOfSpeech": "noun"
         },
         {
-          "sentence": "Academic tenure protects scholars' freedom to pursue controversial research.",
-          "trSentence": "Akademik kadro, araştırmacıların tartışmalı çalışmaları sürdürme özgürlüğünü korur.",
-          "definition": "A permanent and secure academic position that is difficult to terminate.",
-          "partOfSpeech": "noun"
+          "sentence": "Use a cloth to damp the dust before sweeping.",
+          "definition": "to make something slightly wet",
+          "partOfSpeech": "verb"
         },
         {
-          "sentence": "The university plans to tenure three professors next year.",
-          "trSentence": "Üniversite gelecek yıl üç profesöre kadro vermeyi planlıyor.",
-          "definition": "To grant someone a tenured position, especially in academia.",
+          "sentence": "The unexpected loss damped their enthusiasm.",
+          "definition": "to reduce the intensity of something; to deaden",
           "partOfSpeech": "verb"
         }
       ],
       "wordFamilies": [
         {
-          "word": "tenures",
-          "partOfSpeech": "noun",
-          "sentence": "Short political tenures can hinder long-term planning.",
-          "trSentence": "Kısa siyasi görev süreleri uzun vadeli planlamayı engelleyebilir.",
-          "definition": "Plural form of tenure; also third-person singular present of the verb 'tenure'."
-        },
-        {
-          "word": "tenured",
-          "partOfSpeech": "adjective",
-          "sentence": "She became a tenured professor after seven years of teaching.",
-          "trSentence": "Yedi yıllık öğretimden sonra kadrolu profesör oldu.",
-          "definition": "Having been granted tenure; holding a permanent position."
-        },
-        {
-          "word": "tenuring",
+          "word": "dampen",
           "partOfSpeech": "verb",
-          "sentence": "The committee is tenuring several junior faculty this semester.",
-          "trSentence": "Komite bu dönem birkaç genç öğretim üyesine kadro veriyor.",
-          "definition": "Present participle or gerund of tenure."
+          "sentence": "Light rain could dampen the festival mood.",
+          "definition": "to make slightly wet or to lessen"
         },
         {
-          "word": "tenure-track",
-          "partOfSpeech": "compound adjective",
-          "sentence": "He accepted a tenure-track position at the university.",
-          "trSentence": "Üniversitede kadroya giden bir pozisyonu kabul etti.",
-          "definition": "Describing a job path that can lead to a tenured appointment."
-        }
-      ]
-    },
-    {
-      "root": "stir",
-      "meanings": [
-        {
-          "sentence": "She stirred the soup gently, making sure nothing stuck to the bottom of the pan.",
-          "trSentence": "Tencerenin dibine hiçbir şeyin yapışmadığından emin olarak çorbayı nazikçe karıştırdı.",
-          "definition": "to mix a substance by moving it round and round with a spoon or similar utensil",
-          "partOfSpeech": "verb"
-        },
-        {
-          "sentence": "The documentary stirred a deep sense of injustice in viewers.",
-          "trSentence": "Belgesel, izleyicilerde derin bir adaletsizlik duygusu uyandırdı.",
-          "definition": "to arouse strong feelings or cause something to begin",
-          "partOfSpeech": "verb"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "stir up",
-          "partOfSpeech": "phrasal verb",
-          "sentence": "The politician tried to stir up anger against the new law.",
-          "trSentence": "Politikacı, yeni yasaya karşı öfke uyandırmaya çalıştı.",
-          "definition": "to deliberately provoke emotion or trouble"
-        },
-        {
-          "word": "stirs",
+          "word": "dampened",
           "partOfSpeech": "verb",
-          "sentence": "He always stirs his coffee before taking a sip.",
-          "trSentence": "Bir yudum almadan önce kahvesini her zaman karıştırır.",
-          "definition": "third-person singular of stir"
+          "sentence": "His excitement was dampened by the bad news.",
+          "definition": "simple past and past participle of dampen"
         },
         {
-          "word": "stirred",
+          "word": "dampening",
           "partOfSpeech": "verb",
-          "sentence": "The announcement stirred a wave of excitement.",
-          "trSentence": "Duyuru bir heyecan dalgası yarattı.",
-          "definition": "past tense and past participle of stir"
+          "sentence": "The sound-proof foam is effective at dampening noise.",
+          "definition": "present participle of dampen"
         },
         {
-          "word": "stirring",
+          "word": "damper",
           "partOfSpeech": "noun",
-          "sentence": "There was a stirring of leaves outside the window.",
-          "trSentence": "Pencerenin dışında yaprakların hafif bir kımıldanışı vardı.",
-          "definition": "a slight movement or beginning of activity"
+          "sentence": "The fireplace damper should be closed when not in use.",
+          "definition": "a device that reduces airflow or vibration"
         },
         {
-          "word": "stirrer",
+          "word": "dampers",
           "partOfSpeech": "noun",
-          "sentence": "Use a wooden stirrer instead of a metal spoon.",
-          "trSentence": "Metal kaşık yerine ahşap bir karıştırıcı kullan.",
-          "definition": "a device or person that stirs"
+          "sentence": "Car suspensions use dampers to absorb shock.",
+          "definition": "plural of damper"
         },
         {
-          "word": "stirringly",
-          "partOfSpeech": "adverb",
-          "sentence": "The anthem was stirringly sung by the choir.",
-          "trSentence": "Marş koro tarafından etkileyici bir şekilde söylendi.",
-          "definition": "in a way that arouses emotion"
-        }
-      ]
-    },
-    {
-      "root": "accuse",
-      "meanings": [
-        {
-          "sentence": "They accused him of theft without any concrete evidence.",
-          "trSentence": "Somut bir kanıt olmadan onu hırsızlıkla suçladılar.",
-          "definition": "to say that someone has done something wrong or illegal",
-          "partOfSpeech": "verb"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "accusation",
+          "word": "dampness",
           "partOfSpeech": "noun",
-          "sentence": "The accusation shocked everyone in the courtroom.",
-          "trSentence": "Suçlama mahkemedeki herkesi şoke etti.",
-          "definition": "a claim that someone has done something wrong"
+          "sentence": "Persistent dampness can lead to mold growth.",
+          "definition": "the state of being slightly wet"
         },
         {
-          "word": "accusations",
-          "partOfSpeech": "noun",
-          "sentence": "False accusations can ruin reputations.",
-          "trSentence": "Yanlış suçlamalar itibarları mahvedebilir.",
-          "definition": "plural of accusation"
-        },
-        {
-          "word": "accuser",
-          "partOfSpeech": "noun",
-          "sentence": "The accused faced his accuser during the hearing.",
-          "trSentence": "Sanık, duruşma sırasında suçlayıcısıyla yüzleşti.",
-          "definition": "a person who accuses"
-        },
-        {
-          "word": "accused",
-          "partOfSpeech": "noun",
-          "sentence": "The accused stood silently while the charges were read.",
-          "trSentence": "Suçlanan, suçlamalar okunurken sessizce durdu.",
-          "definition": "a person charged with a crime"
-        },
-        {
-          "word": "accusing",
+          "word": "dampish",
           "partOfSpeech": "adjective",
-          "sentence": "She gave him an accusing glare.",
-          "trSentence": "Ona suçlayıcı bir bakış attı.",
-          "definition": "suggesting someone has done something wrong"
+          "sentence": "The basement felt cold and dampish.",
+          "definition": "somewhat damp"
         },
         {
-          "word": "accusatory",
+          "word": "damped",
           "partOfSpeech": "adjective",
-          "sentence": "His tone was harsh and accusatory.",
-          "trSentence": "Onun tonu sert ve suçlayıcıydı.",
-          "definition": "containing or implying accusation"
+          "sentence": "The engineer analyzed the damped oscillations of the spring.",
+          "definition": "reduced in amplitude over time"
         },
         {
-          "word": "self-accusation",
+          "word": "damping",
           "partOfSpeech": "noun",
-          "sentence": "Feelings of self-accusation kept her awake at night.",
-          "trSentence": "Öz-suçlama duyguları onu geceleri uyanık tuttu.",
-          "definition": "the act of blaming oneself"
-        }
-      ]
-    },
-    {
-      "root": "paramount",
-      "meanings": [
-        {
-          "sentence": "Safety is of paramount importance on a construction site.",
-          "trSentence": "Bir inşaat alanında güvenlik en üstün önem taşır.",
-          "definition": "more important than anything else; supreme",
-          "partOfSpeech": "adjective"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "paramountcy",
-          "partOfSpeech": "noun",
-          "sentence": "The court affirmed the paramountcy of constitutional rights.",
-          "trSentence": "Mahkeme, anayasal hakların üstünlüğünü onayladı.",
-          "definition": "the state of being paramount; supremacy"
+          "sentence": "Proper damping is essential in earthquake-resistant design.",
+          "definition": "the process of reducing oscillations"
         },
         {
-          "word": "paramountly",
-          "partOfSpeech": "adverb",
-          "sentence": "The project is paramountly a matter of public health.",
-          "trSentence": "Proje, her şeyden önce bir halk sağlığı meselesidir.",
-          "definition": "supremely; above all"
+          "word": "dampens",
+          "partOfSpeech": "verb",
+          "sentence": "High humidity dampens the efficiency of the drying process.",
+          "definition": "third-person singular of dampen"
+        },
+        {
+          "word": "undamped",
+          "partOfSpeech": "adjective",
+          "sentence": "An undamped system will keep oscillating indefinitely.",
+          "definition": "not reduced in amplitude; free-vibrating"
         }
       ]
     }
+
 ]

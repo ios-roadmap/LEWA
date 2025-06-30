@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MeaningView: View {
     let meaning: Meaning
-    @Binding var showTurkish: Bool
+//    @Binding var showTurkish: Bool
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -28,9 +28,9 @@ struct MeaningView: View {
                     .foregroundColor(.primary)
             }
             FlipCardView(
-                english: meaning.sentence,
-                turkish: meaning.trSentence,
-                showTurkish: $showTurkish
+                english: meaning.sentence
+//                turkish: meaning.trSentence,
+//                showTurkish: $showTurkish
             )
             .frame(height: 100)
         }
@@ -43,5 +43,8 @@ struct MeaningView: View {
 }
 
 #Preview {
-    MeaningView(meaning: .mock, showTurkish: .constant(false))
+    MeaningView(
+        meaning: .mock
+//        showTurkish: .constant(false)
+    )
 }

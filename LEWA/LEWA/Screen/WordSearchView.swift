@@ -75,7 +75,7 @@ struct WordSearchView: View {
                     isPresented: $isSearching,
                     prompt: "Search words"
                 )
-                .onAppear { isSearching = true }
+                .onAppear { isSearching = false }
                 .onChange(of: searchText) { _, newValue in
                     debounceWorkItem?.cancel()
                     let workItem = DispatchWorkItem {
