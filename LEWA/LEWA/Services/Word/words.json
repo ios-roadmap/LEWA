@@ -1476,196 +1476,6 @@
         ]
     },
     {
-        "root": "stunt",
-        "meanings": [
-            {
-                "sentence": "Frequent drought can stunt tree growth, producing short, misshapen trunks.",
-                "trSentence": "Sık sık görülen kuraklık ağaç büyümesini engelleyerek kısa, şekilsiz gövdeler oluşturabilir.",
-                "definition": "hinder normal growth or development",
-                "partOfSpeech": "verb"
-            },
-            {
-                "sentence": "The motorcyclist's fiery jump was his most dangerous stunt to date.",
-                "trSentence": "Motorsikletçinin ateşli atlayışı bugüne kadarki en tehlikeli numarasıydı.",
-                "definition": "spectacular or risky action for entertainment",
-                "partOfSpeech": "noun"
-            },
-            {
-                "sentence": "Announcing free flights was a clever stunt to keep the brand in headlines.",
-                "trSentence": "Ücretsiz uçuşları duyurmak, markayı manşetlerde tutmak için akıllıca bir numaraydı.",
-                "definition": "attention-grabbing act done for publicity",
-                "partOfSpeech": "noun"
-            }
-        ],
-        "wordFamilies": [
-            {
-                "word": "stunts",
-                "partOfSpeech": "noun",
-                "sentence": "The movie's breathtaking stunts kept the audience on the edge of their seats.",
-                "trSentence": "Filmin nefes kesici akrobasi hareketleri izleyiciyi koltuklarının kenarında tuttu.",
-                "definition": "plural of stunt; daring feats"
-            },
-            {
-                "word": "stunted",
-                "partOfSpeech": "adjective",
-                "sentence": "Years of drought stunted the village's crops, leaving families short of food.",
-                "trSentence": "Yıllar süren kuraklık köyün mahsullerini bodur bırakarak aileleri yiyeceksiz bıraktı.",
-                "definition": "having growth hindered or slowed"
-            },
-            {
-                "word": "stunting",
-                "partOfSpeech": "noun",
-                "sentence": "Prolonged malnutrition is stunting the children's physical and cognitive growth.",
-                "trSentence": "Uzamış yetersiz beslenme çocukların fiziksel ve bilişsel gelişimini kısaltıyor.",
-                "definition": "process of hindering growth"
-            },
-            {
-                "word": "stunter",
-                "partOfSpeech": "noun",
-                "sentence": "The amateur stunter practiced wheelies every afternoon behind the warehouse.",
-                "trSentence": "Amatör dublör her öğleden sonra depoda tek teker prova yaptı.",
-                "definition": "person who performs stunts"
-            },
-            {
-                "word": "stuntedness",
-                "partOfSpeech": "noun",
-                "sentence": "Researchers measured the stuntedness of seedlings grown in polluted soil.",
-                "trSentence": "Araştırmacılar kirli toprakta yetişen fidelerin bodurluğunu ölçtü.",
-                "definition": "state of being stunted"
-            },
-            {
-                "word": "stuntman",
-                "partOfSpeech": "noun",
-                "sentence": "The stuntman coordinated the dangerous car flip for the blockbuster's final scene.",
-                "trSentence": "Dublör, gişe rekortmeni filmin final sahnesindeki tehlikeli araba taklasını koordine etti.",
-                "definition": "male performer who executes dangerous feats"
-            },
-            {
-                "word": "stuntmen",
-                "partOfSpeech": "noun",
-                "sentence": "Experienced stuntmen rehearsed the fiery explosion sequence multiple times before filming.",
-                "trSentence": "Deneyimli dublörler ateşli patlama sahnesini çekim öncesi defalarca prova etti.",
-                "definition": "plural of stuntman"
-            },
-            {
-                "word": "stuntwoman",
-                "partOfSpeech": "noun",
-                "sentence": "A veteran stuntwoman doubled for the lead actress during the rooftop chase.",
-                "trSentence": "Tecrübeli bir kadın dublör, çatı kovalamacasında başrol oyuncusuna dublörlük yaptı.",
-                "definition": "female performer executing dangerous feats"
-            },
-            {
-                "word": "stuntwomen",
-                "partOfSpeech": "noun",
-                "sentence": "Skilled stuntwomen performed the complex wire work without a single mistake.",
-                "trSentence": "Usta kadın dublörler karmaşık tel çalışmalarını tek bir hata yapmadan gerçekleştirdi.",
-                "definition": "plural of stuntwoman"
-            },
-            {
-                "word": "publicity stunt",
-                "partOfSpeech": "noun",
-                "sentence": "The politician's surprise resignation turned out to be a calculated publicity stunt.",
-                "trSentence": "Politikacının sürpriz istifası hesaplı bir tanıtım numarası çıktı.",
-                "definition": "attention-seeking act for promotion"
-            }
-        ]
-    },
-    {
-        "root": "stunt",
-        "meanings": [
-            {
-                "sentence": "Frequent drought can stunt tree growth, producing short, misshapen trunks.",
-                "trSentence": "Sık sık görülen kuraklık ağaç büyümesini engelleyerek kısa, şekilsiz gövdeler oluşturabilir.",
-                "definition": "hinder normal growth or development",
-                "partOfSpeech": "verb"
-            },
-            {
-                "sentence": "The motorcyclist's fiery jump was his most dangerous stunt to date.",
-                "trSentence": "Motorsikletçinin ateşli atlayışı bugüne kadarki en tehlikeli numarasıydı.",
-                "definition": "spectacular or risky action for entertainment",
-                "partOfSpeech": "noun"
-            },
-            {
-                "sentence": "Announcing free flights was a clever stunt to keep the brand in headlines.",
-                "trSentence": "Ücretsiz uçuşları duyurmak, markayı manşetlerde tutmak için akıllıca bir numaraydı.",
-                "definition": "attention-grabbing act done for publicity",
-                "partOfSpeech": "noun"
-            }
-        ],
-        "wordFamilies": [
-            {
-                "word": "stunts",
-                "partOfSpeech": "noun",
-                "sentence": "The movie's breathtaking stunts kept the audience on the edge of their seats.",
-                "trSentence": "Filmin nefes kesici akrobasi hareketleri izleyiciyi koltuklarının kenarında tuttu.",
-                "definition": "plural of stunt; daring feats"
-            },
-            {
-                "word": "stunted",
-                "partOfSpeech": "adjective",
-                "sentence": "Years of drought stunted the village's crops, leaving families short of food.",
-                "trSentence": "Yıllar süren kuraklık köyün mahsullerini bodur bırakarak aileleri yiyeceksiz bıraktı.",
-                "definition": "having growth hindered or slowed"
-            },
-            {
-                "word": "stunting",
-                "partOfSpeech": "noun",
-                "sentence": "Prolonged malnutrition is stunting the children's physical and cognitive growth.",
-                "trSentence": "Uzamış yetersiz beslenme çocukların fiziksel ve bilişsel gelişimini kısaltıyor.",
-                "definition": "process of hindering growth"
-            },
-            {
-                "word": "stunter",
-                "partOfSpeech": "noun",
-                "sentence": "The amateur stunter practiced wheelies every afternoon behind the warehouse.",
-                "trSentence": "Amatör dublör her öğleden sonra depoda tek teker prova yaptı.",
-                "definition": "person who performs stunts"
-            },
-            {
-                "word": "stuntedness",
-                "partOfSpeech": "noun",
-                "sentence": "Researchers measured the stuntedness of seedlings grown in polluted soil.",
-                "trSentence": "Araştırmacılar kirli toprakta yetişen fidelerin bodurluğunu ölçtü.",
-                "definition": "state of being stunted"
-            },
-            {
-                "word": "stuntman",
-                "partOfSpeech": "noun",
-                "sentence": "The stuntman coordinated the dangerous car flip for the blockbuster's final scene.",
-                "trSentence": "Dublör, gişe rekortmeni filmin final sahnesindeki tehlikeli araba taklasını koordine etti.",
-                "definition": "male performer who executes dangerous feats"
-            },
-            {
-                "word": "stuntmen",
-                "partOfSpeech": "noun",
-                "sentence": "Experienced stuntmen rehearsed the fiery explosion sequence multiple times before filming.",
-                "trSentence": "Deneyimli dublörler ateşli patlama sahnesini çekim öncesi defalarca prova etti.",
-                "definition": "plural of stuntman"
-            },
-            {
-                "word": "stuntwoman",
-                "partOfSpeech": "noun",
-                "sentence": "A veteran stuntwoman doubled for the lead actress during the rooftop chase.",
-                "trSentence": "Tecrübeli bir kadın dublör, çatı kovalamacasında başrol oyuncusuna dublörlük yaptı.",
-                "definition": "female performer executing dangerous feats"
-            },
-            {
-                "word": "stuntwomen",
-                "partOfSpeech": "noun",
-                "sentence": "Skilled stuntwomen performed the complex wire work without a single mistake.",
-                "trSentence": "Usta kadın dublörler karmaşık tel çalışmalarını tek bir hata yapmadan gerçekleştirdi.",
-                "definition": "plural of stuntwoman"
-            },
-            {
-                "word": "publicity stunt",
-                "partOfSpeech": "noun",
-                "sentence": "The politician's surprise resignation turned out to be a calculated publicity stunt.",
-                "trSentence": "Politikacının sürpriz istifası hesaplı bir tanıtım numarası çıktı.",
-                "definition": "attention-seeking act for promotion"
-            }
-        ]
-    },
-    {
         "root": "daunt",
         "meanings": [
             {
@@ -1724,95 +1534,6 @@
                 "sentence": "Her dauntlessness in negotiations secured a favorable deal for the team.",
                 "trSentence": "Müzakerelerdeki yılmazlığı, ekip için uygun bir anlaşma sağladı.",
                 "definition": "quality of being fearless"
-            }
-        ]
-    },
-    {
-        "root": "conscience",
-        "meanings": [
-            {
-                "sentence": "Her conscience told her to return the wallet she found on the bus.",
-                "trSentence": "Vicdanı, otobüste bulduğu cüzdanı geri vermesini söyledi.",
-                "definition": "inner sense of right and wrong",
-                "partOfSpeech": "noun"
-            },
-            {
-                "sentence": "He voted according to his conscience, not party orders.",
-                "trSentence": "Parti emirleri değil, vicdanına göre oy verdi.",
-                "definition": "moral judgment guiding actions",
-                "partOfSpeech": "noun"
-            }
-        ],
-        "wordFamilies": [
-            {
-                "word": "consciences",
-                "partOfSpeech": "noun",
-                "sentence": "Different cultures shape their members' consciences in subtle ways.",
-                "trSentence": "Farklı kültürler üyelerinin vicdanlarını ince yollarla şekillendirir.",
-                "definition": "plural of conscience"
-            },
-            {
-                "word": "conscientious",
-                "partOfSpeech": "adjective",
-                "sentence": "Conscientious workers double-check every detail before submitting reports.",
-                "trSentence": "Vicdanlı çalışanlar raporları sunmadan önce her ayrıntıyı iki kez kontrol eder.",
-                "definition": "wishing to do work thoroughly"
-            },
-            {
-                "word": "conscientiously",
-                "partOfSpeech": "adverb",
-                "sentence": "She conscientiously recorded every transaction in the ledger.",
-                "trSentence": "Deftere her işlemi özenle kaydetti.",
-                "definition": "in a diligent, moral way"
-            },
-            {
-                "word": "conscientiousness",
-                "partOfSpeech": "noun",
-                "sentence": "Employers value conscientiousness because it predicts reliable performance.",
-                "trSentence": "İşverenler, güvenilir performansı öngördüğü için vicdanlılığı değerli bulur.",
-                "definition": "quality of being diligent and moral"
-            },
-            {
-                "word": "conscionable",
-                "partOfSpeech": "adjective",
-                "sentence": "Charging such high interest rates is hardly conscionable.",
-                "trSentence": "Bu kadar yüksek faiz oranları istemek pek vicdana sığmaz.",
-                "definition": "acceptable to conscience"
-            },
-            {
-                "word": "unconscionable",
-                "partOfSpeech": "adjective",
-                "sentence": "The factory's unconscionable working conditions shocked international inspectors immediately.",
-                "trSentence": "Fabrikanın vicdansız çalışma koşulları uluslararası denetçileri derhal şoke etti.",
-                "definition": "shockingly unfair or immoral"
-            },
-            {
-                "word": "unconscionably",
-                "partOfSpeech": "adverb",
-                "sentence": "The landlord raised rents unconscionably during the crisis.",
-                "trSentence": "Ev sahibi kriz sırasında kiraları vicdansızca artırdı.",
-                "definition": "in a morally unacceptable way"
-            },
-            {
-                "word": "conscience-stricken",
-                "partOfSpeech": "adjective",
-                "sentence": "Conscience-stricken and pale, he finally confessed the mistake to his supervisor.",
-                "trSentence": "Vicdan azabı çeken o, hatayı sonunda amirine itiraf etti.",
-                "definition": "feeling guilt or remorse"
-            },
-            {
-                "word": "guilty conscience",
-                "partOfSpeech": "noun",
-                "sentence": "His guilty conscience kept him awake long after midnight.",
-                "trSentence": "Suçluluk duygusu onu gece yarısından sonra uzun süre uyanık tuttu.",
-                "definition": "sense of guilt"
-            },
-            {
-                "word": "in good conscience",
-                "partOfSpeech": "phrase",
-                "sentence": "I cannot in good conscience approve such reckless spending.",
-                "trSentence": "Bu kadar pervasız harcamayı vicdanen onaylayamam.",
-                "definition": "without moral misgiving"
             }
         ]
     },
@@ -3145,74 +2866,6 @@
         ]
     },
     {
-        "root": "wound",
-        "meanings": [
-            {
-                "sentence": "Falling debris could wound unsuspecting hikers if safety crews ignore the unstable cliff above the popular trail.",
-                "trSentence": "Düşen enkaz, popüler patika üzerindeki dengesiz kayaya müdahale edilmezse habersiz yürüyüşçüleri yaralayabilir.",
-                "definition": "inflict injury causing physical or emotional damage",
-                "partOfSpeech": "verb"
-            },
-            {
-                "sentence": "Paramedics treated the soldier who sustained a shrapnel wound during the brief but intense border clash last night.",
-                "trSentence": "Paramedikler, dün geceki kısa fakat şiddetli sınır çatışmasında şarapnel yarası alan askere müdahale etti.",
-                "definition": "physical injury where tissue is damaged",
-                "partOfSpeech": "noun"
-            }
-        ],
-        "wordFamilies": [
-            {
-                "word": "wounds",
-                "partOfSpeech": "noun",
-                "sentence": "Old battle wounds sometimes reopen during harsh winter cold, reminding veterans of long-forgotten front-line hardships.",
-                "trSentence": "Eski savaş yaraları, sert kış soğuğunda bazen yeniden açılarak gazilere çoktan unutulmuş cephe zorluklarını hatırlatır.",
-                "definition": "injuries or damages to body"
-            },
-            {
-                "word": "wounded",
-                "partOfSpeech": "adjective",
-                "sentence": "Several wounded civilians were airlifted to the regional hospital after the earthquake demolished the remote mountain village.",
-                "trSentence": "Deprem uzak dağ köyünü yıkınca çok sayıda yaralı sivil bölge hastanesine helikopterle taşındı.",
-                "definition": "injured or hurt, especially in war"
-            },
-            {
-                "word": "wounding",
-                "partOfSpeech": "verb",
-                "sentence": "Careless remarks risk wounding a colleague's confidence, leading to reduced collaboration on future group projects.",
-                "trSentence": "Düşüncesiz sözler, bir meslektaşın özgüvenini zedeleyerek gelecekteki grup projelerinde işbirliğini azaltma riski taşır.",
-                "definition": "causing emotional or physical harm"
-            },
-            {
-                "word": "unwounded",
-                "partOfSpeech": "adjective",
-                "sentence": "The rescue team prioritized evacuating children, both wounded and unwounded, before nightfall obscured the rugged terrain.",
-                "trSentence": "Kurtarma ekibi, sarp araziyi karanlık basmadan önce yaralı ve yaralanmamış çocukları tahliye etmeye öncelik verdi.",
-                "definition": "not injured; free of wounds"
-            },
-            {
-                "word": "woundless",
-                "partOfSpeech": "adjective",
-                "sentence": "Miraculously, the cyclist emerged virtually woundless from the collision, thanks to a well-fitted helmet and layered clothing.",
-                "trSentence": "Mucizevi şekilde, bisikletçi iyi oturan kask ve katmanlı giysiler sayesinde çarpışmadan neredeyse yarasız çıktı.",
-                "definition": "having no visible injuries"
-            },
-            {
-                "word": "open wound",
-                "partOfSpeech": "compound noun",
-                "sentence": "Doctors cleaned the open wound thoroughly, then applied antibacterial gel and breathable gauze to prevent infection.",
-                "trSentence": "Doktorlar açık yarayı iyice temizledi, ardından enfeksiyonu önlemek için antibakteriyel jel ve nefes alabilen gazlı bez uyguladı.",
-                "definition": "injury where tissue is exposed"
-            },
-            {
-                "word": "gunshot wound",
-                "partOfSpeech": "compound noun",
-                "sentence": "Emergency surgeons controlled bleeding from a complicated gunshot wound that narrowly missed the victim's spinal cord.",
-                "trSentence": "Acil cerrahlar, kurbanın omuriliğini kıl payı ıskalamış karmaşık bir kurşun yarasındaki kanamayı kontrol altına aldı.",
-                "definition": "injury caused by a bullet"
-            }
-        ]
-    },
-    {
         "root": "weave",
         "meanings": [
             {
@@ -3617,93 +3270,6 @@
                 "sentence": "His tenacious memory allowed him to recall complex legal citations without consulting notes during heated courtroom debates.",
                 "trSentence": "İnatçı hafızası, hararetli duruşma tartışmaları sırasında karmaşık hukuk atıflarını notlara bakmadan hatırlamasını sağladı.",
                 "definition": "ability to retain information firmly"
-            }
-        ]
-    },
-    {
-        "root": "room",
-        "meanings": [
-            {
-                "sentence": "There is hardly enough room in the freezer for another ice-cream carton during the holiday rush.",
-                "trSentence": "Tatil telaşı sırasında dondurucuya başka bir dondurma kutusunu koyacak kadar yer neredeyse yok.",
-                "definition": "available space to fit something",
-                "partOfSpeech": "noun"
-            },
-            {
-                "sentence": "During university, three friends decided to room together in a cramped downtown apartment to save money.",
-                "trSentence": "Üniversitede, üç arkadaş para biriktirmek için şehir merkezindeki dar bir dairede birlikte kalmaya karar verdi.",
-                "definition": "live or lodge as a paying tenant",
-                "partOfSpeech": "verb"
-            }
-        ],
-        "wordFamilies": [
-            {
-                "word": "rooms",
-                "partOfSpeech": "noun",
-                "sentence": "Historic castles often contain secret rooms hidden behind shelves that once allowed nobles to escape danger quickly.",
-                "trSentence": "Tarihi kalelerde, soyluların tehlikeden hızla kaçmasına yarayan gizli odalar sıklıkla rafların arkasında bulunur.",
-                "definition": "separate enclosed spaces in a building"
-            },
-            {
-                "word": "roomed",
-                "partOfSpeech": "verb",
-                "sentence": "She roomed with a Turkish host family while improving her language skills during a summer exchange in Ankara.",
-                "trSentence": "Ankara'daki yaz değişim programı boyunca dil becerilerini geliştirirken Türk bir aileyle birlikte kaldı.",
-                "definition": "lived as a tenant temporarily"
-            },
-            {
-                "word": "rooming",
-                "partOfSpeech": "verb",
-                "sentence": "Finding affordable rooming options proved difficult until the university opened two new dormitories near campus last spring.",
-                "trSentence": "Uygun fiyatlı kalacak yer bulmak, üniversite geçen bahar kampüs yakınında iki yeni yurt açana kadar zordu.",
-                "definition": "living or lodging somewhere"
-            },
-            {
-                "word": "roomy",
-                "partOfSpeech": "adjective",
-                "sentence": "The electric hatchback felt surprisingly roomy inside, comfortably seating five tall adults and their backpacks.",
-                "trSentence": "Elektrikli hatchback içi şaşırtıcı derecede ferah hissettirdi; beş uzun boylu yetişkini ve çantalarını rahatça aldı.",
-                "definition": "having plenty of space"
-            },
-            {
-                "word": "roominess",
-                "partOfSpeech": "noun",
-                "sentence": "Buyers praised the cabin's roominess when comparing several midsize SUVs at the crowded auto show.",
-                "trSentence": "Alıcılar, kalabalık otomobil fuarında birkaç orta boy SUV'yi karşılaştırırken kabinin genişliğini övdü.",
-                "definition": "quality of being spacious"
-            },
-            {
-                "word": "roomless",
-                "partOfSpeech": "adjective",
-                "sentence": "Compact micro-apartments can appear roomless at first, yet fold-down beds and tables reveal clever hidden capacity.",
-                "trSentence": "Kompakt mikro daireler ilk bakışta odasız görünebilir, ancak katlanır yatak ve masalar zekice gizli alan sunar.",
-                "definition": "lacking adequate space"
-            },
-            {
-                "word": "roomful",
-                "partOfSpeech": "noun",
-                "sentence": "Laughter spread through the roomful of diplomats, easing tension before the high-stakes climate negotiations began.",
-                "trSentence": "Yüksek riskli iklim müzakereleri başlamadan önce diplomatlarla dolu salonda kahkaha yayılarak gerginliği azalttı.",
-                "definition": "space filled with people or things"
-            },
-            {
-                "word": "spare room",
-                "partOfSpeech": "compound noun",
-                "sentence": "Grandparents decorated their spare room with bright murals so visiting grandchildren felt instantly welcome.",
-                "trSentence": "Büyükebeveynler, misafir torunların hemen kendini evinde hissetmesi için yedek odayı canlı duvar resimleriyle süsledi.",
-                "definition": "additional bedroom for guests"
-            },
-            {
-                "word": "room service",
-                "partOfSpeech": "compound noun",
-                "sentence": "After a late landing, the pilot ordered pasta from room service and reviewed tomorrow’s flight plan.",
-                "definition": "hotel meal delivery to rooms"
-            },
-            {
-                "word": "roommate",
-                "partOfSpeech": "compound noun",
-                "sentence": "Her roommate practiced violin each dawn, but soft earplugs kept the early melodies from disrupting sleep.",
-                "definition": "person sharing living quarters"
             }
         ]
     },
@@ -5121,114 +4687,6 @@
         ]
     },
     {
-        "root": "room",
-        "meanings": [
-            {
-                "sentence": "There isn't enough room in the garage to store both bicycles and the new kayak.",
-                "trSentence": "Garajda hem bisikletleri hem de yeni kayığı saklamak için yeterli alan yok.",
-                "definition": "Available space for something.",
-                "partOfSpeech": "noun"
-            },
-            {
-                "sentence": "Their house has a bright dining room overlooking the lake through wide glass doors.",
-                "trSentence": "Evlerinin, geniş cam kapılardan göl manzaralı aydınlık bir yemek odası var.",
-                "definition": "Separate part of a building enclosed by walls.",
-                "partOfSpeech": "noun"
-            },
-            {
-                "sentence": "During university, I roomed with three other architecture students in a cramped apartment downtown.",
-                "trSentence": "Üniversite sırasında, şehir merkezindeki dar bir dairede üç diğer mimarlık öğrencisiyle kaldım.",
-                "definition": "Share lodging or live somewhere temporarily.",
-                "partOfSpeech": "verb"
-            }
-        ],
-        "wordFamilies": [
-            {
-                "word": "rooms",
-                "partOfSpeech": "noun",
-                "sentence": "The hostel offers private rooms with desks, plus a communal kitchen open all night.",
-                "trSentence": "Hostel, 24 saat açık ortak mutfağın yanı sıra çalışma masalı özel odalar sunuyor.",
-                "definition": "Plural of room; separate spaces."
-            },
-            {
-                "word": "roomed",
-                "partOfSpeech": "verb",
-                "sentence": "Researchers roomed together at the arctic base to conserve heating fuel during winter.",
-                "trSentence": "Araştırmacılar, kış boyunca ısıtma yakıtı tasarrufu için kutup üssünde birlikte kaldılar.",
-                "definition": "Past tense of room."
-            },
-            {
-                "word": "rooming",
-                "partOfSpeech": "verb",
-                "sentence": "Rooming near campus can reduce commute stress but often costs slightly more in rent.",
-                "trSentence": "Kampüse yakın kalmak, yol stresini azaltabilir fakat kira genelde biraz daha pahalıdır.",
-                "definition": "Gerund of room."
-            },
-            {
-                "word": "roomy",
-                "partOfSpeech": "adjective",
-                "sentence": "She bought a roomy canvas bag that easily holds textbooks, a laptop, and lunch.",
-                "trSentence": "Ders kitaplarını, dizüstü bilgisayarı ve öğle yemeğini rahatça alan geniş bir kanvas çanta aldı.",
-                "definition": "Having ample space inside."
-            },
-            {
-                "word": "roomier",
-                "partOfSpeech": "adjective",
-                "sentence": "The new minivan felt roomier than their old sedan, especially in the back seat.",
-                "trSentence": "Yeni minibüs, özellikle arka koltukta, eski sedandan daha ferah hissettirdi.",
-                "definition": "Comparative form of roomy."
-            },
-            {
-                "word": "roomiest",
-                "partOfSpeech": "adjective",
-                "sentence": "Among the cabins, number six is the roomiest and includes its own private balcony.",
-                "trSentence": "Kulübeler içinde, altı numara en geniş olanıydı ve özel balkonu bulunuyordu.",
-                "definition": "Superlative form of roomy."
-            },
-            {
-                "word": "roominess",
-                "partOfSpeech": "noun",
-                "sentence": "He appreciated the roominess of the lecture hall, where every seat had unobstructed sightlines.",
-                "trSentence": "Ders salonunun ferahlığını, her koltuğun engellenmemiş görüş hattı olmasıyla takdir etti.",
-                "definition": "Spaciousness; ample space."
-            },
-            {
-                "word": "roomful",
-                "partOfSpeech": "noun",
-                "sentence": "A sudden applause erupted from the roomful of delegates after the keynote's closing remark.",
-                "trSentence": "Ana konuşmacının kapanış sözünden sonra salon dolusu delege aniden alkışa boğuldu.",
-                "definition": "Quantity that fills an entire room."
-            },
-            {
-                "word": "roommate",
-                "partOfSpeech": "noun",
-                "sentence": "My freshman roommate snored loudly, so earplugs quickly became essential for restful nights.",
-                "trSentence": "Hazırlık yılındaki oda arkadaşım yüksek sesle horlardı, bu yüzden kulak tıkaçları şart oldu.",
-                "definition": "Person with whom one shares lodging."
-            },
-            {
-                "word": "room service",
-                "partOfSpeech": "compound noun",
-                "sentence": "After the conference, we ordered room service and reviewed notes while eating pasta in bed.",
-                "trSentence": "Konferans sonrası oda servisi sipariş edip yatakta makarna yerken notları gözden geçirdik.",
-                "definition": "Hotel service delivering food to rooms."
-            },
-            {
-                "word": "living room",
-                "partOfSpeech": "compound noun",
-                "sentence": "They transformed the living room into a temporary studio for recording their weekly podcast episodes.",
-                "trSentence": "Haftalık podcast bölümlerini kaydetmek için oturma odasını geçici stüdyoya dönüştürdüler.",
-                "definition": "Main communal room for relaxation at home."
-            },
-            {
-                "word": "bedroom",
-                "partOfSpeech": "compound noun",
-                "sentence": "Guests stayed in the spare bedroom overlooking orchards and distant mountains bathed in dawn light.",
-                "definition": "Room primarily used for sleeping."
-            }
-        ]
-    },
-    {
         "root": "vital",
         "meanings": [
             {
@@ -6340,13 +5798,6 @@
                 "definition": "a removable cloth cover for a pillow"
             },
             {
-                "word": "pillow talk",
-                "partOfSpeech": "set phrase",
-                "sentence": "They shared secrets during late-night pillow talk.",
-                "trSentence": "Gece geç saatlerde yastık sohbeti sırasında sırlarını paylaştılar.",
-                "definition": "intimate conversation between partners while in bed"
-            },
-            {
                 "word": "pillow fight",
                 "partOfSpeech": "set phrase",
                 "sentence": "The children had a noisy pillow fight before bedtime.",
@@ -7106,40 +6557,6 @@
                 "sentence": "He is sleeping on it and will get back to us tomorrow.",
                 "trSentence": "Üzerinde düşünüyor ve yarın bize dönecek.",
                 "definition": "Present participle or gerund form of 'sleep on it'."
-            }
-        ]
-    },
-    {
-        "root": "press on",
-        "meanings": [
-            {
-                "sentence": "Despite the heavy rain, the hikers decided to press on.",
-                "trSentence": "Şiddetli yağmura rağmen yürüyüşçüler devam etmeye karar verdi.",
-                "definition": "To continue moving forward or persist with an activity despite difficulties.",
-                "partOfSpeech": "phrasal verb"
-            }
-        ],
-        "wordFamilies": [
-            {
-                "word": "pressed on",
-                "partOfSpeech": "phrasal verb",
-                "sentence": "We pressed on until we reached the village.",
-                "trSentence": "Köye ulaşana kadar devam ettik.",
-                "definition": "Past tense form of 'press on'."
-            },
-            {
-                "word": "presses on",
-                "partOfSpeech": "phrasal verb",
-                "sentence": "She presses on with her research, unfazed by setbacks.",
-                "trSentence": "O, araştırmasına aksiliklerden etkilenmeden devam eder.",
-                "definition": "Third-person singular present form of 'press on'."
-            },
-            {
-                "word": "pressing on",
-                "partOfSpeech": "phrasal verb",
-                "sentence": "Pressing on despite exhaustion, the team finished the project.",
-                "trSentence": "Yorgunluğa rağmen devam eden ekip projeyi bitirdi.",
-                "definition": "Present participle or gerund form of 'press on'."
             }
         ]
     },
@@ -10569,53 +9986,6 @@
         ]
     },
     {
-        "root": "wound",
-        "meanings": [
-            {
-                "sentence": "He suffered a deep wound from the fall.",
-                "definition": "an injury to living tissue, especially one in which the skin is cut or broken",
-                "partOfSpeech": "noun"
-            },
-            {
-                "sentence": "The shrapnel wounded several soldiers.",
-                "definition": "to inflict an injury on (a person or animal)",
-                "partOfSpeech": "verb"
-            }
-        ],
-        "wordFamilies": [
-            {
-                "word": "wounds",
-                "partOfSpeech": "noun",
-                "sentence": "The nurse cleaned the soldiers’ wounds.",
-                "definition": "plural of wound; injuries to living tissue"
-            },
-            {
-                "word": "wounded",
-                "partOfSpeech": "verb",
-                "sentence": "She was wounded by shrapnel in the leg.",
-                "definition": "simple past tense and past participle of wound"
-            },
-            {
-                "word": "wounding",
-                "partOfSpeech": "verb",
-                "sentence": "They were wounding the deer for the study.",
-                "definition": "present participle of wound"
-            },
-            {
-                "word": "wound healing",
-                "partOfSpeech": "compound noun",
-                "sentence": "Wound healing can be slowed by infection.",
-                "definition": "the physiological process by which the body repairs a wound"
-            },
-            {
-                "word": "reopen old wounds",
-                "partOfSpeech": "idiom",
-                "sentence": "His careless remarks reopened old wounds from their last argument.",
-                "definition": "to bring up past hurts or grievances"
-            }
-        ]
-    },
-    {
         "root": "imitate",
         "meanings": [
             {
@@ -11959,5 +11329,646 @@
           "definition": "a genre of popular music"
         }
       ]
+    },
+    {
+      "root": "tedium",
+      "meanings": [
+        {
+          "sentence": "She endured the tedium of the weekly meetings.",
+          "definition": "The quality or state of being tedious; monotony; dullness.",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "tediums",
+          "partOfSpeech": "noun",
+          "sentence": "Unexpectedly, the report mentioned several tediums experienced by new employees.",
+          "definition": "Plural form of tedium; instances of dullness or monotony."
+        },
+        {
+          "word": "tedious",
+          "partOfSpeech": "adjective",
+          "sentence": "Filing these documents is a tedious chore.",
+          "definition": "Marking with or causing weariness; long and tiresome."
+        },
+        {
+          "word": "tediousness",
+          "partOfSpeech": "noun",
+          "sentence": "The tediousness of the journey made travelers restless.",
+          "definition": "The state or quality of being tedious; dullness or monotony."
+        },
+        {
+          "word": "tediously",
+          "partOfSpeech": "adverb",
+          "sentence": "He tediously repeated the same instructions until everyone understood.",
+          "definition": "In a tedious manner; causing weariness by length or dullness."
+        },
+        {
+          "word": "tedious task",
+          "partOfSpeech": "collocation",
+          "sentence": "Sorting through old files can be a truly tedious task.",
+          "definition": "A task that is boring, monotonous, and tiresome."
+        }
+      ]
+    },
+    {
+      "root": "suit",
+      "meanings": [
+        {
+          "sentence": "He bought a new suit for the job interview.",
+          "definition": "A set of outer clothes made from the same fabric and designed to be worn together.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "The company filed a suit against the manufacturer.",
+          "definition": "A legal action brought in a court of law.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "In bridge, spades are my favorite suit.",
+          "definition": "One of the categories into which a deck of cards is divided: hearts, diamonds, clubs, or spades.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "This schedule suits me perfectly.",
+          "definition": "To be convenient or acceptable for someone.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "suits",
+          "partOfSpeech": "verb",
+          "sentence": "This meeting time suits everyone on the team.",
+          "definition": "Third-person singular present of suit; to be appropriate or fitting."
+        },
+        {
+          "word": "suited",
+          "partOfSpeech": "verb",
+          "sentence": "That hat suited her very well.",
+          "definition": "Past tense and past participle of suit; to be fitting or appropriate."
+        },
+        {
+          "word": "suiting",
+          "partOfSpeech": "verb",
+          "sentence": "He is suiting his approach to match the audience's needs.",
+          "definition": "Present participle of suit; adapting or making appropriate."
+        },
+        {
+          "word": "suitable",
+          "partOfSpeech": "adjective",
+          "sentence": "This book is suitable for young readers.",
+          "definition": "Appropriate or fitting for a particular purpose or occasion."
+        },
+        {
+          "word": "suitability",
+          "partOfSpeech": "noun",
+          "sentence": "We evaluated the suitability of each candidate.",
+          "definition": "The quality of being suitable; appropriateness."
+        },
+        {
+          "word": "unsuitable",
+          "partOfSpeech": "adjective",
+          "sentence": "This attire is unsuitable for a formal event.",
+          "definition": "Not suitable; inappropriate."
+        },
+        {
+          "word": "unsuitability",
+          "partOfSpeech": "noun",
+          "sentence": "They questioned the unsuitability of the venue.",
+          "definition": "The quality of not being suitable; inappropriateness."
+        },
+        {
+          "word": "business suit",
+          "partOfSpeech": "compound noun",
+          "sentence": "He wore a business suit to the conference.",
+          "definition": "A conservative suit intended for professional settings."
+        },
+        {
+          "word": "power suit",
+          "partOfSpeech": "compound noun",
+          "sentence": "In the 1980s, the power suit symbolized corporate authority.",
+          "definition": "A woman's suit with padded shoulders intended to project confidence and authority."
+        }
+      ]
+    },
+    {
+      "root": "relate",
+      "meanings": [
+        {
+          "sentence": "She related her experiences during the trip.",
+          "definition": "To give an account of; to narrate or recount.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "This document relates the new policy to existing regulations.",
+          "definition": "To make or show a connection between two or more things.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "Her research relates closely to mine.",
+          "definition": "To bear a relationship or connection; to be connected.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "relates",
+          "partOfSpeech": "verb",
+          "sentence": "He relates the facts with great precision.",
+          "definition": "Third-person singular present of relate; to recount or connect."
+        },
+        {
+          "word": "relating",
+          "partOfSpeech": "verb",
+          "sentence": "They are relating historical events to modern contexts.",
+          "definition": "Present participle of relate; showing or establishing a connection."
+        },
+        {
+          "word": "related",
+          "partOfSpeech": "verb",
+          "sentence": "Their findings were related to recent technological advances.",
+          "definition": "Past tense and past participle of relate; made a connection."
+        },
+        {
+          "word": "relation",
+          "partOfSpeech": "noun",
+          "sentence": "The study examined the relation between diet and health.",
+          "definition": "The way in which two or more things are connected or associated."
+        },
+        {
+          "word": "relations",
+          "partOfSpeech": "noun",
+          "sentence": "Diplomatic relations between the countries improved.",
+          "definition": "The plural of relation; multiple connections or associations."
+        },
+        {
+          "word": "relational",
+          "partOfSpeech": "adjective",
+          "sentence": "The database uses a relational model for data storage.",
+          "definition": "Of or relating to the way in which things are connected."
+        },
+        {
+          "word": "relative",
+          "partOfSpeech": "adjective",
+          "sentence": "The cost is relative to the number of participants.",
+          "definition": "Considered in relation or in proportion to something else."
+        },
+        {
+          "word": "relative",
+          "partOfSpeech": "noun",
+          "sentence": "Each relative received a share of the inheritance.",
+          "definition": "A member of one's family."
+        },
+        {
+          "word": "relatively",
+          "partOfSpeech": "adverb",
+          "sentence": "The test was relatively easy compared to last year's.",
+          "definition": "To a moderate degree in comparison with something else."
+        },
+        {
+          "word": "relevant",
+          "partOfSpeech": "adjective",
+          "sentence": "She provided relevant examples to illustrate her point.",
+          "definition": "Closely connected or appropriate to what is being done or considered."
+        },
+        {
+          "word": "relevance",
+          "partOfSpeech": "noun",
+          "sentence": "The relevance of this study is clear to all stakeholders.",
+          "definition": "The quality or state of being closely connected or appropriate."
+        },
+        {
+          "word": "relevancy",
+          "partOfSpeech": "noun",
+          "sentence": "He questioned the relevancy of the argument.",
+          "definition": "Alternative form of relevance; the state of being relevant."
+        },
+        {
+          "word": "irrelevant",
+          "partOfSpeech": "adjective",
+          "sentence": "That detail is irrelevant to the current discussion.",
+          "definition": "Not connected or appropriate to what is being done or considered."
+        },
+        {
+          "word": "irrelevance",
+          "partOfSpeech": "noun",
+          "sentence": "The irrelevance of the side issue was apparent.",
+          "definition": "The state of not being related or pertinent."
+        },
+        {
+          "word": "irrelevancy",
+          "partOfSpeech": "noun",
+          "sentence": "The lawyer objected, citing the irrelevancy of the testimony.",
+          "definition": "Alternative form of irrelevance; the state of being irrelevant."
+        }
+      ]
+    },
+    {
+      "root": "open",
+      "meanings": [
+        {
+          "sentence": "She opened the window to let in fresh air.",
+          "definition": "To move or adjust something so that an entrance or passage is not blocked; to cause to become open.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "The shop remains open until midnight.",
+          "definition": "Not closed or blocked; allowing passage or access.",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "sentence": "He applied for the opening at the design firm.",
+          "definition": "A vacant position or opportunity; the beginning of something.",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "opens",
+          "partOfSpeech": "verb",
+          "sentence": "She opens the store at eight o'clock every morning.",
+          "definition": "Third-person singular present of open; to cause to become open."
+        },
+        {
+          "word": "opening",
+          "partOfSpeech": "noun",
+          "sentence": "The opening of the new gallery was well attended.",
+          "definition": "The act or instance of opening; an initial event or opportunity."
+        },
+        {
+          "word": "opened",
+          "partOfSpeech": "verb",
+          "sentence": "They opened the package with great curiosity.",
+          "definition": "Past tense and past participle of open; caused to become open."
+        },
+        {
+          "word": "reopen",
+          "partOfSpeech": "verb",
+          "sentence": "They plan to reopen the museum next month.",
+          "definition": "To open again."
+        },
+        {
+          "word": "reopening",
+          "partOfSpeech": "noun",
+          "sentence": "The reopening of the theater drew a large crowd.",
+          "definition": "The act of opening again."
+        },
+        {
+          "word": "reopens",
+          "partOfSpeech": "verb",
+          "sentence": "The café reopens after renovations on Monday.",
+          "definition": "Third-person singular present of reopen; to open again."
+        },
+        {
+          "word": "reopened",
+          "partOfSpeech": "verb",
+          "sentence": "The discussion was reopened later in the meeting.",
+          "definition": "Past tense and past participle of reopen; opened again."
+        },
+        {
+          "word": "opener",
+          "partOfSpeech": "noun",
+          "sentence": "He served as the opener for the band’s first show.",
+          "definition": "Something that opens or a person who opens something."
+        },
+        {
+          "word": "openness",
+          "partOfSpeech": "noun",
+          "sentence": "Her openness to new ideas impressed everyone.",
+          "definition": "The quality of being open; frankness or transparency."
+        },
+        {
+          "word": "open-minded",
+          "partOfSpeech": "compound adjective",
+          "sentence": "They remained open-minded throughout the debate.",
+          "definition": "Willing to consider new ideas; unprejudiced."
+        },
+        {
+          "word": "open-mindedness",
+          "partOfSpeech": "noun",
+          "sentence": "Open-mindedness is essential for creative problem-solving.",
+          "definition": "The quality of being open-minded."
+        },
+        {
+          "word": "job opening",
+          "partOfSpeech": "compound noun",
+          "sentence": "The company advertised a job opening for a marketing manager.",
+          "definition": "A position available for employment; iş ilanı."
+        }
+      ]
+    },
+    {
+      "root": "room",
+      "meanings": [
+        {
+          "sentence": "There isn't enough room in the garage to store both bicycles and the new kayak.",
+          "trSentence": "Garajda hem bisikletleri hem de yeni kayığı saklamak için yeterli alan yok.",
+          "definition": "Available space for something.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "Their house has a bright dining room overlooking the lake through wide glass doors.",
+          "trSentence": "Evlerinin, geniş cam kapılardan göl manzaralı aydınlık bir yemek odası var.",
+          "definition": "Separate part of a building enclosed by walls.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "During university, I roomed with three other architecture students in a cramped apartment downtown.",
+          "trSentence": "Üniversite sırasında, şehir merkezindeki dar bir dairede üç diğer mimarlık öğrencisiyle kaldım.",
+          "definition": "Share lodging or live somewhere temporarily.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "There is hardly enough room in the freezer for another ice-cream carton during the holiday rush.",
+          "trSentence": "Tatil telaşı sırasında dondurucuya başka bir dondurma kutusunu koyacak kadar yer neredeyse yok.",
+          "definition": "available space to fit something",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "During university, three friends decided to room together in a cramped downtown apartment to save money.",
+          "trSentence": "Üniversitede, üç arkadaş para biriktirmek için şehir merkezindeki dar bir dairede birlikte kalmaya karar verdi.",
+          "definition": "live or lodge as a paying tenant",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "rooms",
+          "partOfSpeech": "noun",
+          "sentence": "The hostel offers private rooms with desks, plus a communal kitchen open all night.",
+          "trSentence": "Hostel, 24 saat açık ortak mutfağın yanı sıra çalışma masalı özel odalar sunuyor.",
+          "definition": "Plural of room; separate spaces."
+        },
+        {
+          "word": "roomed",
+          "partOfSpeech": "verb",
+          "sentence": "Researchers roomed together at the arctic base to conserve heating fuel during winter.",
+          "trSentence": "Araştırmacılar, kış boyunca ısıtma yakıtı tasarrufu için kutup üssünde birlikte kaldılar.",
+          "definition": "Past tense of room."
+        },
+        {
+          "word": "rooming",
+          "partOfSpeech": "verb",
+          "sentence": "Rooming near campus can reduce commute stress but often costs slightly more in rent.",
+          "trSentence": "Kampüse yakın kalmak, yol stresini azaltabilir fakat kira genelde biraz daha pahalıdır.",
+          "definition": "Gerund of room."
+        },
+        {
+          "word": "roomy",
+          "partOfSpeech": "adjective",
+          "sentence": "She bought a roomy canvas bag that easily holds textbooks, a laptop, and lunch.",
+          "trSentence": "Ders kitaplarını, dizüstü bilgisayarı ve öğle yemeğini rahatça alan geniş bir kanvas çanta aldı.",
+          "definition": "Having ample space inside."
+        },
+        {
+          "word": "roomier",
+          "partOfSpeech": "adjective",
+          "sentence": "The new minivan felt roomier than their old sedan, especially in the back seat.",
+          "trSentence": "Yeni minibüs, özellikle arka koltukta, eski sedandan daha ferah hissettirdi.",
+          "definition": "Comparative form of roomy."
+        },
+        {
+          "word": "roomiest",
+          "partOfSpeech": "adjective",
+          "sentence": "Among the cabins, number six is the roomiest and includes its own private balcony.",
+          "trSentence": "Kulübeler içinde, altı numara en geniş olanıydı ve özel balkonu bulunuyordu.",
+          "definition": "Superlative form of roomy."
+        },
+        {
+          "word": "roominess",
+          "partOfSpeech": "noun",
+          "sentence": "He appreciated the roominess of the lecture hall, where every seat had unobstructed sightlines.",
+          "trSentence": "Ders salonunun ferahlığını, her koltuğun engellenmemiş görüş hattı olmasıyla takdir etti.",
+          "definition": "Spaciousness; ample space."
+        },
+        {
+          "word": "roomful",
+          "partOfSpeech": "noun",
+          "sentence": "A sudden applause erupted from the roomful of delegates after the keynote's closing remark.",
+          "trSentence": "Ana konuşmacının kapanış sözünden sonra salon dolusu delege aniden alkışa boğuldu.",
+          "definition": "Quantity that fills an entire room."
+        },
+        {
+          "word": "roommate",
+          "partOfSpeech": "noun",
+          "sentence": "My freshman roommate snored loudly, so earplugs quickly became essential for restful nights.",
+          "trSentence": "Hazırlık yılındaki oda arkadaşım yüksek sesle horlardı, bu yüzden kulak tıkaçları şart oldu.",
+          "definition": "Person with whom one shares lodging."
+        },
+        {
+          "word": "room service",
+          "partOfSpeech": "compound noun",
+          "sentence": "After the conference, we ordered room service and reviewed notes while eating pasta in bed.",
+          "trSentence": "Konferans sonrası oda servisi sipariş edip yatakta makarna yerken notları gözden geçirdik.",
+          "definition": "Hotel service delivering food to rooms."
+        },
+        {
+          "word": "living room",
+          "partOfSpeech": "compound noun",
+          "sentence": "They transformed the living room into a temporary studio for recording their weekly podcast episodes.",
+          "trSentence": "Haftalık podcast bölümlerini kaydetmek için oturma odasını geçici stüdyoya dönüştürdüler.",
+          "definition": "Main communal room for relaxation at home."
+        },
+        {
+          "word": "bedroom",
+          "partOfSpeech": "compound noun",
+          "sentence": "Guests stayed in the spare bedroom overlooking orchards and distant mountains bathed in dawn light.",
+          "definition": "Room primarily used for sleeping."
+        },
+        {
+          "word": "roomless",
+          "partOfSpeech": "adjective",
+          "sentence": "Compact micro-apartments can appear roomless at first, yet fold-down beds and tables reveal clever hidden capacity.",
+          "trSentence": "Kompakt mikro daireler ilk bakışta odasız görünebilir, ancak katlanır yatak ve masalar zekice gizli alan sunar.",
+          "definition": "lacking adequate space"
+        },
+        {
+          "word": "spare room",
+          "partOfSpeech": "compound noun",
+          "sentence": "Grandparents decorated their spare room with bright murals so visiting grandchildren felt instantly welcome.",
+          "trSentence": "Büyükebeveynler, misafir torunların hemen kendini evinde hissetmesi için yedek odayı canlı duvar resimleriyle süsledi.",
+          "definition": "additional bedroom for guests"
+        }
+      ]
+    },
+    {
+      "root": "stunt",
+      "meanings": [
+        {
+          "sentence": "Frequent drought can stunt tree growth, producing short, misshapen trunks.",
+          "trSentence": "Sık sık görülen kuraklık ağaç büyümesini engelleyerek kısa, şekilsiz gövdeler oluşturabilir.",
+          "definition": "hinder normal growth or development",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "The motorcyclist's fiery jump was his most dangerous stunt to date.",
+          "trSentence": "Motorsikletçinin ateşli atlayışı bugüne kadarki en tehlikeli numarasıydı.",
+          "definition": "spectacular or risky action for entertainment",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "Announcing free flights was a clever stunt to keep the brand in headlines.",
+          "trSentence": "Ücretsiz uçuşları duyurmak, markayı manşetlerde tutmak için akıllıca bir numaraydı.",
+          "definition": "attention-grabbing act done for publicity",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "stunts",
+          "partOfSpeech": "noun",
+          "sentence": "The movie's breathtaking stunts kept the audience on the edge of their seats.",
+          "trSentence": "Filmin nefes kesici akrobasi hareketleri izleyiciyi koltuklarının kenarında tuttu.",
+          "definition": "plural of stunt; daring feats"
+        },
+        {
+          "word": "stunted",
+          "partOfSpeech": "adjective",
+          "sentence": "Years of drought stunted the village's crops, leaving families short of food.",
+          "trSentence": "Yıllar süren kuraklık köyün mahsullerini bodur bırakarak aileleri yiyeceksiz bıraktı.",
+          "definition": "having growth hindered or slowed"
+        },
+        {
+          "word": "stunting",
+          "partOfSpeech": "noun",
+          "sentence": "Prolonged malnutrition is stunting the children's physical and cognitive growth.",
+          "trSentence": "Uzamış yetersiz beslenme çocukların fiziksel ve bilişsel gelişimini kısaltıyor.",
+          "definition": "process of hindering growth"
+        },
+        {
+          "word": "stunter",
+          "partOfSpeech": "noun",
+          "sentence": "The amateur stunter practiced wheelies every afternoon behind the warehouse.",
+          "trSentence": "Amatör dublör her öğleden sonra depoda tek teker prova yaptı.",
+          "definition": "person who performs stunts"
+        },
+        {
+          "word": "stuntedness",
+          "partOfSpeech": "noun",
+          "sentence": "Researchers measured the stuntedness of seedlings grown in polluted soil.",
+          "trSentence": "Araştırmacılar kirli toprakta yetişen fidelerin bodurluğunu ölçtü.",
+          "definition": "state of being stunted"
+        },
+        {
+          "word": "stuntman",
+          "partOfSpeech": "noun",
+          "sentence": "The stuntman coordinated the dangerous car flip for the blockbuster's final scene.",
+          "trSentence": "Dublör, gişe rekortmeni filmin final sahnesindeki tehlikeli araba taklasını koordine etti.",
+          "definition": "male performer who executes dangerous feats"
+        },
+        {
+          "word": "stuntmen",
+          "partOfSpeech": "noun",
+          "sentence": "Experienced stuntmen rehearsed the fiery explosion sequence multiple times before filming.",
+          "trSentence": "Deneyimli dublörler ateşli patlama sahnesini çekim öncesi defalarca prova etti.",
+          "definition": "plural of stuntman"
+        },
+        {
+          "word": "stuntwoman",
+          "partOfSpeech": "noun",
+          "sentence": "A veteran stuntwoman doubled for the lead actress during the rooftop chase.",
+          "trSentence": "Tecrübeli bir kadın dublör, çatı kovalamacasında başrol oyuncusuna dublörlük yaptı.",
+          "definition": "female performer executing dangerous feats"
+        },
+        {
+          "word": "stuntwomen",
+          "partOfSpeech": "noun",
+          "sentence": "Skilled stuntwomen performed the complex wire work without a single mistake.",
+          "trSentence": "Usta kadın dublörler karmaşık tel çalışmalarını tek bir hata yapmadan gerçekleştirdi.",
+          "definition": "plural of stuntwoman"
+        },
+        {
+          "word": "publicity stunt",
+          "partOfSpeech": "noun",
+          "sentence": "The politician's surprise resignation turned out to be a calculated publicity stunt.",
+          "trSentence": "Politikacının sürpriz istifası hesaplı bir tanıtım numarası çıktı.",
+          "definition": "attention-seeking act for promotion"
+        }
+      ]
+    },
+    {
+      "root": "wound",
+      "meanings": [
+        {
+          "sentence": "Falling debris could wound unsuspecting hikers if safety crews ignore the unstable cliff above the popular trail.",
+          "trSentence": "Düşen enkaz, popüler patika üzerindeki dengesiz kayaya müdahale edilmezse habersiz yürüyüşçüleri yaralayabilir.",
+          "definition": "inflict injury causing physical or emotional damage",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "He suffered a deep wound from the fall.",
+          "trSentence": "",
+          "definition": "an injury to living tissue, especially one in which the skin is cut or broken",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "wounds",
+          "partOfSpeech": "noun",
+          "sentence": "Old battle wounds sometimes reopen during harsh winter cold, reminding veterans of long-forgotten front-line hardships.",
+          "trSentence": "Eski savaş yaraları, sert kış soğuğunda bazen yeniden açılarak gazilere çoktan unutulmuş cephe zorluklarını hatırlatır.",
+          "definition": "injuries or damages to body"
+        },
+        {
+          "word": "wounded",
+          "partOfSpeech": "adjective",
+          "sentence": "Several wounded civilians were airlifted to the regional hospital after the earthquake demolished the remote mountain village.",
+          "trSentence": "Deprem uzak dağ köyünü yıkınca çok sayıda yaralı sivil bölge hastanesine helikopterle taşındı.",
+          "definition": "injured or hurt, especially in war"
+        },
+        {
+          "word": "wounding",
+          "partOfSpeech": "verb",
+          "sentence": "Careless remarks risk wounding a colleague's confidence, leading to reduced collaboration on future group projects.",
+          "trSentence": "Düşüncesiz sözler, bir meslektaşın özgüvenini zedeleyerek gelecekteki grup projelerinde işbirliğini azaltma riski taşır.",
+          "definition": "causing emotional or physical harm"
+        },
+        {
+          "word": "unwounded",
+          "partOfSpeech": "adjective",
+          "sentence": "The rescue team prioritized evacuating children, both wounded and unwounded, before nightfall obscured the rugged terrain.",
+          "trSentence": "Kurtarma ekibi, sarp araziyi karanlık basmadan önce yaralı ve yaralanmamış çocukları tahliye etmeye öncelik verdi.",
+          "definition": "not injured; free of wounds"
+        },
+        {
+          "word": "woundless",
+          "partOfSpeech": "adjective",
+          "sentence": "Miraculously, the cyclist emerged virtually woundless from the collision, thanks to a well-fitted helmet and layered clothing.",
+          "trSentence": "Mucizevi şekilde, bisikletçi iyi oturan kask ve katmanlı giysiler sayesinde çarpışmadan neredeyse yarasız çıktı.",
+          "definition": "having no visible injuries"
+        },
+        {
+          "word": "open wound",
+          "partOfSpeech": "compound noun",
+          "sentence": "Doctors cleaned the open wound thoroughly, then applied antibacterial gel and breathable gauze to prevent infection.",
+          "trSentence": "Doktorlar açık yarayı iyice temizledi, ardından enfeksiyonu önlemek için antibakteriyel jel ve nefes alabilen gazlı bez uyguladı.",
+          "definition": "injury where tissue is exposed"
+        },
+        {
+          "word": "gunshot wound",
+          "partOfSpeech": "compound noun",
+          "sentence": "Emergency surgeons controlled bleeding from a complicated gunshot wound that narrowly missed the victim's spinal cord.",
+          "trSentence": "Acil cerrahlar, kurbanın omuriliğini kıl payı ıskalamış karmaşık bir kurşun yarasındaki kanamayı kontrol altına aldı.",
+          "definition": "injury caused by a bullet"
+        },
+        {
+          "word": "wound healing",
+          "partOfSpeech": "compound noun",
+          "sentence": "Wound healing can be slowed by infection.",
+          "trSentence": "",
+          "definition": "the physiological process by which the body repairs a wound"
+        },
+        {
+          "word": "reopen old wounds",
+          "partOfSpeech": "idiom",
+          "sentence": "His careless remarks reopened old wounds from their last argument.",
+          "trSentence": "",
+          "definition": "to bring up past hurts or grievances"
+        }
+      ]
     }
+
 ]

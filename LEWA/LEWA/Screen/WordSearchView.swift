@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-// --- ASIL GÖRÜNÜM ---
 struct WordSearchView: View {
     @State private var searchText = ""
     @State private var debouncedSearchText = ""
@@ -17,22 +16,49 @@ struct WordSearchView: View {
 
     let words: [Word]
 
-    // root ve families tek listede: (görünen kelime, Word, root)
-    private var allWords: [(display: String, word: Word, root: String, isRoot: Bool)] {
-        let combined = words.flatMap { word in
-            [(word.root, word, word.root, true)]
-            +
-            word.wordFamilies.map { ($0.word, word, word.root, false) }
+    private static var printedDisplays = Set<String>()
+    private var allWords: [(display: String, word: Word, root: String, isRoot: Bool, partOfSpeech: String)] {
+        // 1) Build flat list of roots + family words including partOfSpeech
+        let combined = words.flatMap { word -> [(String, Word, String, Bool, String)] in
+            var items: [(String, Word, String, Bool, String)] = []
+            let rootPOS = word.meanings.first?.partOfSpeech ?? ""
+            items.append((word.root, word, word.root, true, rootPOS))
+            word.wordFamilies.forEach { family in
+                items.append((family.word, word, word.root, false, family.partOfSpeech))
+            }
+            return items
         }
-        return showRootsOnly ? combined.filter { $0.3 } : combined
+
+        // 2) Detect duplicates in `display`
+        let groupedByDisplay = Dictionary(grouping: combined, by: { $0.0 })
+        let duplicates = groupedByDisplay.filter { $0.value.count > 1 }
+
+        // 3) Handle duplicates
+        for (display, entries) in duplicates {
+            let posSet = Set(entries.map { $0.4 })
+            if posSet.count == 1 {
+                fatalError("WordSearchView - duplicate display keys with identical partOfSpeech found: [\(display)]")
+            } else if !WordSearchView.printedDisplays.contains(display) {
+                WordSearchView.printedDisplays.insert(display)
+                print("Duplicate display with different partOfSpeech for key: \(display)")
+            }
+        }
+
+        // 4) Apply roots-only filter if needed
+        let filtered = showRootsOnly
+            ? combined.filter { $0.3 }
+            : combined
+
+        return filtered.map { (display: $0.0, word: $0.1, root: $0.2, isRoot: $0.3, partOfSpeech: $0.4) }
     }
 
-    private var filteredWords: [(display: String, word: Word, root: String, isRoot: Bool)] {
+
+    private var filteredWords: [(display: String, word: Word, root: String, isRoot: Bool, partOfSpeech: String)] {
         guard !debouncedSearchText.isEmpty else { return allWords }
         return allWords.filter { $0.display.localizedCaseInsensitiveContains(debouncedSearchText) }
     }
 
-    private var grouped: [Character: [(display: String, word: Word, root: String, isRoot: Bool)]] {
+    private var grouped: [Character: [(display: String, word: Word, root: String, isRoot: Bool, partOfSpeech: String)]] {
         Dictionary(grouping: filteredWords) { $0.display.first ?? "#" }
     }
 
@@ -63,7 +89,6 @@ struct WordSearchView: View {
                                         }
                                     }
                                 }
-
                             }
                             .id(letter)
                         }
@@ -98,7 +123,7 @@ struct WordSearchView: View {
                 Text("Roots: \(words.count)")
             }
             ToolbarItem(placement: .topBarLeading) {
-                Text("All words: \(words.flatMap { [$0.root] + $0.wordFamilies.map(\.word) }.count)")
+                Text("All words: \(words.flatMap { [$0.root] + $0.wordFamilies.map(\ .word) }.count)")
             }
             ToolbarItem(placement: .topBarTrailing) {
                 Button(action: {

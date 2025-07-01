@@ -44,8 +44,6 @@ stun,stuns,stunned,stunning,stunner,stunners,stunningly,stunningness,unstunned,n
 
 overblow,overblows,overblew,overblowing,overblown,overblownness
 
-stunt,stunts,stunted,stunting,stunter,stuntedness,stuntman,stuntmen,stuntwoman,stuntwomen,publicity stunt
-
 conscience,consciences,conscientious,conscientiously,conscientiousness,conscionable,unconscionable,unconscionably,conscience-stricken,guilty conscience,in good conscience
 
 take a toll,takes a toll,taking a toll,took a toll,taken a toll,takes its toll,taking its toll,took its toll,taken its toll
@@ -79,8 +77,6 @@ skim,skims,skimmed,skimming,unskimmed,skimmer,skimmers,skim milk,skim reading,sk
 yum,yummy,yummier,yummiest,yumminess,yummily,yummies,yummy mummy
 
 tenacious,tenacity,tenaciously,tenaciousness,untenacious,non-tenacious,tenacious grip,tenacious weed,tenacious memory
-
-room,rooms,roomed,rooming,roomy,roominess,roomless,roomful,spare room,room service,roommate
 
 rote,rotes,rote learning,rote memorization,learn by rote,rote learner,rote-based
 
@@ -148,7 +144,7 @@ drawer,drawers,drawerful,chest of drawers,top-drawer,bottom drawer
 
 blind,blindness,blindly,blinding,blindfold,color-blind,blind spot
 
-pillow,pillowcase,pillow talk,pillow fight,throw pillow
+pillow,pillowcase,pillow fight,throw pillow
 
 fatigue,fatigued,fatiguing,fatigues,fatigue-resistant,fatigue crack
 
@@ -284,8 +280,6 @@ bless,blesses,blessed,blessing,blessedness,unblessed,blessing in disguise,count 
 
 hazard,hazards,hazarded,hazarding,hazardous,hazardously,hazard ratio,hazard a guess
 
-wound,wounds,wounded,wounding,wound healing,reopen old wounds
-
 imitate,imitates,imitated,imitating,imitation,imitations,imitative,imitatively,imitation leather,in imitation of
 
 conceive,conceives,conceived,conceiving,conception,conceptions,conceivable,inconceivable,conceivably,concept,conceptual,conceptualize,conceive of
@@ -319,3 +313,19 @@ humid,humidity,humidify,humidifier,dehumidify,dehumidifier,humid climate,humid a
 board,boards,boarded,boarding,boarder,cardboard,cardboard box,boardroom,boardwalk,room and board
 
 pop,pops,popped,popping,pop down,pops down,popped down,popping down,soda pop,pop music
+
+tedium,tediums,tedious,tediousness,tediously,tedious task
+
+suit,suits,suited,suiting,suitable,suitability,unsuitable,unsuitability,business suit,power suit
+
+relate,relates,relating,related,relation,relations,relational,relative,relative,relatively,relevant,relevance,relevancy,irrelevant,irrelevance,irrelevancy
+
+opening,opens,opening,opened,reopen,reopening,reopens,reopened,opener,openness,open-minded,open-mindedness,job opening
+
+room, rooms, roomed, rooming, roomy, roomier, roomiest, roominess, roomful, roommate, room service, living room, bedroom, roomless, spare room
+
+stunt, stunts, stunted, stunting, stunter, stuntedness, stuntman, stuntmen, stuntwoman, stuntwomen, publicity stunt
+
+remedies2
+
+wound, wounds, wounded, wounding, unwounded, woundless, open wound, gunshot wound, wound healing, reopen old wounds
