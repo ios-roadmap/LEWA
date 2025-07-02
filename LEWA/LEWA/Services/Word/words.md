@@ -160,7 +160,7 @@ overwhelm,overwhelming,overwhelmingly,overwhelmed,overwhelmer,overwhelmingness
 
 dementia,demented,dementedly,dementing,dement,dementia-friendly
 
-assume,assumption,assumed,assuming,assumptive,assumably
+assume,assumes,assumption,assumed,assuming,assumptive,assumably
 
 settle for,settling for,settled for,settle-for mentality
 
@@ -326,6 +326,40 @@ room, rooms, roomed, rooming, roomy, roomier, roomiest, roominess, roomful, room
 
 stunt, stunts, stunted, stunting, stunter, stuntedness, stuntman, stuntmen, stuntwoman, stuntwomen, publicity stunt
 
-remedies2
-
 wound, wounds, wounded, wounding, unwounded, woundless, open wound, gunshot wound, wound healing, reopen old wounds
+
+fence,fences,fenced,fencing
+
+thesaurus,thesauri,thesauruses
+
+intuition,intuitions,intuitive,intuitively
+
+wander,wanders,wandered,wandering,wanderer,wanderlust
+
+kite,kites,kited,kiting
+
+slope,slopes,sloped,sloping
+
+implicit,implicitly
+
+staff,staffs,staffed,staffing,staffer
+
+if,what if,even if,only if,if and only if
+
+person,persons,impersonal,interpersonal,personal,personally,personality,personable,personify,personification,personalize,personalization,salesperson
+
+let's say
+
+contract,contracts,contracted,contracting,recontract,contractor,contraction,contractual,contractile,contract law,breach of contract
+
+demonstrate,demonstrates,demonstrated,demonstrating,demonstration,demonstrator,demonstrative,demonstrable,demonstrably,demonstratively
+
+secure,secures,secured,securing,insecure,insecurity,insecurely,securely,security,security deposit,safe and secure
+
+letter,letters,lettered,lettering,letterhead,letterbox,application letter
+
+interview,interviews,interviewed,interviewing,interviewer,interviewee,reinterview,mock interview,video interview,panel interview
+
+callback,callbacks,call back,request a callback,get a callback
+
+relevant,relevance,irrelevant,irrelevance,irrelevantly,relevantly,relevant information,relevant experience

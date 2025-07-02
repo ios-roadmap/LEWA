@@ -34,13 +34,17 @@ struct WordSearchView: View {
         let duplicates = groupedByDisplay.filter { $0.value.count > 1 }
 
         // 3) Handle duplicates
+
         for (display, entries) in duplicates {
             let posSet = Set(entries.map { $0.4 })
             if posSet.count == 1 {
                 fatalError("WordSearchView - duplicate display keys with identical partOfSpeech found: [\(display)]")
             } else if !WordSearchView.printedDisplays.contains(display) {
                 WordSearchView.printedDisplays.insert(display)
-                print("Duplicate display with different partOfSpeech for key: \(display)")
+                // collect, sort and join the POS tags
+                let posList = Array(posSet).sorted()
+                let posString = posList.joined(separator: ", ")
+                print("Duplicate display '\(display)' with different parts of speech: \(posString)")
             }
         }
 
