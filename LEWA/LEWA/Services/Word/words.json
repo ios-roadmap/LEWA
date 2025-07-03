@@ -14816,6 +14816,358 @@
           "definition": "Experience that is directly applicable to a particular task or position."
         }
       ]
+    },
+    {
+      "root": "arbitrary",
+      "meanings": [
+        {
+          "sentence": "Her selection of colors was purely arbitrary.",
+          "definition": "based on random choice or personal whim, rather than any reason or system",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "sentence": "Let x be an arbitrary real number greater than zero.",
+          "definition": "for any choice within a specified set, often used in mathematical or technical contexts",
+          "partOfSpeech": "adjective"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "arbitrarily",
+          "partOfSpeech": "adverb",
+          "sentence": "The elements were arranged arbitrarily in the report.",
+          "definition": "in a random or capricious manner"
+        },
+        {
+          "word": "arbitrariness",
+          "partOfSpeech": "noun",
+          "sentence": "Critics condemned the arbitrariness of the policy.",
+          "definition": "the quality of being based on random choice or personal whim"
+        },
+        {
+          "word": "non-arbitrary",
+          "partOfSpeech": "adjective",
+          "sentence": "We need a non-arbitrary criterion for evaluation.",
+          "definition": "not based on random choice or personal whim; systematic"
+        },
+        {
+          "word": "arbitrary-precision",
+          "partOfSpeech": "compound adjective",
+          "sentence": "The software supports arbitrary-precision arithmetic.",
+          "definition": "not limited to a fixed number of digits"
+        }
+      ]
+    },
+    {
+      "root": "advise",
+      "meanings": [
+        {
+          "sentence": "I advise you to seek professional help before proceeding.",
+          "definition": "to offer suggestions about the best course of action; to counsel",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "Please advise me of any changes to your itinerary.",
+          "definition": "to inform or notify someone of something",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "advises",
+          "partOfSpeech": "verb",
+          "sentence": "She regularly advises clients on tax matters.",
+          "definition": "third person singular present of advise"
+        },
+        {
+          "word": "advised",
+          "partOfSpeech": "verb",
+          "sentence": "They advised caution in digital transactions.",
+          "definition": "past tense and past participle of advise"
+        },
+        {
+          "word": "advising",
+          "partOfSpeech": "verb",
+          "sentence": "He is advising local businesses on compliance issues.",
+          "definition": "present participle of advise"
+        },
+        {
+          "word": "unadvised",
+          "partOfSpeech": "adjective",
+          "sentence": "It was an unadvised decision made in haste.",
+          "definition": "without having sought or received advice; ill-considered"
+        },
+        {
+          "word": "advisable",
+          "partOfSpeech": "adjective",
+          "sentence": "It is advisable to arrive early for the interview.",
+          "definition": "appropriate to do; sensible"
+        },
+        {
+          "word": "advisability",
+          "partOfSpeech": "noun",
+          "sentence": "We debated the advisability of implementing the changes immediately.",
+          "definition": "the quality of being advisable; prudence"
+        },
+        {
+          "word": "advisory",
+          "partOfSpeech": "adjective",
+          "sentence": "They issued an advisory notice about the storm.",
+          "definition": "having the role of giving advice or information"
+        },
+        {
+          "word": "advisory",
+          "partOfSpeech": "noun",
+          "sentence": "The government issued an advisory against travel to the region.",
+          "definition": "an announcement or statement giving advice, information, or warning"
+        },
+        {
+          "word": "adviser",
+          "partOfSpeech": "noun",
+          "sentence": "She works as a financial adviser.",
+          "definition": "a person who gives advice"
+        },
+        {
+          "word": "advisor",
+          "partOfSpeech": "noun",
+          "sentence": "The advisor guided me through the application process.",
+          "definition": "a variant spelling of adviser; a person who gives advice"
+        },
+        {
+          "word": "ill-advised",
+          "partOfSpeech": "compound adjective",
+          "sentence": "It was an ill-advised move to sell the stock.",
+          "definition": "having been done without careful thought or planning"
+        }
+      ]
+    },
+    {
+      "root": "vicinity",
+      "meanings": [
+        {
+          "sentence": "We searched the vicinity for any signs of the missing hiker.",
+          "definition": "the area near or surrounding a particular place",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "In the vicinity of 100 dollars, the cost was lower than expected.",
+          "definition": "the state of being near in space, time, or relationship",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "vicinities",
+          "partOfSpeech": "noun",
+          "sentence": "There are several hotels in the vicinities of the station.",
+          "definition": "plural of vicinity; nearby areas"
+        },
+        {
+          "word": "vicinal",
+          "partOfSpeech": "adjective",
+          "sentence": "The town council approved a vicinal road connecting the villages.",
+          "definition": "of or relating to adjoining or neighboring places"
+        },
+        {
+          "word": "vicinally",
+          "partOfSpeech": "adverb",
+          "sentence": "In this reaction, the two chlorine atoms are vicinally oriented.",
+          "definition": "in a manner relating to or situated in the vicinity"
+        },
+        {
+          "word": "in the vicinity of",
+          "partOfSpeech": "set phrase",
+          "sentence": "We found the hiking trail in the vicinity of the old oak tree.",
+          "definition": "near or around a particular place"
+        }
+      ]
+    },
+    {
+      "root": "arm",
+      "meanings": [
+        {
+          "sentence": "He injured his arm during the game.",
+          "definition": "one of the two limbs attached to the shoulder, used for lifting or holding",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "The river's eastern arm flows through the valley.",
+          "definition": "a subsidiary part or projection forming an extension from a main structure",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "The militia seized illegal arms.",
+          "definition": "weapons or instruments of attack, especially firearms",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "The government decided to arm the local militia.",
+          "definition": "to supply or provide with weapons",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "arms",
+          "partOfSpeech": "noun",
+          "sentence": "She raised her arms in victory.",
+          "definition": "plural of arm; upper limbs of the human body"
+        },
+        {
+          "word": "arms",
+          "partOfSpeech": "verb",
+          "sentence": "The militia arms itself with rifles.",
+          "definition": "third person singular present of arm; equips with weapons"
+        },
+        {
+          "word": "armed",
+          "partOfSpeech": "verb",
+          "sentence": "The police were armed during the operation.",
+          "definition": "past participle of arm; equipped with weapons"
+        },
+        {
+          "word": "arming",
+          "partOfSpeech": "verb",
+          "sentence": "Countries around the world are arming more soldiers.",
+          "definition": "present participle of arm; supplying with weapons"
+        },
+        {
+          "word": "unarmed",
+          "partOfSpeech": "adjective",
+          "sentence": "The suspect was unarmed when apprehended.",
+          "definition": "not equipped with a weapon"
+        },
+        {
+          "word": "disarm",
+          "partOfSpeech": "verb",
+          "sentence": "They sought to disarm the rebels during the ceasefire.",
+          "definition": "to deprive of weapons"
+        },
+        {
+          "word": "disarmament",
+          "partOfSpeech": "noun",
+          "sentence": "Disarmament treaties aim to reduce nuclear weapons.",
+          "definition": "the act of reducing or abolishing weapons"
+        },
+        {
+          "word": "armament",
+          "partOfSpeech": "noun",
+          "sentence": "The country's armament includes tanks and aircraft.",
+          "definition": "weapons and military equipment"
+        },
+        {
+          "word": "armor",
+          "partOfSpeech": "noun",
+          "sentence": "The knight wore heavy armor into battle.",
+          "definition": "a protective covering made of metal to prevent injury"
+        },
+        {
+          "word": "armour",
+          "partOfSpeech": "noun",
+          "sentence": "The museum displayed medieval armour.",
+          "definition": "British variant of armor"
+        },
+        {
+          "word": "firearm",
+          "partOfSpeech": "compound noun",
+          "sentence": "The teacher confiscated a firearm from the student's bag.",
+          "definition": "a portable weapon that launches one or more projectiles, such as a rifle or pistol"
+        },
+        {
+          "word": "bear arms",
+          "partOfSpeech": "collocation",
+          "sentence": "Citizens have the right to bear arms.",
+          "definition": "to carry or possess weapons"
+        }
+      ]
+    },
+    {
+      "root": "torture",
+      "meanings": [
+        {
+          "sentence": "Prisoners endured unspeakable torture in the dungeon.",
+          "definition": "the act of deliberately inflicting severe physical or mental pain on someone as a punishment or to force them to do or say something",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "The interrogators threatened to torture him if he did not confess.",
+          "definition": "to inflict severe physical or mental pain on someone, typically to punish or coerce",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "tortures",
+          "partOfSpeech": "noun",
+          "sentence": "Prisoners described the various tortures they suffered.",
+          "definition": "plural of torture; instances of severe pain inflicted deliberately"
+        },
+        {
+          "word": "tortures",
+          "partOfSpeech": "verb",
+          "sentence": "He tortures plants by neglecting them completely.",
+          "definition": "third person singular present of torture; inflicts severe pain"
+        },
+        {
+          "word": "tortured",
+          "partOfSpeech": "verb",
+          "sentence": "They tortured the witness until he broke down.",
+          "definition": "past tense and past participle of torture; inflicted severe pain"
+        },
+        {
+          "word": "torturing",
+          "partOfSpeech": "verb",
+          "sentence": "The regime is torturing dissenters in secret prisons.",
+          "definition": "present participle of torture; inflicting severe pain"
+        },
+        {
+          "word": "torturer",
+          "partOfSpeech": "noun",
+          "sentence": "The torturer was later brought to justice.",
+          "definition": "a person who inflicts torture"
+        },
+        {
+          "word": "torturers",
+          "partOfSpeech": "noun",
+          "sentence": "Survivors testified against their torturers in court.",
+          "definition": "plural of torturer; people who inflict torture"
+        },
+        {
+          "word": "torturous",
+          "partOfSpeech": "adjective",
+          "sentence": "She described the trip through the desert as torturous.",
+          "definition": "extremely painful or distressing"
+        },
+        {
+          "word": "torturously",
+          "partOfSpeech": "adverb",
+          "sentence": "The minutes dragged torturously as they awaited news.",
+          "definition": "in a manner that is extremely painful or distressing"
+        },
+        {
+          "word": "torture chamber",
+          "partOfSpeech": "compound noun",
+          "sentence": "The castle’s torture chamber still stands as a grim reminder of the past.",
+          "definition": "a room or device used for inflicting torture"
+        },
+        {
+          "word": "torture rack",
+          "partOfSpeech": "compound noun",
+          "sentence": "Victims were stretched on the torture rack until they confessed.",
+          "definition": "a device on which victims are stretched as a form of torture"
+        },
+        {
+          "word": "torture test",
+          "partOfSpeech": "collocation",
+          "sentence": "Engineers put the new bridge through a series of torture tests.",
+          "definition": "a rigorous test designed to push something to its limits"
+        },
+        {
+          "word": "instrument of torture",
+          "partOfSpeech": "set phrase",
+          "sentence": "The old iron bar was repurposed as an instrument of torture.",
+          "definition": "any device used to inflict pain or suffering"
+        }
+      ]
     }
-
 ]
