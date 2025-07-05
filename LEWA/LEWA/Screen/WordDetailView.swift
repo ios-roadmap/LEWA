@@ -38,19 +38,6 @@ struct WordDetailView: View {
                 } header: {
                     Text("Meanings").bold().font(.headline).foregroundStyle(.red)
                 }
-                
-                if !word.wordFamilies.isEmpty {
-                    Section {
-                        ForEach(word.wordFamilies) { family in
-                            WordDefinitionCardView(definition: family)
-                                .id(family.id)
-                        }
-                        .listRowSeparator(.hidden)
-                        .listRowBackground(Color.clear)
-                    } header: {
-                        Text("Word Family").bold().font(.headline).foregroundStyle(.red)
-                    }
-                }
             }
             .onAppear {
                 if let id = selectedFamilyId {

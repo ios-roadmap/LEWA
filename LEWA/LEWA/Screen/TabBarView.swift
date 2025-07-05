@@ -85,7 +85,7 @@ final class WordsStore: ObservableObject {
     func load() async {
         guard words.isEmpty else { return }
         
-        guard let url = Bundle.main.url(forResource: "words", withExtension: "json") else {
+        guard let url = Bundle.main.url(forResource: "wordsNew", withExtension: "json") else {
             assertionFailure("words.json missing from bundle")
             return
         }

@@ -12,19 +12,17 @@ import AppKit
 
 
 struct WordDefinitionCardView: View {
-    let definition: any DefinitionRepresentable
+    let definition: Meaning
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             // Title: Word and its part of speech
             HStack {
-                if let wordFamily = definition as? WordFamily {
-                    Text(wordFamily.word)
-                        .font(.headline)
-                    
-                    SpeakerButton(text: wordFamily.word)
-                        .font(.caption)
-                }
+                Text(definition.word)
+                    .font(.headline)
+                
+                SpeakerButton(text: definition.word)
+                    .font(.caption)
                 
                 Text("(\(definition.partOfSpeech))")
                     .font(.subheadline)
@@ -51,13 +49,6 @@ struct WordDefinitionCardView: View {
         .background(Color.gray.opacity(0.5)) //let color = Color(UIColor.systemBackground)
         .cornerRadius(12)
         
-    }
-}
-
-#Preview("WordFamily") {
-    ZStack {
-        Color.yellow.ignoresSafeArea()
-        WordDefinitionCardView(definition: WordFamily.mock)
     }
 }
 

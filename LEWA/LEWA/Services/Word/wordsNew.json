@@ -65,6 +65,12 @@
         "root": "slop",
         "meanings": [
             {
+                "word": "slop",
+                "partOfSpeech": "verb",
+                "definition": "spill liquid over the edge of a container",
+                "sentence": "Be careful not to slop milk when you pour it into the glass."
+            },
+            {
                 "word": "sloppy",
                 "partOfSpeech": "adjective",
                 "definition": "Very careless or untidy in work or appearance.",
@@ -108,6 +114,12 @@
     {
         "root": "education",
         "meanings": [
+            {
+                "word": "education",
+                "partOfSpeech": "noun",
+                "definition": "process of teaching and learning to gain knowledge",
+                "sentence": "A good education can open many opportunities in life."
+            },
             {
                 "word": "coeducation",
                 "partOfSpeech": "noun",
@@ -166,6 +178,179 @@
                 "sentence": "The alumnae donated books to the new library wing."
             }
         ]
+    },
+    {
+        "root": "assess",
+        "meanings": [
+            {
+                "word": "assess",
+                "partOfSpeech": "verb",
+                "definition": "evaluate the quality or importance of something",
+                "sentence": "The teacher will assess your project next week."
+            },
+            {
+                "word": "assessor",
+                "partOfSpeech": "noun",
+                "definition": "person who evaluates or judges something",
+                "sentence": "The building assessor inspected the house for safety issues."
+            },
+            {
+                "word": "assessment",
+                "partOfSpeech": "noun",
+                "definition": "process of evaluating or estimating something’s value or quality",
+                "sentence": "The assessment of the new software showed it improved team productivity."
+            }
+        ]
+    },
+    {
+        "root": "matriculate",
+        "meanings": [
+            {
+                "word": "matriculate",
+                "partOfSpeech": "verb",
+                "definition": "officially join a college or university as a student",
+                "sentence": "She will matriculate at the university in September."
+            },
+            {
+                "word": "matriculant",
+                "partOfSpeech": "noun",
+                "definition": "person who has officially enrolled at a school or college",
+                "sentence": "The matriculant attended the campus tour before classes began."
+            },
+            {
+                "word": "matriculatory",
+                "partOfSpeech": "adjective",
+                "definition": "related to the process of officially enrolling at an institution",
+                "sentence": "Students received a matriculatory guide explaining enrollment steps."
+            }
+        ]
+    },
+    {
+        "root": "offshore",
+        "meanings": [
+            {
+                "word": "offshore",
+                "partOfSpeech": "adjective",
+                "definition": "located at sea some distance away from the shore",
+                "sentence": "The company built an offshore wind farm to generate renewable energy."
+            },
+            {
+                "word": "offshorer",
+                "partOfSpeech": "noun",
+                "definition": "person or company that relocates services abroad to reduce costs",
+                "sentence": "Several offshorers moved their manufacturing to Vietnam to save money."
+            },
+            {
+                "word": "nonoffshore",
+                "partOfSpeech": "adjective",
+                "definition": "not located at sea away from the shore",
+                "sentence": "The study examined nonoffshore sites along the coastline."
+            },
+            {
+                "word": "offshoreable",
+                "partOfSpeech": "adjective",
+                "definition": "able to be carried out or located at sea away from the shore",
+                "sentence": "The team decided that assembling the modules was offshoreable to reduce costs."
+            }
+        ]
+    },
+    {
+        "root": "demand",
+        "meanings": [
+            {
+                "word": "demand",
+                "partOfSpeech": "noun",
+                "definition": "strong request or need for something",
+                "sentence": "The high demand for electric cars is changing the auto industry."
+            },
+            {
+                "word": "demanding",
+                "partOfSpeech": "adjective",
+                "definition": "needing a lot of effort, attention, or skill",
+                "sentence": "The training program was very demanding but helped me improve quickly."
+            },
+            {
+                "word": "demander",
+                "partOfSpeech": "noun",
+                "definition": "person who insists on getting something",
+                "sentence": "The demander requested a full refund after the service failed."
+            }
+        ]
+    },
+    {
+        "root": "dead end",
+        "meanings": [
+            {
+                "word": "dead end",
+                "partOfSpeech": "compound noun",
+                "definition": "road or path that stops and has no exit",
+                "sentence": "We drove down the street only to find it was a dead end."
+            }
+        ]
+    },
+    {
+        "root": "fulfill",
+        "meanings": [
+            {
+                "word": "fulfill",
+                "partOfSpeech": "verb",
+                "definition": "complete a task or satisfy a requirement",
+                "sentence": "She worked hard to fulfill all the requirements for her degree."
+            },
+            {
+                "word": "fulfilling",
+                "partOfSpeech": "adjective",
+                "definition": "providing a sense of satisfaction or happiness",
+                "sentence": "Volunteering at the shelter was a very fulfilling experience."
+            },
+            {
+                "word": "fulfiller",
+                "partOfSpeech": "noun",
+                "definition": "person who completes or achieves something",
+                "sentence": "The fulfiller delivered all the necessary documents on time."
+            },
+            {
+                "word": "fulfillment",
+                "partOfSpeech": "noun",
+                "definition": "act of completing or achieving something promised",
+                "sentence": "Receiving the award was the fulfillment of his lifelong goal."
+            },
+            {
+                "word": "fulfillable",
+                "partOfSpeech": "adjective",
+                "definition": "able to be completed or achieved",
+                "sentence": "The project was fulfillable within the deadline."
+            }
+        ]
+    },
+    {
+        "root": "appall",
+        "meanings": [
+            {
+                "word": "appall",
+                "partOfSpeech": "verb",
+                "definition": "greatly shock or horrify someone",
+                "sentence": "The cruel treatment of the animals appalled everyone who heard about it."
+            },
+            {
+                "word": "appalling",
+                "partOfSpeech": "adjective",
+                "definition": "causing shock or horror",
+                "sentence": "The living conditions in the camp were appalling."
+            }
+        ]
+    },
+    {
+      "root": "contemporary",
+      "meanings": [
+        {
+          "word": "contemporary",
+          "partOfSpeech": "adjective",
+          "definition": "belonging to or occurring in the present time",
+          "sentence": "Many contemporary artists experiment with new media."
+        }
+      ]
     }
+
     
 ]

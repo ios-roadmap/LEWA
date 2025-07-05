@@ -23,39 +23,33 @@ struct WordSearchView: View {
             var items: [(String, Word, String, Bool, String)] = []
             let rootPOS = word.meanings.first?.partOfSpeech ?? ""
             items.append((word.root, word, word.root, true, rootPOS))
-            word.wordFamilies.forEach { family in
+            word.meanings.forEach { family in
                 items.append((family.word, word, word.root, false, family.partOfSpeech))
             }
             return items
         }
         
-        // 2) Detect duplicates in `display`
+        // 2) Detect duplicates in `display` (no fatalError for root==word)
         let groupedByDisplay = Dictionary(grouping: combined, by: { $0.0 })
-        let duplicates = groupedByDisplay.filter { $0.value.count > 1 }
-        
-        // 3) Handle duplicates
-        
-        for (display, entries) in duplicates {
+        for (display, entries) in groupedByDisplay where entries.count > 1 {
             let posSet = Set(entries.map { $0.4 })
-            if posSet.count == 1 {
-                fatalError("WordSearchView - duplicate display keys with identical partOfSpeech found: [\(display)]")
-            } else if !WordSearchView.printedDisplays.contains(display) {
+            if posSet.count > 1 && !WordSearchView.printedDisplays.contains(display) {
                 WordSearchView.printedDisplays.insert(display)
-                // collect, sort and join the POS tags
-                let posList = Array(posSet).sorted()
-                let posString = posList.joined(separator: ", ")
-                print("Duplicate display '\(display)' with different parts of speech: \(posString)")
+                let posList = posSet.sorted().joined(separator: ", ")
+                print("Duplicate display '\(display)' with different parts of speech: \(posList)")
             }
         }
         
-        // 4) Apply roots-only filter if needed
-        let filtered = showRootsOnly
-        ? combined.filter { $0.3 }
-        : combined
+        // 3) Filter by root vs. meaning-word only
+        let filtered = combined.filter { tuple in
+            showRootsOnly
+                ? tuple.3             // keep only where isRoot == true
+                : !tuple.3            // keep only where isRoot == false
+        }
         
         return filtered.map { (display: $0.0, word: $0.1, root: $0.2, isRoot: $0.3, partOfSpeech: $0.4) }
     }
-    
+
     
     private var filteredWords: [(display: String, word: Word, root: String, isRoot: Bool, partOfSpeech: String)] {
         guard !debouncedSearchText.isEmpty else { return allWords }
@@ -82,15 +76,7 @@ struct WordSearchView: View {
                                             selectedFamilyId: item.isRoot ? nil : item.word.familyId(forWord: item.display)
                                         )
                                     ) {
-                                        HStack {
-                                            Text(item.display)
-                                            if !item.isRoot {
-                                                Text("• \(item.root)")
-                                                    .font(.caption2)
-                                                    .foregroundColor(.secondary)
-                                                    .padding(.leading, 4)
-                                            }
-                                        }
+                                        Text(item.display)
                                     }
                                 }
                             }
@@ -174,8 +160,9 @@ private struct AlphabetIndexView: View {
         WordSearchView(words: Word.mocks)
     }
 }
+
 extension Word {
     func familyId(forWord word: String) -> UUID? {
-        wordFamilies.first(where: { $0.word == word })?.id
+        meanings.first(where: { $0.word == word })?.id
     }
 }
