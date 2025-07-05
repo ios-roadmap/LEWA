@@ -13,12 +13,6 @@ import AppKit
 
 struct WordDefinitionCardView: View {
     let definition: any DefinitionRepresentable
-    
-#if os(macOS)
-    let color = Color.white
-#else
-    let color = Color(UIColor.systemBackground)
-#endif
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -27,7 +21,6 @@ struct WordDefinitionCardView: View {
                 if let wordFamily = definition as? WordFamily {
                     Text(wordFamily.word)
                         .font(.headline)
-                        .foregroundColor(.primary)
                     
                     SpeakerButton(text: wordFamily.word)
                         .font(.caption)
@@ -35,14 +28,14 @@ struct WordDefinitionCardView: View {
                 
                 Text("(\(definition.partOfSpeech))")
                     .font(.subheadline)
-                    .foregroundColor(.secondary)
                     .multilineTextAlignment(.leading)
                     .lineLimit(0)
             }
+            .foregroundStyle(Color.gray)
             
             Text(definition.definition)
                 .font(.body)
-                .foregroundColor(.primary)
+                .fontWeight(.semibold)
             
             Group {
                 HStack(spacing: 8) {
@@ -50,13 +43,12 @@ struct WordDefinitionCardView: View {
                     
                     Text("\(definition.sentence)")
                         .font(.callout)
-                        .foregroundColor(.blue)
                 }
             }
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding()
-        .background(color)
+        .background(Color.gray.opacity(0.5)) //let color = Color(UIColor.systemBackground)
         .cornerRadius(12)
         
     }
