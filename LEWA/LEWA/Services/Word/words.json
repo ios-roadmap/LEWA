@@ -12647,12 +12647,6 @@
                 "definition": "careful thought, typically over a period of time"
             },
             {
-                "word": "considerations",
-                "partOfSpeech": "noun",
-                "sentence": "Financial considerations prevented them from moving abroad.",
-                "definition": "factors to be thought about"
-            },
-            {
                 "word": "considerate",
                 "partOfSpeech": "adjective",
                 "sentence": "She was always considerate of her neighbors’ needs.",
@@ -17476,6 +17470,1717 @@
                 "definition": "the act of diagnosing oneself"
             }
         ]
+    },
+    {
+      "root": "top",
+      "meanings": [
+        {
+          "sentence": "She placed the flag on the top of the pole.",
+          "definition": "The highest point or part of something.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "This is the top priority for our team.",
+          "definition": "The highest in rank, degree, or importance.",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "sentence": "He topped the cake with fresh strawberries.",
+          "definition": "To cover or adorn the upper surface of something.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "tops",
+          "partOfSpeech": "noun",
+          "sentence": "She bought new tops for the summer.",
+          "definition": "Plural form of top; upper garments or highest parts."
+        },
+        {
+          "word": "topped",
+          "partOfSpeech": "verb",
+          "sentence": "He topped the mountain at dawn.",
+          "definition": "Past tense of top; to reach or form the highest point of something."
+        },
+        {
+          "word": "topping",
+          "partOfSpeech": "noun",
+          "sentence": "Chocolate shavings are my favorite cake topping.",
+          "definition": "Something placed on top of another thing as a garnish or cover."
+        },
+        {
+          "word": "atop",
+          "partOfSpeech": "preposition",
+          "sentence": "The cat sat atop the bookshelf.",
+          "definition": "On the top of; upon."
+        },
+        {
+          "word": "topmost",
+          "partOfSpeech": "adjective",
+          "sentence": "She reached the topmost shelf with a ladder.",
+          "definition": "Situated furthest up; highest."
+        },
+        {
+          "word": "cooktop",
+          "partOfSpeech": "compound noun",
+          "sentence": "The new cooktop heats up faster than the old stove.",
+          "definition": "A flat cooking surface with heating elements."
+        },
+        {
+          "word": "on top of",
+          "partOfSpeech": "set phrase",
+          "sentence": "She stayed on top of her assignments all term.",
+          "definition": "In control of or aware of something."
+        }
+      ]
+    },
+    {
+      "root": "pot",
+      "meanings": [
+        {
+          "sentence": "She filled the pot with water and set it on the stove.",
+          "definition": "A container, typically round and deep, used for cooking or holding liquids.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "He decided to pot the plants into larger containers.",
+          "definition": "To place (a plant) into a pot.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "They passed around a pot of freshly brewed cannabis.",
+          "definition": "Slang for a quantity of marijuana prepared for smoking.",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "pots",
+          "partOfSpeech": "noun",
+          "sentence": "She bought two new pots for her herb garden.",
+          "definition": "Plural form of pot; containers used for cooking or planting."
+        },
+        {
+          "word": "potted",
+          "partOfSpeech": "adjective",
+          "sentence": "He brought a potted plant as a housewarming gift.",
+          "definition": "Describing a plant that has been placed in a pot."
+        },
+        {
+          "word": "potting",
+          "partOfSpeech": "noun",
+          "sentence": "Potting mix is essential for good plant growth.",
+          "definition": "The act or process of putting plants into pots."
+        },
+        {
+          "word": "repot",
+          "partOfSpeech": "verb",
+          "sentence": "I need to repot the cactus into a larger container.",
+          "definition": "To transfer a plant to a new pot."
+        },
+        {
+          "word": "pottery",
+          "partOfSpeech": "noun",
+          "sentence": "She took a pottery class to learn how to make bowls.",
+          "definition": "Objects made of clay and hardened by heat; the craft of making such objects."
+        },
+        {
+          "word": "teapot",
+          "partOfSpeech": "compound noun",
+          "sentence": "He poured hot water into the ceramic teapot.",
+          "definition": "A vessel with a lid and spout used for brewing and serving tea."
+        }
+      ]
+    },
+    {
+      "root": "fan",
+      "meanings": [
+        {
+          "sentence": "She turned on the fan to cool the room.",
+          "definition": "A machine for creating a current of air by movement of a surface or surfaces.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "He's a huge fan of classical music.",
+          "definition": "An enthusiastic admirer or supporter of a person, group, or pastime.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "He fanned the flames with a piece of cardboard.",
+          "definition": "To move air over something so as to cool, dry, or intensify a fire or emotion.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "fans",
+          "partOfSpeech": "noun",
+          "sentence": "The singer waved to her fans after the concert.",
+          "definition": "Plural of fan; enthusiastic admirers or air–circulating devices."
+        },
+        {
+          "word": "fanned",
+          "partOfSpeech": "verb",
+          "sentence": "She fanned herself with a program in the hot theater.",
+          "definition": "Past tense of fan; moved air over something or someone."
+        },
+        {
+          "word": "fanning",
+          "partOfSpeech": "noun",
+          "sentence": "Fanning the coals helped the fire burn more brightly.",
+          "definition": "The act of moving air over something to cool or intensify it."
+        },
+        {
+          "word": "fanlike",
+          "partOfSpeech": "adjective",
+          "sentence": "The plant spread its leaves in a fanlike arrangement.",
+          "definition": "Resembling or shaped like a fan."
+        },
+        {
+          "word": "ceiling fan",
+          "partOfSpeech": "compound noun",
+          "sentence": "We installed a ceiling fan in the living room.",
+          "definition": "A fan mounted on the ceiling to circulate air in a room."
+        },
+        {
+          "word": "box fan",
+          "partOfSpeech": "compound noun",
+          "sentence": "He placed a box fan in the window to draw in cool air.",
+          "definition": "A portable fan enclosed in a box-shaped housing."
+        },
+        {
+          "word": "fan mail",
+          "partOfSpeech": "compound noun",
+          "sentence": "The actor read through his fan mail every evening.",
+          "definition": "Letters or messages sent by admirers to a celebrity or creator."
+        }
+      ]
+    },
+    {
+      "root": "dry",
+      "meanings": [
+        {
+          "sentence": "The clothes dried quickly in the sun.",
+          "definition": "To remove moisture from something.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "He prefers dry weather over humid conditions.",
+          "definition": "Free from moisture or liquid; not wet.",
+          "partOfSpeech": "adjective"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "dries",
+          "partOfSpeech": "verb",
+          "sentence": "She dries her hair with a towel before using the hairdryer.",
+          "definition": "Third-person singular present of dry; removes moisture."
+        },
+        {
+          "word": "dried",
+          "partOfSpeech": "adjective",
+          "sentence": "He put the dried herbs into a sealed jar.",
+          "definition": "Having had moisture removed; made dry."
+        },
+        {
+          "word": "drying",
+          "partOfSpeech": "noun",
+          "sentence": "Drying the dishes took only a few minutes.",
+          "definition": "The process of becoming or making something dry."
+        },
+        {
+          "word": "dryness",
+          "partOfSpeech": "noun",
+          "sentence": "The dryness of the desert surprised the tourists.",
+          "definition": "The state or quality of being dry."
+        },
+        {
+          "word": "dryly",
+          "partOfSpeech": "adverb",
+          "sentence": "He commented dryly on the irony of the situation.",
+          "definition": "In a matter-of-fact or ironically humorous way."
+        },
+        {
+          "word": "hairdryer",
+          "partOfSpeech": "compound noun",
+          "sentence": "She used the hairdryer to style her curls.",
+          "definition": "An electrical device for blowing warm air to dry and style hair."
+        },
+        {
+          "word": "clothes dryer",
+          "partOfSpeech": "compound noun",
+          "sentence": "The clothes dryer finished the load in under an hour.",
+          "definition": "A household appliance that tumbles clothes in warm air to dry them."
+        },
+        {
+          "word": "dry cleaning",
+          "partOfSpeech": "compound noun",
+          "sentence": "I dropped my suit off for dry cleaning before the wedding.",
+          "definition": "A cleaning process for fabrics using chemical solvents rather than water."
+        }
+      ]
+    },
+    {
+      "root": "get into",
+      "meanings": [
+        {
+          "sentence": "She worked hard to get into the university of her choice.",
+          "definition": "To gain admission to an institution or organization.",
+          "partOfSpeech": "phrasal verb"
+        },
+        {
+          "sentence": "He doesn’t normally get into sports, but he loves basketball.",
+          "definition": "To begin to be interested or involved in something.",
+          "partOfSpeech": "phrasal verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "gets into",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "He gets into trouble whenever he’s late.",
+          "definition": "Third-person singular present of get into."
+        },
+        {
+          "word": "got into",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "She got into Harvard last year.",
+          "definition": "Simple past of get into."
+        },
+        {
+          "word": "getting into",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "They’re worried about getting into the new program.",
+          "definition": "Present participle of get into."
+        },
+        {
+          "word": "get into university",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "He studied all summer to get into university.",
+          "definition": "To be admitted to a university."
+        }
+      ]
+    },
+    {
+      "root": "hold",
+      "meanings": [
+        {
+          "sentence": "Please hold my bag while I tie my shoe.",
+          "definition": "To grasp or carry with one’s hands or arms.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "They hold weekly meetings in the conference room.",
+          "definition": "To organize or conduct an event or gathering.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "He can hold a conversation in three languages.",
+          "definition": "To maintain or sustain a line of communication.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "holds",
+          "partOfSpeech": "verb",
+          "sentence": "She holds the record for the fastest time.",
+          "definition": "Third-person singular present of hold."
+        },
+        {
+          "word": "held",
+          "partOfSpeech": "verb",
+          "sentence": "He held the baby gently.",
+          "definition": "Simple past and past participle of hold."
+        },
+        {
+          "word": "holding",
+          "partOfSpeech": "noun",
+          "sentence": "His holding of the championship title lasted three years.",
+          "definition": "The act of possessing, carrying, or conducting."
+        },
+        {
+          "word": "withhold",
+          "partOfSpeech": "verb",
+          "sentence": "They decided to withhold the information until next week.",
+          "definition": "To refuse to give or grant something."
+        },
+        {
+          "word": "uphold",
+          "partOfSpeech": "verb",
+          "sentence": "The court upheld the previous ruling.",
+          "definition": "To support or maintain a law, principle, or decision."
+        },
+        {
+          "word": "household",
+          "partOfSpeech": "compound noun",
+          "sentence": "The five-member household voted on the renovation plans.",
+          "definition": "A family or group of people living together in one home."
+        },
+        {
+          "word": "hold a conversation",
+          "partOfSpeech": "set phrase",
+          "sentence": "She can hold a conversation with anyone she meets.",
+          "definition": "To sustain an exchange of ideas or dialogue."
+        }
+      ]
+    },
+    {
+      "root": "man",
+      "meanings": [
+        {
+          "sentence": "An average man walked down the street.",
+          "definition": "An adult male human being.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "They needed someone to man the toll booth all night.",
+          "definition": "To staff or operate (a post, machine, or position).",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "men",
+          "partOfSpeech": "noun",
+          "sentence": "Three men volunteered to help with the move.",
+          "definition": "Plural of man; adult male humans."
+        },
+        {
+          "word": "manned",
+          "partOfSpeech": "verb",
+          "sentence": "She manned the reception desk during the conference.",
+          "definition": "Past tense of man; staffed or operated."
+        },
+        {
+          "word": "manning",
+          "partOfSpeech": "noun",
+          "sentence": "The manning of the new bridge requires twenty operators.",
+          "definition": "The act of staffing or operating."
+        },
+        {
+          "word": "manlike",
+          "partOfSpeech": "adjective",
+          "sentence": "His decisions were praised as manlike and responsible.",
+          "definition": "Resembling or characteristic of a man."
+        },
+        {
+          "word": "handyman",
+          "partOfSpeech": "compound noun",
+          "sentence": "The handyman fixed the leaky faucet in under an hour.",
+          "definition": "A person skilled at a wide range of repairs around the house."
+        },
+        {
+          "word": "man of the house",
+          "partOfSpeech": "set phrase",
+          "sentence": "After his father passed, he became the man of the house.",
+          "definition": "The male head or primary supporter of a household."
+        }
+      ]
+    },
+    {
+      "root": "start out",
+      "meanings": [
+        {
+          "sentence": "They decided to start out on their road trip at dawn.",
+          "definition": "To begin a journey or undertaking.",
+          "partOfSpeech": "phrasal verb"
+        },
+        {
+          "sentence": "She really started out as a junior programmer before becoming a lead.",
+          "definition": "To begin a career or activity in a particular role.",
+          "partOfSpeech": "phrasal verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "starts out",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "He starts out every morning with a cup of coffee.",
+          "definition": "Third-person singular present of start out."
+        },
+        {
+          "word": "started out",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "They started out as volunteers and now run the charity.",
+          "definition": "Simple past of start out."
+        },
+        {
+          "word": "starting out",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "Starting out in business can be both exciting and daunting.",
+          "definition": "Present participle of start out."
+        },
+        {
+          "word": "start out on",
+          "partOfSpeech": "collocation",
+          "sentence": "We’ll start out on the hiking trail at first light.",
+          "definition": "To begin on (a journey, project, etc.)."
+        }
+      ]
+    },
+    {
+      "root": "be out of",
+      "meanings": [
+        {
+          "sentence": "I’m sorry, we’re out of milk again.",
+          "definition": "To have none of something left; to lack a supply.",
+          "partOfSpeech": "phrasal verb"
+        },
+        {
+          "sentence": "After the storm, they were out of danger.",
+          "definition": "To be beyond a particular condition or state.",
+          "partOfSpeech": "phrasal verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "is out of",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "She is out of ideas for her next project.",
+          "definition": "Third-person singular present of be out of."
+        },
+        {
+          "word": "was out of",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "He was out of work for several months last year.",
+          "definition": "Simple past of be out of."
+        },
+        {
+          "word": "being out of",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "Being out of practice, he struggled at first.",
+          "definition": "Present participle of be out of."
+        },
+        {
+          "word": "be out of stock",
+          "partOfSpeech": "set phrase",
+          "sentence": "The store is temporarily out of stock on that model.",
+          "definition": "To have no inventory of a particular item."
+        },
+        {
+          "word": "be out of order",
+          "partOfSpeech": "set phrase",
+          "sentence": "The elevator is out of order—please use the stairs.",
+          "definition": "To be broken or not functioning properly."
+        }
+      ]
+    },
+    {
+      "root": "manage",
+      "meanings": [
+        {
+          "sentence": "She manages the marketing department with great skill.",
+          "definition": "To direct or administer a business, department, or resources.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "He managed to finish the marathon despite the injury.",
+          "definition": "To succeed in doing something, especially with difficulty.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "They must learn to manage stress in high-pressure jobs.",
+          "definition": "To cope with or handle a situation or condition.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "manages",
+          "partOfSpeech": "verb",
+          "sentence": "She manages the team while her supervisor is away.",
+          "definition": "Third-person singular present of manage."
+        },
+        {
+          "word": "managed",
+          "partOfSpeech": "verb",
+          "sentence": "He managed the project last quarter.",
+          "definition": "Simple past and past participle of manage."
+        },
+        {
+          "word": "managing",
+          "partOfSpeech": "verb",
+          "sentence": "Managing multiple clients requires strong organization.",
+          "definition": "Present participle of manage."
+        },
+        {
+          "word": "mismanage",
+          "partOfSpeech": "verb",
+          "sentence": "They mismanaged the budget and ran into debt.",
+          "definition": "To handle or direct poorly or incompetently."
+        },
+        {
+          "word": "manager",
+          "partOfSpeech": "noun",
+          "sentence": "The manager approved the new hire yesterday.",
+          "definition": "A person responsible for controlling or administering an organization or group of staff."
+        },
+        {
+          "word": "management",
+          "partOfSpeech": "noun",
+          "sentence": "Good management can make or break a company.",
+          "definition": "The process or art of coordinating and overseeing operations or resources."
+        },
+        {
+          "word": "managerial",
+          "partOfSpeech": "adjective",
+          "sentence": "She has excellent managerial abilities.",
+          "definition": "Relating to the function or work of a manager."
+        },
+        {
+          "word": "manageable",
+          "partOfSpeech": "adjective",
+          "sentence": "The workload this week is quite manageable.",
+          "definition": "Capable of being handled or controlled with ease."
+        },
+        {
+          "word": "manageability",
+          "partOfSpeech": "noun",
+          "sentence": "The upgrade improved the manageability of the software.",
+          "definition": "The quality of being manageable; ease of handling or control."
+        },
+        {
+          "word": "self-management",
+          "partOfSpeech": "compound noun",
+          "sentence": "Remote work demands strong self-management skills.",
+          "definition": "The ability to regulate one’s own activities and responsibilities."
+        },
+        {
+          "word": "time management",
+          "partOfSpeech": "compound noun",
+          "sentence": "Effective time management is crucial for meeting deadlines.",
+          "definition": "The process of organizing and planning how to divide time between activities."
+        },
+        {
+          "word": "manage to",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "She managed to solve the puzzle in under five minutes.",
+          "definition": "To succeed in achieving something, often despite difficulty."
+        }
+      ]
+    },
+    {
+      "root": "record",
+      "meanings": [
+        {
+          "sentence": "She keeps a record of all her expenses in a notebook.",
+          "definition": "A written account or statement of events or facts.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "He broke the world record in the 100-meter dash.",
+          "definition": "The best performance or highest achievement in a particular field.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "They will record the meeting for anyone who can’t attend.",
+          "definition": "To set down in writing or on film or tape for later reference.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "records",
+          "partOfSpeech": "verb",
+          "sentence": "She records her lectures so students can review them later.",
+          "definition": "Third-person singular present of record."
+        },
+        {
+          "word": "recorded",
+          "partOfSpeech": "verb",
+          "sentence": "He recorded the concert on his phone.",
+          "definition": "Simple past and past participle of record."
+        },
+        {
+          "word": "recording",
+          "partOfSpeech": "noun",
+          "sentence": "The recording of the interview was very clear.",
+          "definition": "The act or process of setting something down for preservation."
+        },
+        {
+          "word": "recorder",
+          "partOfSpeech": "noun",
+          "sentence": "The recorder captured every word of the testimony.",
+          "definition": "A device or person that records information."
+        },
+        {
+          "word": "recordable",
+          "partOfSpeech": "adjective",
+          "sentence": "This DVD is recordable, so you can burn your own videos on it.",
+          "definition": "Capable of having data or sound recorded onto it."
+        },
+        {
+          "word": "track record",
+          "partOfSpeech": "compound noun",
+          "sentence": "She has an impressive track record of successful projects.",
+          "definition": "A documented history of performance or achievements."
+        }
+      ]
+    },
+    {
+      "root": "receive",
+      "meanings": [
+        {
+          "sentence": "I receive emails from my professor every morning.",
+          "definition": "To be given, presented with, or paid (something).",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "She received many compliments on her presentation.",
+          "definition": "To experience or undergo (something, such as a reaction or treatment).",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "receives",
+          "partOfSpeech": "verb",
+          "sentence": "He receives packages at his office address.",
+          "definition": "Third-person singular present of receive."
+        },
+        {
+          "word": "received",
+          "partOfSpeech": "verb",
+          "sentence": "They received the shipment on Tuesday.",
+          "definition": "Simple past and past participle of receive."
+        },
+        {
+          "word": "receiving",
+          "partOfSpeech": "noun",
+          "sentence": "The receiving of guests begins at 6 PM.",
+          "definition": "The act of taking delivery of something."
+        },
+        {
+          "word": "reception",
+          "partOfSpeech": "noun",
+          "sentence": "The wedding reception was held in the hotel ballroom.",
+          "definition": "The act or process of receiving or the state of being received."
+        },
+        {
+          "word": "receptionist",
+          "partOfSpeech": "noun",
+          "sentence": "The receptionist answered the phone promptly.",
+          "definition": "A person employed to receive and assist visitors or callers."
+        },
+        {
+          "word": "receptive",
+          "partOfSpeech": "adjective",
+          "sentence": "He is always receptive to new ideas.",
+          "definition": "Willing to consider or accept suggestions or ideas."
+        },
+        {
+          "word": "receiver",
+          "partOfSpeech": "noun",
+          "sentence": "The TV receiver picks up signals from the satellite dish.",
+          "definition": "A device or person that receives something."
+        },
+        {
+          "word": "receive a call",
+          "partOfSpeech": "collocation",
+          "sentence": "She expected to receive a call from the recruiter today.",
+          "definition": "To have someone phone you; to be on the receiving end of a telephone call."
+        }
+      ]
+    },
+    {
+      "root": "relevant",
+      "meanings": [
+        {
+          "sentence": "Her research provided relevant data for the project.",
+          "definition": "Closely connected or appropriate to the matter at hand.",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "sentence": "The lawyer objected, arguing that the question was not relevant to the case.",
+          "definition": "Bearing upon or pertinent to the issue being considered.",
+          "partOfSpeech": "adjective"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "relevance",
+          "partOfSpeech": "noun",
+          "sentence": "The relevance of his argument was clear to everyone in the room.",
+          "definition": "The quality or state of being closely connected or appropriate."
+        },
+        {
+          "word": "relevancy",
+          "partOfSpeech": "noun",
+          "sentence": "She questioned the relevancy of the anecdote to the main point.",
+          "definition": "Another form of relevance; the degree to which something is pertinent."
+        },
+        {
+          "word": "relevantly",
+          "partOfSpeech": "adverb",
+          "sentence": "He spoke relevantly about the economic impacts of the policy.",
+          "definition": "In a manner that is closely connected or appropriate."
+        },
+        {
+          "word": "irrelevant",
+          "partOfSpeech": "adjective",
+          "sentence": "Comments about her personal life were considered irrelevant to the discussion.",
+          "definition": "Not connected with or pertinent to the matter under consideration."
+        },
+        {
+          "word": "irrelevance",
+          "partOfSpeech": "noun",
+          "sentence": "The irrelevance of his remarks weakened his overall argument.",
+          "definition": "The state or fact of being irrelevant; lack of pertinence."
+        },
+        {
+          "word": "irrelevantly",
+          "partOfSpeech": "adverb",
+          "sentence": "He spoke irrelevantly, diverting attention from the main issue.",
+          "definition": "In a manner that is not connected or pertinent."
+        },
+        {
+          "word": "relevant to",
+          "partOfSpeech": "collocation",
+          "sentence": "The statistics are relevant to our current marketing strategy.",
+          "definition": "Pertinent or applicable with respect to something."
+        }
+      ]
+    },
+    {
+      "root": "make an exception",
+      "meanings": [
+        {
+          "sentence": "Although the rule is strict, the teacher decided to make an exception for the late assignment.",
+          "definition": "To allow someone or something to be excluded from a general rule or requirement.",
+          "partOfSpeech": "phrasal verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "makes an exception",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "She makes an exception for team members who have valid reasons.",
+          "definition": "Third-person singular present of make an exception."
+        },
+        {
+          "word": "made an exception",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "They made an exception this time because he showed up early.",
+          "definition": "Simple past of make an exception."
+        },
+        {
+          "word": "making an exception",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "He’s not in the habit of making an exception for anyone.",
+          "definition": "Present participle of make an exception."
+        },
+        {
+          "word": "make exceptions",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "Good leaders know when to make exceptions to the policy.",
+          "definition": "To allow more than one exception to a rule."
+        },
+        {
+          "word": "make an exception for",
+          "partOfSpeech": "collocation",
+          "sentence": "We’ll make an exception for members in good standing.",
+          "definition": "To allow someone or something to be excluded from a rule or requirement."
+        }
+      ]
+    },
+    {
+      "root": "onion",
+      "meanings": [
+        {
+          "sentence": "She chopped a yellow onion for the soup.",
+          "definition": "A bulbous plant whose rounded edible bulb is used as a vegetable.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "His explanation had layers like an onion—each point revealed something new.",
+          "definition": "Something with multiple layers or levels, used metaphorically.",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "onions",
+          "partOfSpeech": "noun",
+          "sentence": "The recipe calls for three red onions.",
+          "definition": "Plural form of onion; more than one bulbous vegetable."
+        },
+        {
+          "word": "oniony",
+          "partOfSpeech": "adjective",
+          "sentence": "The stew had an oniony aroma that made everyone hungry.",
+          "definition": "Tasting or smelling strongly of onion."
+        },
+        {
+          "word": "spring onion",
+          "partOfSpeech": "compound noun",
+          "sentence": "She garnished the salad with chopped spring onions.",
+          "definition": "A young onion harvested before the bulb fully forms; green stem and small white bulb."
+        }
+      ]
+    },
+    {
+      "root": "raft",
+      "meanings": [
+        {
+          "sentence": "They loaded the supplies onto a wooden raft and floated down the river.",
+          "definition": "A flat structure of logs or planks fastened together and used as a boat.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "We rafts every summer on the mountain streams.",
+          "definition": "To travel or transport on a raft.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "rafts",
+          "partOfSpeech": "noun",
+          "sentence": "Several rafts were tied up along the bank.",
+          "definition": "Plural of raft; more than one flat watercraft."
+        },
+        {
+          "word": "rafted",
+          "partOfSpeech": "verb",
+          "sentence": "Last weekend we rafted down the rapid stretch of the river.",
+          "definition": "Past tense of raft; traveled on a raft."
+        },
+        {
+          "word": "rafting",
+          "partOfSpeech": "noun",
+          "sentence": "White-water rafting is his favorite adventure sport.",
+          "definition": "The sport or activity of traveling down rapids on a raft."
+        },
+        {
+          "word": "white-water rafting",
+          "partOfSpeech": "compound noun",
+          "sentence": "They signed up for a guided white-water rafting excursion.",
+          "definition": "The activity of navigating rough river rapids on an inflatable raft."
+        }
+      ]
+    },
+    {
+      "root": "parcel",
+      "meanings": [
+        {
+          "sentence": "She received a parcel containing her birthday gift.",
+          "definition": "A package or bundle of something wrapped up for mailing or delivery.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "They will parcel out the land among the heirs.",
+          "definition": "To divide into portions and distribute.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "parcels",
+          "partOfSpeech": "noun",
+          "sentence": "The postman delivered several parcels this morning.",
+          "definition": "Plural form of parcel; multiple packages."
+        },
+        {
+          "word": "parcels",
+          "partOfSpeech": "verb",
+          "sentence": "She parcels the donations for different charities.",
+          "definition": "Third-person singular present of parcel (to divide and distribute)."
+        },
+        {
+          "word": "parceled",
+          "partOfSpeech": "verb",
+          "sentence": "He parceled the estate among his three children.",
+          "definition": "Simple past and past participle of parcel (to divide and distribute)."
+        },
+        {
+          "word": "parceling",
+          "partOfSpeech": "verb",
+          "sentence": "Parceling the resources efficiently is crucial to the project’s success.",
+          "definition": "Present participle of parcel (to divide and distribute)."
+        },
+        {
+          "word": "parcel post",
+          "partOfSpeech": "compound noun",
+          "sentence": "She sent the package via parcel post to save money.",
+          "definition": "A postal service for sending packages rather than letters."
+        },
+        {
+          "word": "parcel delivery",
+          "partOfSpeech": "compound noun",
+          "sentence": "Parcel delivery services have grown rapidly with online shopping.",
+          "definition": "The process or service of delivering packages."
+        }
+      ]
+    },
+    {
+      "root": "store",
+      "meanings": [
+        {
+          "sentence": "I went to the store to buy groceries.",
+          "definition": "A retail establishment selling a variety of goods.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "They store the winter clothes in the attic.",
+          "definition": "To put away or accumulate for future use.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "stores",
+          "partOfSpeech": "noun",
+          "sentence": "Several stores in the mall are having sales this week.",
+          "definition": "Plural form of store; multiple retail establishments."
+        },
+        {
+          "word": "stores",
+          "partOfSpeech": "verb",
+          "sentence": "She stores all her photographs on an external hard drive.",
+          "definition": "Third-person singular present of store (to put away)."
+        },
+        {
+          "word": "stored",
+          "partOfSpeech": "verb",
+          "sentence": "He stored the documents in a secure cabinet.",
+          "definition": "Simple past and past participle of store (to put away)."
+        },
+        {
+          "word": "storing",
+          "partOfSpeech": "noun",
+          "sentence": "Proper storing of perishable foods extends their shelf life.",
+          "definition": "The act or process of putting away or accumulating."
+        },
+        {
+          "word": "storage",
+          "partOfSpeech": "noun",
+          "sentence": "We rented a self-storage unit to keep our extra furniture.",
+          "definition": "The act or capacity of storing; a place where things are stored."
+        },
+        {
+          "word": "storefront",
+          "partOfSpeech": "compound noun",
+          "sentence": "The new café has a bright, glass storefront.",
+          "definition": "The facade or entrance of a retail store facing the street."
+        },
+        {
+          "word": "storekeeper",
+          "partOfSpeech": "compound noun",
+          "sentence": "The storekeeper greeted every customer with a smile.",
+          "definition": "A person who owns or manages a small retail store."
+        },
+        {
+          "word": "department store",
+          "partOfSpeech": "compound noun",
+          "sentence": "She bought a dress at the department store downtown.",
+          "definition": "A large retail establishment divided into departments offering a wide range of goods."
+        },
+        {
+          "word": "convenience store",
+          "partOfSpeech": "compound noun",
+          "sentence": "I stopped at the convenience store to get a snack.",
+          "definition": "A small shop that stocks a range of everyday items and is open long hours."
+        },
+        {
+          "word": "chain store",
+          "partOfSpeech": "compound noun",
+          "sentence": "This chain store has branches in every major city.",
+          "definition": "One of a series of retail outlets owned and operated by the same company."
+        }
+      ]
+    },
+    {
+      "root": "come out of",
+      "meanings": [
+        {
+          "sentence": "After the long tunnel, they finally came out of the darkness.",
+          "definition": "To emerge or exit from an enclosed or covered space.",
+          "partOfSpeech": "phrasal verb"
+        },
+        {
+          "sentence": "What good ideas come out of brainstorming sessions?",
+          "definition": "To originate or result from a particular source or situation.",
+          "partOfSpeech": "phrasal verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "comes out of",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "She comes out of every challenge stronger than before.",
+          "definition": "Third-person singular present of come out of."
+        },
+        {
+          "word": "came out of",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "He came out of the meeting with a clear plan.",
+          "definition": "Simple past of come out of."
+        },
+        {
+          "word": "coming out of",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "They are coming out of a difficult economic downturn.",
+          "definition": "Present participle of come out of."
+        },
+        {
+          "word": "come out of the closet",
+          "partOfSpeech": "idiom",
+          "sentence": "After years of hiding, he finally came out of the closet.",
+          "definition": "To reveal a secret or previously concealed aspect of oneself."
+        },
+        {
+          "word": "come out of the blue",
+          "partOfSpeech": "idiom",
+          "sentence": "Her unexpected promotion came out of the blue.",
+          "definition": "To happen suddenly and unexpectedly."
+        }
+      ]
+    },
+    {
+      "root": "tin",
+      "meanings": [
+        {
+          "sentence": "The roof was covered with sheets of tin to keep out the rain.",
+          "definition": "A silvery-white metallic element, atomic number 50.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "She tinned the soup so it would last longer on the shelf.",
+          "definition": "To preserve or coat with tin; to pack in tin cans.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "tins",
+          "partOfSpeech": "noun",
+          "sentence": "He collected empty tins to use as planters.",
+          "definition": "Plural form of tin (metal sheets or cans)."
+        },
+        {
+          "word": "tinned",
+          "partOfSpeech": "verb",
+          "sentence": "They tinned the fish immediately after catching it.",
+          "definition": "Simple past and past participle of tin."
+        },
+        {
+          "word": "tinning",
+          "partOfSpeech": "noun",
+          "sentence": "The tinning process gives the metal a protective coating.",
+          "definition": "The act or process of coating with or preserving in tin."
+        },
+        {
+          "word": "tinplate",
+          "partOfSpeech": "noun",
+          "sentence": "The factory produced thousands of tons of tinplate annually.",
+          "definition": "Thin sheets of steel coated with tin."
+        },
+        {
+          "word": "tinny",
+          "partOfSpeech": "adjective",
+          "sentence": "The cheap radio had a tinny sound quality.",
+          "definition": "Having a sharp, metallic resonance; sounding like tin."
+        },
+        {
+          "word": "tin can",
+          "partOfSpeech": "compound noun",
+          "sentence": "She opened a tin can of beans for dinner.",
+          "definition": "A cylindrical metal container made of tinplate."
+        },
+        {
+          "word": "tin foil",
+          "partOfSpeech": "compound noun",
+          "sentence": "He wrapped the leftovers in tin foil before refrigerating them.",
+          "definition": "Thin sheets of tin used for wrapping or covering."
+        }
+      ]
+    },
+    {
+      "root": "dumb",
+      "meanings": [
+        {
+          "sentence": "He felt dumb when he forgot the answer during the exam.",
+          "definition": "Lacking intelligence or good judgment; foolish.",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "sentence": "Because of his injury, he was temporarily dumb and couldn’t speak.",
+          "definition": "Unable to speak; mute.",
+          "partOfSpeech": "adjective"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "dumber",
+          "partOfSpeech": "adjective",
+          "sentence": "She looked even dumber when she tripped on stage.",
+          "definition": "Comparative form of dumb; more lacking in intelligence or speech."
+        },
+        {
+          "word": "dumbest",
+          "partOfSpeech": "adjective",
+          "sentence": "That was the dumbest mistake I’ve ever made.",
+          "definition": "Superlative form of dumb; most lacking in intelligence or speech."
+        },
+        {
+          "word": "dumbness",
+          "partOfSpeech": "noun",
+          "sentence": "His sudden dumbness after the accident worried everyone.",
+          "definition": "The state of being unable to speak or lacking intelligence."
+        },
+        {
+          "word": "dumbly",
+          "partOfSpeech": "adverb",
+          "sentence": "She stared dumbly at the crashing waves.",
+          "definition": "In a manner that shows inability to speak or expression of foolishness."
+        },
+        {
+          "word": "dumbbell",
+          "partOfSpeech": "compound noun",
+          "sentence": "He lifted the heavy dumbbell to strengthen his arms.",
+          "definition": "A short bar with a weight at each end, used for exercise."
+        },
+        {
+          "word": "dumb down",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "They decided to dumb down the content for a younger audience.",
+          "definition": "To make something less sophisticated and easier to understand."
+        },
+        {
+          "word": "play dumb",
+          "partOfSpeech": "set phrase",
+          "sentence": "She decided to play dumb when her parents asked about the broken vase.",
+          "definition": "To pretend to be less intelligent or unaware than one really is."
+        }
+      ]
+    },
+    {
+      "root": "start",
+      "meanings": [
+        {
+          "sentence": "They made a fresh start in the new city after graduation.",
+          "definition": "A new beginning or opportunity to begin something again.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "We will start the meeting at 9 AM sharp.",
+          "definition": "To begin or set in motion.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "starts",
+          "partOfSpeech": "verb",
+          "sentence": "She starts her day with a short run.",
+          "definition": "Third-person singular present of start."
+        },
+        {
+          "word": "started",
+          "partOfSpeech": "verb",
+          "sentence": "He started the project last week.",
+          "definition": "Simple past and past participle of start."
+        },
+        {
+          "word": "starting",
+          "partOfSpeech": "gerund",
+          "sentence": "Starting early helped them finish on time.",
+          "definition": "Present participle of start, used as a noun for the act of beginning."
+        },
+        {
+          "word": "restart",
+          "partOfSpeech": "verb",
+          "sentence": "After the crash, she had to restart her computer.",
+          "definition": "To start again."
+        },
+        {
+          "word": "starter",
+          "partOfSpeech": "noun",
+          "sentence": "He was the starter on the basketball team this season.",
+          "definition": "One who or that which starts; a device for initiating a process."
+        },
+        {
+          "word": "fresh start",
+          "partOfSpeech": "compound noun",
+          "sentence": "After the argument, they both agreed to a fresh start.",
+          "definition": "An opportunity to begin again without past mistakes."
+        },
+        {
+          "word": "start over",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "When his draft was full of errors, he decided to start over.",
+          "definition": "To begin again from the beginning."
+        },
+        {
+          "word": "start from scratch",
+          "partOfSpeech": "idiom",
+          "sentence": "They had to rebuild the house from scratch after the fire.",
+          "definition": "To begin from the very beginning, with nothing already prepared."
+        }
+      ]
+    },
+    {
+      "root": "decent",
+      "meanings": [
+        {
+          "sentence": "She did a decent job on her presentation and earned praise from the panel.",
+          "definition": "Of an acceptable standard; satisfactory.",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "sentence": "He comes from a decent family that values honesty and hard work.",
+          "definition": "Conforming to moral or social standards; respectable.",
+          "partOfSpeech": "adjective"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "decency",
+          "partOfSpeech": "noun",
+          "sentence": "Basic decency demands that we treat strangers with kindness.",
+          "definition": "The quality of being polite and morally upright."
+        },
+        {
+          "word": "decently",
+          "partOfSpeech": "adverb",
+          "sentence": "They live decently on a modest teacher’s salary.",
+          "definition": "In a way that is acceptable, respectable, or satisfactory."
+        },
+        {
+          "word": "indecent",
+          "partOfSpeech": "adjective",
+          "sentence": "The film was fined for including indecent language.",
+          "definition": "Not conforming to accepted standards of morality or modesty."
+        },
+        {
+          "word": "indecency",
+          "partOfSpeech": "noun",
+          "sentence": "He was accused of indecency for his offensive remarks.",
+          "definition": "The state or quality of being indecent; obscene behavior or language."
+        },
+        {
+          "word": "indecently",
+          "partOfSpeech": "adverb",
+          "sentence": "They were dressed indecently for the formal event.",
+          "definition": "In a manner that is offensive to moral or social norms."
+        },
+        {
+          "word": "decent job",
+          "partOfSpeech": "collocation",
+          "sentence": "If you want a decent job, you'll need more experience.",
+          "definition": "A satisfactory or respectable position of employment."
+        }
+      ]
+    },
+    {
+      "root": "stubborn",
+      "meanings": [
+        {
+          "sentence": "Despite all advice to change his approach, he remained stubborn.",
+          "definition": "Unreasonably obstinate; refusing to change one's opinion or course of action.",
+          "partOfSpeech": "adjective"
+        },
+        {
+          "sentence": "The stain on the carpet proved stubborn and would not come out.",
+          "definition": "Difficult to remove, cure, or alleviate; persistent.",
+          "partOfSpeech": "adjective"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "stubbornness",
+          "partOfSpeech": "noun",
+          "sentence": "Her stubbornness often led to unnecessary quarrels.",
+          "definition": "The quality of being unyielding or obstinate."
+        },
+        {
+          "word": "stubbornly",
+          "partOfSpeech": "adverb",
+          "sentence": "He stubbornly refused to admit he was wrong.",
+          "definition": "In a manner that shows unreasoning unwillingness to change."
+        },
+        {
+          "word": "stubborn streak",
+          "partOfSpeech": "collocation",
+          "sentence": "He has a stubborn streak that makes negotiations difficult.",
+          "definition": "A tendency to be obstinate or unyielding in character."
+        }
+      ]
+    },
+    {
+      "root": "pay",
+      "meanings": [
+        {
+          "sentence": "She pays her rent on the first of every month.",
+          "definition": "To give money in exchange for goods or services.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "He received his pay at the end of the week.",
+          "definition": "The money earned for work done or services rendered.",
+          "partOfSpeech": "noun"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "pays",
+          "partOfSpeech": "verb",
+          "sentence": "He pays his employees a fair wage.",
+          "definition": "Third-person singular present of pay."
+        },
+        {
+          "word": "paid",
+          "partOfSpeech": "verb",
+          "sentence": "She paid the bill promptly.",
+          "definition": "Simple past and past participle of pay."
+        },
+        {
+          "word": "paying",
+          "partOfSpeech": "verb",
+          "sentence": "They are paying close attention to the contract terms.",
+          "definition": "Present participle of pay."
+        },
+        {
+          "word": "payment",
+          "partOfSpeech": "noun",
+          "sentence": "The payment is due by the end of the month.",
+          "definition": "The act of paying or the amount paid."
+        },
+        {
+          "word": "payable",
+          "partOfSpeech": "adjective",
+          "sentence": "The invoice is payable within thirty days.",
+          "definition": "Due to be paid; able to be paid."
+        },
+        {
+          "word": "payee",
+          "partOfSpeech": "noun",
+          "sentence": "The payee must endorse the check before depositing it.",
+          "definition": "A person or organization that receives payment."
+        },
+        {
+          "word": "payer",
+          "partOfSpeech": "noun",
+          "sentence": "The payer must provide accurate billing information.",
+          "definition": "A person or organization that makes a payment."
+        },
+        {
+          "word": "repay",
+          "partOfSpeech": "verb",
+          "sentence": "He will repay the loan over five years.",
+          "definition": "To pay back money owed."
+        },
+        {
+          "word": "repaid",
+          "partOfSpeech": "verb",
+          "sentence": "She repaid the debt ahead of schedule.",
+          "definition": "Simple past and past participle of repay."
+        },
+        {
+          "word": "underpaid",
+          "partOfSpeech": "adjective",
+          "sentence": "Many workers feel underpaid for the hours they put in.",
+          "definition": "Receiving less pay than is deserved or usual."
+        },
+        {
+          "word": "overpaid",
+          "partOfSpeech": "adjective",
+          "sentence": "He realized he had been overpaid and returned the excess.",
+          "definition": "Having received more pay than is deserved or usual."
+        },
+        {
+          "word": "unpaid",
+          "partOfSpeech": "adjective",
+          "sentence": "She has several unpaid invoices outstanding.",
+          "definition": "Not having been paid; still owing payment."
+        }
+      ]
+    },
+    {
+      "root": "interview",
+      "meanings": [
+        {
+          "sentence": "They arranged an interview with the company’s hiring manager.",
+          "definition": "A formal meeting in which one or more persons question another to assess suitability for a job or other position.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "The journalist will interview the athlete after the race.",
+          "definition": "To question someone formally or officially, especially for a job or for publication.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "interviews",
+          "partOfSpeech": "noun",
+          "sentence": "She conducted several interviews with industry experts.",
+          "definition": "Plural of interview (noun)."
+        },
+        {
+          "word": "interviews",
+          "partOfSpeech": "verb",
+          "sentence": "He interviews candidates every morning.",
+          "definition": "Third-person singular present of interview (verb)."
+        },
+        {
+          "word": "interviewed",
+          "partOfSpeech": "verb",
+          "sentence": "They interviewed all the finalists yesterday.",
+          "definition": "Simple past and past participle of interview."
+        },
+        {
+          "word": "interviewing",
+          "partOfSpeech": "noun",
+          "sentence": "Interviewing well requires good preparation.",
+          "definition": "The act of conducting an interview."
+        },
+        {
+          "word": "interviewer",
+          "partOfSpeech": "noun",
+          "sentence": "The interviewer asked insightful follow-up questions.",
+          "definition": "A person who conducts an interview."
+        },
+        {
+          "word": "interviewee",
+          "partOfSpeech": "noun",
+          "sentence": "The interviewee spoke confidently about her experience.",
+          "definition": "A person who is interviewed."
+        },
+        {
+          "word": "reinterview",
+          "partOfSpeech": "verb",
+          "sentence": "They decided to reinterview the candidate to clarify some answers.",
+          "definition": "To interview someone again."
+        },
+        {
+          "word": "mock interview",
+          "partOfSpeech": "set phrase",
+          "sentence": "She practiced with a mock interview before the actual meeting.",
+          "definition": "A simulated interview used for practice."
+        },
+        {
+          "word": "job interview",
+          "partOfSpeech": "collocation",
+          "sentence": "He prepared thoroughly for the job interview.",
+          "definition": "An interview specifically for the purpose of assessing a candidate for employment."
+        }
+      ]
+    },
+    {
+      "root": "confess",
+      "meanings": [
+        {
+          "sentence": "After much hesitation, he finally confessed to the mistake.",
+          "definition": "To admit or acknowledge something reluctantly, often something wrong or embarrassing.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "The parishioner went to the chapel to confess her sins.",
+          "definition": "To state one’s faith or religious beliefs publicly or formally.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "confesses",
+          "partOfSpeech": "verb",
+          "sentence": "She confesses her faults honestly in every meeting.",
+          "definition": "Third-person singular present of confess."
+        },
+        {
+          "word": "confessed",
+          "partOfSpeech": "verb",
+          "sentence": "He confessed his love for her under the stars.",
+          "definition": "Simple past and past participle of confess."
+        },
+        {
+          "word": "confessing",
+          "partOfSpeech": "verb",
+          "sentence": "Confessing the truth can be difficult but relieving.",
+          "definition": "Present participle of confess."
+        },
+        {
+          "word": "confession",
+          "partOfSpeech": "noun",
+          "sentence": "Her confession surprised everyone in the courtroom.",
+          "definition": "A formal statement admitting that one is guilty of a crime or wrongdoing."
+        },
+        {
+          "word": "confessional",
+          "partOfSpeech": "adjective",
+          "sentence": "He gave a confessional account of his experiences in therapy.",
+          "definition": "Relating to or characteristic of a confession."
+        },
+        {
+          "word": "confessional",
+          "partOfSpeech": "noun",
+          "sentence": "She knelt in the confessional to speak with the priest.",
+          "definition": "A small, enclosed booth in a church where confessions are made."
+        },
+        {
+          "word": "make a confession",
+          "partOfSpeech": "set phrase",
+          "sentence": "Under pressure, he decided to make a confession to the authorities.",
+          "definition": "To state one’s guilt or wrongdoing formally or publicly."
+        }
+      ]
+    },
+    {
+      "root": "boost",
+      "meanings": [
+        {
+          "sentence": "A sudden boost in demand pushed sales to a new high.",
+          "definition": "An increase or improvement in amount, quality, or strength.",
+          "partOfSpeech": "noun"
+        },
+        {
+          "sentence": "They boosted the signal so everyone could hear clearly.",
+          "definition": "To increase the power, amount, or effectiveness of something.",
+          "partOfSpeech": "verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "boosts",
+          "partOfSpeech": "verb",
+          "sentence": "She boosts her confidence with daily affirmations.",
+          "definition": "Third-person singular present of boost."
+        },
+        {
+          "word": "boosted",
+          "partOfSpeech": "verb",
+          "sentence": "They boosted their savings by cutting unnecessary expenses.",
+          "definition": "Simple past and past participle of boost."
+        },
+        {
+          "word": "boosting",
+          "partOfSpeech": "noun",
+          "sentence": "Boosting engine performance requires careful tuning.",
+          "definition": "The act of increasing or improving something."
+        },
+        {
+          "word": "booster",
+          "partOfSpeech": "noun",
+          "sentence": "He took a booster shot to maintain immunity.",
+          "definition": "Something that increases or enhances power or effectiveness."
+        },
+        {
+          "word": "booster seat",
+          "partOfSpeech": "compound noun",
+          "sentence": "The child sat safely in a booster seat during the drive.",
+          "definition": "A raised seat designed to improve safety and visibility for a small passenger."
+        },
+        {
+          "word": "boost morale",
+          "partOfSpeech": "collocation",
+          "sentence": "The manager organized a team outing to boost morale.",
+          "definition": "To improve the confidence, enthusiasm, or discipline of a group."
+        }
+      ]
+    },
+    {
+      "root": "bring",
+      "meanings": [
+        {
+          "sentence": "Please bring your textbook to class tomorrow.",
+          "definition": "To carry, convey, or take someone or something to a place.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "This new policy will bring significant changes to the department.",
+          "definition": "To cause something to happen or exist.",
+          "partOfSpeech": "verb"
+        },
+        {
+          "sentence": "The concert brought in over twenty thousand dollars in donations.",
+          "definition": "To earn or generate (income, revenue, results).",
+          "partOfSpeech": "phrasal verb"
+        }
+      ],
+      "wordFamilies": [
+        {
+          "word": "brings",
+          "partOfSpeech": "verb",
+          "sentence": "She brings her lunch to work every day.",
+          "definition": "Third-person singular present of bring."
+        },
+        {
+          "word": "brought",
+          "partOfSpeech": "verb",
+          "sentence": "He brought all the equipment up to the rooftop.",
+          "definition": "Simple past and past participle of bring."
+        },
+        {
+          "word": "bringing",
+          "partOfSpeech": "gerund",
+          "sentence": "Bringing extra blankets was a good idea when the temperature dropped.",
+          "definition": "Present participle of bring, used as a noun for the act of carrying or causing."
+        },
+        {
+          "word": "bring in",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "They plan to bring in a consultant to improve efficiency.",
+          "definition": "To introduce or employ someone or something for a particular purpose; to generate (revenue)."
+        },
+        {
+          "word": "brings in",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "That new product line brings in substantial profits each month.",
+          "definition": "Third-person singular present of bring in."
+        },
+        {
+          "word": "brought in",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "They brought in extra staff for the holiday rush.",
+          "definition": "Simple past of bring in."
+        },
+        {
+          "word": "bringing in",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "Bringing in fresh talent helps the company innovate.",
+          "definition": "Present participle of bring in."
+        },
+        {
+          "word": "bring up",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "She brought up an important point during the discussion.",
+          "definition": "To raise or mention a topic; to rear or raise (a child)."
+        },
+        {
+          "word": "brings up",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "He always brings up his achievements in every meeting.",
+          "definition": "Third-person singular present of bring up."
+        },
+        {
+          "word": "brought up",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "She was brought up in a small coastal town.",
+          "definition": "Simple past of bring up."
+        },
+        {
+          "word": "bringing up",
+          "partOfSpeech": "phrasal verb",
+          "sentence": "Bringing up sensitive issues requires tact.",
+          "definition": "Present participle of bring up."
+        },
+        {
+          "word": "bring in revenue",
+          "partOfSpeech": "collocation",
+          "sentence": "The mobile app began to bring in revenue through subscriptions.",
+          "definition": "To generate income from a product or service."
+        },
+        {
+          "word": "bring up a child",
+          "partOfSpeech": "collocation",
+          "sentence": "They worked together to bring up their children bilingually.",
+          "definition": "To raise and educate a child."
+        }
+      ]
     }
-    
+
 ]

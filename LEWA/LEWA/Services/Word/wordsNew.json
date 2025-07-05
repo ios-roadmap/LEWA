@@ -1,0 +1,43 @@
+[
+    {
+        "root": "celebrate",
+        "meanings": [
+            {
+                "word": "celebritydom",
+                "sentence": "She enjoyed her brief moment of celebritydom after winning the competition.",
+                "definition": "the state of being famous",
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "celebrityhood",
+                "sentence": "After her first bestselling novel, she experienced true celebrityhood.",
+                "definition": "the state of being famous",
+                "partOfSpeech": "noun"
+            }
+        ]
+    },
+    {
+      "root": "celebrity",
+      "meanings": [
+        {
+          "word": "celebrity",
+          "sentence": "After the film's release, she became a household celebrity.",
+          "definition": "a person who is widely known, especially in entertainment",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "celebrity",
+          "sentence": "His celebrity gives him a powerful voice in social causes.",
+          "definition": "the state of being famous or well known",
+          "partOfSpeech": "noun"
+        },
+        {
+          "word": "celebrity",
+          "sentence": "The celebrity around the royal wedding was overwhelming.",
+          "definition": "public attention or interest toward a person or event",
+          "partOfSpeech": "noun"
+        }
+      ]
+    }
+
+]

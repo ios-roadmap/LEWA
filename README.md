@@ -6,86 +6,109 @@
   <img src="https://github.com/user-attachments/assets/29f62f05-23b5-4b5d-857c-f5d5cf6e2228" alt="detail" width="250" style="margin-right:8px;"/>
 </p>
 
-**Revised Unified Word-Analysis & Family Prompt (IELTS Academic)**
+Generate a structured JSON response for an English dictionary API based on a provided word or idiomatic expression. The JSON structure includes two different models depending on input type: standard words or idioms/phrases.
 
-**Task**
-You are an English vocabulary assistant. For a single input word **{word}**, you must:
+## 📌 Root Determination Rule:
 
-1. **Find the root**
+When determining the **root** form of the provided word, strictly follow these rules:
 
-   * Use the Root-Finding Procedure (below).
-2. **Return** **one** strictly valid JSON object matching the *Output Schema* **plus** a final comma-separated post-JSON line.
-3. **Immediately after** the closing brace (outside the code block), output a single line in the format:
+* **Verbs**: Always use the infinitive (base form).
+  Examples:
 
-   ```
-   root,familyWord1,familyWord2,...
-   ```
+  * **running** → **run**
+  * **went** → **go**
 
-   with no extra text.
+* **Nouns**: Generally use the singular form. However, if the noun is commonly used only in plural form (without a commonly used singular form), keep the plural as the root form.
+  Examples:
+
+  * **books** → **book**
+  * **scissors** → **scissors**
+  * **trousers** → **trousers**
+
+* **Adjectives and Adverbs**: Always use the base form (positive form), not comparative or superlative.
+  Examples:
+
+  * **fastest** → **fast**
+  * **quickly** → **quick**
+
+* **If the base form of a word is no longer commonly used in contemporary English**, keep the provided form as the root.
+  Examples:
+
+  * **uncanny** → **uncanny** (because "canny" is rarely used)
+
+## 🔑 Important rules for meanings:
+
+* **Select only the most commonly used meanings** of the provided word (maximum 3-4 meanings).
+* **Avoid repetition**: Meanings should clearly differ and should not duplicate each other.
 
 ---
 
-### Root-Finding Procedure
+## 📝 Models:
 
-1. Start with the input word.
-2. Strip off derivational affixes (suffixes such as `-tion`, `-ment`, `-ness`, `-ly`; prefixes such as `re-`, `un-`; and any other recognized English derivational affix) one at a time.
-3. Stop when the remainder is an attested English lemma that stands alone.
-   3a. **Compound handling**
+You should create one of the following two models, depending on the input type:
 
-   * If the word is a compound of two or more English words joined together, identify the **head** (usually the final element).
-   * If that head is an independent English lemma, stop there and treat it as the root. Otherwise continue stripping affixes as normal.
-4. If multiple lemmas are possible, choose the **shortest**.
-5. If no independent lemma is found, the original word is its own root.
-6. **Include** the input word in `wordFamilies` if it differs from the root.
+### ① Standard Word Model:
+
+* **root**: (string) The root form of the provided input word (determined by the rules above).
+* **meanings**: (array) A list of most commonly used meanings. Each meaning object should include:
+
+  * **word**: (string) The exact form of the provided input word.
+  * **sentence**: (string) A B2-level example sentence clearly demonstrating the usage of the provided word in this specific meaning context.
+  * **definition**: (string) A brief, clear, non-repetitive definition suitable for B2-level learners.
+  * **partOfSpeech**: (string) The grammatical category of the provided word in this meaning context (noun, verb, adjective, adverb, conjunction, interjection, phrasal verb, compound noun).
+
+### ② Idioms/Phrases Model:
+
+* **phrase**: (string) The idiomatic expression or common phrase exactly as provided.
+* **type**: (string) Specify clearly: "idiom" or "phrase".
+* **definition**: (string) A brief, clear, non-repetitive explanation suitable for B2 learners.
+* **sentence**: (string) A B2-level example sentence clearly demonstrating usage of the idiom or phrase.
 
 ---
 
-### Output Schema
+## ✅ Example Input and Output:
+
+### Example Input (Standard Word):
+
+```
+word: running
+```
+
+### Example Output (Standard Word):
 
 ```json
 {
-  "root": "",
+  "root": "run",
   "meanings": [
     {
-      "sentence": "",
-      "definition": "",
-      "partOfSpeech": ""
-    }
-    // (Multiple entries if needed)
-  ],
-  "wordFamilies": [
+      "word": "running",
+      "sentence": "She enjoys running every morning to stay healthy.",
+      "definition": "The activity of moving rapidly on foot as a sport or for exercise.",
+      "partOfSpeech": "noun"
+    },
     {
-      "word": "",
-      "partOfSpeech": "",
-      "sentence": "",
-      "definition": ""
+      "word": "running",
+      "sentence": "The car engine was running smoothly.",
+      "definition": "To operate or function.",
+      "partOfSpeech": "verb"
     }
-    // (List all derivationally related words and compounds, in the prescribed order)
   ]
 }
 ```
 
----
+### Example Input (Idiom/Phrase):
 
-### Permitted `partOfSpeech` Values
+```
+phrase: what's up
+```
 
-`noun`, `verb`, `adjective`, `adverb`, `pronoun`, `preposition`, `conjunction`, `interjection`, `article`, `phrasal verb`, `idiom`, `set phrase`, `expression`, `compound noun`, `compound adjective`, `collocation`, `abbreviation`, `acronym`, `prefix`, `suffix`
+### Example Output (Idiom/Phrase):
 
----
-
-### Guidelines
-
-1. **Root** – the lemma identified by the procedure.
-2. **Meanings** – provide **all** distinct senses of the root, each with its own example sentence, dictionary-style definition, and part of speech.
-3. **WordFamilies** – list **every** valid derivative of the root, and present them **in this order**:
-
-   1. **Simple inflections** (e.g., tense or number: –s, –ed, –ing)
-   2. **Derivational affixes**
-
-      * **Prefixes** (e.g., `un-`, `re-`)
-      * **Suffixes** (e.g., `-ness`, `-able`)
-   3. **Compounds** (e.g., `moonlight`, `highlight`)
-   4. **Collocations** or set phrases
-4. **JSON** – use double quotes only; no comments or extra fields.
-5. **Post-JSON line** – output the comma-separated list `root,familyWord1,...` immediately after the JSON block, with no labels or extra text.
-6. **Multiple words** – if given multiple inputs, process each separately in the same format, concatenated one after another, with no additional commentary.
+```json
+{
+  "phrase": "what's up",
+  "type": "idiom",
+  "definition": "An informal greeting meaning 'how are you' or 'what's happening'.",
+  "sentence": "Hey Tom, what's up?"
+}
+```
