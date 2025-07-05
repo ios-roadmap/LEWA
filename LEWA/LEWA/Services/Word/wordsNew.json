@@ -3,41 +3,169 @@
         "root": "celebrate",
         "meanings": [
             {
-                "word": "celebritydom",
-                "sentence": "She enjoyed her brief moment of celebritydom after winning the competition.",
-                "definition": "the state of being famous",
-                "partOfSpeech": "noun"
-            },
-            {
-                "word": "celebrityhood",
-                "sentence": "After her first bestselling novel, she experienced true celebrityhood.",
-                "definition": "the state of being famous",
-                "partOfSpeech": "noun"
+                "word": "celebrate",
+                "partOfSpeech": "verb",
+                "definition": "to do something special or enjoyable for an important event or occasion",
+                "sentence": "We will celebrate her birthday with a big party."
             }
         ]
     },
     {
-      "root": "celebrity",
-      "meanings": [
-        {
-          "word": "celebrity",
-          "sentence": "After the film's release, she became a household celebrity.",
-          "definition": "a person who is widely known, especially in entertainment",
-          "partOfSpeech": "noun"
-        },
-        {
-          "word": "celebrity",
-          "sentence": "His celebrity gives him a powerful voice in social causes.",
-          "definition": "the state of being famous or well known",
-          "partOfSpeech": "noun"
-        },
-        {
-          "word": "celebrity",
-          "sentence": "The celebrity around the royal wedding was overwhelming.",
-          "definition": "public attention or interest toward a person or event",
-          "partOfSpeech": "noun"
-        }
-      ]
+        "root": "celebrity",
+        "meanings": [
+            {
+                "word": "celebrity",
+                "partOfSpeech": "noun",
+                "definition": "a famous person, especially in entertainment or sports",
+                "sentence": "Many children dream of becoming a celebrity one day."
+            }
+        ]
+    },
+    {
+        "root": "janky",
+        "meanings": [
+            {
+                "word": "janky",
+                "partOfSpeech": "adjective",
+                "definition": "of poor quality and likely to fail",
+                "sentence": "The old computer is janky and often breaks down."
+            }
+        ]
+    },
+    {
+        "root": "defect",
+        "meanings": [
+            {
+                "word": "defect",
+                "partOfSpeech": "noun",
+                "definition": "a fault or imperfection in something",
+                "sentence": "The car was returned because it had a defect in the engine."
+            },
+            {
+                "word": "defector",
+                "partOfSpeech": "noun",
+                "definition": "a person who leaves one country or group to join another",
+                "sentence": "The athlete was called a defector when he left to play for another country."
+            },
+            {
+                "word": "defection",
+                "partOfSpeech": "noun",
+                "definition": "the act of leaving one country or group to join another",
+                "sentence": "His defection to the rival team surprised everyone."
+            },
+            {
+                "word": "defective",
+                "partOfSpeech": "adjective",
+                "definition": "Having a fault that makes it not work properly.",
+                "sentence": "The phone I bought had a defective battery and wouldn't hold a charge."
+            }
+        ]
+    },
+    {
+        "root": "slop",
+        "meanings": [
+            {
+                "word": "sloppy",
+                "partOfSpeech": "adjective",
+                "definition": "Very careless or untidy in work or appearance.",
+                "sentence": "Her sloppy handwriting made the report hard to read."
+            }
+        ]
+    },
+    {
+        "root": "scissors",
+        "meanings": [
+            {
+                "word": "scissors",
+                "partOfSpeech": "noun",
+                "definition": "A tool with two blades used for cutting paper or cloth.",
+                "sentence": "Please pass me the scissors so I can cut this paper."
+            }
+        ]
+    },
+    {
+        "root": "nursery",
+        "meanings": [
+            {
+                "word": "nursery",
+                "partOfSpeech": "noun",
+                "definition": "A place where young children are cared for during the day.",
+                "sentence": "My daughter goes to the nursery while I’m at work."
+            }
+        ]
+    },
+    {
+        "root": "kindergarten",
+        "meanings": [
+            {
+                "word": "kindergarten",
+                "partOfSpeech": "noun",
+                "definition": "A class for young children before they begin first grade.",
+                "sentence": "My daughter will start kindergarten this September."
+            }
+        ]
+    },
+    {
+        "root": "education",
+        "meanings": [
+            {
+                "word": "coeducation",
+                "partOfSpeech": "noun",
+                "definition": "Education system where males and females study together.",
+                "sentence": "The school introduced coeducation to promote gender equality."
+            }
+        ]
+    },
+    {
+        "root": "empower",
+        "meanings": [
+            {
+                "word": "empower",
+                "partOfSpeech": "verb",
+                "definition": "To give someone the authority or ability to do something.",
+                "sentence": "The new training program will empower employees to lead projects."
+            }
+        ]
+    },
+    {
+        "root": "boarding school",
+        "meanings": [
+            {
+                "word": "boarding school",
+                "partOfSpeech": "compound noun",
+                "definition": "A school where students live and study during the term.",
+                "sentence": "Many parents choose a boarding school to help their children become independent."
+            }
+        ]
+    },
+    {
+        "root": "alumnus",
+        "meanings": [
+            {
+                "word": "alumnus",
+                "partOfSpeech": "noun",
+                "definition": "a male graduate of a school or university",
+                "sentence": "The alumnus returned to campus to give a lecture."
+            },
+            {
+                "word": "alumna",
+                "partOfSpeech": "noun",
+                "definition": "a female graduate of a school or university",
+                "sentence": "The alumna organized a scholarship fund for future students."
+            },
+            {
+                "word": "alumni",
+                "partOfSpeech": "noun",
+                "definition": "male or mixed-gender graduates of a school or university",
+                "sentence": "The alumni held their annual reunion last weekend."
+            },
+            {
+                "word": "alumnae",
+                "partOfSpeech": "noun",
+                "definition": "female graduates of a school or university",
+                "sentence": "The alumnae donated books to the new library wing."
+            }
+        ]
     }
-
+    
 ]
