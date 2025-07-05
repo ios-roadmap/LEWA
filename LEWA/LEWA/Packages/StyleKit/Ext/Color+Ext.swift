@@ -7,55 +7,66 @@
 
 import SwiftUI
 
+#if os(iOS)
+import UIKit          // UIColor
+#elseif os(macOS)
+import AppKit         // NSColor
+#endif
+
 public extension Color {
 
+    // MARK: – Init from hex
     init(hex: String) {
-        let hex = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
+        let clean = hex.trimmingCharacters(in: CharacterSet.alphanumerics.inverted)
         var int: UInt64 = 0
-        Scanner(string: hex).scanHexInt64(&int)
-        let alpha, red, green, blue: UInt64
-        switch hex.count {
-        case 3: // RGB (12-bit)
-            (alpha, red, green, blue) = (255, (int >> 8) * 17, (int >> 4 & 0xF) * 17, (int & 0xF) * 17)
-        case 6: // RGB (24-bit)
-            (alpha, red, green, blue) = (255, int >> 16, int >> 8 & 0xFF, int & 0xFF)
-        case 8: // ARGB (32-bit)
-            (alpha, red, green, blue) = (int >> 24, int >> 16 & 0xFF, int >> 8 & 0xFF, int & 0xFF)
-        default:
-            (alpha, red, green, blue) = (255, 0, 0, 0)
+        Scanner(string: clean).scanHexInt64(&int)
+
+        let a, r, g, b: UInt64
+        switch clean.count {
+        case 3:  (a, r, g, b) = (255, (int >> 8) * 17,
+                                       (int >> 4 & 0xF) * 17,
+                                       (int       & 0xF) * 17)
+        case 6:  (a, r, g, b) = (255,  int >> 16,
+                                       int >> 8  & 0xFF,
+                                       int        & 0xFF)
+        case 8:  (a, r, g, b) = ( int >> 24,
+                                  int >> 16 & 0xFF,
+                                  int >> 8  & 0xFF,
+                                  int        & 0xFF)
+        default: (a, r, g, b) = (255, 0, 0, 0)
         }
 
-        self.init(.sRGB, red: Double(red) / 255, green: Double(green) / 255, blue: Double(blue) / 255, opacity: Double(alpha) / 255)
+        self = Color(.sRGB,
+                     red:   Double(r) / 255,
+                     green: Double(g) / 255,
+                     blue:  Double(b) / 255,
+                     opacity: Double(a) / 255)
     }
 
-    func asHex(alpha: Bool = false) -> String {
-        // Convert Color to UIColor
-        let uiColor = UIColor(self)
+    // MARK: – Convert to hex
+    func asHex(includeAlpha: Bool = false) -> String {
 
-        var red: CGFloat = 0
-        var green: CGFloat = 0
-        var blue: CGFloat = 0
-        var alphaValue: CGFloat = 0
-
-        // Use guard to ensure all components can be extracted
-        guard uiColor.getRed(&red, green: &green, blue: &blue, alpha: &alphaValue) else {
-            // Return a default color (black or transparent) if unable to extract components
-            return alpha ? "#00000000": "#000000"
+        // ---------- platform-specific bridge ----------
+        #if os(iOS)
+        let native = UIColor(self)
+        var (r, g, b, a): (CGFloat, CGFloat, CGFloat, CGFloat) = (0,0,0,0)
+        guard native.getRed(&r, green: &g, blue: &b, alpha: &a) else {
+            return includeAlpha ? "#00000000" : "#000000"
         }
+        #elseif os(macOS)
+        let nsColor = NSColor(self).usingColorSpace(.sRGB) ?? .black
+        var (r, g, b, a): (CGFloat, CGFloat, CGFloat, CGFloat) = (0,0,0,0)
+        nsColor.getRed(&r, green: &g, blue: &b, alpha: &a)
+        #endif
+        // ---------------------------------------------
 
-        if alpha {
-            // Include alpha component in the hex string
-            return String(format: "#%02lX%02lX%02lX%02lX",
-                          lroundf(Float(alphaValue) * 255),
-                          lroundf(Float(red) * 255),
-                          lroundf(Float(green) * 255),
-                          lroundf(Float(blue) * 255))
-        } else {
-            // Exclude alpha component from the hex string
-            return String(format: "#%02lX%02lX%02lX",
-                          lroundf(Float(red) * 255),
-                          lroundf(Float(green) * 255),
-                          lroundf(Float(blue) * 255))
-        }
+        let red   = Int(r * 255)
+        let green = Int(g * 255)
+        let blue  = Int(b * 255)
+        let alpha = Int(a * 255)
+
+        return includeAlpha
+            ? String(format: "#%02X%02X%02X%02X", alpha, red, green, blue)
+            : String(format: "#%02X%02X%02X",       red, green, blue)
     }
 }

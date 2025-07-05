@@ -64,14 +64,23 @@ struct WordDetailView: View {
             .onAppear(perform: loadStarredState)
         })
         .toolbar {
-            ToolbarItem(placement: .topBarTrailing) {
+            #if os(iOS)
+            ToolbarItem(placement: .topBarTrailing) {      // iOS/iPadOS
                 Button(action: toggleStar) {
                     Image(systemName: isStarred ? "star.fill" : "star")
                 }
             }
+            #elseif os(macOS)
+            ToolbarItem(placement: .primaryAction) {          // macOS 13+
+                Button(action: toggleStar) {
+                    Image(systemName: isStarred ? "star.fill" : "star")
+                }
+            }
+            #endif
         }
-    }
 
+    }
+    
     private func loadStarredState() {
         let wordID = word.id // Veya word.root, senin id’in o zaten
         let fetchDescriptor = FetchDescriptor<StarredWord>(predicate: #Predicate<StarredWord> { starred in
@@ -85,20 +94,20 @@ struct WordDetailView: View {
             self.isStarred = false
         }
     }
-
-
-     private func toggleStar() {
-         if let starred = starredWord {
-             starred.isStarred.toggle()
-             self.isStarred = starred.isStarred
-         } else {
-             let newStarred = StarredWord(id: word.id, isStarred: true)
-             modelContext.insert(newStarred)
-             self.starredWord = newStarred
-             self.isStarred = true
-         }
-         try? modelContext.save()
-     }
+    
+    
+    private func toggleStar() {
+        if let starred = starredWord {
+            starred.isStarred.toggle()
+            self.isStarred = starred.isStarred
+        } else {
+            let newStarred = StarredWord(id: word.id, isStarred: true)
+            modelContext.insert(newStarred)
+            self.starredWord = newStarred
+            self.isStarred = true
+        }
+        try? modelContext.save()
+    }
 }
 
 #Preview {

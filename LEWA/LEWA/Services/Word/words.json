@@ -12581,18 +12581,13 @@
         "root": "consider",
         "meanings": [
             {
-                "sentence": "I need to consider your proposal before making a decision.",
-                "definition": "To think about carefully, especially in order to make a decision.",
+                "sentence": "Please consider all possible outcomes before making a decision.",
+                "definition": "to think carefully about (something), typically before making a decision",
                 "partOfSpeech": "verb"
             },
             {
-                "sentence": "She is considered an expert in her field.",
-                "definition": "To regard someone or something as having a specified quality or status.",
-                "partOfSpeech": "verb"
-            },
-            {
-                "sentence": "We must consider the safety risks before proceeding.",
-                "definition": "To take into account; to bear in mind.",
+                "sentence": "The court must consider the defendant’s evidence in its ruling.",
+                "definition": "to regard or treat in a specified way; to take into account",
                 "partOfSpeech": "verb"
             }
         ],
@@ -12600,68 +12595,86 @@
             {
                 "word": "considers",
                 "partOfSpeech": "verb",
-                "sentence": "He considers every option carefully.",
-                "definition": "Third person singular present of consider."
+                "sentence": "She considers every detail when planning an event.",
+                "definition": "third person singular present of consider"
             },
             {
                 "word": "considered",
                 "partOfSpeech": "verb",
-                "sentence": "They considered the offer but ultimately declined.",
-                "definition": "Past tense of consider."
+                "sentence": "They considered the proposal carefully before agreeing.",
+                "definition": "past tense and past participle of consider"
             },
             {
                 "word": "considering",
                 "partOfSpeech": "verb",
-                "sentence": "Considering the weather, we should postpone our hike.",
-                "definition": "Present participle of consider."
+                "sentence": "He is considering a career change next year.",
+                "definition": "present participle of consider"
             },
             {
                 "word": "reconsider",
                 "partOfSpeech": "verb",
-                "sentence": "After hearing new evidence, they decided to reconsider their verdict.",
-                "definition": "To consider again; to review a decision or judgment."
+                "sentence": "After further thought, they decided to reconsider their initial plan.",
+                "definition": "to consider again; to rethink"
+            },
+            {
+                "word": "reconsiders",
+                "partOfSpeech": "verb",
+                "sentence": "She reconsiders her options whenever new information emerges.",
+                "definition": "third person singular present of reconsider"
+            },
+            {
+                "word": "reconsidered",
+                "partOfSpeech": "verb",
+                "sentence": "The committee reconsidered the deadline after receiving the extension request.",
+                "definition": "past tense and past participle of reconsider"
+            },
+            {
+                "word": "reconsidering",
+                "partOfSpeech": "verb",
+                "sentence": "They are reconsidering the venue choice based on guest feedback.",
+                "definition": "present participle of reconsider"
             },
             {
                 "word": "reconsideration",
                 "partOfSpeech": "noun",
-                "sentence": "Reconsideration of the policy is scheduled for next week.",
-                "definition": "The act of reconsidering; a second review or deliberation."
-            },
-            {
-                "word": "considerable",
-                "partOfSpeech": "adjective",
-                "sentence": "She showed considerable talent at a young age.",
-                "definition": "Large or great in amount, degree, or extent."
-            },
-            {
-                "word": "considerably",
-                "partOfSpeech": "adverb",
-                "sentence": "The project has improved considerably since last year.",
-                "definition": "To a notably large extent; significantly."
+                "sentence": "Her appeal for reconsideration was granted by the board.",
+                "definition": "the action of considering something again"
             },
             {
                 "word": "consideration",
                 "partOfSpeech": "noun",
-                "sentence": "Your proposal is under consideration by the board.",
-                "definition": "Careful thought, typically over a period of time."
+                "sentence": "He showed great consideration for others by offering help.",
+                "definition": "careful thought, typically over a period of time"
+            },
+            {
+                "word": "considerations",
+                "partOfSpeech": "noun",
+                "sentence": "Financial considerations prevented them from moving abroad.",
+                "definition": "factors to be thought about"
             },
             {
                 "word": "considerate",
                 "partOfSpeech": "adjective",
-                "sentence": "He was very considerate of her feelings during the discussion.",
-                "definition": "Showing careful thought or regard for the rights and feelings of others."
+                "sentence": "She was always considerate of her neighbors’ needs.",
+                "definition": "showing careful thought of the needs or feelings of others"
+            },
+            {
+                "word": "considerately",
+                "partOfSpeech": "adverb",
+                "sentence": "He acted considerately by lowering his voice in the library.",
+                "definition": "in a thoughtful or considerate manner"
             },
             {
                 "word": "inconsiderate",
                 "partOfSpeech": "adjective",
-                "sentence": "It was inconsiderate of him to play loud music late at night.",
-                "definition": "Lacking concern for the rights or feelings of others; thoughtless."
+                "sentence": "It was inconsiderate of him to park in the handicap spot.",
+                "definition": "lacking concern for the needs or feelings of others"
             },
             {
-                "word": "give consideration to",
-                "partOfSpeech": "collocation",
-                "sentence": "Please give consideration to all viewpoints before voting.",
-                "definition": "To think about something carefully before making a decision."
+                "word": "inconsiderately",
+                "partOfSpeech": "adverb",
+                "sentence": "She inconsiderately played loud music late at night.",
+                "definition": "in a manner lacking concern for others"
             }
         ]
     },
@@ -14694,480 +14707,2775 @@
         ]
     },
     {
-      "root": "relate",
-      "meanings": [
-        {
-          "sentence": "She related her experiences during the trip.",
-          "definition": "To give an account of; to narrate or recount.",
-          "partOfSpeech": "verb"
-        },
-        {
-          "sentence": "This document relates the new policy to existing regulations.",
-          "definition": "To make or show a connection between two or more things.",
-          "partOfSpeech": "verb"
-        },
-        {
-          "sentence": "Her research relates closely to mine.",
-          "definition": "To bear a relationship or connection; to be connected.",
-          "partOfSpeech": "verb"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "relates",
-          "partOfSpeech": "verb",
-          "sentence": "He relates the facts with great precision.",
-          "definition": "Third-person singular present of relate; to recount or connect."
-        },
-        {
-          "word": "relating",
-          "partOfSpeech": "verb",
-          "sentence": "They are relating historical events to modern contexts.",
-          "definition": "Present participle of relate; showing or establishing a connection."
-        },
-        {
-          "word": "related",
-          "partOfSpeech": "verb",
-          "sentence": "Their findings were related to recent technological advances.",
-          "definition": "Past tense and past participle of relate; made a connection."
-        },
-        {
-          "word": "relation",
-          "partOfSpeech": "noun",
-          "sentence": "The study examined the relation between diet and health.",
-          "definition": "The way in which two or more things are connected or associated."
-        },
-        {
-          "word": "relations",
-          "partOfSpeech": "noun",
-          "sentence": "Diplomatic relations between the countries improved.",
-          "definition": "Plural of relation; multiple connections or associations."
-        },
-        {
-          "word": "relational",
-          "partOfSpeech": "adjective",
-          "sentence": "The database uses a relational model for data storage.",
-          "definition": "Of or relating to the way in which things are connected."
-        },
-        {
-          "word": "relative",
-          "partOfSpeech": "adjective",
-          "sentence": "The cost is relative to the number of participants.",
-          "definition": "Considered in relation or in proportion to something else."
-        },
-        {
-          "word": "relative",
-          "partOfSpeech": "noun",
-          "sentence": "Each relative received a share of the inheritance.",
-          "definition": "A member of one's family."
-        },
-        {
-          "word": "relatively",
-          "partOfSpeech": "adverb",
-          "sentence": "The test was relatively easy compared to last year's.",
-          "definition": "To a moderate degree in comparison with something else."
-        },
-        {
-          "word": "relevant",
-          "partOfSpeech": "adjective",
-          "sentence": "Your point is relevant to the discussion.",
-          "definition": "Closely connected or appropriate to the matter at hand."
-        },
-        {
-          "word": "relevance",
-          "partOfSpeech": "noun",
-          "sentence": "The relevance of this data is unquestionable.",
-          "definition": "The quality of being closely connected or appropriate."
-        },
-        {
-          "word": "irrelevant",
-          "partOfSpeech": "adjective",
-          "sentence": "His remarks were irrelevant to the topic.",
-          "definition": "Not connected with or relevant to something."
-        },
-        {
-          "word": "irrelevance",
-          "partOfSpeech": "noun",
-          "sentence": "The irrelevance of that anecdote was clear.",
-          "definition": "The state of being irrelevant."
-        },
-        {
-          "word": "irrelevantly",
-          "partOfSpeech": "adverb",
-          "sentence": "He digressed irrelevantly during his presentation.",
-          "definition": "In a manner that is not relevant."
-        },
-        {
-          "word": "relevantly",
-          "partOfSpeech": "adverb",
-          "sentence": "She spoke relevantly and to the point.",
-          "definition": "In a manner that is relevant."
-        },
-        {
-          "word": "relevant information",
-          "partOfSpeech": "compound noun",
-          "sentence": "Make sure to include all relevant information.",
-          "definition": "Information that is pertinent to the matter."
-        },
-        {
-          "word": "relevant experience",
-          "partOfSpeech": "collocation",
-          "sentence": "The candidate's relevant experience impressed the panel.",
-          "definition": "Experience that is directly applicable to a particular task or position."
-        }
-      ]
+        "root": "relate",
+        "meanings": [
+            {
+                "sentence": "She related her experiences during the trip.",
+                "definition": "To give an account of; to narrate or recount.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "This document relates the new policy to existing regulations.",
+                "definition": "To make or show a connection between two or more things.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Her research relates closely to mine.",
+                "definition": "To bear a relationship or connection; to be connected.",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "relates",
+                "partOfSpeech": "verb",
+                "sentence": "He relates the facts with great precision.",
+                "definition": "Third-person singular present of relate; to recount or connect."
+            },
+            {
+                "word": "relating",
+                "partOfSpeech": "verb",
+                "sentence": "They are relating historical events to modern contexts.",
+                "definition": "Present participle of relate; showing or establishing a connection."
+            },
+            {
+                "word": "related",
+                "partOfSpeech": "verb",
+                "sentence": "Their findings were related to recent technological advances.",
+                "definition": "Past tense and past participle of relate; made a connection."
+            },
+            {
+                "word": "relation",
+                "partOfSpeech": "noun",
+                "sentence": "The study examined the relation between diet and health.",
+                "definition": "The way in which two or more things are connected or associated."
+            },
+            {
+                "word": "relations",
+                "partOfSpeech": "noun",
+                "sentence": "Diplomatic relations between the countries improved.",
+                "definition": "Plural of relation; multiple connections or associations."
+            },
+            {
+                "word": "relational",
+                "partOfSpeech": "adjective",
+                "sentence": "The database uses a relational model for data storage.",
+                "definition": "Of or relating to the way in which things are connected."
+            },
+            {
+                "word": "relative",
+                "partOfSpeech": "adjective",
+                "sentence": "The cost is relative to the number of participants.",
+                "definition": "Considered in relation or in proportion to something else."
+            },
+            {
+                "word": "relative",
+                "partOfSpeech": "noun",
+                "sentence": "Each relative received a share of the inheritance.",
+                "definition": "A member of one's family."
+            },
+            {
+                "word": "relatively",
+                "partOfSpeech": "adverb",
+                "sentence": "The test was relatively easy compared to last year's.",
+                "definition": "To a moderate degree in comparison with something else."
+            },
+            {
+                "word": "relevant",
+                "partOfSpeech": "adjective",
+                "sentence": "Your point is relevant to the discussion.",
+                "definition": "Closely connected or appropriate to the matter at hand."
+            },
+            {
+                "word": "relevance",
+                "partOfSpeech": "noun",
+                "sentence": "The relevance of this data is unquestionable.",
+                "definition": "The quality of being closely connected or appropriate."
+            },
+            {
+                "word": "irrelevant",
+                "partOfSpeech": "adjective",
+                "sentence": "His remarks were irrelevant to the topic.",
+                "definition": "Not connected with or relevant to something."
+            },
+            {
+                "word": "irrelevance",
+                "partOfSpeech": "noun",
+                "sentence": "The irrelevance of that anecdote was clear.",
+                "definition": "The state of being irrelevant."
+            },
+            {
+                "word": "irrelevantly",
+                "partOfSpeech": "adverb",
+                "sentence": "He digressed irrelevantly during his presentation.",
+                "definition": "In a manner that is not relevant."
+            },
+            {
+                "word": "relevantly",
+                "partOfSpeech": "adverb",
+                "sentence": "She spoke relevantly and to the point.",
+                "definition": "In a manner that is relevant."
+            },
+            {
+                "word": "relevant information",
+                "partOfSpeech": "compound noun",
+                "sentence": "Make sure to include all relevant information.",
+                "definition": "Information that is pertinent to the matter."
+            },
+            {
+                "word": "relevant experience",
+                "partOfSpeech": "collocation",
+                "sentence": "The candidate's relevant experience impressed the panel.",
+                "definition": "Experience that is directly applicable to a particular task or position."
+            }
+        ]
     },
     {
-      "root": "arbitrary",
-      "meanings": [
-        {
-          "sentence": "Her selection of colors was purely arbitrary.",
-          "definition": "based on random choice or personal whim, rather than any reason or system",
-          "partOfSpeech": "adjective"
-        },
-        {
-          "sentence": "Let x be an arbitrary real number greater than zero.",
-          "definition": "for any choice within a specified set, often used in mathematical or technical contexts",
-          "partOfSpeech": "adjective"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "arbitrarily",
-          "partOfSpeech": "adverb",
-          "sentence": "The elements were arranged arbitrarily in the report.",
-          "definition": "in a random or capricious manner"
-        },
-        {
-          "word": "arbitrariness",
-          "partOfSpeech": "noun",
-          "sentence": "Critics condemned the arbitrariness of the policy.",
-          "definition": "the quality of being based on random choice or personal whim"
-        },
-        {
-          "word": "non-arbitrary",
-          "partOfSpeech": "adjective",
-          "sentence": "We need a non-arbitrary criterion for evaluation.",
-          "definition": "not based on random choice or personal whim; systematic"
-        },
-        {
-          "word": "arbitrary-precision",
-          "partOfSpeech": "compound adjective",
-          "sentence": "The software supports arbitrary-precision arithmetic.",
-          "definition": "not limited to a fixed number of digits"
-        }
-      ]
+        "root": "arbitrary",
+        "meanings": [
+            {
+                "sentence": "Her selection of colors was purely arbitrary.",
+                "definition": "based on random choice or personal whim, rather than any reason or system",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "sentence": "Let x be an arbitrary real number greater than zero.",
+                "definition": "for any choice within a specified set, often used in mathematical or technical contexts",
+                "partOfSpeech": "adjective"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "arbitrarily",
+                "partOfSpeech": "adverb",
+                "sentence": "The elements were arranged arbitrarily in the report.",
+                "definition": "in a random or capricious manner"
+            },
+            {
+                "word": "arbitrariness",
+                "partOfSpeech": "noun",
+                "sentence": "Critics condemned the arbitrariness of the policy.",
+                "definition": "the quality of being based on random choice or personal whim"
+            },
+            {
+                "word": "non-arbitrary",
+                "partOfSpeech": "adjective",
+                "sentence": "We need a non-arbitrary criterion for evaluation.",
+                "definition": "not based on random choice or personal whim; systematic"
+            },
+            {
+                "word": "arbitrary-precision",
+                "partOfSpeech": "compound adjective",
+                "sentence": "The software supports arbitrary-precision arithmetic.",
+                "definition": "not limited to a fixed number of digits"
+            }
+        ]
     },
     {
-      "root": "advise",
-      "meanings": [
-        {
-          "sentence": "I advise you to seek professional help before proceeding.",
-          "definition": "to offer suggestions about the best course of action; to counsel",
-          "partOfSpeech": "verb"
-        },
-        {
-          "sentence": "Please advise me of any changes to your itinerary.",
-          "definition": "to inform or notify someone of something",
-          "partOfSpeech": "verb"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "advises",
-          "partOfSpeech": "verb",
-          "sentence": "She regularly advises clients on tax matters.",
-          "definition": "third person singular present of advise"
-        },
-        {
-          "word": "advised",
-          "partOfSpeech": "verb",
-          "sentence": "They advised caution in digital transactions.",
-          "definition": "past tense and past participle of advise"
-        },
-        {
-          "word": "advising",
-          "partOfSpeech": "verb",
-          "sentence": "He is advising local businesses on compliance issues.",
-          "definition": "present participle of advise"
-        },
-        {
-          "word": "unadvised",
-          "partOfSpeech": "adjective",
-          "sentence": "It was an unadvised decision made in haste.",
-          "definition": "without having sought or received advice; ill-considered"
-        },
-        {
-          "word": "advisable",
-          "partOfSpeech": "adjective",
-          "sentence": "It is advisable to arrive early for the interview.",
-          "definition": "appropriate to do; sensible"
-        },
-        {
-          "word": "advisability",
-          "partOfSpeech": "noun",
-          "sentence": "We debated the advisability of implementing the changes immediately.",
-          "definition": "the quality of being advisable; prudence"
-        },
-        {
-          "word": "advisory",
-          "partOfSpeech": "adjective",
-          "sentence": "They issued an advisory notice about the storm.",
-          "definition": "having the role of giving advice or information"
-        },
-        {
-          "word": "advisory",
-          "partOfSpeech": "noun",
-          "sentence": "The government issued an advisory against travel to the region.",
-          "definition": "an announcement or statement giving advice, information, or warning"
-        },
-        {
-          "word": "adviser",
-          "partOfSpeech": "noun",
-          "sentence": "She works as a financial adviser.",
-          "definition": "a person who gives advice"
-        },
-        {
-          "word": "advisor",
-          "partOfSpeech": "noun",
-          "sentence": "The advisor guided me through the application process.",
-          "definition": "a variant spelling of adviser; a person who gives advice"
-        },
-        {
-          "word": "ill-advised",
-          "partOfSpeech": "compound adjective",
-          "sentence": "It was an ill-advised move to sell the stock.",
-          "definition": "having been done without careful thought or planning"
-        }
-      ]
+        "root": "advise",
+        "meanings": [
+            {
+                "sentence": "I advise you to seek professional help before proceeding.",
+                "definition": "to offer suggestions about the best course of action; to counsel",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Please advise me of any changes to your itinerary.",
+                "definition": "to inform or notify someone of something",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "advises",
+                "partOfSpeech": "verb",
+                "sentence": "She regularly advises clients on tax matters.",
+                "definition": "third person singular present of advise"
+            },
+            {
+                "word": "advised",
+                "partOfSpeech": "verb",
+                "sentence": "They advised caution in digital transactions.",
+                "definition": "past tense and past participle of advise"
+            },
+            {
+                "word": "advising",
+                "partOfSpeech": "verb",
+                "sentence": "He is advising local businesses on compliance issues.",
+                "definition": "present participle of advise"
+            },
+            {
+                "word": "unadvised",
+                "partOfSpeech": "adjective",
+                "sentence": "It was an unadvised decision made in haste.",
+                "definition": "without having sought or received advice; ill-considered"
+            },
+            {
+                "word": "advisable",
+                "partOfSpeech": "adjective",
+                "sentence": "It is advisable to arrive early for the interview.",
+                "definition": "appropriate to do; sensible"
+            },
+            {
+                "word": "advisability",
+                "partOfSpeech": "noun",
+                "sentence": "We debated the advisability of implementing the changes immediately.",
+                "definition": "the quality of being advisable; prudence"
+            },
+            {
+                "word": "advisory",
+                "partOfSpeech": "adjective",
+                "sentence": "They issued an advisory notice about the storm.",
+                "definition": "having the role of giving advice or information"
+            },
+            {
+                "word": "advisory",
+                "partOfSpeech": "noun",
+                "sentence": "The government issued an advisory against travel to the region.",
+                "definition": "an announcement or statement giving advice, information, or warning"
+            },
+            {
+                "word": "adviser",
+                "partOfSpeech": "noun",
+                "sentence": "She works as a financial adviser.",
+                "definition": "a person who gives advice"
+            },
+            {
+                "word": "advisor",
+                "partOfSpeech": "noun",
+                "sentence": "The advisor guided me through the application process.",
+                "definition": "a variant spelling of adviser; a person who gives advice"
+            },
+            {
+                "word": "ill-advised",
+                "partOfSpeech": "compound adjective",
+                "sentence": "It was an ill-advised move to sell the stock.",
+                "definition": "having been done without careful thought or planning"
+            }
+        ]
     },
     {
-      "root": "vicinity",
-      "meanings": [
-        {
-          "sentence": "We searched the vicinity for any signs of the missing hiker.",
-          "definition": "the area near or surrounding a particular place",
-          "partOfSpeech": "noun"
-        },
-        {
-          "sentence": "In the vicinity of 100 dollars, the cost was lower than expected.",
-          "definition": "the state of being near in space, time, or relationship",
-          "partOfSpeech": "noun"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "vicinities",
-          "partOfSpeech": "noun",
-          "sentence": "There are several hotels in the vicinities of the station.",
-          "definition": "plural of vicinity; nearby areas"
-        },
-        {
-          "word": "vicinal",
-          "partOfSpeech": "adjective",
-          "sentence": "The town council approved a vicinal road connecting the villages.",
-          "definition": "of or relating to adjoining or neighboring places"
-        },
-        {
-          "word": "vicinally",
-          "partOfSpeech": "adverb",
-          "sentence": "In this reaction, the two chlorine atoms are vicinally oriented.",
-          "definition": "in a manner relating to or situated in the vicinity"
-        },
-        {
-          "word": "in the vicinity of",
-          "partOfSpeech": "set phrase",
-          "sentence": "We found the hiking trail in the vicinity of the old oak tree.",
-          "definition": "near or around a particular place"
-        }
-      ]
+        "root": "vicinity",
+        "meanings": [
+            {
+                "sentence": "We searched the vicinity for any signs of the missing hiker.",
+                "definition": "the area near or surrounding a particular place",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "In the vicinity of 100 dollars, the cost was lower than expected.",
+                "definition": "the state of being near in space, time, or relationship",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "vicinities",
+                "partOfSpeech": "noun",
+                "sentence": "There are several hotels in the vicinities of the station.",
+                "definition": "plural of vicinity; nearby areas"
+            },
+            {
+                "word": "vicinal",
+                "partOfSpeech": "adjective",
+                "sentence": "The town council approved a vicinal road connecting the villages.",
+                "definition": "of or relating to adjoining or neighboring places"
+            },
+            {
+                "word": "vicinally",
+                "partOfSpeech": "adverb",
+                "sentence": "In this reaction, the two chlorine atoms are vicinally oriented.",
+                "definition": "in a manner relating to or situated in the vicinity"
+            },
+            {
+                "word": "in the vicinity of",
+                "partOfSpeech": "set phrase",
+                "sentence": "We found the hiking trail in the vicinity of the old oak tree.",
+                "definition": "near or around a particular place"
+            }
+        ]
     },
     {
-      "root": "arm",
-      "meanings": [
-        {
-          "sentence": "He injured his arm during the game.",
-          "definition": "one of the two limbs attached to the shoulder, used for lifting or holding",
-          "partOfSpeech": "noun"
-        },
-        {
-          "sentence": "The river's eastern arm flows through the valley.",
-          "definition": "a subsidiary part or projection forming an extension from a main structure",
-          "partOfSpeech": "noun"
-        },
-        {
-          "sentence": "The militia seized illegal arms.",
-          "definition": "weapons or instruments of attack, especially firearms",
-          "partOfSpeech": "noun"
-        },
-        {
-          "sentence": "The government decided to arm the local militia.",
-          "definition": "to supply or provide with weapons",
-          "partOfSpeech": "verb"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "arms",
-          "partOfSpeech": "noun",
-          "sentence": "She raised her arms in victory.",
-          "definition": "plural of arm; upper limbs of the human body"
-        },
-        {
-          "word": "arms",
-          "partOfSpeech": "verb",
-          "sentence": "The militia arms itself with rifles.",
-          "definition": "third person singular present of arm; equips with weapons"
-        },
-        {
-          "word": "armed",
-          "partOfSpeech": "verb",
-          "sentence": "The police were armed during the operation.",
-          "definition": "past participle of arm; equipped with weapons"
-        },
-        {
-          "word": "arming",
-          "partOfSpeech": "verb",
-          "sentence": "Countries around the world are arming more soldiers.",
-          "definition": "present participle of arm; supplying with weapons"
-        },
-        {
-          "word": "unarmed",
-          "partOfSpeech": "adjective",
-          "sentence": "The suspect was unarmed when apprehended.",
-          "definition": "not equipped with a weapon"
-        },
-        {
-          "word": "disarm",
-          "partOfSpeech": "verb",
-          "sentence": "They sought to disarm the rebels during the ceasefire.",
-          "definition": "to deprive of weapons"
-        },
-        {
-          "word": "disarmament",
-          "partOfSpeech": "noun",
-          "sentence": "Disarmament treaties aim to reduce nuclear weapons.",
-          "definition": "the act of reducing or abolishing weapons"
-        },
-        {
-          "word": "armament",
-          "partOfSpeech": "noun",
-          "sentence": "The country's armament includes tanks and aircraft.",
-          "definition": "weapons and military equipment"
-        },
-        {
-          "word": "armor",
-          "partOfSpeech": "noun",
-          "sentence": "The knight wore heavy armor into battle.",
-          "definition": "a protective covering made of metal to prevent injury"
-        },
-        {
-          "word": "armour",
-          "partOfSpeech": "noun",
-          "sentence": "The museum displayed medieval armour.",
-          "definition": "British variant of armor"
-        },
-        {
-          "word": "firearm",
-          "partOfSpeech": "compound noun",
-          "sentence": "The teacher confiscated a firearm from the student's bag.",
-          "definition": "a portable weapon that launches one or more projectiles, such as a rifle or pistol"
-        },
-        {
-          "word": "bear arms",
-          "partOfSpeech": "collocation",
-          "sentence": "Citizens have the right to bear arms.",
-          "definition": "to carry or possess weapons"
-        }
-      ]
+        "root": "arm",
+        "meanings": [
+            {
+                "sentence": "He injured his arm during the game.",
+                "definition": "one of the two limbs attached to the shoulder, used for lifting or holding",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The river's eastern arm flows through the valley.",
+                "definition": "a subsidiary part or projection forming an extension from a main structure",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The militia seized illegal arms.",
+                "definition": "weapons or instruments of attack, especially firearms",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The government decided to arm the local militia.",
+                "definition": "to supply or provide with weapons",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "arms",
+                "partOfSpeech": "noun",
+                "sentence": "She raised her arms in victory.",
+                "definition": "plural of arm; upper limbs of the human body"
+            },
+            {
+                "word": "arms",
+                "partOfSpeech": "verb",
+                "sentence": "The militia arms itself with rifles.",
+                "definition": "third person singular present of arm; equips with weapons"
+            },
+            {
+                "word": "armed",
+                "partOfSpeech": "verb",
+                "sentence": "The police were armed during the operation.",
+                "definition": "past participle of arm; equipped with weapons"
+            },
+            {
+                "word": "arming",
+                "partOfSpeech": "verb",
+                "sentence": "Countries around the world are arming more soldiers.",
+                "definition": "present participle of arm; supplying with weapons"
+            },
+            {
+                "word": "unarmed",
+                "partOfSpeech": "adjective",
+                "sentence": "The suspect was unarmed when apprehended.",
+                "definition": "not equipped with a weapon"
+            },
+            {
+                "word": "disarm",
+                "partOfSpeech": "verb",
+                "sentence": "They sought to disarm the rebels during the ceasefire.",
+                "definition": "to deprive of weapons"
+            },
+            {
+                "word": "disarmament",
+                "partOfSpeech": "noun",
+                "sentence": "Disarmament treaties aim to reduce nuclear weapons.",
+                "definition": "the act of reducing or abolishing weapons"
+            },
+            {
+                "word": "armament",
+                "partOfSpeech": "noun",
+                "sentence": "The country's armament includes tanks and aircraft.",
+                "definition": "weapons and military equipment"
+            },
+            {
+                "word": "armor",
+                "partOfSpeech": "noun",
+                "sentence": "The knight wore heavy armor into battle.",
+                "definition": "a protective covering made of metal to prevent injury"
+            },
+            {
+                "word": "armour",
+                "partOfSpeech": "noun",
+                "sentence": "The museum displayed medieval armour.",
+                "definition": "British variant of armor"
+            },
+            {
+                "word": "firearm",
+                "partOfSpeech": "compound noun",
+                "sentence": "The teacher confiscated a firearm from the student's bag.",
+                "definition": "a portable weapon that launches one or more projectiles, such as a rifle or pistol"
+            },
+            {
+                "word": "bear arms",
+                "partOfSpeech": "collocation",
+                "sentence": "Citizens have the right to bear arms.",
+                "definition": "to carry or possess weapons"
+            }
+        ]
     },
     {
-      "root": "torture",
-      "meanings": [
-        {
-          "sentence": "Prisoners endured unspeakable torture in the dungeon.",
-          "definition": "the act of deliberately inflicting severe physical or mental pain on someone as a punishment or to force them to do or say something",
-          "partOfSpeech": "noun"
-        },
-        {
-          "sentence": "The interrogators threatened to torture him if he did not confess.",
-          "definition": "to inflict severe physical or mental pain on someone, typically to punish or coerce",
-          "partOfSpeech": "verb"
-        }
-      ],
-      "wordFamilies": [
-        {
-          "word": "tortures",
-          "partOfSpeech": "noun",
-          "sentence": "Prisoners described the various tortures they suffered.",
-          "definition": "plural of torture; instances of severe pain inflicted deliberately"
-        },
-        {
-          "word": "tortures",
-          "partOfSpeech": "verb",
-          "sentence": "He tortures plants by neglecting them completely.",
-          "definition": "third person singular present of torture; inflicts severe pain"
-        },
-        {
-          "word": "tortured",
-          "partOfSpeech": "verb",
-          "sentence": "They tortured the witness until he broke down.",
-          "definition": "past tense and past participle of torture; inflicted severe pain"
-        },
-        {
-          "word": "torturing",
-          "partOfSpeech": "verb",
-          "sentence": "The regime is torturing dissenters in secret prisons.",
-          "definition": "present participle of torture; inflicting severe pain"
-        },
-        {
-          "word": "torturer",
-          "partOfSpeech": "noun",
-          "sentence": "The torturer was later brought to justice.",
-          "definition": "a person who inflicts torture"
-        },
-        {
-          "word": "torturers",
-          "partOfSpeech": "noun",
-          "sentence": "Survivors testified against their torturers in court.",
-          "definition": "plural of torturer; people who inflict torture"
-        },
-        {
-          "word": "torturous",
-          "partOfSpeech": "adjective",
-          "sentence": "She described the trip through the desert as torturous.",
-          "definition": "extremely painful or distressing"
-        },
-        {
-          "word": "torturously",
-          "partOfSpeech": "adverb",
-          "sentence": "The minutes dragged torturously as they awaited news.",
-          "definition": "in a manner that is extremely painful or distressing"
-        },
-        {
-          "word": "torture chamber",
-          "partOfSpeech": "compound noun",
-          "sentence": "The castle’s torture chamber still stands as a grim reminder of the past.",
-          "definition": "a room or device used for inflicting torture"
-        },
-        {
-          "word": "torture rack",
-          "partOfSpeech": "compound noun",
-          "sentence": "Victims were stretched on the torture rack until they confessed.",
-          "definition": "a device on which victims are stretched as a form of torture"
-        },
-        {
-          "word": "torture test",
-          "partOfSpeech": "collocation",
-          "sentence": "Engineers put the new bridge through a series of torture tests.",
-          "definition": "a rigorous test designed to push something to its limits"
-        },
-        {
-          "word": "instrument of torture",
-          "partOfSpeech": "set phrase",
-          "sentence": "The old iron bar was repurposed as an instrument of torture.",
-          "definition": "any device used to inflict pain or suffering"
-        }
-      ]
+        "root": "torture",
+        "meanings": [
+            {
+                "sentence": "Prisoners endured unspeakable torture in the dungeon.",
+                "definition": "the act of deliberately inflicting severe physical or mental pain on someone as a punishment or to force them to do or say something",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The interrogators threatened to torture him if he did not confess.",
+                "definition": "to inflict severe physical or mental pain on someone, typically to punish or coerce",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "tortures",
+                "partOfSpeech": "noun",
+                "sentence": "Prisoners described the various tortures they suffered.",
+                "definition": "plural of torture; instances of severe pain inflicted deliberately"
+            },
+            {
+                "word": "tortures",
+                "partOfSpeech": "verb",
+                "sentence": "He tortures plants by neglecting them completely.",
+                "definition": "third person singular present of torture; inflicts severe pain"
+            },
+            {
+                "word": "tortured",
+                "partOfSpeech": "verb",
+                "sentence": "They tortured the witness until he broke down.",
+                "definition": "past tense and past participle of torture; inflicted severe pain"
+            },
+            {
+                "word": "torturing",
+                "partOfSpeech": "verb",
+                "sentence": "The regime is torturing dissenters in secret prisons.",
+                "definition": "present participle of torture; inflicting severe pain"
+            },
+            {
+                "word": "torturer",
+                "partOfSpeech": "noun",
+                "sentence": "The torturer was later brought to justice.",
+                "definition": "a person who inflicts torture"
+            },
+            {
+                "word": "torturers",
+                "partOfSpeech": "noun",
+                "sentence": "Survivors testified against their torturers in court.",
+                "definition": "plural of torturer; people who inflict torture"
+            },
+            {
+                "word": "torturous",
+                "partOfSpeech": "adjective",
+                "sentence": "She described the trip through the desert as torturous.",
+                "definition": "extremely painful or distressing"
+            },
+            {
+                "word": "torturously",
+                "partOfSpeech": "adverb",
+                "sentence": "The minutes dragged torturously as they awaited news.",
+                "definition": "in a manner that is extremely painful or distressing"
+            },
+            {
+                "word": "torture chamber",
+                "partOfSpeech": "compound noun",
+                "sentence": "The castle’s torture chamber still stands as a grim reminder of the past.",
+                "definition": "a room or device used for inflicting torture"
+            },
+            {
+                "word": "torture rack",
+                "partOfSpeech": "compound noun",
+                "sentence": "Victims were stretched on the torture rack until they confessed.",
+                "definition": "a device on which victims are stretched as a form of torture"
+            },
+            {
+                "word": "torture test",
+                "partOfSpeech": "collocation",
+                "sentence": "Engineers put the new bridge through a series of torture tests.",
+                "definition": "a rigorous test designed to push something to its limits"
+            },
+            {
+                "word": "instrument of torture",
+                "partOfSpeech": "set phrase",
+                "sentence": "The old iron bar was repurposed as an instrument of torture.",
+                "definition": "any device used to inflict pain or suffering"
+            }
+        ]
+    },
+    {
+        "root": "passion",
+        "meanings": [
+            {
+                "sentence": "She has a deep passion for classical music.",
+                "definition": "A strong and barely controllable emotion or enthusiasm.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The artist painted with great passion, pouring emotion into every stroke.",
+                "definition": "Intense emotion compelling action or expression.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "passionate",
+                "partOfSpeech": "adjective",
+                "sentence": "He gave a passionate speech about climate change.",
+                "definition": "Showing or caused by strong feelings or beliefs."
+            },
+            {
+                "word": "passionately",
+                "partOfSpeech": "adverb",
+                "sentence": "She spoke passionately about her research.",
+                "definition": "In a way that shows strong feelings or beliefs."
+            },
+            {
+                "word": "dispassionate",
+                "partOfSpeech": "adjective",
+                "sentence": "The judge remained dispassionate throughout the trial.",
+                "definition": "Not influenced by strong emotion; impartial."
+            },
+            {
+                "word": "impassioned",
+                "partOfSpeech": "adjective",
+                "sentence": "He wrote an impassioned letter to the editor.",
+                "definition": "Filled with or showing great emotion."
+            },
+            {
+                "word": "passionless",
+                "partOfSpeech": "adjective",
+                "sentence": "The film was beautifully shot but oddly passionless.",
+                "definition": "Lacking in emotion or enthusiasm."
+            }
+        ]
+    },
+    {
+        "root": "good",
+        "meanings": [
+            {
+                "sentence": "He is a good student who always completes his homework.",
+                "definition": "Morally excellent; virtuous; righteous.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "sentence": "This book is a good example of modern literature.",
+                "definition": "Of high quality or standard.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "sentence": "She believes in doing good wherever she goes.",
+                "definition": "That which is morally right; righteousness.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "They donated food and goods to the shelter.",
+                "definition": "Tangible items that are produced, bought, or sold.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "goods",
+                "partOfSpeech": "noun",
+                "sentence": "The company exports agricultural goods worldwide.",
+                "definition": "Items or products that are manufactured or sold."
+            },
+            {
+                "word": "better",
+                "partOfSpeech": "adjective",
+                "sentence": "This solution is better than the previous one.",
+                "definition": "Of a more excellent or effective type or quality."
+            },
+            {
+                "word": "best",
+                "partOfSpeech": "adjective",
+                "sentence": "She is the best player on the team.",
+                "definition": "Of the highest quality, excellence, or standing."
+            },
+            {
+                "word": "goodness",
+                "partOfSpeech": "noun",
+                "sentence": "Her kindness and goodness were admired by all.",
+                "definition": "The quality of being morally good or virtuous."
+            },
+            {
+                "word": "goodly",
+                "partOfSpeech": "adjective",
+                "sentence": "A goodly number of guests arrived early.",
+                "definition": "Considerable in size or quantity."
+            },
+            {
+                "word": "do good",
+                "partOfSpeech": "set phrase",
+                "sentence": "He entered politics to do good for his community.",
+                "definition": "To perform helpful or morally positive actions."
+            }
+        ]
+    },
+    {
+        "root": "galaxy",
+        "meanings": [
+            {
+                "sentence": "The Milky Way is the galaxy that contains our solar system.",
+                "definition": "A massive system of stars, stellar remnants, gas, dust, and dark matter held together by gravity.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The award ceremony was attended by a galaxy of stars.",
+                "definition": "A large group of impressive or famous people.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "intergalactic",
+                "partOfSpeech": "adjective",
+                "sentence": "The spaceship embarked on an intergalactic mission.",
+                "definition": "Occurring or existing between galaxies."
+            },
+            {
+                "word": "galaxies",
+                "partOfSpeech": "noun",
+                "sentence": "Astronomers study the structure and formation of galaxies.",
+                "definition": "Plural of galaxy; multiple massive systems of stars and other matter in space."
+            },
+            {
+                "word": "galactic",
+                "partOfSpeech": "adjective",
+                "sentence": "They observed a galactic collision through the telescope.",
+                "definition": "Relating to a galaxy, especially the Milky Way."
+            },
+            {
+                "word": "intergalactic space",
+                "partOfSpeech": "compound noun",
+                "sentence": "Intergalactic space is almost entirely devoid of matter.",
+                "definition": "The physical space between galaxies."
+            }
+        ]
+    },
+    {
+        "root": "ground",
+        "meanings": [
+            {
+                "sentence": "The children played on the grassy ground behind the house.",
+                "definition": "The solid surface of the earth.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "He grounded the electrical equipment for safety.",
+                "definition": "To connect electrically with the ground.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The argument has no solid ground in fact.",
+                "definition": "A basis for belief, action, or argument.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "groundbreaking",
+                "partOfSpeech": "adjective",
+                "sentence": "The researchers published a groundbreaking study on renewable energy.",
+                "definition": "Innovative; introducing new ideas or methods."
+            },
+            {
+                "word": "grounds",
+                "partOfSpeech": "noun",
+                "sentence": "They walked around the castle grounds in the afternoon.",
+                "definition": "An area of land surrounding a building or structure."
+            },
+            {
+                "word": "grounded",
+                "partOfSpeech": "adjective",
+                "sentence": "She is very grounded despite her success.",
+                "definition": "Sensible and realistic; well-balanced."
+            },
+            {
+                "word": "grounding",
+                "partOfSpeech": "noun",
+                "sentence": "The students received a solid grounding in mathematics.",
+                "definition": "Basic instruction or training in a subject."
+            },
+            {
+                "word": "underground",
+                "partOfSpeech": "adjective",
+                "sentence": "The underground tunnel connects the two buildings.",
+                "definition": "Situated below the surface of the ground."
+            },
+            {
+                "word": "aboveground",
+                "partOfSpeech": "adjective",
+                "sentence": "The aboveground pipes were exposed to sunlight.",
+                "definition": "Located on or above the surface of the ground."
+            },
+            {
+                "word": "on the grounds that",
+                "partOfSpeech": "set phrase",
+                "sentence": "He refused to answer on the grounds that it was irrelevant.",
+                "definition": "For the reason that; because."
+            }
+        ]
+    },
+    {
+        "root": "produce",
+        "meanings": [
+            {
+                "sentence": "Factories produce goods for domestic and international markets.",
+                "definition": "To create, manufacture, or bring forth.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Fresh produce like apples and lettuce is sold at the farmers' market every Saturday.",
+                "definition": "Fruits and vegetables considered collectively as agricultural products.",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "produces",
+                "sentence": "The mine produces over a ton of ore each day.",
+                "definition": "Third-person singular present form of “produce.”",
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "produced",
+                "sentence": "They produced several award-winning films in the 1990s.",
+                "definition": "Simple past and past participle of “produce.”",
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "producing",
+                "sentence": "Producing clean energy is a major global priority.",
+                "definition": "Present participle of “produce.”",
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "product",
+                "sentence": "The latest product quickly became a bestseller.",
+                "definition": "Something that is made or grown to be sold or used.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "production",
+                "sentence": "Film production halted due to budget cuts.",
+                "definition": "The process of making or manufacturing something.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "productive",
+                "sentence": "She had a highly productive afternoon at work.",
+                "definition": "Yielding good or useful results; effective.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "word": "productivity",
+                "sentence": "Automation boosted the factory's productivity.",
+                "definition": "The rate at which goods or services are produced.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "producer",
+                "sentence": "The music producer won a Grammy for the album.",
+                "definition": "A person or company that makes goods or content.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "reproduce",
+                "sentence": "Certain plants can reproduce without pollination.",
+                "definition": "To make a copy of something or propagate biologically.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "reproduction",
+                "sentence": "The print is a faithful reproduction of the original artwork.",
+                "definition": "The action or process of making a copy; biological procreation.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "reproductive",
+                "sentence": "Reproductive health education is essential for teens.",
+                "definition": "Relating to the process of producing offspring.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "word": "counterproductive",
+                "sentence": "Micromanagement is often counterproductive to team morale.",
+                "definition": "Having the opposite of the intended or desired effect.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "word": "producible",
+                "sentence": "The vaccine is easily producible at scale.",
+                "definition": "Capable of being produced or manufactured.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "word": "productiveness",
+                "sentence": "Short breaks can enhance overall productiveness.",
+                "definition": "The quality of being productive.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "mass-produce",
+                "sentence": "The company will mass-produce affordable electric cars next year.",
+                "definition": "To manufacture large quantities of standardized products.",
+                "partOfSpeech": "phrasal verb"
+            },
+            {
+                "word": "by-product",
+                "sentence": "Molasses is a by-product of sugar refining.",
+                "definition": "Something produced incidentally during the manufacture of something else.",
+                "partOfSpeech": "compound noun"
+            },
+            {
+                "word": "produce results",
+                "sentence": "Consistent practice will eventually produce results.",
+                "definition": "To yield the desired or expected outcome.",
+                "partOfSpeech": "collocation"
+            },
+            {
+                "word": "produce evidence",
+                "sentence": "The researcher must produce evidence to support the claim.",
+                "definition": "To present or provide proof.",
+                "partOfSpeech": "collocation"
+            }
+        ]
+    },
+    {
+        "root": "convert",
+        "meanings": [
+            {
+                "sentence": "She decided to convert her garage into a home office.",
+                "definition": "to change something into a different form or purpose",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "converts",
+                "sentence": "He converts old furniture into unique art pieces.",
+                "definition": "changes something into a different form or use",
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "converted",
+                "sentence": "The warehouse was converted into luxury apartments.",
+                "definition": "changed something into a different form or use",
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "converting",
+                "sentence": "They are converting the files into a new format.",
+                "definition": "changing something into a different form or use",
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "converter",
+                "sentence": "He used a file converter to change the document format.",
+                "definition": "a device or tool that changes something into a different form",
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "conversion",
+                "sentence": "The company's rapid digital conversion surprised investors.",
+                "definition": "the process of changing from one form to another",
+                "partOfSpeech": "noun"
+            }
+        ]
+    },
+    {
+        "root": "gut",
+        "meanings": [
+            {
+                "sentence": "He felt a sharp pain in his gut after eating.",
+                "definition": "The stomach or belly; the part of the body where digestion occurs.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "They had the guts to speak out against injustice.",
+                "definition": "Courage or bravery.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The fish was gutted and cleaned before cooking.",
+                "definition": "To remove the internal organs of an animal.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The building was gutted by the fire.",
+                "definition": "To destroy the inside of something completely.",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "guts",
+                "sentence": "She had the guts to speak out against injustice.",
+                "definition": "Courage and determination; also refers to internal organs.",
+                "partOfSpeech": "noun"
+            },
+            {
+                "word": "gutted",
+                "sentence": "The house was completely gutted by fire.",
+                "definition": "Having had the internal parts removed or destroyed.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "gutting",
+                "sentence": "They spent the afternoon gutting the fish they had caught.",
+                "definition": "The act of removing internal parts, especially organs.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "word": "guttural",
+                "sentence": "He spoke in a deep, guttural voice.",
+                "definition": "Relating to or produced in the throat.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "word": "gutless",
+                "sentence": "The critics called the film gutless and uninspired.",
+                "definition": "Lacking courage or determination.",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "word": "gut-wrenching",
+                "sentence": "It was a gut-wrenching decision to leave her hometown.",
+                "definition": "Extremely distressing or emotional.",
+                "partOfSpeech": "compound adjective"
+            },
+            {
+                "word": "gut feeling",
+                "sentence": "I had a gut feeling that something was wrong.",
+                "definition": "An instinctive emotional reaction without logical reasoning.",
+                "partOfSpeech": "collocation"
+            }
+        ]
+    },
+    {
+        "root": "condense",
+        "meanings": [
+            {
+                "sentence": "Early in the morning, water vapor in the air condenses into tiny droplets of dew on the grass.",
+                "definition": "to change or cause something to change from a gas to a liquid by cooling or pressure.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The chef condensed the sauce to intensify its flavor.",
+                "definition": "to make something denser or more concentrated by reducing its volume or amount of liquid.",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The journalist condensed the lengthy interview into a brief article.",
+                "definition": "to make (a text) shorter or more concise by omitting details or summarizing.",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "condenses",
+                "partOfSpeech": "verb",
+                "sentence": "When cooled, the gas condenses into liquid droplets.",
+                "definition": "third person singular present of condense"
+            },
+            {
+                "word": "condensed",
+                "partOfSpeech": "verb",
+                "sentence": "By midday, the fog had condensed into a thick mist.",
+                "definition": "past tense and past participle of condense"
+            },
+            {
+                "word": "condensing",
+                "partOfSpeech": "verb",
+                "sentence": "The unit works by condensing steam back into water.",
+                "definition": "present participle of condense"
+            },
+            {
+                "word": "recondense",
+                "partOfSpeech": "verb",
+                "sentence": "As temperatures drop, vapors recondense on the cold surface.",
+                "definition": "to condense again"
+            },
+            {
+                "word": "condensable",
+                "partOfSpeech": "adjective",
+                "sentence": "Under high pressure, many gases are condensable.",
+                "definition": "capable of being condensed"
+            },
+            {
+                "word": "condensation",
+                "partOfSpeech": "noun",
+                "sentence": "Excess humidity caused condensation on the windows.",
+                "definition": "the process or result of condensing; the change from a gas to a liquid"
+            },
+            {
+                "word": "condensate",
+                "partOfSpeech": "noun",
+                "sentence": "Engineers collected the condensate from the cooling system.",
+                "definition": "a liquid formed by the condensation of a gas"
+            },
+            {
+                "word": "condenser",
+                "partOfSpeech": "noun",
+                "sentence": "The condenser in the air conditioner helps cool the refrigerant.",
+                "definition": "a device or person that condenses something"
+            },
+            {
+                "word": "condensed milk",
+                "partOfSpeech": "collocation",
+                "sentence": "He sweetened the tea with condensed milk.",
+                "definition": "milk from which water has been removed and often sugar added"
+            }
+        ]
+    },
+    {
+        "root": "mass",
+        "meanings": [
+            {
+                "sentence": "The ball’s mass determines how much it resists acceleration.",
+                "definition": "the amount of matter in an object, measured by its inertia or gravitational effect",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "Masses of fans waited outside the stadium for hours.",
+                "definition": "a large number or quantity of people or things",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "She attends Sunday mass at the cathedral every week.",
+                "definition": "a religious service in the Christian Church",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "They massed their troops along the border before dawn.",
+                "definition": "to assemble or gather together in large numbers",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The factory enabled mass production of consumer electronics.",
+                "definition": "relating to or done on a large scale to serve many people",
+                "partOfSpeech": "adjective"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "masses",
+                "partOfSpeech": "noun",
+                "sentence": "Large masses of ice floated down the river as the glacier melted.",
+                "definition": "plural of mass; large numbers or quantities"
+            },
+            {
+                "word": "massed",
+                "partOfSpeech": "verb",
+                "sentence": "By midnight, protestors had massed in front of the parliament building.",
+                "definition": "past tense and past participle of mass (to assemble)"
+            },
+            {
+                "word": "massing",
+                "partOfSpeech": "verb",
+                "sentence": "The generals are massing troops for a potential offensive.",
+                "definition": "present participle of mass (to assemble)"
+            },
+            {
+                "word": "massive",
+                "partOfSpeech": "adjective",
+                "sentence": "The fortress’s walls were so massive that artillery had little effect.",
+                "definition": "very large, heavy, or solid"
+            },
+            {
+                "word": "massively",
+                "partOfSpeech": "adverb",
+                "sentence": "The city has grown massively over the last decade.",
+                "definition": "to a very great extent or degree"
+            },
+            {
+                "word": "massiveness",
+                "partOfSpeech": "noun",
+                "sentence": "The massiveness of the mountain range was awe-inspiring.",
+                "definition": "the quality or state of being massive"
+            },
+            {
+                "word": "mass production",
+                "partOfSpeech": "compound noun",
+                "sentence": "Mass production revolutionized the automobile industry in the early 20th century.",
+                "definition": "the manufacture of large quantities of standardized products"
+            },
+            {
+                "word": "mass media",
+                "partOfSpeech": "compound noun",
+                "sentence": "Mass media plays a crucial role in shaping public opinion today.",
+                "definition": "forms of communication (such as newspapers, radio, and television) intended to reach large audiences"
+            },
+            {
+                "word": "mass transit",
+                "partOfSpeech": "compound noun",
+                "sentence": "Investing in mass transit can alleviate urban traffic congestion.",
+                "definition": "public transportation systems designed to move large numbers of people"
+            }
+        ]
+    },
+    {
+        "root": "intense",
+        "meanings": [
+            {
+                "sentence": "The sunlight was so intense that we had to wear sunglasses.",
+                "definition": "existing in or showing a high degree of strength, force, or feeling",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "sentence": "She felt an intense desire to succeed in her career.",
+                "definition": "having a strong or extreme quality or feeling",
+                "partOfSpeech": "adjective"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "intensify",
+                "partOfSpeech": "verb",
+                "sentence": "The chef intensifies the flavors by adding a pinch of chili.",
+                "definition": "to make or become more intense"
+            },
+            {
+                "word": "intensifies",
+                "partOfSpeech": "verb",
+                "sentence": "As the storm approached, the wind intensifies rapidly.",
+                "definition": "third person singular present of intensify"
+            },
+            {
+                "word": "intensified",
+                "partOfSpeech": "verb",
+                "sentence": "The conflict intensified after the disputed election results.",
+                "definition": "past tense and past participle of intensify"
+            },
+            {
+                "word": "intensifying",
+                "partOfSpeech": "verb",
+                "sentence": "They are intensifying their training regimen before the competition.",
+                "definition": "present participle of intensify"
+            },
+            {
+                "word": "intensity",
+                "partOfSpeech": "noun",
+                "sentence": "The intensity of the earthquake surprised everyone.",
+                "definition": "the state or quality of being intense"
+            },
+            {
+                "word": "intensities",
+                "partOfSpeech": "noun",
+                "sentence": "Different light sources emit intensities of illumination that vary widely.",
+                "definition": "plural of intensity"
+            },
+            {
+                "word": "intensification",
+                "partOfSpeech": "noun",
+                "sentence": "There has been a recent intensification of diplomatic efforts.",
+                "definition": "the process of making something stronger or more extreme"
+            },
+            {
+                "word": "intensifications",
+                "partOfSpeech": "noun",
+                "sentence": "The policy led to several intensifications of border security measures.",
+                "definition": "plural of intensification"
+            },
+            {
+                "word": "intensely",
+                "partOfSpeech": "adverb",
+                "sentence": "She stared intensely at the complex puzzle.",
+                "definition": "to a very high degree; extremely"
+            },
+            {
+                "word": "intense heat",
+                "partOfSpeech": "collocation",
+                "sentence": "The intense heat from the furnace made the workshop unbearable.",
+                "definition": "a state of very high temperature"
+            }
+        ]
+    },
+    {
+        "root": "ease",
+        "meanings": [
+            {
+                "sentence": "She completed the puzzle with ease, smiling at how simple it felt.",
+                "definition": "absence of difficulty or effort; comfort",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The doctor gave him medicine to ease the pain in his shoulder.",
+                "definition": "to make less severe or intense; to relieve",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "After the announcement, tensions eased among the team members.",
+                "definition": "to become less severe or tense",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "eases",
+                "partOfSpeech": "verb",
+                "sentence": "She eases into her yoga routine every morning.",
+                "definition": "third person singular present of ease"
+            },
+            {
+                "word": "eased",
+                "partOfSpeech": "verb",
+                "sentence": "He eased the car into the tight parking spot.",
+                "definition": "past tense and past participle of ease"
+            },
+            {
+                "word": "easing",
+                "partOfSpeech": "verb",
+                "sentence": "The government is easing restrictions gradually.",
+                "definition": "present participle of ease"
+            },
+            {
+                "word": "unease",
+                "partOfSpeech": "noun",
+                "sentence": "A sense of unease settled over her as the storm approached.",
+                "definition": "a feeling of anxiety or discomfort"
+            },
+            {
+                "word": "easement",
+                "partOfSpeech": "noun",
+                "sentence": "They negotiated an easement to allow the public access to the trail.",
+                "definition": "a legal right to use another's property for a specific purpose"
+            },
+            {
+                "word": "easy",
+                "partOfSpeech": "adjective",
+                "sentence": "This recipe is easy enough for beginners.",
+                "definition": "not difficult; presenting little challenge"
+            },
+            {
+                "word": "easiness",
+                "partOfSpeech": "noun",
+                "sentence": "He tackled the task with surprising easiness.",
+                "definition": "the quality of being easy"
+            },
+            {
+                "word": "easily",
+                "partOfSpeech": "adverb",
+                "sentence": "She can easily lift the heavy box by herself.",
+                "definition": "in an easy manner; without difficulty"
+            },
+            {
+                "word": "at ease",
+                "partOfSpeech": "idiom",
+                "sentence": "The soldiers stood at ease during the inspection.",
+                "definition": "in a relaxed or comfortable state"
+            },
+            {
+                "word": "put someone at ease",
+                "partOfSpeech": "idiom",
+                "sentence": "His calm demeanor put everyone at ease before the meeting.",
+                "definition": "to make someone feel relaxed or comfortable"
+            },
+            {
+                "word": "ease off",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "The rain will ease off by this afternoon.",
+                "definition": "to become less intense or severe"
+            },
+            {
+                "word": "ease up",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "You can ease up on the throttle now that we're on the highway.",
+                "definition": "to reduce effort, speed, or intensity"
+            }
+        ]
+    },
+    {
+        "root": "drape",
+        "meanings": [
+            {
+                "sentence": "She draped a warm blanket over the sleeping child.",
+                "definition": "to cover or adorn with or as if with folds of cloth",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Heavy velvet drapes framed the stage.",
+                "definition": "a curtain or piece of cloth hung in loose folds",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "drapes",
+                "partOfSpeech": "verb",
+                "sentence": "He drapes the silk scarf around his neck every morning.",
+                "definition": "third person singular present of drape"
+            },
+            {
+                "word": "draped",
+                "partOfSpeech": "verb",
+                "sentence": "The statue was draped in ceremonial ribbons.",
+                "definition": "past tense and past participle of drape"
+            },
+            {
+                "word": "draping",
+                "partOfSpeech": "verb",
+                "sentence": "They are draping the hall with festive banners.",
+                "definition": "present participle of drape"
+            },
+            {
+                "word": "drapery",
+                "partOfSpeech": "noun",
+                "sentence": "The museum’s exhibit featured classical drapery from ancient Greece.",
+                "definition": "cloth or fabric arranged in loose folds; ornamental hanging cloth"
+            },
+            {
+                "word": "draper",
+                "partOfSpeech": "noun",
+                "sentence": "The draper helped me choose the perfect window treatment.",
+                "definition": "a person who sells cloth or curtains, or who drapes fabric"
+            },
+            {
+                "word": "window drape",
+                "partOfSpeech": "compound noun",
+                "sentence": "She replaced the old window drape with a lighter, sheer fabric.",
+                "definition": "a curtain hung over a window"
+            },
+            {
+                "word": "drape over",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "He draped his coat over the back of the chair.",
+                "definition": "to place or hang loosely over something"
+            },
+            {
+                "word": "drape around",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "She draped the shawl around her shoulders for warmth.",
+                "definition": "to wrap or arrange loosely around"
+            }
+        ]
+    },
+    {
+        "root": "estate",
+        "meanings": [
+            {
+                "sentence": "She inherited a large estate in the countryside from her grandmother.",
+                "definition": "all the property, possessions, and debts left by someone at death",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The real value of the estate has increased over the last decade.",
+                "definition": "a sizable area of land with a large house, often in the country",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "His net estate is substantial, thanks to his portfolio of investments.",
+                "definition": "all the assets and liabilities owned by a person or organization",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "estates",
+                "partOfSpeech": "noun",
+                "sentence": "Several estates along the river have been converted into luxury hotels.",
+                "definition": "plural of estate"
+            },
+            {
+                "word": "real estate",
+                "partOfSpeech": "compound noun",
+                "sentence": "They decided to invest in real estate rather than stocks.",
+                "definition": "land and the buildings on it, considered as an investment"
+            },
+            {
+                "word": "estate agent",
+                "partOfSpeech": "compound noun",
+                "sentence": "We contacted an estate agent to help us sell our house.",
+                "definition": "a person whose job is to arrange the selling, renting, or management of buildings and land"
+            },
+            {
+                "word": "real estate agent",
+                "partOfSpeech": "compound noun",
+                "sentence": "The real estate agent showed us several apartments in our price range.",
+                "definition": "a licensed professional who negotiates and arranges real estate transactions"
+            },
+            {
+                "word": "estate planning",
+                "partOfSpeech": "compound noun",
+                "sentence": "Good estate planning can minimize tax liabilities for your heirs.",
+                "definition": "the process of arranging for the disposal of an individual's estate"
+            },
+            {
+                "word": "real estate market",
+                "partOfSpeech": "compound noun",
+                "sentence": "The real estate market in the city has been booming since last summer.",
+                "definition": "the market in which property is bought, sold, or rented"
+            },
+            {
+                "word": "estate tax",
+                "partOfSpeech": "compound noun",
+                "sentence": "High-value estates may be subject to estate tax upon transfer.",
+                "definition": "a tax levied on the total value of a deceased person's money and property"
+            }
+        ]
+    },
+    {
+        "root": "interval",
+        "meanings": [
+            {
+                "sentence": "The coach gave the runners a short interval of rest before the next lap.",
+                "definition": "a period of time between events or activities",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "In mathematics, the interval [0, 1] includes all real numbers from zero to one.",
+                "definition": "a contiguous subset of real numbers defined by two endpoints",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "She practiced piano scales to perfect each interval between notes.",
+                "definition": "the difference in pitch between two musical tones",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "Workers arrived at regular intervals to check the machinery.",
+                "definition": "spaces or gaps between objects or occurrences",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "intervals",
+                "partOfSpeech": "noun",
+                "sentence": "The bells rang at five-minute intervals throughout the ceremony.",
+                "definition": "plural of interval; multiple periods or gaps between events"
+            },
+            {
+                "word": "intervallic",
+                "partOfSpeech": "adjective",
+                "sentence": "The composer’s use of intervallic leaps gave the melody an unusual character.",
+                "definition": "relating to or characterized by intervals (especially in music)"
+            },
+            {
+                "word": "intervallically",
+                "partOfSpeech": "adverb",
+                "sentence": "The notes were spaced intervallically to create a sense of tension.",
+                "definition": "in a manner relating to intervals"
+            },
+            {
+                "word": "intervalometer",
+                "partOfSpeech": "noun",
+                "sentence": "He used an intervalometer to take a photo every ten seconds for the time-lapse video.",
+                "definition": "a device that triggers a camera at set time intervals"
+            },
+            {
+                "word": "interval training",
+                "partOfSpeech": "compound noun",
+                "sentence": "Interval training alternates periods of high-intensity effort with recovery.",
+                "definition": "a workout method alternating intense activity and rest"
+            },
+            {
+                "word": "at intervals",
+                "partOfSpeech": "set phrase",
+                "sentence": "They stopped to rest at intervals during the hike up the mountain.",
+                "definition": "with gaps of time or space between actions or events"
+            }
+        ]
+    },
+    {
+        "root": "cam",
+        "meanings": [
+            {
+                "sentence": "The mechanic inspected the cam on the engine to ensure the valve timing was correct.",
+                "definition": "a rotating or sliding piece in a mechanical linkage used especially in transforming rotary motion into linear motion",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "She set up a cam in the nursery to watch her baby when she was in the next room.",
+                "definition": "informal term for a video camera, especially one used for live monitoring or streaming",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "They cammed the throttle opener to improve the engine’s performance.",
+                "definition": "to equip with or operate by means of a cam",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "cams",
+                "partOfSpeech": "noun",
+                "sentence": "The engine’s cams need to be replaced after 100,000 miles.",
+                "definition": "plural of cam"
+            },
+            {
+                "word": "cammed",
+                "partOfSpeech": "verb",
+                "sentence": "He cammed the mechanism before running the test cycle.",
+                "definition": "past tense and past participle of cam (to equip with a cam)"
+            },
+            {
+                "word": "camming",
+                "partOfSpeech": "verb",
+                "sentence": "They are camming the new prototype to optimize its motion profile.",
+                "definition": "present participle of cam (to equip with a cam)"
+            },
+            {
+                "word": "dash cam",
+                "partOfSpeech": "compound noun",
+                "sentence": "He reviewed the dash cam footage after the minor collision.",
+                "definition": "a camera mounted on a vehicle dashboard to record the view through the windshield"
+            },
+            {
+                "word": "webcam",
+                "partOfSpeech": "compound noun",
+                "sentence": "She turned on her webcam so her colleagues could see her presentation.",
+                "definition": "a video camera that feeds or streams its image in real time over the Internet"
+            },
+            {
+                "word": "camcorder",
+                "partOfSpeech": "compound noun",
+                "sentence": "He used his camcorder to film the family vacation.",
+                "definition": "a portable electronic device that records both video and audio onto a storage medium"
+            },
+            {
+                "word": "nanny cam",
+                "partOfSpeech": "compound noun",
+                "sentence": "They installed a nanny cam in the living room to monitor how the babysitter interacted with the children.",
+                "definition": "a hidden or overt camera used to observe caregivers or nannies in a private home"
+            }
+        ]
+    },
+    {
+        "root": "stencil",
+        "meanings": [
+            {
+                "sentence": "She placed the stencil on the wall and painted over it to create a repeating pattern.",
+                "definition": "a thin sheet of material with a cut-out design used to apply ink or paint in a specific pattern",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "He used a stencil to reproduce the logo accurately on dozens of posters.",
+                "definition": "a template used as a guide for applying a design or lettering",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The artist stenciled the phrase onto the pavement with spray paint.",
+                "definition": "to apply a pattern or letters by brushing or spraying paint over the cut-out areas of a stencil",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "stencils",
+                "partOfSpeech": "verb",
+                "sentence": "Every spring, the sign painter stencils the shop’s hours on the window.",
+                "definition": "third person singular present of stencil"
+            },
+            {
+                "word": "stenciled",
+                "partOfSpeech": "verb",
+                "sentence": "He stenciled the house number onto the mailbox last weekend.",
+                "definition": "past tense and past participle of stencil"
+            },
+            {
+                "word": "stenciling",
+                "partOfSpeech": "verb",
+                "sentence": "They spent the afternoon stenciling decorative borders around the room.",
+                "definition": "present participle of stencil"
+            },
+            {
+                "word": "stencilling",
+                "partOfSpeech": "verb",
+                "sentence": "In the UK workshop, participants practiced stencilling on fabric panels.",
+                "definition": "British spelling of stenciling"
+            },
+            {
+                "word": "stenciller",
+                "partOfSpeech": "noun",
+                "sentence": "The stenciller carefully cut out each letter before beginning the mural.",
+                "definition": "a person who uses or makes stencils"
+            },
+            {
+                "word": "stencil art",
+                "partOfSpeech": "compound noun",
+                "sentence": "Stencil art has become a popular form of street expression in urban areas.",
+                "definition": "artwork created by applying paint or ink through a stencil template"
+            }
+        ]
+    },
+    {
+        "root": "disperse",
+        "meanings": [
+            {
+                "sentence": "The police used loudspeakers to urge the crowd to disperse peacefully.",
+                "definition": "to cause to break up and go in different directions; scatter",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Over time, the dye will disperse evenly throughout the water.",
+                "definition": "to spread or distribute widely; diffuse",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The chemist dispersed the pigment into the liquid medium to form a stable suspension.",
+                "definition": "to distribute finely solid particles or droplets throughout a fluid",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "disperses",
+                "partOfSpeech": "verb",
+                "sentence": "When the wind picks up, it disperses the seeds across the field.",
+                "definition": "third person singular present of disperse"
+            },
+            {
+                "word": "dispersed",
+                "partOfSpeech": "verb",
+                "sentence": "By noon the morning fog had dispersed completely.",
+                "definition": "past tense and past participle of disperse"
+            },
+            {
+                "word": "dispersing",
+                "partOfSpeech": "verb",
+                "sentence": "The sprinkler is dispersing water over the lawn in a fine mist.",
+                "definition": "present participle of disperse"
+            },
+            {
+                "word": "dispersion",
+                "partOfSpeech": "noun",
+                "sentence": "The dispersion of pollutants in the air depends on wind speed and temperature.",
+                "definition": "the act or process of dispersing or the state of being dispersed"
+            },
+            {
+                "word": "dispersive",
+                "partOfSpeech": "adjective",
+                "sentence": "The dispersive properties of the prism separated white light into its component colors.",
+                "definition": "tending to disperse or spread out"
+            },
+            {
+                "word": "dispersibility",
+                "partOfSpeech": "noun",
+                "sentence": "The dispersibility of the powder in water makes it ideal for instant beverages.",
+                "definition": "the quality or degree to which a substance can be dispersed in a medium"
+            },
+            {
+                "word": "dispersible",
+                "partOfSpeech": "adjective",
+                "sentence": "This dispersible tablet dissolves quickly when stirred into liquid.",
+                "definition": "capable of being dispersed"
+            },
+            {
+                "word": "dispersant",
+                "partOfSpeech": "noun",
+                "sentence": "Cleanup crews applied an oil dispersant to break up the slick on the ocean surface.",
+                "definition": "a substance used to disperse or separate particles in a fluid"
+            }
+        ]
+    },
+    {
+        "root": "fume",
+        "meanings": [
+            {
+                "sentence": "She watched blue smoke-like fumes rising from the engine exhaust.",
+                "definition": "gas, smoke, or vapor that smells strongly or is dangerous to inhale",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "After reading the unfair review, he sat alone and fumed at the injustice.",
+                "definition": "to be in a state of suppressed anger or irritation",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Old tyres fume when burned, releasing toxic chemicals into the air.",
+                "definition": "to emit smoke, vapor, or gas",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "fumes",
+                "partOfSpeech": "noun",
+                "sentence": "The factory’s chemical processes produce noxious fumes.",
+                "definition": "plural of fume; vapors or gases"
+            },
+            {
+                "word": "fumed",
+                "partOfSpeech": "verb",
+                "sentence": "He fumed quietly in the corner after being blamed unfairly.",
+                "definition": "past tense of fume (to be angry or emit vapor)"
+            },
+            {
+                "word": "fuming",
+                "partOfSpeech": "verb",
+                "sentence": "They left the site quickly, fuming from the acrid smoke.",
+                "definition": "present participle of fume"
+            },
+            {
+                "word": "fumigate",
+                "partOfSpeech": "verb",
+                "sentence": "The pest control team will fumigate the attic to eliminate termites.",
+                "definition": "to treat with smoke or fumes, especially to disinfect or exterminate pests"
+            },
+            {
+                "word": "fumigates",
+                "partOfSpeech": "verb",
+                "sentence": "She fumigates the pantry annually to prevent insect infestations.",
+                "definition": "third person singular present of fumigate"
+            },
+            {
+                "word": "fumigated",
+                "partOfSpeech": "verb",
+                "sentence": "They fumigated the warehouse overnight to ensure it was pest-free.",
+                "definition": "past tense and past participle of fumigate"
+            },
+            {
+                "word": "fumigating",
+                "partOfSpeech": "verb",
+                "sentence": "The crew is currently fumigating the corn silos for weevil control.",
+                "definition": "present participle of fumigate"
+            },
+            {
+                "word": "fumigation",
+                "partOfSpeech": "noun",
+                "sentence": "Fumigation of the cargo hold is required before docking in that port.",
+                "definition": "the act or process of applying smoke, gas, or vapor for disinfection or pest control"
+            },
+            {
+                "word": "fumigant",
+                "partOfSpeech": "noun",
+                "sentence": "Methyl bromide is a common fumigant used in quarantine facilities.",
+                "definition": "a substance that is used to fumigate"
+            },
+            {
+                "word": "fumigator",
+                "partOfSpeech": "noun",
+                "sentence": "The licensed fumigator arrived with specialized equipment to clear the infestation.",
+                "definition": "a person or device that performs fumigation"
+            },
+            {
+                "word": "fume hood",
+                "partOfSpeech": "compound noun",
+                "sentence": "In the chemistry lab, all volatile reactions are carried out under a fume hood.",
+                "definition": "an enclosed workspace that vents hazardous vapors away from the user"
+            },
+            {
+                "word": "fume over",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "He continues to fume over the decision he thinks was unjust.",
+                "definition": "to be angry or offended about something and think about it repeatedly"
+            }
+        ]
+    },
+    {
+        "root": "eliminate",
+        "meanings": [
+            {
+                "sentence": "The coach warned that any team that loses twice will be eliminated from the tournament.",
+                "definition": "to remove from consideration or competition; disqualify",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "We need to eliminate all sources of error before finalizing the experiment.",
+                "definition": "to remove or get rid of completely",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The new software patch should eliminate the security vulnerability.",
+                "definition": "to put an end to; eradicate",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "eliminates",
+                "partOfSpeech": "verb",
+                "sentence": "She eliminates all distractions by working in a quiet room.",
+                "definition": "third person singular present of eliminate"
+            },
+            {
+                "word": "eliminated",
+                "partOfSpeech": "verb",
+                "sentence": "All but one contestant were eliminated after the third round.",
+                "definition": "past tense and past participle of eliminate"
+            },
+            {
+                "word": "eliminating",
+                "partOfSpeech": "verb",
+                "sentence": "They are eliminating redundant procedures to streamline production.",
+                "definition": "present participle of eliminate"
+            },
+            {
+                "word": "elimination",
+                "partOfSpeech": "noun",
+                "sentence": "The elimination of single-use plastics is a key environmental goal.",
+                "definition": "the act or process of removing or getting rid of something"
+            },
+            {
+                "word": "eliminations",
+                "partOfSpeech": "noun",
+                "sentence": "In the preliminary eliminations, several top athletes were unexpectedly knocked out.",
+                "definition": "plural of elimination"
+            },
+            {
+                "word": "eliminative",
+                "partOfSpeech": "adjective",
+                "sentence": "The committee recommended an eliminative approach to cut unnecessary expenses.",
+                "definition": "relating to or serving to eliminate"
+            },
+            {
+                "word": "eliminator",
+                "partOfSpeech": "noun",
+                "sentence": "He became the eliminator of pests after introducing natural predators into the garden.",
+                "definition": "a person or thing that eliminates"
+            }
+        ]
+    },
+    {
+        "root": "nymph",
+        "meanings": [
+            {
+                "sentence": "In Greek mythology, a nymph lived by the spring and sang to the travelers.",
+                "definition": "a minor female nature deity typically associated with a particular location or landform",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The dragonfly nymph crawled along the pond bottom before emerging as an adult.",
+                "definition": "the immature form of certain insects (such as dragonflies or grasshoppers) that undergo incomplete metamorphosis",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The poet described the dancer as a forest nymph, graceful and otherworldly.",
+                "definition": "a charming or beguiling young woman (figurative or poetic usage)",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "nymphs",
+                "partOfSpeech": "noun",
+                "sentence": "The ancient temple was said to be guarded by water nymphs.",
+                "definition": "plural of nymph"
+            },
+            {
+                "word": "nymphal",
+                "partOfSpeech": "adjective",
+                "sentence": "Entomologists studied the nymphal stages of the mantis species.",
+                "definition": "relating to or characteristic of a nymph or nymph stage"
+            },
+            {
+                "word": "wood nymph",
+                "partOfSpeech": "compound noun",
+                "sentence": "Legend spoke of a wood nymph who protected the forest from harm.",
+                "definition": "a mythological nymph inhabiting a forest or woodland"
+            },
+            {
+                "word": "water nymph",
+                "partOfSpeech": "compound noun",
+                "sentence": "They believed a water nymph dwelled in the lake’s deepest pool.",
+                "definition": "a mythological nymph inhabiting a river, lake, or other body of water"
+            }
+        ]
+    },
+    {
+        "root": "larva",
+        "meanings": [
+            {
+                "sentence": "The butterfly larva voraciously ate the milkweed leaves before pupating.",
+                "definition": "the active immature form of an insect that undergoes complete metamorphosis, differing greatly in form from the adult",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "In marine biology, scientists sampled plankton and counted the fish larva present in the water column.",
+                "definition": "the early, free-swimming stage of certain aquatic animals (such as fish or crustaceans) before they mature",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "larvae",
+                "partOfSpeech": "noun",
+                "sentence": "The pond was teeming with dragonfly larvae clinging to submerged plants.",
+                "definition": "plural of larva; multiple immature insect or aquatic animal forms"
+            },
+            {
+                "word": "larval",
+                "partOfSpeech": "adjective",
+                "sentence": "Researchers studied the larval development of the mosquito to understand its feeding habits.",
+                "definition": "relating to or characteristic of a larva"
+            },
+            {
+                "word": "larval stage",
+                "partOfSpeech": "compound noun",
+                "sentence": "During the larval stage, the organism focuses on feeding and growth rather than reproduction.",
+                "definition": "the developmental period in an animal’s life cycle when it exists as a larva"
+            }
+        ]
+    },
+    {
+        "root": "out",
+        "meanings": [
+            {
+                "sentence": "She stepped out onto the balcony to get some fresh air.",
+                "definition": "away from the inside or center; to the exterior",
+                "partOfSpeech": "adverb"
+            },
+            {
+                "sentence": "He’s out of the office today but will return on Monday.",
+                "definition": "not present at one’s usual place (e.g., home, work)",
+                "partOfSpeech": "adverb"
+            },
+            {
+                "sentence": "The new policy details finally came out in the company newsletter.",
+                "definition": "made public or revealed",
+                "partOfSpeech": "adverb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "outs",
+                "partOfSpeech": "noun",
+                "sentence": "The pitcher recorded two quick outs in the first inning.",
+                "definition": "plural of out (a dismissal in baseball)"
+            },
+            {
+                "word": "outs",
+                "partOfSpeech": "verb",
+                "sentence": "She outs the competition in every spelling bee she enters.",
+                "definition": "third person singular present of out (to defeat or expose)"
+            },
+            {
+                "word": "outed",
+                "partOfSpeech": "verb",
+                "sentence": "The whistle-blower outed the corrupt official in the press.",
+                "definition": "past tense of out (to reveal or expose)"
+            },
+            {
+                "word": "outing",
+                "partOfSpeech": "noun",
+                "sentence": "Our family outing to the zoo was a big success.",
+                "definition": "a short trip or excursion"
+            },
+            {
+                "word": "outdoors",
+                "partOfSpeech": "adverb",
+                "sentence": "They prefer to dine outdoors when the weather is nice.",
+                "definition": "in or into the open air; outside"
+            },
+            {
+                "word": "outlandish",
+                "partOfSpeech": "adjective",
+                "sentence": "His outlandish costume drew all eyes at the party.",
+                "definition": "strikingly bizarre or unfamiliar"
+            },
+            {
+                "word": "from here on out",
+                "partOfSpeech": "idiom",
+                "sentence": "From here on out, we’ll meet every Thursday to review progress.",
+                "definition": "from now on; beginning at this point and continuing forward"
+            },
+            {
+                "word": "from now on",
+                "partOfSpeech": "idiom",
+                "sentence": "From now on, I’ll double-check my work before submitting it.",
+                "definition": "starting immediately and continuing into the future"
+            },
+            {
+                "word": "from here on",
+                "partOfSpeech": "idiom",
+                "sentence": "From here on, all requests must be submitted in writing.",
+                "definition": "beginning at this point forward"
+            }
+        ]
+    },
+    {
+        "root": "pipe",
+        "meanings": [
+            {
+                "sentence": "The water flowed through the rusty pipe into the garden.",
+                "definition": "a hollow cylinder or tube used to convey water, gas, oil, or other fluids",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "He played a lively tune on his bagpipe, the sound echoing through the valley.",
+                "definition": "a wind instrument made of a tube or set of tubes through which the player blows to produce music",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "He packed tobacco into his pipe, lit it, and sat back to read the newspaper.",
+                "definition": "a small handheld tube with a bowl at one end, used for smoking tobacco",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The factory pipes its excess steam into a recovery system.",
+                "definition": "to convey or direct (a fluid, gas, or signal) through a pipe or tube",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "pipes",
+                "partOfSpeech": "noun",
+                "sentence": "He installed new copper pipes under the sink.",
+                "definition": "plural of pipe"
+            },
+            {
+                "word": "piped",
+                "partOfSpeech": "verb",
+                "sentence": "They piped hot water into every room of the old mansion.",
+                "definition": "past tense and past participle of pipe (to convey through a pipe)"
+            },
+            {
+                "word": "piping",
+                "partOfSpeech": "verb",
+                "sentence": "The plant is piping steam into the turbine right now.",
+                "definition": "present participle of pipe (to convey through a pipe)"
+            },
+            {
+                "word": "pipeline",
+                "partOfSpeech": "compound noun",
+                "sentence": "The new oil pipeline stretches across three countries.",
+                "definition": "a long tube, typically underground, for conveying oil, gas, or other substances"
+            },
+            {
+                "word": "burst pipe",
+                "partOfSpeech": "compound noun",
+                "sentence": "They woke up to a flooded basement caused by a burst pipe.",
+                "definition": "a pipe that has fractured or ruptured, causing its contents to escape"
+            }
+        ]
+    },
+    {
+        "root": "rodent",
+        "meanings": [
+            {
+                "sentence": "The mouse is a rodent, known for its continuously growing incisors.",
+                "definition": "a mammal of the order Rodentia, characterized by a pair of continuously growing incisors in each of the upper and lower jaws",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "rodents",
+                "partOfSpeech": "noun",
+                "sentence": "Rats and squirrels are common rodents that can damage crops.",
+                "definition": "plural of rodent"
+            },
+            {
+                "word": "rodenticide",
+                "partOfSpeech": "noun",
+                "sentence": "Farmers applied rodenticide to protect their grain storage from mice.",
+                "definition": "a chemical substance used to kill rodents"
+            },
+            {
+                "word": "rodenticides",
+                "partOfSpeech": "noun",
+                "sentence": "Rodenticides come in various forms like pellets and blocks.",
+                "definition": "plural of rodenticide"
+            },
+            {
+                "word": "rodenticidal",
+                "partOfSpeech": "adjective",
+                "sentence": "The rodenticidal effect of the poison was evident within hours.",
+                "definition": "having the property of killing rodents"
+            },
+            {
+                "word": "rodent-like",
+                "partOfSpeech": "compound adjective",
+                "sentence": "The creature had rodent-like features, including sharp incisors.",
+                "definition": "resembling or characteristic of a rodent"
+            }
+        ]
+    },
+    {
+        "root": "mold",
+        "meanings": [
+            {
+                "sentence": "After the heavy rain, black mold grew on the damp bathroom ceiling.",
+                "definition": "a fungal growth that forms on damp organic matter",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The baker poured the cake batter into a heart-shaped mold.",
+                "definition": "a hollow container used to give shape to molten or hot liquid material",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "She molded the clay into a small sculpture of a bird.",
+                "definition": "to shape or form (material) by hand or in a mold",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "molds",
+                "partOfSpeech": "verb",
+                "sentence": "He molds the plastic into toy parts in the factory every day.",
+                "definition": "third person singular present of mold (to shape)"
+            },
+            {
+                "word": "molded",
+                "partOfSpeech": "verb",
+                "sentence": "The artisan molded the metal while it was still hot.",
+                "definition": "past tense and past participle of mold (to shape)"
+            },
+            {
+                "word": "molding",
+                "partOfSpeech": "verb",
+                "sentence": "The workshop is molding new prototypes for testing.",
+                "definition": "present participle of mold (to shape)"
+            },
+            {
+                "word": "remold",
+                "partOfSpeech": "verb",
+                "sentence": "They decided to remold the design after the feedback session.",
+                "definition": "to mold again; to reshape"
+            },
+            {
+                "word": "remolds",
+                "partOfSpeech": "verb",
+                "sentence": "She remolds the clay figures until they meet her exact vision.",
+                "definition": "third person singular present of remold"
+            },
+            {
+                "word": "remolded",
+                "partOfSpeech": "verb",
+                "sentence": "The sculptor remolded the statue to correct its posture.",
+                "definition": "past tense and past participle of remold"
+            },
+            {
+                "word": "remolding",
+                "partOfSpeech": "verb",
+                "sentence": "They are remolding the prototype to improve its durability.",
+                "definition": "present participle of remold"
+            },
+            {
+                "word": "moldable",
+                "partOfSpeech": "adjective",
+                "sentence": "This plastic is highly moldable when heated.",
+                "definition": "capable of being molded or shaped"
+            },
+            {
+                "word": "moldability",
+                "partOfSpeech": "noun",
+                "sentence": "The moldability of the new polymer makes it ideal for complex parts.",
+                "definition": "the quality of being moldable"
+            },
+            {
+                "word": "moldiness",
+                "partOfSpeech": "noun",
+                "sentence": "She noticed a distinct moldiness in the old book’s pages.",
+                "definition": "the state or quality of being moldy"
+            },
+            {
+                "word": "moldy",
+                "partOfSpeech": "adjective",
+                "sentence": "The loaf of bread was so moldy that it had to be thrown away.",
+                "definition": "covered with or smelling of mold"
+            }
+        ]
+    },
+    {
+        "root": "lease",
+        "meanings": [
+            {
+                "sentence": "They signed a one–year lease on the apartment.",
+                "definition": "a contract by which one party conveys land, property, services, etc., to another for a specified time, usually in return for periodic payment",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "The company will lease new office space downtown.",
+                "definition": "to grant the use or occupation of (something) during a specified time for a specified payment",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "leases",
+                "partOfSpeech": "noun",
+                "sentence": "All of their leases expire at the end of the month.",
+                "definition": "plural of lease (contracts conveying use of property)"
+            },
+            {
+                "word": "leases",
+                "partOfSpeech": "verb",
+                "sentence": "She leases her spare room to visitors on weekends.",
+                "definition": "third person singular present of lease (to grant use)"
+            },
+            {
+                "word": "leased",
+                "partOfSpeech": "verb",
+                "sentence": "He leased a car for the duration of his trip.",
+                "definition": "past tense and past participle of lease"
+            },
+            {
+                "word": "leasing",
+                "partOfSpeech": "verb",
+                "sentence": "They are leasing new equipment for the construction project.",
+                "definition": "present participle of lease"
+            },
+            {
+                "word": "sublease",
+                "partOfSpeech": "noun",
+                "sentence": "She signed a sublease to rent the apartment for six months.",
+                "definition": "a lease granted by a lessee to a third party"
+            },
+            {
+                "word": "leasehold",
+                "partOfSpeech": "noun",
+                "sentence": "He owns the leasehold interest in the commercial property.",
+                "definition": "the tenure of a lessee; an estate held under a lease"
+            },
+            {
+                "word": "lease agreement",
+                "partOfSpeech": "compound noun",
+                "sentence": "Before moving in, they reviewed every clause of the lease agreement.",
+                "definition": "the written contract setting out the terms of a lease"
+            }
+        ]
+    },
+    {
+        "root": "date",
+        "meanings": [
+            {
+                "sentence": "She checked the date on the letter before responding.",
+                "definition": "a particular day of the month or year as specified by a number",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "They went on a date to the new Italian restaurant.",
+                "definition": "a social or romantic appointment or engagement",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "He will date the manuscript to 1823 based on the handwriting.",
+                "definition": "to assign a date to; to determine or record the time of",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "dates",
+                "partOfSpeech": "noun",
+                "sentence": "Important historical events often have precise dates.",
+                "definition": "plural of date (days of the month or historical events)"
+            },
+            {
+                "word": "dates",
+                "partOfSpeech": "verb",
+                "sentence": "She dates each letter before filing it.",
+                "definition": "third person singular present of date (to assign a date)"
+            },
+            {
+                "word": "dated",
+                "partOfSpeech": "verb",
+                "sentence": "He dated the painting by its color palette.",
+                "definition": "past tense and past participle of date (to assign a date)"
+            },
+            {
+                "word": "dated",
+                "partOfSpeech": "adjective",
+                "sentence": "That fashion trend looks dated now.",
+                "definition": "old-fashioned; out of style"
+            },
+            {
+                "word": "dating",
+                "partOfSpeech": "verb",
+                "sentence": "They have been dating for six months.",
+                "definition": "present participle of date (to go on social or romantic engagements)"
+            },
+            {
+                "word": "undated",
+                "partOfSpeech": "adjective",
+                "sentence": "The letter arrived undated, so we weren’t sure when it was written.",
+                "definition": "not bearing a date"
+            },
+            {
+                "word": "outdated",
+                "partOfSpeech": "adjective",
+                "sentence": "The software became outdated after the new operating system was released.",
+                "definition": "no longer current or in fashion; obsolete"
+            },
+            {
+                "word": "first date",
+                "partOfSpeech": "compound noun",
+                "sentence": "Their first date was at a small café by the river.",
+                "definition": "the initial social or romantic meeting between two people"
+            },
+            {
+                "word": "blind date",
+                "partOfSpeech": "compound noun",
+                "sentence": "He agreed to go on a blind date arranged by his friend.",
+                "definition": "a date with someone previously unknown to you"
+            }
+        ]
+    },
+    {
+        "root": "shake",
+        "meanings": [
+            {
+                "sentence": "Every morning he shakes the doormat to get rid of the dust.",
+                "definition": "to move or cause to move with quick, forceful motions back and forth or up and down",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Her hands were shaking with excitement as she opened the letter.",
+                "definition": "to tremble involuntarily, especially from excitement, anxiety, or cold",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "Give the bottle a good shake before you open it.",
+                "definition": "an act of shaking; a quick, forceful movement",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "shakes",
+                "partOfSpeech": "verb",
+                "sentence": "He shakes the salt shaker vigorously before sprinkling.",
+                "definition": "third person singular present of shake"
+            },
+            {
+                "word": "shook",
+                "partOfSpeech": "verb",
+                "sentence": "She shook the box but heard nothing inside.",
+                "definition": "simple past of shake"
+            },
+            {
+                "word": "shaken",
+                "partOfSpeech": "verb",
+                "sentence": "After the accident, he was visibly shaken by the experience.",
+                "definition": "past participle of shake"
+            },
+            {
+                "word": "shaking",
+                "partOfSpeech": "verb",
+                "sentence": "The earthquake was so strong that the entire house was shaking.",
+                "definition": "present participle of shake"
+            },
+            {
+                "word": "shake-up",
+                "partOfSpeech": "compound noun",
+                "sentence": "The company announced a major shake-up of its management team.",
+                "definition": "a thorough reorganization or series of changes"
+            },
+            {
+                "word": "shake down",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "Local gangs have been known to shake down shopkeepers for protection money.",
+                "definition": "to extort money from someone by threats or intimidation"
+            },
+            {
+                "word": "shakedown",
+                "partOfSpeech": "noun",
+                "sentence": "The investigation revealed a shakedown scheme within the police force.",
+                "definition": "an act of extorting money by threats or the act of testing or trial"
+            }
+        ]
+    },
+    {
+        "root": "cramp",
+        "meanings": [
+            {
+                "sentence": "He woke up in the middle of the night with a terrible leg cramp.",
+                "definition": "a sudden, involuntary tightening of a muscle causing pain",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "Tight shoes can cramp your toes and make walking painful.",
+                "definition": "to restrict or limit severely; to hinder",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "cramps",
+                "partOfSpeech": "noun",
+                "sentence": "Intense stomach cramps often accompany gastrointestinal upset.",
+                "definition": "plural of cramp (sudden muscle contractions)"
+            },
+            {
+                "word": "cramped",
+                "partOfSpeech": "adjective",
+                "sentence": "The train carriage was so cramped that there was barely room to stand.",
+                "definition": "uncomfortably small or restricted in space"
+            },
+            {
+                "word": "cramped",
+                "partOfSpeech": "verb",
+                "sentence": "His personal style was cramped by the strict dress code.",
+                "definition": "past tense of cramp (to restrict)"
+            },
+            {
+                "word": "cramping",
+                "partOfSpeech": "verb",
+                "sentence": "Leg muscles can start cramping during long runs if you’re dehydrated.",
+                "definition": "present participle of cramp"
+            },
+            {
+                "word": "leg cramp",
+                "partOfSpeech": "compound noun",
+                "sentence": "She drank more water to prevent another leg cramp during her hike.",
+                "definition": "a cramp occurring in the muscles of the leg"
+            },
+            {
+                "word": "cramp someone’s style",
+                "partOfSpeech": "idiom",
+                "sentence": "Don’t let his criticism cramp your style; keep painting as you like.",
+                "definition": "to restrict someone’s freedom or comfort"
+            },
+            {
+                "word": "cramp up",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "If your hands start to cramp up, shake them out and stretch your fingers.",
+                "definition": "for muscles to become stiff with cramps"
+            }
+        ]
+    },
+    {
+        "root": "vertebra",
+        "meanings": [
+            {
+                "sentence": "The MRI showed that a vertebra in his lower back was misaligned.",
+                "definition": "any of the series of small bones forming the spinal column",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "vertebrae",
+                "partOfSpeech": "noun",
+                "sentence": "The surgeon examined the patient’s vertebrae one by one.",
+                "definition": "plural of vertebra"
+            },
+            {
+                "word": "vertebral",
+                "partOfSpeech": "adjective",
+                "sentence": "The patient complained of vertebral pain after the accident.",
+                "definition": "relating to or associated with the vertebrae"
+            },
+            {
+                "word": "vertebrate",
+                "partOfSpeech": "noun",
+                "sentence": "Humans, birds, and fish are all vertebrates.",
+                "definition": "an animal that has a backbone made of vertebrae"
+            },
+            {
+                "word": "vertebrates",
+                "partOfSpeech": "noun",
+                "sentence": "Scientists estimate there are over 60,000 species of vertebrates.",
+                "definition": "plural of vertebrate"
+            },
+            {
+                "word": "vertebral column",
+                "partOfSpeech": "compound noun",
+                "sentence": "The vertebral column protects the spinal cord.",
+                "definition": "the series of vertebrae forming the backbone"
+            },
+            {
+                "word": "intervertebral disc",
+                "partOfSpeech": "compound noun",
+                "sentence": "A herniated intervertebral disc can press on nearby nerves and cause pain.",
+                "definition": "the fibrocartilaginous cushion between adjacent vertebrae"
+            }
+        ]
+    },
+    {
+        "root": "further",
+        "meanings": [
+            {
+                "sentence": "She furthered her research by securing a grant from the foundation.",
+                "definition": "to help the progress or development of something; to advance",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "If you travel further down the trail, you’ll reach a scenic overlook.",
+                "definition": "more distant in space or time; additional",
+                "partOfSpeech": "adjective"
+            },
+            {
+                "sentence": "They discussed the proposal further before making a decision.",
+                "definition": "to a greater degree; more",
+                "partOfSpeech": "adverb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "furthers",
+                "partOfSpeech": "verb",
+                "sentence": "He furthers the project’s aims by coordinating the volunteers.",
+                "definition": "third person singular present of further (to advance)"
+            },
+            {
+                "word": "furthered",
+                "partOfSpeech": "verb",
+                "sentence": "They furthered the treaty negotiations with a follow-up meeting.",
+                "definition": "past tense and past participle of further (to advance)"
+            },
+            {
+                "word": "furthering",
+                "partOfSpeech": "verb",
+                "sentence": "By furthering her studies in engineering, she hopes to innovate in renewable energy.",
+                "definition": "present participle of further (to advance)"
+            },
+            {
+                "word": "furtherance",
+                "partOfSpeech": "noun",
+                "sentence": "The charity’s furtherance of education in rural areas was widely praised.",
+                "definition": "the act of helping something to advance; promotion"
+            },
+            {
+                "word": "furthermost",
+                "partOfSpeech": "adjective",
+                "sentence": "They reached the furthermost point of the island by late afternoon.",
+                "definition": "most distant or extreme"
+            }
+        ]
+    },
+    {
+        "root": "agitate",
+        "meanings": [
+            {
+                "sentence": "The protesters agitated for better working conditions outside the factory gates.",
+                "definition": "to provoke or stir up public feeling on an issue, especially by campaigning or demonstrations",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "She gently agitated the settle­ment to mix the ingredients thoroughly.",
+                "definition": "to shake or move briskly; to stir or disturb",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "His loud argument agitated everyone in the room.",
+                "definition": "to excite or arouse emotionally; to disturb or upset",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "agitates",
+                "partOfSpeech": "verb",
+                "sentence": "He agitates the paint can before starting the job.",
+                "definition": "third person singular present of agitate"
+            },
+            {
+                "word": "agitated",
+                "partOfSpeech": "verb",
+                "sentence": "By the end of the meeting, she was visibly agitated.",
+                "definition": "past tense and past participle of agitate"
+            },
+            {
+                "word": "agitating",
+                "partOfSpeech": "verb",
+                "sentence": "They are agitating for reform in the city council.",
+                "definition": "present participle of agitate"
+            },
+            {
+                "word": "agitator",
+                "partOfSpeech": "noun",
+                "sentence": "He earned a reputation as a relentless agitator for civil rights.",
+                "definition": "a person who stirs up others to protest or campaign"
+            },
+            {
+                "word": "agitation",
+                "partOfSpeech": "noun",
+                "sentence": "The speeches sparked a wave of agitation across the region.",
+                "definition": "the act of agitating; public campaigning or the state of emotional disturbance"
+            },
+            {
+                "word": "political agitation",
+                "partOfSpeech": "compound noun",
+                "sentence": "Political agitation grew after the new law was announced.",
+                "definition": "organized efforts to arouse public interest or action on political issues"
+            }
+        ]
+    },
+    {
+        "root": "finger",
+        "meanings": [
+            {
+                "sentence": "She slipped a ring onto her finger before heading out.",
+                "definition": "any of the five terminal digits of the hand",
+                "partOfSpeech": "noun"
+            },
+            {
+                "sentence": "He fingered the fabric to test its texture.",
+                "definition": "to touch, feel, or handle with the fingers",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "fingers",
+                "partOfSpeech": "noun",
+                "sentence": "He counted the days on his fingers until the holiday.",
+                "definition": "plural of finger"
+            },
+            {
+                "word": "fingered",
+                "partOfSpeech": "verb",
+                "sentence": "She fingered through the photos one by one.",
+                "definition": "past tense and past participle of finger"
+            },
+            {
+                "word": "fingering",
+                "partOfSpeech": "verb",
+                "sentence": "The musician practiced fingering scales for hours.",
+                "definition": "present participle of finger"
+            },
+            {
+                "word": "fingerprint",
+                "partOfSpeech": "noun",
+                "sentence": "The detective dusted for a fingerprint on the doorknob.",
+                "definition": "an impression left by the friction ridges of a human finger"
+            },
+            {
+                "word": "fingerless",
+                "partOfSpeech": "adjective",
+                "sentence": "She wore fingerless gloves to keep her hands warm while typing.",
+                "definition": "having openings for the fingers but not covering their tips"
+            },
+            {
+                "word": "fingertip",
+                "partOfSpeech": "noun",
+                "sentence": "He held the needle at the very edge of his fingertip.",
+                "definition": "the extreme tip of a finger"
+            },
+            {
+                "word": "point the finger",
+                "partOfSpeech": "idiom",
+                "sentence": "When the project failed, everyone started to point the finger at one another.",
+                "definition": "to accuse or blame someone"
+            }
+        ]
+    },
+    {
+        "root": "buster",
+        "meanings": [
+            {
+                "sentence": "The crime buster was honored for dismantling the smuggling ring.",
+                "definition": "a person or thing that breaks up, destroys, or eliminates something",
+                "partOfSpeech": "noun"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "busters",
+                "partOfSpeech": "noun",
+                "sentence": "The ghostbusters rushed into the haunted house with their proton packs.",
+                "definition": "plural of buster; multiple persons or things that bust or eliminate"
+            },
+            {
+                "word": "gangbuster",
+                "partOfSpeech": "compound noun",
+                "sentence": "The new policing strategy was a real gangbuster—crime rates plummeted within weeks.",
+                "definition": "a person or thing that is extremely effective at combating gangs"
+            },
+            {
+                "word": "blockbuster",
+                "partOfSpeech": "compound noun",
+                "sentence": "The summer blockbuster shattered box-office records on its opening weekend.",
+                "definition": "a hugely successful or popular person, event, or product"
+            },
+            {
+                "word": "ghostbuster",
+                "partOfSpeech": "compound noun",
+                "sentence": "He fancied himself a ghostbuster and carried an EMF detector everywhere.",
+                "definition": "a person who investigates and attempts to eliminate ghosts or supernatural entities"
+            },
+            {
+                "word": "go gangbusters",
+                "partOfSpeech": "idiom",
+                "sentence": "Sales of the new gadget went gangbusters after the positive reviews appeared online.",
+                "definition": "to proceed with great energy, enthusiasm, or success"
+            }
+        ]
+    },
+    {
+        "root": "diagnose",
+        "meanings": [
+            {
+                "sentence": "The doctor diagnosed her with pneumonia after reviewing the chest X-ray.",
+                "definition": "to identify the nature or cause of a disease or fault by examination of the symptoms",
+                "partOfSpeech": "verb"
+            },
+            {
+                "sentence": "The engineer quickly diagnosed the cause of the machinery’s failure.",
+                "definition": "to determine the cause of a malfunction or problem",
+                "partOfSpeech": "verb"
+            }
+        ],
+        "wordFamilies": [
+            {
+                "word": "diagnoses",
+                "partOfSpeech": "verb",
+                "sentence": "She diagnoses rare autoimmune disorders at the clinic.",
+                "definition": "third person singular present of diagnose"
+            },
+            {
+                "word": "diagnosed",
+                "partOfSpeech": "verb",
+                "sentence": "By noon, they had diagnosed the electrical fault in the wiring.",
+                "definition": "past tense and past participle of diagnose"
+            },
+            {
+                "word": "diagnosing",
+                "partOfSpeech": "verb",
+                "sentence": "He is diagnosing the software error before deploying the update.",
+                "definition": "present participle of diagnose"
+            },
+            {
+                "word": "misdiagnose",
+                "partOfSpeech": "verb",
+                "sentence": "It’s easy to misdiagnose a migraine when the symptoms resemble a stroke.",
+                "definition": "to diagnose incorrectly"
+            },
+            {
+                "word": "misdiagnoses",
+                "partOfSpeech": "verb",
+                "sentence": "She often misdiagnoses minor infections as allergies.",
+                "definition": "third person singular present of misdiagnose"
+            },
+            {
+                "word": "misdiagnosed",
+                "partOfSpeech": "verb",
+                "sentence": "He was misdiagnosed with the flu when he actually had mononucleosis.",
+                "definition": "past tense and past participle of misdiagnose"
+            },
+            {
+                "word": "misdiagnosing",
+                "partOfSpeech": "verb",
+                "sentence": "They are misdiagnosing symptoms in patients without proper testing.",
+                "definition": "present participle of misdiagnose"
+            },
+            {
+                "word": "diagnosis",
+                "partOfSpeech": "noun",
+                "sentence": "Her diagnosis of diabetes came after several blood tests.",
+                "definition": "the identification of the nature of an illness or problem"
+            },
+            {
+                "word": "diagnoses",
+                "partOfSpeech": "noun",
+                "sentence": "Recent diagnoses of food allergies have risen significantly.",
+                "definition": "plural of diagnosis"
+            },
+            {
+                "word": "diagnostic",
+                "partOfSpeech": "adjective",
+                "sentence": "They ran a series of diagnostic tests to pinpoint the engine issue.",
+                "definition": "relating to or used for diagnosis"
+            },
+            {
+                "word": "diagnostically",
+                "partOfSpeech": "adverb",
+                "sentence": "The new tool can be used diagnostically to assess network performance.",
+                "definition": "in a manner relating to diagnosis"
+            },
+            {
+                "word": "diagnostics",
+                "partOfSpeech": "noun",
+                "sentence": "The car’s onboard diagnostics alerted the driver to low oil pressure.",
+                "definition": "methods or tools for diagnosis; plural of diagnostic"
+            },
+            {
+                "word": "diagnostician",
+                "partOfSpeech": "noun",
+                "sentence": "A skilled diagnostician can often identify rare diseases quickly.",
+                "definition": "a specialist in diagnosing diseases or conditions"
+            },
+            {
+                "word": "self-diagnose",
+                "partOfSpeech": "phrasal verb",
+                "sentence": "It’s risky to self-diagnose based solely on internet searches.",
+                "definition": "to diagnose oneself without professional help"
+            },
+            {
+                "word": "self-diagnosis",
+                "partOfSpeech": "noun",
+                "sentence": "Her self-diagnosis of stress turned out to be an undetected thyroid issue.",
+                "definition": "the act of diagnosing oneself"
+            }
+        ]
     }
+    
 ]

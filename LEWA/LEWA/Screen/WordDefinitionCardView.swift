@@ -6,9 +6,19 @@
 //
 
 import SwiftUI
+#if os(macOS)
+import AppKit
+#endif
+
 
 struct WordDefinitionCardView: View {
     let definition: any DefinitionRepresentable
+    
+#if os(macOS)
+    let color = Color.white
+#else
+    let color = Color(UIColor.systemBackground)
+#endif
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
@@ -46,7 +56,7 @@ struct WordDefinitionCardView: View {
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding()
-        .background(Color(UIColor.systemBackground))
+        .background(color)
         .cornerRadius(12)
         
     }
