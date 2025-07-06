@@ -8,98 +8,100 @@
 import SwiftUI
 
 struct WordSearchView: View {
+    // MARK: – State & input
     @State private var searchText = ""
     @State private var debouncedSearchText = ""
-    @State private var isSearching = true
+    @State private var isSearching = false
     @State private var debounceWorkItem: DispatchWorkItem?
-    @State private var showRootsOnly = true
+    
+    // stores the one-time computation
+    @State private var allWordsList: [(display: String, word: Word, root: String, partOfSpeech: String)] = []
     
     let words: [Word]
     
-    private static var printedDisplays = Set<String>()
-    private var allWords: [(display: String, word: Word, root: String, isRoot: Bool, partOfSpeech: String)] {
-        // 1) Build flat list of roots + family words including partOfSpeech
-        let combined = words.flatMap { word -> [(String, Word, String, Bool, String)] in
-            var items: [(String, Word, String, Bool, String)] = []
-            let rootPOS = word.meanings.first?.partOfSpeech ?? ""
-            items.append((word.root, word, word.root, true, rootPOS))
-            word.meanings.forEach { family in
-                items.append((family.word, word, word.root, false, family.partOfSpeech))
+    // MARK: – One-time flatten + duplicate-check
+    private func loadAllWordsOnce() {
+        guard allWordsList.isEmpty else { return }
+        
+        var result: [(display: String, word: Word, root: String, partOfSpeech: String)] = []
+        var seenRoots    = [String: String]()  // display → first root
+        var warned       = Set<String>()       // displays already warned
+        
+        for word in words {
+            for meaning in word.meanings {
+                let display = meaning.word
+                let root    = word.root
+                
+                if let firstRoot = seenRoots[display] {
+                    if !warned.contains(display) {
+                        let rootsList = (firstRoot == root)
+                            ? firstRoot
+                            : "\(firstRoot), \(root)"
+                        print("Duplicate display '\(display)' for roots: \(rootsList)")
+                        warned.insert(display)
+                    }
+                } else {
+                    seenRoots[display] = root
+                }
+                
+                result.append((display, word, root, meaning.partOfSpeech))
             }
-            return items
         }
         
-        // 2) Detect duplicates in `display` (no fatalError for root==word)
-        let groupedByDisplay = Dictionary(grouping: combined, by: { $0.0 })
-        for (display, entries) in groupedByDisplay where entries.count > 1 {
-            let posSet = Set(entries.map { $0.4 })
-            if posSet.count > 1 && !WordSearchView.printedDisplays.contains(display) {
-                WordSearchView.printedDisplays.insert(display)
-                let posList = posSet.sorted().joined(separator: ", ")
-                print("Duplicate display '\(display)' with different parts of speech: \(posList)")
-            }
-        }
-        
-        // 3) Filter by root vs. meaning-word only
-        let filtered = combined.filter { tuple in
-            showRootsOnly
-                ? tuple.3             // keep only where isRoot == true
-                : !tuple.3            // keep only where isRoot == false
-        }
-        
-        return filtered.map { (display: $0.0, word: $0.1, root: $0.2, isRoot: $0.3, partOfSpeech: $0.4) }
+        allWordsList = result
+    }
+    
+    // MARK: – Filtering & grouping
+    private var filteredWords: [(display: String, word: Word, root: String, partOfSpeech: String)] {
+        guard !debouncedSearchText.isEmpty else { return allWordsList }
+        return allWordsList.filter { $0.display.localizedCaseInsensitiveContains(debouncedSearchText) }
     }
 
-    
-    private var filteredWords: [(display: String, word: Word, root: String, isRoot: Bool, partOfSpeech: String)] {
-        guard !debouncedSearchText.isEmpty else { return allWords }
-        return allWords.filter { $0.display.localizedCaseInsensitiveContains(debouncedSearchText) }
-    }
-    
-    private var grouped: [Character: [(display: String, word: Word, root: String, isRoot: Bool, partOfSpeech: String)]] {
+    private var grouped: [Character: [(display: String, word: Word, root: String, partOfSpeech: String)]] {
         Dictionary(grouping: filteredWords) { $0.display.first ?? "#" }
     }
-    
+
     private var sortedLetters: [Character] { grouped.keys.sorted() }
-    
+
+    // MARK: – View body
     var body: some View {
         ScrollViewReader { proxy in
             ZStack(alignment: .trailing) {
                 List {
                     ForEach(sortedLetters, id: \.self) { letter in
-                        if let items = grouped[letter] {
-                            Section(header: Text(String(letter))) {
-                                ForEach(items, id: \.display) { item in
-                                    NavigationLink(
-                                        destination: WordDetailView(
-                                            word: item.word,
-                                            selectedFamilyId: item.isRoot ? nil : item.word.familyId(forWord: item.display)
-                                        )
-                                    ) {
+                        Section(header: Text(String(letter))) {
+                            ForEach(grouped[letter] ?? [], id: \.display) { item in
+                                NavigationLink(
+                                    destination: WordDetailView(
+                                        word: item.word,
+                                        selectedFamilyId: item.word.familyId(forWord: item.display)
+                                    )
+                                ) {
+                                    VStack(alignment: .leading) {
                                         Text(item.display)
+                                        Text(item.partOfSpeech)
+                                            .font(.caption)
+                                            .foregroundColor(.secondary)
                                     }
                                 }
                             }
-                            .id(letter)
                         }
+                        .id(letter)
                     }
                 }
                 .listStyle(.plain)
-                .searchable(
-                    text: $searchText,
-                    isPresented: $isSearching,
-                    prompt: "Search words"
-                )
-                .onAppear { isSearching = false }
+                .searchable(text: $searchText, isPresented: $isSearching, prompt: "Search words")
+                .onAppear {
+                    loadAllWordsOnce()
+                    isSearching = false
+                }
                 .onChange(of: searchText) { _, newValue in
                     debounceWorkItem?.cancel()
-                    let workItem = DispatchWorkItem {
-                        debouncedSearchText = newValue
-                    }
+                    let workItem = DispatchWorkItem { debouncedSearchText = newValue }
                     debounceWorkItem = workItem
                     DispatchQueue.main.asyncAfter(deadline: .now() + 1, execute: workItem)
                 }
-                
+
                 AlphabetIndexView(letters: sortedLetters) { letter in
                     withAnimation(.easeInOut) {
                         proxy.scrollTo(letter, anchor: .top)
@@ -109,58 +111,39 @@ struct WordSearchView: View {
             }
         }
         .toolbar {
-#if os(iOS)
+    #if os(iOS)
             ToolbarItem(placement: .topBarLeading) {
-                Text("All words: \(words.count)")
+                Text("Meanings: \(allWordsList.count)")
             }
-            ToolbarItem(placement: .topBarTrailing) {
-                Button(showRootsOnly ? "Show All" : "Show Roots") {
-                    showRootsOnly.toggle()
-                }
-            }
-#elseif os(macOS)
+    #elseif os(macOS)
             ToolbarItem(placement: .principal) {
-                Text("All words: \(words.count)")
+                Text("Meanings: \(allWordsList.count)")
                     .font(.headline)
             }
-            ToolbarItem(placement: .primaryAction) {
-                Button(showRootsOnly ? "Show All" : "Show Roots") {
-                    showRootsOnly.toggle()
-                }
-            }
-#endif
+    #endif
         }
     }
 }
 
 // MARK: – AlphabetIndexView
-/// Vertical fast‑scroll index on the right‑hand side.
 private struct AlphabetIndexView: View {
     let letters: [Character]
     var onSelect: (Character) -> Void
-    
+
     var body: some View {
         VStack(spacing: 2) {
             ForEach(letters, id: \.self) { letter in
-                Button(action: { onSelect(letter) }) {
-                    Text(String(letter))
-                        .font(.caption2)
-                        .frame(width: 18, height: 18)
-                        .contentShape(Rectangle())
-                }
-                .buttonStyle(.plain)
+                Button(String(letter)) { onSelect(letter) }
+                    .font(.caption2)
+                    .frame(width: 18, height: 18)
+                    .contentShape(Rectangle())
+                    .buttonStyle(.plain)
             }
         }
     }
 }
 
-// MARK: – Previews (using minimal mock data)
-#Preview {
-    NavigationStack {
-        WordSearchView(words: Word.mocks)
-    }
-}
-
+// MARK: – Word extension
 extension Word {
     func familyId(forWord word: String) -> UUID? {
         meanings.first(where: { $0.word == word })?.id
