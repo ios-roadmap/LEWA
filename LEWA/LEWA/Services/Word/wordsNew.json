@@ -682,6 +682,153 @@
                 "sentence": "If any problems come up during the project, tell me immediately."
             }
         ]
+    },
+    {
+        "root": "musty",
+        "meanings": [
+            {
+                "word": "musty",
+                "partOfSpeech": "adjective",
+                "definition": "Having a stale or moldy smell",
+                "sentence": "The old basement smelled musty after years of being closed."
+            }
+        ]
+    },
+    {
+        "root": "stun",
+        "meanings": [
+            {
+                "word": "stun",
+                "partOfSpeech": "verb",
+                "definition": "To shock or surprise someone greatly",
+                "sentence": "The sudden news of his promotion stunned him."
+            },
+            {
+                "word": "stunning",
+                "partOfSpeech": "adjective",
+                "definition": "Extremely attractive or impressive",
+                "sentence": "She wore a stunning dress to the gala that everyone admired."
+            }
+        ]
+    },
+    {
+        "root": "blow",
+        "meanings": [
+            {
+                "word": "blow",
+                "partOfSpeech": "verb",
+                "definition": "To force air out through the mouth",
+                "sentence": "She blew out the candles on her birthday cake."
+            },
+            {
+                "word": "overblow",
+                "partOfSpeech": "verb",
+                "definition": "To make something seem more important than it is",
+                "sentence": "The media often overblow small controversies into major scandals."
+            }
+        ]
+    },
+    {
+        "root": "controversy",
+        "meanings": [
+            {
+                "word": "controversy",
+                "partOfSpeech": "noun",
+                "definition": "A public disagreement about an important topic",
+                "sentence": "The plan to build a new airport caused a major controversy among residents."
+            }
+        ]
+    },
+    {
+        "root": "daunt",
+        "meanings": [
+            {
+                "word": "daunt",
+                "partOfSpeech": "verb",
+                "definition": "To make someone feel intimidated or nervous.",
+                "sentence": "The difficulty of the exam did not daunt her, and she passed with high marks."
+            },
+            {
+                "word": "daunting",
+                "partOfSpeech": "adjective",
+                "definition": "Making someone feel worried or less confident",
+                "sentence": "Preparing for the presentation was a daunting task for the new employee."
+            }
+        ]
+    },
+    {
+        "root": "conscience",
+        "meanings": [
+            {
+                "word": "conscience",
+                "partOfSpeech": "noun",
+                "definition": "The inner sense of what is right or wrong",
+                "sentence": "Her conscience told her to apologize for the mistake."
+            },
+            {
+                "word": "conscientious",
+                "partOfSpeech": "adjective",
+                "definition": "careful to do tasks thoroughly and correctly",
+                "sentence": "She is very conscientious about completing her assignments on time."
+            },
+            {
+                "word": "conscionable",
+                "partOfSpeech": "adjective",
+                "definition": "Fair and reasonable according to what is right",
+                "sentence": "It seemed conscionable to apologize for the mistake."
+            }
+        ]
+    },
+    {
+        "root": "examine",
+        "meanings": [
+            {
+                "word": "examine",
+                "partOfSpeech": "verb",
+                "definition": "to look at something carefully to learn more about it",
+                "sentence": "The teacher will examine each student’s essay before grading."
+            },
+            {
+                "word": "examiner",
+                "partOfSpeech": "noun",
+                "definition": "someone who inspects or tests knowledge or quality",
+                "sentence": "The examiner checked the students’ answers carefully."
+            },
+            {
+                "word": "examination",
+                "partOfSpeech": "noun",
+                "definition": "a formal test of a person's knowledge or skill",
+                "sentence": "I studied all week for the examination tomorrow."
+            },
+            {
+                "word": "cross examine",
+                "partOfSpeech": "phrasal verb",
+                "definition": "to question someone thoroughly, especially in court",
+                "sentence": "The attorney will cross-examine the witness during the trial."
+            }
+        ]
+    },
+    {
+        "root": "pair",
+        "meanings": [
+            {
+                "word": "pair",
+                "partOfSpeech": "noun",
+                "definition": "two similar or matching things considered together",
+                "sentence": "She bought a new pair of shoes."
+            },
+            {
+                "word": "impair",
+                "partOfSpeech": "verb",
+                "definition": "to make something weaker or less effective",
+                "sentence": "Loud noise can impair your hearing over time."
+            },
+            {
+                "word": "impairment",
+                "partOfSpeech": "noun",
+                "definition": "a loss or weakness of a particular ability",
+                "sentence": "His visual impairment makes reading difficult."
+            }
+        ]
     }
-    
 ]
