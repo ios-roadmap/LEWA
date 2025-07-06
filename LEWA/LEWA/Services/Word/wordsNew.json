@@ -830,5 +830,519 @@
                 "sentence": "His visual impairment makes reading difficult."
             }
         ]
+    },
+    {
+        "root": "pend",
+        "meanings": [
+            {
+                "word": "expend",
+                "partOfSpeech": "verb",
+                "definition": "to use or spend time, effort, or money",
+                "sentence": "They expended a lot of effort to finish the project on time."
+            },
+            {
+                "word": "expenditure",
+                "partOfSpeech": "noun",
+                "definition": "the amount of money spent on something",
+                "sentence": "My monthly expenditure on groceries was higher than usual."
+            },
+            {
+                "word": "expendable",
+                "partOfSpeech": "adjective",
+                "definition": "not essential and able to be replaced",
+                "sentence": "Extra supplies were considered expendable when packing for the trip."
+            }
+        ]
+    },
+    {
+        "root": "precede",
+        "meanings": [
+            {
+                "word": "precede",
+                "partOfSpeech": "verb",
+                "definition": "come before something in time or order",
+                "sentence": "A brief overview will precede the detailed report."
+            },
+            {
+                "word": "precedent",
+                "partOfSpeech": "noun",
+                "definition": "previous decision used as a guide for future cases",
+                "sentence": "The ruling set a precedent that lower courts must follow."
+            },
+            {
+                "word": "precedence",
+                "partOfSpeech": "noun",
+                "definition": "higher priority or importance over others",
+                "sentence": "Safety takes precedence over speed during construction."
+            }
+        ]
+    },
+    {
+        "root": "prevail",
+        "meanings": [
+            {
+                "word": "prevail",
+                "partOfSpeech": "verb",
+                "definition": "To win or be more successful than opponents.",
+                "sentence": "They worked hard and eventually prevailed in the competition."
+            },
+            {
+                "word": "prevalence",
+                "partOfSpeech": "noun",
+                "definition": "The state of being widespread or common.",
+                "sentence": "The prevalence of smartphones has changed how people communicate."
+            }
+        ]
+    },
+    {
+        "root": "take",
+        "meanings": [
+            {
+                "word": "take into account",
+                "partOfSpeech": "collocation",
+                "definition": "To consider something when making a decision.",
+                "sentence": "When planning the event, you must take into account the weather forecast."
+            }
+        ]
+    },
+    {
+        "root": "prone",
+        "meanings": [
+            {
+                "word": "prone",
+                "partOfSpeech": "adjective",
+                "definition": "Likely to be affected by or suffer from something.",
+                "sentence": "She is prone to making mistakes when she hurries."
+            }
+        ]
+    },
+    {
+        "root": "remedy",
+        "meanings": [
+            {
+                "word": "remedy",
+                "partOfSpeech": "noun",
+                "definition": "A treatment that cures a disease or problem.",
+                "sentence": "He found a natural remedy for his headache."
+            },
+            {
+                "word": "remediation",
+                "partOfSpeech": "noun",
+                "definition": "The act of correcting or improving something.",
+                "sentence": "The company began soil remediation to clean up the polluted land."
+            },
+            {
+                "word": "remedial",
+                "partOfSpeech": "adjective",
+                "definition": "Intended to improve skills in areas of weakness.",
+                "sentence": "She attended a remedial math course to strengthen her algebra skills."
+            },
+            {
+                "word": "remediable",
+                "partOfSpeech": "adjective",
+                "definition": "Capable of being fixed or corrected.",
+                "sentence": "The errors in the report are remediable if we review the data carefully."
+            }
+        ]
+    },
+    {
+        "root": "prolong",
+        "meanings": [
+            {
+                "word": "prolong",
+                "partOfSpeech": "verb",
+                "definition": "to make something last longer",
+                "sentence": "They prolonged the meeting to discuss the budget changes."
+            },
+            {
+                "word": "prolongation",
+                "partOfSpeech": "noun",
+                "definition": "the act of making something last longer",
+                "sentence": "The prolongation of the event gave everyone more time to prepare."
+            },
+            {
+                "word": "prolongable",
+                "partOfSpeech": "adjective",
+                "definition": "able to be made longer in duration",
+                "sentence": "The warranty is prolongable if you purchase the extended plan."
+            }
+        ]
+    },
+    {
+        "root": "prominent",
+        "meanings": [
+            {
+                "word": "prominent",
+                "partOfSpeech": "adjective",
+                "definition": "important and well known",
+                "sentence": "She played a prominent role in the project."
+            },
+            {
+                "word": "prominence",
+                "partOfSpeech": "noun",
+                "definition": "the state of being important or well known",
+                "sentence": "He gained prominence after winning the award."
+            }
+        ]
+    },
+    {
+        "root": "steady",
+        "meanings": [
+            {
+                "word": "steady",
+                "partOfSpeech": "adjective",
+                "definition": "firmly fixed; not changing or wavering",
+                "sentence": "The ladder remained steady as she climbed to the roof."
+            }
+        ]
+    },
+    {
+        "root": "imitate",
+        "meanings": [
+            {
+                "word": "imitate",
+                "partOfSpeech": "verb",
+                "definition": "to copy someone’s actions or behavior",
+                "sentence": "Children often imitate their parents’ behavior."
+            }
+        ]
+    },
+    {
+        "root": "weave",
+        "meanings": [
+            {
+                "word": "weave",
+                "partOfSpeech": "verb",
+                "definition": "to make cloth by interlacing threads on a loom",
+                "sentence": "My grandmother taught me how to weave a colorful blanket."
+            },
+            {
+                "word": "woven",
+                "partOfSpeech": "verb",
+                "definition": "made by weaving threads together",
+                "sentence": "She admired the beautifully woven basket at the craft fair."
+            }
+        ]
+    },
+    {
+        "root": "skim",
+        "meanings": [
+            {
+                "word": "skim",
+                "partOfSpeech": "verb",
+                "definition": "to read something quickly to get the main points",
+                "sentence": "He skimmed the report to find the key figures."
+            }
+        ]
+    },
+    {
+        "root": "pile",
+        "meanings": [
+            {
+                "word": "pile",
+                "partOfSpeech": "noun",
+                "definition": "a large number of things placed on top of each other",
+                "sentence": "She found a pile of books on her desk."
+            }
+        ]
+    },
+    {
+        "root": "yummy",
+        "meanings": [
+            {
+                "word": "yummy",
+                "partOfSpeech": "adjective",
+                "definition": "tasting very good",
+                "sentence": "The homemade cookies were absolutely yummy."
+            }
+        ]
+    },
+    {
+        "root": "tenacious",
+        "meanings": [
+            {
+                "word": "tenacious",
+                "partOfSpeech": "adjective",
+                "definition": "holding firmly to a purpose or opinion",
+                "sentence": "Her tenacious spirit helped her complete the project on time."
+            }
+        ]
+    },
+    {
+        "root": "tenacity",
+        "meanings": [
+            {
+                "word": "tenacity",
+                "partOfSpeech": "noun",
+                "definition": "the quality of being very determined",
+                "sentence": "Her tenacity helped her overcome every challenge."
+            }
+        ]
+    },
+    {
+        "root": "learn",
+        "meanings": [
+            {
+                "word": "rote learning",
+                "partOfSpeech": "collocation",
+                "definition": "memorizing information by repetition without understanding",
+                "sentence": "Students often rely on rote learning to remember vocabulary lists."
+            }
+        ]
+    },
+    {
+        "root": "run",
+        "meanings": [
+            {
+                "word": "runny",
+                "partOfSpeech": "adjective",
+                "definition": "Liquid and dripping easily.",
+                "sentence": "The sauce was too runny to serve on the plate."
+            }
+        ]
+    },
+    {
+        "root": "excess",
+        "meanings": [
+            {
+                "word": "excess",
+                "partOfSpeech": "noun",
+                "definition": "An amount that is more than needed or allowed.",
+                "sentence": "She donated the excess food to the local shelter."
+            },
+            {
+                "word": "excessive",
+                "partOfSpeech": "adjective",
+                "definition": "More than necessary or reasonable.",
+                "sentence": "She received an excessive number of emails after signing up."
+            }
+        ]
+    },
+    {
+        "root": "exhilarate",
+        "meanings": [
+            {
+                "word": "exhilarate",
+                "partOfSpeech": "verb",
+                "definition": "To make someone feel very excited and happy.",
+                "sentence": "The mountain view will exhilarate anyone who sees it."
+            },
+            {
+                "word": "exhilaration",
+                "partOfSpeech": "noun",
+                "definition": "A feeling of great happiness and excitement.",
+                "sentence": "After hearing the good news, she was filled with exhilaration."
+            },
+            {
+                "word": "exhilarating",
+                "partOfSpeech": "adjective",
+                "definition": "Making someone feel very excited and happy.",
+                "sentence": "The roller-coaster ride was so exhilarating that she screamed with joy."
+            },
+            {
+                "word": "exhilarating",
+                "partOfSpeech": "adjective",
+                "definition": "Making you feel very happy and excited.",
+                "sentence": "Riding a roller coaster is an exhilarating experience."
+            }
+        ]
+    },
+    {
+        "root": "explicit",
+        "meanings": [
+            {
+                "word": "explicit",
+                "partOfSpeech": "adjective",
+                "definition": "Clear and direct, leaving no room for confusion.",
+                "sentence": "The teacher gave explicit instructions for the assignment."
+            }
+        ]
+    },
+    {
+        "root": "chic",
+        "meanings": [
+            {
+                "word": "chic",
+                "partOfSpeech": "adjective",
+                "definition": "Stylish and fashionable.",
+                "sentence": "She wore a chic dress to the party."
+            }
+        ]
+    },
+    {
+        "root": "chip",
+        "meanings": [
+            {
+                "word": "chip",
+                "partOfSpeech": "noun",
+                "definition": "a small piece broken off something hard",
+                "sentence": "There was a chip on the edge of the plate."
+            },
+            {
+                "word": "chippy",
+                "partOfSpeech": "noun",
+                "definition": "a shop that sells fish and chips",
+                "sentence": "Let’s get dinner from the chippy tonight."
+            },
+            {
+                "word": "chipped",
+                "partOfSpeech": "verb",
+                "definition": "broke a small piece off something hard",
+                "sentence": "She chipped the plate when she dropped it."
+            }
+        ]
+    },
+    {
+        "root": "arise",
+        "meanings": [
+            {
+                "word": "arise",
+                "partOfSpeech": "verb",
+                "definition": "to get up from sleep or from a lying position",
+                "sentence": "I usually arise early to go for a run."
+            }
+        ]
+    },
+    {
+        "root": "chop",
+        "meanings": [
+            {
+                "word": "chop",
+                "partOfSpeech": "verb",
+                "definition": "to cut something into pieces with a sharp tool",
+                "sentence": "Please chop the onions before adding them to the soup."
+            }
+        ]
+    },
+    {
+        "root": "blend",
+        "meanings": [
+            {
+                "word": "blend",
+                "partOfSpeech": "verb",
+                "definition": "to mix two or more substances thoroughly",
+                "sentence": "She likes to blend fruits into her morning smoothie."
+            },
+            {
+                "word": "blender",
+                "partOfSpeech": "noun",
+                "definition": "a machine that mixes or purees food and drinks",
+                "sentence": "I used the blender to make a strawberry milkshake."
+            }
+        ]
+    },
+    {
+        "root": "bloom",
+        "meanings": [
+            {
+                "word": "bloom",
+                "partOfSpeech": "verb",
+                "definition": "to produce flowers",
+                "sentence": "The cherry trees bloom in spring."
+            },
+            {
+                "word": "blooming",
+                "partOfSpeech": "verb",
+                "definition": "producing flowers, especially in plants",
+                "sentence": "The roses are blooming in the garden."
+            }
+        ]
+    },
+    {
+        "root": "burst",
+        "meanings": [
+            {
+                "word": "burst",
+                "partOfSpeech": "verb",
+                "definition": "to break open or apart suddenly",
+                "sentence": "The balloon burst with a loud pop."
+            },
+            {
+                "word": "burst into",
+                "partOfSpeech": "phrasal verb",
+                "definition": "to suddenly start doing something",
+                "sentence": "She burst into laughter during the movie."
+            },
+            {
+                "word": "burst out",
+                "partOfSpeech": "phrasal verb",
+                "definition": "to suddenly start doing something loudly",
+                "sentence": "She burst out laughing at the joke."
+            },
+            {
+                "word": "burst open",
+                "partOfSpeech": "phrasal verb",
+                "definition": "to suddenly open by force or pressure",
+                "sentence": "The door burst open during the storm."
+            }
+        ]
+    },
+    {
+        "root": "butcher",
+        "meanings": [
+            {
+                "word": "butcher",
+                "partOfSpeech": "noun",
+                "definition": "a person whose job is to cut and sell meat",
+                "sentence": "I went to the butcher to buy fresh chicken."
+            },
+            {
+                "word": "butchery",
+                "partOfSpeech": "noun",
+                "definition": "a shop where meat is prepared and sold",
+                "sentence": "We bought fresh pork at the local butchery."
+            }
+        ]
+    },
+    {
+        "root": "knife",
+        "meanings": [
+            {
+                "word": "butcher knife",
+                "partOfSpeech": "compound noun",
+                "definition": "a large sharp knife used to cut meat",
+                "sentence": "He used a butcher knife to slice the roast beef."
+            }
+        ]
+    },
+    {
+        "root": "flunk",
+        "meanings": [
+            {
+                "word": "flunk",
+                "partOfSpeech": "verb",
+                "definition": "to fail an exam or course",
+                "sentence": "He didn’t study and flunked his history test."
+            }
+        ]
+    },
+    {
+        "root": "flush",
+        "meanings": [
+            {
+                "word": "flush",
+                "partOfSpeech": "verb",
+                "definition": "to become red in the face",
+                "sentence": "She flushed when she heard the compliment."
+            }
+        ]
+    },
+    {
+        "root": "stand",
+        "meanings": [
+            {
+                "word": "stand",
+                "partOfSpeech": "verb",
+                "definition": "to be on your feet in an upright position",
+                "sentence": "She had to stand during the whole concert."
+            },
+            {
+                "word": "bystander",
+                "partOfSpeech": "compound noun",
+                "definition": "a person present at an event but not involved",
+                "sentence": "A bystander witnessed the accident but did not help."
+            }
+        ]
     }
+    
 ]
