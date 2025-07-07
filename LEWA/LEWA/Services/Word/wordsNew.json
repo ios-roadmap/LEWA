@@ -1138,12 +1138,6 @@
                 "partOfSpeech": "adjective",
                 "definition": "Making someone feel very excited and happy.",
                 "sentence": "The roller-coaster ride was so exhilarating that she screamed with joy."
-            },
-            {
-                "word": "exhilarating",
-                "partOfSpeech": "adjective",
-                "definition": "Making you feel very happy and excited.",
-                "sentence": "Riding a roller coaster is an exhilarating experience."
             }
         ]
     },
@@ -1343,6 +1337,311 @@
                 "sentence": "A bystander witnessed the accident but did not help."
             }
         ]
+    },
+    {
+        "root": "friend",
+        "meanings": [
+            {
+                "word": "pen friend",
+                "partOfSpeech": "compound noun",
+                "definition": "a person you regularly write letters to, especially in another place",
+                "sentence": "I have a pen friend in Japan who sends me letters every month."
+            }
+        ]
+    },
+    {
+        "root": "hesitant",
+        "meanings": [
+            {
+                "word": "hesitant",
+                "partOfSpeech": "adjective",
+                "definition": "unsure or unwilling to act immediately",
+                "sentence": "She was hesitant to answer the question in front of the class."
+            }
+        ]
+    },
+    {
+        "root": "mourn",
+        "meanings": [
+            {
+                "word": "mourn",
+                "partOfSpeech": "verb",
+                "definition": "feel or show sadness for someone’s death",
+                "sentence": "The whole family mourned her loss deeply."
+            }
+        ]
+    },
+    {
+        "root": "spear",
+        "meanings": [
+            {
+                "word": "spear",
+                "partOfSpeech": "noun",
+                "definition": "a long, pointed weapon used for thrusting or throwing",
+                "sentence": "The hunter used a spear to catch his dinner."
+            }
+        ]
+    },
+    {
+        "root": "give",
+        "meanings": [
+            {
+                "word": "caregiver",
+                "partOfSpeech": "compound noun",
+                "definition": "a person who gives care to someone who is ill or old",
+                "sentence": "The caregiver helped her grandmother with daily tasks after her surgery."
+            }
+        ]
+    },
+    {
+        "root": "intrigue",
+        "meanings": [
+            {
+                "word": "intrigue",
+                "partOfSpeech": "verb",
+                "definition": "arouse curiosity or interest",
+                "sentence": "The mysterious book cover intrigued her, so she decided to read it."
+            },
+            {
+                "word": "intrigued",
+                "partOfSpeech": "adjective",
+                "definition": "very interested and curious about something",
+                "sentence": "He was intrigued by the unusual painting in the gallery."
+            }
+        ]
+    },
+    {
+        "root": "gunky",
+        "meanings": [
+            {
+                "word": "gunky",
+                "partOfSpeech": "adjective",
+                "definition": "covered with or consisting of sticky, dirty substance",
+                "sentence": "My shoes got gunky after I walked through the muddy path."
+            }
+        ]
+    },
+    {
+        "root": "sturdy",
+        "meanings": [
+            {
+                "word": "sturdy",
+                "partOfSpeech": "adjective",
+                "definition": "strong and solid; unlikely to break or be damaged",
+                "sentence": "The sturdy table held all of the heavy books easily."
+            }
+        ]
+    },
+    {
+        "root": "modicum",
+        "meanings": [
+            {
+                "word": "a modicum of",
+                "partOfSpeech": "collocation",
+                "definition": "a small amount of something",
+                "sentence": "She showed a modicum of patience with the children."
+            }
+        ]
+    },
+    {
+        "root": "uptight",
+        "meanings": [
+            {
+                "word": "uptight",
+                "partOfSpeech": "compound adjective",
+                "definition": "nervous or tense and easily upset",
+                "sentence": "She always feels uptight before taking exams."
+            }
+        ]
+    },
+    {
+        "root": "grief",
+        "meanings": [
+            {
+                "word": "grief",
+                "partOfSpeech": "noun",
+                "definition": "deep sadness caused by loss or death",
+                "sentence": "He experienced intense grief after his grandfather died."
+            }
+        ]
+    },
+    {
+        "root": "hinky",
+        "meanings": [
+            {
+                "word": "hinky",
+                "partOfSpeech": "adjective",
+                "definition": "suspicious or not quite honest",
+                "sentence": "His explanation sounded hinky, so I didn’t trust it."
+            }
+        ]
+    },
+    {
+        "root": "tradition",
+        "meanings": [
+            {
+                "word": "tradition",
+                "partOfSpeech": "noun",
+                "definition": "a belief or custom passed down within a group",
+                "sentence": "In our family, it is a tradition to eat pancakes for breakfast on Sundays."
+            }
+        ]
+    },
+    {
+        "root": "geezer",
+        "meanings": [
+            {
+                "word": "geezer",
+                "partOfSpeech": "noun",
+                "definition": "an informal term for an old man",
+                "sentence": "That old geezer down the street always sits on his porch in the afternoon."
+            }
+        ]
+    },
+    {
+        "root": "tint",
+        "meanings": [
+            {
+                "word": "tint",
+                "partOfSpeech": "noun",
+                "definition": "a slight degree of color added to something",
+                "sentence": "She added a blue tint to the white paint."
+            }
+        ]
+    },
+    {
+        "root": "mop",
+        "meanings": [
+            {
+                "word": "mop",
+                "partOfSpeech": "noun",
+                "definition": "a cleaning tool with a long handle and absorbent head",
+                "sentence": "She used a mop to wipe the kitchen floor."
+            },
+            {
+                "word": "mop up",
+                "partOfSpeech": "phrasal verb",
+                "definition": "to clean or absorb liquid from a surface",
+                "sentence": "After the spill, she used a cloth to mop up the water."
+            }
+        ]
+    },
+    {
+        "root": "peep",
+        "meanings": [
+            {
+                "word": "peep",
+                "partOfSpeech": "verb",
+                "definition": "look quickly and secretly",
+                "sentence": "She managed to peep through the keyhole to see who was inside."
+            }
+        ]
+    },
+    {
+        "root": "squeeze",
+        "meanings": [
+            {
+                "word": "squeeze",
+                "partOfSpeech": "verb",
+                "definition": "press something firmly from opposite sides",
+                "sentence": "She squeezed the juice from the lemon into the bowl."
+            }
+        ]
+    },
+    {
+        "root": "fidelity",
+        "meanings": [
+            {
+                "word": "fidelity",
+                "partOfSpeech": "noun",
+                "definition": "faithfulness to a person, cause, or belief",
+                "sentence": "Their long marriage was built on mutual respect and fidelity."
+            },
+            {
+                "word": "infidelity",
+                "partOfSpeech": "noun",
+                "definition": "unfaithfulness in a marriage or relationship",
+                "sentence": "Her discovery of his infidelity led to their separation."
+            }
+        ]
+    },
+    {
+        "root": "whip",
+        "meanings": [
+            {
+                "word": "whip",
+                "partOfSpeech": "verb",
+                "definition": "beat a liquid food until it becomes light and fluffy",
+                "sentence": "She used a whisk to whip the cream for the dessert."
+            },
+            {
+                "word": "whipped",
+                "partOfSpeech": "adjective",
+                "definition": "beaten until light and fluffy",
+                "sentence": "She topped her hot chocolate with a dollop of whipped cream."
+            }
+        ]
+    },
+    {
+        "root": "cope",
+        "meanings": [
+            {
+                "word": "cope",
+                "partOfSpeech": "verb",
+                "definition": "deal effectively with a difficult situation",
+                "sentence": "He found it hard at first, but he eventually learned to cope with the stress."
+            },
+            {
+                "word": "cope with",
+                "partOfSpeech": "phrasal verb",
+                "definition": "manage a difficult situation or problem",
+                "sentence": "She had to cope with a lot of stress at her new job."
+            }
+        ]
+    },
+    {
+        "root": "consult",
+        "meanings": [
+            {
+                "word": "consult",
+                "partOfSpeech": "verb",
+                "definition": "seek advice or information from someone",
+                "sentence": "She decided to consult her teacher before starting the project."
+            },
+            {
+                "word": "consult with",
+                "partOfSpeech": "phrasal verb",
+                "definition": "seek advice or information from someone",
+                "sentence": "Before making a decision, she decided to consult with her mentor."
+            }
+        ]
+    },
+    {
+        "root": "read",
+        "meanings": [
+            {
+                "word": "read",
+                "partOfSpeech": "verb",
+                "definition": "look at and understand written words",
+                "sentence": "I read a chapter of my book before bed."
+            },
+            {
+                "word": "proofread",
+                "partOfSpeech": "verb",
+                "definition": "read a text in order to correct mistakes",
+                "sentence": "She proofread her essay before submitting it."
+            }
+        ]
+    },
+    {
+      "root": "inmate",
+      "meanings": [
+        {
+          "word": "inmate",
+          "partOfSpeech": "noun",
+          "definition": "a person confined in a prison or similar institution",
+          "sentence": "The inmate spent his days reading books in the prison library."
+        }
+      ]
     }
-    
 ]
