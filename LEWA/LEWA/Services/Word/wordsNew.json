@@ -1098,6 +1098,12 @@
                 "partOfSpeech": "adjective",
                 "definition": "Liquid and dripping easily.",
                 "sentence": "The sauce was too runny to serve on the plate."
+            },
+            {
+                "word": "run into",
+                "partOfSpeech": "phrasal verb",
+                "definition": "to meet someone unexpectedly",
+                "sentence": "I ran into an old friend at the supermarket yesterday."
             }
         ]
     },
@@ -1634,14 +1640,215 @@
         ]
     },
     {
-      "root": "inmate",
-      "meanings": [
-        {
-          "word": "inmate",
-          "partOfSpeech": "noun",
-          "definition": "a person confined in a prison or similar institution",
-          "sentence": "The inmate spent his days reading books in the prison library."
-        }
-      ]
-    }
+        "root": "inmate",
+        "meanings": [
+            {
+                "word": "inmate",
+                "partOfSpeech": "noun",
+                "definition": "a person confined in a prison or similar institution",
+                "sentence": "The inmate spent his days reading books in the prison library."
+            }
+        ]
+    },
+    {
+        "root": "puke",
+        "meanings": [
+            {
+                "word": "puke",
+                "partOfSpeech": "verb",
+                "definition": "to throw food and liquid up from the stomach",
+                "sentence": "He felt so sick that he puked after the roller-coaster ride."
+            }
+        ]
+    },
+    {
+        "root": "corpse",
+        "meanings": [
+            {
+                "word": "corpse",
+                "partOfSpeech": "noun",
+                "definition": "the dead body of a person",
+                "sentence": "The detectives covered the corpse before taking it to the morgue."
+            }
+        ]
+    },
+    {
+        "root": "rock",
+        "meanings": [
+            {
+                "word": "rock",
+                "partOfSpeech": "verb",
+                "definition": "to move gently back and forth or from side to side",
+                "sentence": "The boat rocked gently on the waves."
+            }
+        ]
+    },
+    {
+        "root": "abstain",
+        "meanings": [
+            {
+                "word": "abstain",
+                "partOfSpeech": "verb",
+                "definition": "to choose not to do something, especially something enjoyable",
+                "sentence": "She decided to abstain from eating sweets for a month."
+            },
+            {
+                "word": "abstention",
+                "partOfSpeech": "noun",
+                "definition": "the act of choosing not to vote or participate",
+                "sentence": "There were several abstentions during the council’s decision."
+            }
+        ]
+    },
+    {
+        "root": "forfeit",
+        "meanings": [
+            {
+                "word": "forfeit",
+                "partOfSpeech": "verb",
+                "definition": "to lose something as a result of a rule or mistake",
+                "sentence": "They had to forfeit the game after using an ineligible player."
+            }
+        ]
+    },
+    {
+        "root": "eligible",
+        "meanings": [
+            {
+                "word": "eligible",
+                "partOfSpeech": "adjective",
+                "definition": "having the right to do or receive something",
+                "sentence": "Only students with good grades are eligible for the scholarship."
+            },
+            {
+                "word": "ineligible",
+                "partOfSpeech": "adjective",
+                "definition": "not allowed to do or receive something",
+                "sentence": "She was ineligible to vote because she had not registered."
+            }
+        ]
+    },
+    {
+        "root": "casualty",
+        "meanings": [
+            {
+                "word": "casualty",
+                "partOfSpeech": "noun",
+                "definition": "a person killed or injured in an accident or war",
+                "sentence": "The earthquake caused hundreds of casualties in the city."
+            }
+        ]
+    },
+    {
+        "root": "rebellion",
+        "meanings": [
+            {
+                "word": "rebellion",
+                "partOfSpeech": "noun",
+                "definition": "an act of violent or open resistance to an authority",
+                "sentence": "The villagers' rebellion against the governor failed quickly."
+            }
+        ]
+    },
+    {
+        "root": "stage",
+        "meanings": [
+            {
+                "word": "stage",
+                "partOfSpeech": "verb",
+                "definition": "to organize and present a performance or event",
+                "sentence": "The school will stage a play in the auditorium next week."
+            }
+        ]
+    },
+    {
+        "root": "lure",
+        "meanings": [
+            {
+                "word": "lure",
+                "partOfSpeech": "verb",
+                "definition": "to attract or persuade someone to do something by offering something appealing",
+                "sentence": "The company hopes to lure new customers with special discounts."
+            },
+            {
+                "word": "lure out",
+                "partOfSpeech": "phrasal verb",
+                "definition": "to persuade someone to come out from hiding",
+                "sentence": "The police used a loudspeaker to lure the suspect out of the house."
+            }
+        ]
+    },
+    {
+        "root": "vengeful",
+        "meanings": [
+            {
+                "word": "vengeful",
+                "partOfSpeech": "adjective",
+                "definition": "showing a strong desire to punish someone for a wrong",
+                "sentence": "After the argument, he felt vengeful and refused to speak to her."
+            }
+        ]
+    },
+    {
+        "root": "hover",
+        "meanings": [
+            {
+                "word": "hover",
+                "partOfSpeech": "verb",
+                "definition": "to stay in one place in the air",
+                "sentence": "A hummingbird hovered near the flowers to drink nectar."
+            }
+        ]
+    },
+    {
+        "root": "creep",
+        "meanings": [
+            {
+                "word": "creep",
+                "partOfSpeech": "verb",
+                "definition": "to move slowly and quietly",
+                "sentence": "The cat crept along the fence at night."
+            },
+            {
+                "word": "creep out",
+                "partOfSpeech": "phrasal verb",
+                "definition": "to make someone feel nervous or scared",
+                "sentence": "The silent doll in the corner really creeps me out."
+            }
+        ]
+    },
+    {
+        "root": "screw",
+        "meanings": [
+            {
+                "word": "screwdriver",
+                "partOfSpeech": "compound noun",
+                "definition": "a tool used to turn screws",
+                "sentence": "I used a screwdriver to tighten the loose handle on the door."
+            }
+        ]
+    },
+    {
+        "root": "mean",
+        "meanings": [
+            {
+                "word": "mean",
+                "partOfSpeech": "adjective",
+                "definition": "unkind or unpleasant",
+                "sentence": "Don’t be so mean—you hurt her feelings."
+            }
+        ]
+    },
+    {
+        "root": "sit",
+        "meanings": [
+            {
+                "word": "sit around",
+                "partOfSpeech": "phrasal verb",
+                "definition": "to spend time doing nothing",
+                "sentence": "We can’t just sit around all day—let’s find something to do."
+            }
+        ]
+    },
+    
 ]

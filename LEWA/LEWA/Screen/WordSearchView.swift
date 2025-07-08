@@ -19,35 +19,42 @@ struct WordSearchView: View {
     
     let words: [Word]
     
-    // MARK: – One-time flatten + duplicate-check
     private func loadAllWordsOnce() {
         guard allWordsList.isEmpty else { return }
-        
+
         var result: [(display: String, word: Word, root: String, partOfSpeech: String)] = []
-        var seenRoots    = [String: String]()  // display → first root
-        var warned       = Set<String>()       // displays already warned
-        
+        var seenRoots      = Set<String>()       // track unique Word.root values
+        var seenRootsByDisplay = [String: String]()  // display → first root
+        var warnedDisplays     = Set<String>()       // displays already warned
+
         for word in words {
+            // ←— only crash if this Word’s root was already encountered
+            if seenRoots.contains(word.root) {
+                fatalError("Duplicate Word.root '\(word.root)' detected")
+            }
+            seenRoots.insert(word.root)
+            // —→
+
             for meaning in word.meanings {
                 let display = meaning.word
                 let root    = word.root
-                
-                if let firstRoot = seenRoots[display] {
-                    if !warned.contains(display) {
+
+                if let firstRoot = seenRootsByDisplay[display] {
+                    if !warnedDisplays.contains(display) {
                         let rootsList = (firstRoot == root)
                             ? firstRoot
                             : "\(firstRoot), \(root)"
                         print("Duplicate display '\(display)' for roots: \(rootsList)")
-                        warned.insert(display)
+                        warnedDisplays.insert(display)
                     }
                 } else {
-                    seenRoots[display] = root
+                    seenRootsByDisplay[display] = root
                 }
-                
+
                 result.append((display, word, root, meaning.partOfSpeech))
             }
         }
-        
+
         allWordsList = result
     }
     
