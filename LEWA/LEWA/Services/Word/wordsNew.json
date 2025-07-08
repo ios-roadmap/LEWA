@@ -568,6 +568,12 @@
                 "partOfSpeech": "compound noun",
                 "definition": "a return phone call",
                 "sentence": "I left a message and waited for a callback."
+            },
+            {
+                "word": "roll call",
+                "partOfSpeech": "compound noun",
+                "definition": "the act of checking attendance by calling names",
+                "sentence": "During roll call, the teacher marked the absent students."
             }
         ]
     },
@@ -1850,5 +1856,335 @@
             }
         ]
     },
-    
+    {
+        "root": "racket",
+        "meanings": [
+            {
+                "word": "racket",
+                "partOfSpeech": "noun",
+                "definition": "A loud and unpleasant noise",
+                "sentence": "The children made such a racket that I couldn't concentrate on my work."
+            }
+        ]
+    },
+    {
+        "root": "clumsy",
+        "meanings": [
+            {
+                "word": "clumsy",
+                "partOfSpeech": "adjective",
+                "definition": "Awkward in movement or handling things",
+                "sentence": "He is so clumsy that he always drops his phone."
+            }
+        ]
+    },
+    {
+        "root": "hide and seek",
+        "meanings": [
+            {
+                "word": "hide and seek",
+                "partOfSpeech": "compound noun",
+                "definition": "A game where players hide while another tries to find them",
+                "sentence": "The children played hide and seek in the backyard."
+            }
+        ]
+    },
+    {
+        "root": "moment",
+        "meanings": [
+            {
+                "word": "momentarily",
+                "partOfSpeech": "adverb",
+                "definition": "in a very short time",
+                "sentence": "I'll be with you momentarily."
+            }
+        ]
+    },
+    {
+        "root": "wimp",
+        "meanings": [
+            {
+                "word": "wimp",
+                "partOfSpeech": "noun",
+                "definition": "a person who is weak or easily frightened",
+                "sentence": "He felt like a wimp for not standing up for himself."
+            }
+        ]
+    },
+    {
+        "root": "stab",
+        "meanings": [
+            {
+                "word": "stab",
+                "partOfSpeech": "verb",
+                "definition": "to push a sharp object into something or someone",
+                "sentence": "She stabbed the meat to check if it was cooked."
+            }
+        ]
+    },
+    {
+        "root": "freeload",
+        "meanings": [
+            {
+                "word": "freeloader",
+                "partOfSpeech": "noun",
+                "definition": "a person who takes advantage of others’ generosity",
+                "sentence": "He’s such a freeloader, always joining us for meals without offering to help."
+            }
+        ]
+    },
+    {
+        "root": "sprain",
+        "meanings": [
+            {
+                "word": "sprain",
+                "partOfSpeech": "noun",
+                "definition": "an injury to a joint caused by twisting",
+                "sentence": "She got a sprain in her ankle during the game."
+            },
+            {
+                "word": "sprained",
+                "partOfSpeech": "verb",
+                "definition": "injured by twisting a joint",
+                "sentence": "She sprained her ankle during the match."
+            }
+        ]
+    },
+    {
+        "root": "fracture",
+        "meanings": [
+            {
+                "word": "fracture",
+                "partOfSpeech": "noun",
+                "definition": "a break or crack in a bone",
+                "sentence": "He had a hairline fracture in his wrist after falling."
+            },
+            {
+                "word": "fractured",
+                "partOfSpeech": "verb",
+                "definition": "broken a bone",
+                "sentence": "He fractured his wrist in the fall."
+            }
+        ]
+    },
+    {
+        "root": "chug",
+        "meanings": [
+            {
+                "word": "chug",
+                "partOfSpeech": "verb",
+                "definition": "to drink something quickly in large gulps",
+                "sentence": "He chugged the soda in seconds."
+            }
+        ]
+    },
+    {
+        "root": "hag",
+        "meanings": [
+            {
+                "word": "hag",
+                "partOfSpeech": "noun",
+                "definition": "an old woman who is unpleasant or frightening",
+                "sentence": "In the fairy tale, the witch appeared as a scary hag."
+            }
+        ]
+    },
+    {
+        "root": "fling",
+        "meanings": [
+            {
+                "word": "fling",
+                "partOfSpeech": "verb",
+                "definition": "to throw something with force",
+                "sentence": "He flung the stone into the lake."
+            }
+        ]
+    },
+    {
+        "root": "star",
+        "meanings": [
+            {
+                "word": "starry",
+                "partOfSpeech": "adjective",
+                "definition": "full of or covered with stars",
+                "sentence": "The sky was starry and clear tonight."
+            }
+        ]
+    },
+    {
+        "root": "tide",
+        "meanings": [
+            {
+                "word": "tide",
+                "partOfSpeech": "noun",
+                "definition": "the regular rise and fall of the sea",
+                "sentence": "They watched the tide come in at the beach."
+            }
+        ]
+    },
+    {
+        "root": "pulverize",
+        "meanings": [
+            {
+                "word": "pulverize",
+                "partOfSpeech": "verb",
+                "definition": "to crush something into a fine powder",
+                "sentence": "The machine can pulverize rocks into sand."
+            }
+        ]
+    },
+    {
+        "root": "chop",
+        "meanings": [
+            {
+                "word": "chopper",
+                "partOfSpeech": "noun",
+                "definition": "a tool used for chopping",
+                "sentence": "He used a chopper to split the firewood."
+            }
+        ]
+    },
+    {
+        "root": "wild",
+        "meanings": [
+            {
+                "word": "wilderness",
+                "partOfSpeech": "noun",
+                "definition": "a natural area left in its raw state",
+                "sentence": "They spent the weekend camping in the wilderness."
+            }
+        ]
+    },
+    {
+        "root": "suck",
+        "meanings": [
+            {
+                "word": "suck up",
+                "partOfSpeech": "phrasal verb",
+                "definition": "to try to please someone for personal gain",
+                "sentence": "She always sucks up to her manager to get special favors."
+            }
+        ]
+    },
+    {
+        "root": "hold",
+        "meanings": [
+            {
+                "word": "uphold",
+                "partOfSpeech": "verb",
+                "definition": "to support or maintain a decision or principle",
+                "sentence": "The committee upheld the original agreement despite objections."
+            }
+        ]
+    },
+    {
+        "root": "coo",
+        "meanings": [
+            {
+                "word": "coo",
+                "partOfSpeech": "verb",
+                "definition": "to make a soft, gentle sound like a dove",
+                "sentence": "The mother cooed softly to calm her crying baby."
+            }
+        ]
+    },
+    {
+        "root": "somber",
+        "meanings": [
+            {
+                "word": "somber",
+                "partOfSpeech": "adjective",
+                "definition": "serious and sad in mood",
+                "sentence": "The hall was decorated in somber colors for the memorial."
+            }
+        ]
+    },
+    {
+        "root": "notch",
+        "meanings": [
+            {
+                "word": "top notch",
+                "partOfSpeech": "compound adjective",
+                "definition": "of the highest quality",
+                "sentence": "Her performance was top notch and impressed everyone."
+            }
+        ]
+    },
+    {
+        "root": "ominous",
+        "meanings": [
+            {
+                "word": "ominous",
+                "partOfSpeech": "adjective",
+                "definition": "suggesting that something bad will happen",
+                "sentence": "The dark clouds gave the landscape an ominous look."
+            }
+        ]
+    },
+    {
+        "root": "somber",
+        "meanings": [
+            {
+                "word": "somber",
+                "partOfSpeech": "adjective",
+                "definition": "serious and sad in mood",
+                "sentence": "The ceremony was somber and respectful."
+            }
+        ]
+    },
+    {
+        "root": "foolish",
+        "meanings": [
+            {
+                "word": "foolishly",
+                "partOfSpeech": "adverb",
+                "definition": "in a silly or unwise manner",
+                "sentence": "He foolishly ignored the warning signs."
+            }
+        ]
+    },
+    {
+        "root": "choke",
+        "meanings": [
+            {
+                "word": "choke",
+                "partOfSpeech": "verb",
+                "definition": "to stop breathing or have difficulty breathing because of a blocked throat",
+                "sentence": "He choked on a piece of meat."
+            }
+        ]
+    },
+    {
+        "root": "jump rope",
+        "meanings": [
+            {
+                "word": "jump rope",
+                "partOfSpeech": "compound noun",
+                "definition": "a game in which you jump over a swinging rope",
+                "sentence": "The children took turns using the jump rope at recess."
+            }
+        ]
+    },
+    {
+        "root": "eerie",
+        "meanings": [
+            {
+                "word": "eerie",
+                "partOfSpeech": "adjective",
+                "definition": "Strange in a way that causes fear or unease.",
+                "sentence": "The abandoned house had an eerie silence at night."
+            }
+        ]
+    },
+    {
+        "root": "senile",
+        "meanings": [
+            {
+                "word": "senile",
+                "partOfSpeech": "adjective",
+                "definition": "Showing mental decline due to old age.",
+                "sentence": "At times, his forgetfulness made him seem senile to his family."
+            }
+        ]
+    }
 ]

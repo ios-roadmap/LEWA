@@ -32,9 +32,13 @@ Fixed figurative expressions conveying a moral, lesson, or non-literal meaning.
 3. **Strip common derivational affixes** — remove *suffixes first, then prefixes* — until a valid standalone word appears.
 
    * **Suffixes**:
-     –tion, –sion, –ssion, –ation, –ment, –ance, –ence, –ness, –ity, –ship, –hood, –age, –al, –acy, –ery, –ure, –ist, –ism, –er, –or, –ive, –ous, –ious, –less, –ful, –able, –ible, –ic, –ical, –ize/–ise, –ant, –ate, –y
+     –tion, –sion, –ssion, –ation, –ment, –ance, –ence, –ness, –ity, –ship, –hood, –age, –al, –acy, –ery, –ure, –ist, –ism, –er, –or, –ive, –ous, –ious, –less, –ful, –able, –ible, –ic, –ical, –ize/–ise, –ant, –ate, -ary, –y
    * **Prefixes**:
      un-, in-, im-, il-, ir-, non-, dis-, mis-, de-, ex-, re-, pre-, post-, sub-, super-, under-, over-, anti-, counter-, co-, inter-, trans-, pro-, micro-, macro-, hyper-, ultra-
+     
+3.1 **Fixed multi-word expressions exception:**
+If the input is listed in dictionaries as a single multi-word lexical unit (e.g. “jump rope”, “roll call”, “credit card”), treat the entire expression as the root and skip all the affix-stripping and orthographic steps that follow.
+     
 4. **Orthographic adjustments** (apply after affix-stripping, in this order):
 
    1. If the stripped form ends in **two identical consonants** and removing one yields a valid standalone word, adopt the shorter form (e.g. **runn** → **run**).
