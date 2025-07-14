@@ -1,391 +1,5 @@
 [
     {
-        "root": "celebrate",
-        "meanings": [
-            {
-                "word": "celebrate",
-                "partOfSpeech": "verb",
-                "definition": "to do something special or enjoyable for an important event or occasion",
-                "sentence": "We will celebrate her birthday with a big party."
-            }
-        ]
-    },
-    {
-        "root": "celebrity",
-        "meanings": [
-            {
-                "word": "celebrity",
-                "partOfSpeech": "noun",
-                "definition": "a famous person, especially in entertainment or sports",
-                "sentence": "Many children dream of becoming a celebrity one day."
-            }
-        ]
-    },
-    {
-        "root": "janky",
-        "meanings": [
-            {
-                "word": "janky",
-                "partOfSpeech": "adjective",
-                "definition": "of poor quality and likely to fail",
-                "sentence": "The old computer is janky and often breaks down."
-            }
-        ]
-    },
-    {
-        "root": "defect",
-        "meanings": [
-            {
-                "word": "defect",
-                "partOfSpeech": "noun",
-                "definition": "a fault or imperfection in something",
-                "sentence": "The car was returned because it had a defect in the engine."
-            },
-            {
-                "word": "defector",
-                "partOfSpeech": "noun",
-                "definition": "a person who leaves one country or group to join another",
-                "sentence": "The athlete was called a defector when he left to play for another country."
-            },
-            {
-                "word": "defection",
-                "partOfSpeech": "noun",
-                "definition": "the act of leaving one country or group to join another",
-                "sentence": "His defection to the rival team surprised everyone."
-            },
-            {
-                "word": "defective",
-                "partOfSpeech": "adjective",
-                "definition": "Having a fault that makes it not work properly.",
-                "sentence": "The phone I bought had a defective battery and wouldn't hold a charge."
-            }
-        ]
-    },
-    {
-        "root": "slop",
-        "meanings": [
-            {
-                "word": "slop",
-                "partOfSpeech": "verb",
-                "definition": "spill liquid over the edge of a container",
-                "sentence": "Be careful not to slop milk when you pour it into the glass."
-            },
-            {
-                "word": "sloppy",
-                "partOfSpeech": "adjective",
-                "definition": "Very careless or untidy in work or appearance.",
-                "sentence": "Her sloppy handwriting made the report hard to read."
-            }
-        ]
-    },
-    {
-        "root": "scissors",
-        "meanings": [
-            {
-                "word": "scissors",
-                "partOfSpeech": "noun",
-                "definition": "A tool with two blades used for cutting paper or cloth.",
-                "sentence": "Please pass me the scissors so I can cut this paper."
-            }
-        ]
-    },
-    {
-        "root": "nursery",
-        "meanings": [
-            {
-                "word": "nursery",
-                "partOfSpeech": "noun",
-                "definition": "A place where young children are cared for during the day.",
-                "sentence": "My daughter goes to the nursery while I’m at work."
-            }
-        ]
-    },
-    {
-        "root": "kindergarten",
-        "meanings": [
-            {
-                "word": "kindergarten",
-                "partOfSpeech": "noun",
-                "definition": "A class for young children before they begin first grade.",
-                "sentence": "My daughter will start kindergarten this September."
-            }
-        ]
-    },
-    {
-        "root": "education",
-        "meanings": [
-            {
-                "word": "education",
-                "partOfSpeech": "noun",
-                "definition": "process of teaching and learning to gain knowledge",
-                "sentence": "A good education can open many opportunities in life."
-            },
-            {
-                "word": "coeducation",
-                "partOfSpeech": "noun",
-                "definition": "Education system where males and females study together.",
-                "sentence": "The school introduced coeducation to promote gender equality."
-            }
-        ]
-    },
-    {
-        "root": "empower",
-        "meanings": [
-            {
-                "word": "empower",
-                "partOfSpeech": "verb",
-                "definition": "To give someone the authority or ability to do something.",
-                "sentence": "The new training program will empower employees to lead projects."
-            }
-        ]
-    },
-    {
-        "root": "boarding school",
-        "meanings": [
-            {
-                "word": "boarding school",
-                "partOfSpeech": "compound noun",
-                "definition": "A school where students live and study during the term.",
-                "sentence": "Many parents choose a boarding school to help their children become independent."
-            }
-        ]
-    },
-    {
-        "root": "alumnus",
-        "meanings": [
-            {
-                "word": "alumnus",
-                "partOfSpeech": "noun",
-                "definition": "a male graduate of a school or university",
-                "sentence": "The alumnus returned to campus to give a lecture."
-            },
-            {
-                "word": "alumna",
-                "partOfSpeech": "noun",
-                "definition": "a female graduate of a school or university",
-                "sentence": "The alumna organized a scholarship fund for future students."
-            },
-            {
-                "word": "alumni",
-                "partOfSpeech": "noun",
-                "definition": "male or mixed-gender graduates of a school or university",
-                "sentence": "The alumni held their annual reunion last weekend."
-            },
-            {
-                "word": "alumnae",
-                "partOfSpeech": "noun",
-                "definition": "female graduates of a school or university",
-                "sentence": "The alumnae donated books to the new library wing."
-            }
-        ]
-    },
-    {
-        "root": "assess",
-        "meanings": [
-            {
-                "word": "assess",
-                "partOfSpeech": "verb",
-                "definition": "evaluate the quality or importance of something",
-                "sentence": "The teacher will assess your project next week."
-            },
-            {
-                "word": "assessor",
-                "partOfSpeech": "noun",
-                "definition": "person who evaluates or judges something",
-                "sentence": "The building assessor inspected the house for safety issues."
-            },
-            {
-                "word": "assessment",
-                "partOfSpeech": "noun",
-                "definition": "process of evaluating or estimating something’s value or quality",
-                "sentence": "The assessment of the new software showed it improved team productivity."
-            }
-        ]
-    },
-    {
-        "root": "matriculate",
-        "meanings": [
-            {
-                "word": "matriculate",
-                "partOfSpeech": "verb",
-                "definition": "officially join a college or university as a student",
-                "sentence": "She will matriculate at the university in September."
-            },
-            {
-                "word": "matriculant",
-                "partOfSpeech": "noun",
-                "definition": "person who has officially enrolled at a school or college",
-                "sentence": "The matriculant attended the campus tour before classes began."
-            },
-            {
-                "word": "matriculatory",
-                "partOfSpeech": "adjective",
-                "definition": "related to the process of officially enrolling at an institution",
-                "sentence": "Students received a matriculatory guide explaining enrollment steps."
-            }
-        ]
-    },
-    {
-        "root": "offshore",
-        "meanings": [
-            {
-                "word": "offshore",
-                "partOfSpeech": "adjective",
-                "definition": "located at sea some distance away from the shore",
-                "sentence": "The company built an offshore wind farm to generate renewable energy."
-            },
-            {
-                "word": "offshorer",
-                "partOfSpeech": "noun",
-                "definition": "person or company that relocates services abroad to reduce costs",
-                "sentence": "Several offshorers moved their manufacturing to Vietnam to save money."
-            },
-            {
-                "word": "nonoffshore",
-                "partOfSpeech": "adjective",
-                "definition": "not located at sea away from the shore",
-                "sentence": "The study examined nonoffshore sites along the coastline."
-            },
-            {
-                "word": "offshoreable",
-                "partOfSpeech": "adjective",
-                "definition": "able to be carried out or located at sea away from the shore",
-                "sentence": "The team decided that assembling the modules was offshoreable to reduce costs."
-            }
-        ]
-    },
-    {
-        "root": "demand",
-        "meanings": [
-            {
-                "word": "demand",
-                "partOfSpeech": "noun",
-                "definition": "strong request or need for something",
-                "sentence": "The high demand for electric cars is changing the auto industry."
-            },
-            {
-                "word": "demanding",
-                "partOfSpeech": "adjective",
-                "definition": "needing a lot of effort, attention, or skill",
-                "sentence": "The training program was very demanding but helped me improve quickly."
-            },
-            {
-                "word": "demander",
-                "partOfSpeech": "noun",
-                "definition": "person who insists on getting something",
-                "sentence": "The demander requested a full refund after the service failed."
-            }
-        ]
-    },
-    {
-        "root": "dead end",
-        "meanings": [
-            {
-                "word": "dead end",
-                "partOfSpeech": "compound noun",
-                "definition": "road or path that stops and has no exit",
-                "sentence": "We drove down the street only to find it was a dead end."
-            }
-        ]
-    },
-    {
-        "root": "fulfill",
-        "meanings": [
-            {
-                "word": "fulfill",
-                "partOfSpeech": "verb",
-                "definition": "complete a task or satisfy a requirement",
-                "sentence": "She worked hard to fulfill all the requirements for her degree."
-            },
-            {
-                "word": "fulfilling",
-                "partOfSpeech": "adjective",
-                "definition": "providing a sense of satisfaction or happiness",
-                "sentence": "Volunteering at the shelter was a very fulfilling experience."
-            },
-            {
-                "word": "fulfiller",
-                "partOfSpeech": "noun",
-                "definition": "person who completes or achieves something",
-                "sentence": "The fulfiller delivered all the necessary documents on time."
-            },
-            {
-                "word": "fulfillment",
-                "partOfSpeech": "noun",
-                "definition": "act of completing or achieving something promised",
-                "sentence": "Receiving the award was the fulfillment of his lifelong goal."
-            },
-            {
-                "word": "fulfillable",
-                "partOfSpeech": "adjective",
-                "definition": "able to be completed or achieved",
-                "sentence": "The project was fulfillable within the deadline."
-            }
-        ]
-    },
-    {
-        "root": "appall",
-        "meanings": [
-            {
-                "word": "appall",
-                "partOfSpeech": "verb",
-                "definition": "greatly shock or horrify someone",
-                "sentence": "The cruel treatment of the animals appalled everyone who heard about it."
-            },
-            {
-                "word": "appalling",
-                "partOfSpeech": "adjective",
-                "definition": "causing shock or horror",
-                "sentence": "The living conditions in the camp were appalling."
-            }
-        ]
-    },
-    {
-        "root": "contemporary",
-        "meanings": [
-            {
-                "word": "contemporary",
-                "partOfSpeech": "adjective",
-                "definition": "belonging to or occurring in the present time",
-                "sentence": "Many contemporary artists experiment with new media."
-            }
-        ]
-    },
-    {
-        "root": "admit",
-        "meanings": [
-            {
-                "word": "admit",
-                "partOfSpeech": "verb",
-                "definition": "to agree or confess that something is true",
-                "sentence": "She admitted she was mistaken about the directions."
-            },
-            {
-                "word": "admission",
-                "partOfSpeech": "noun",
-                "definition": "the right or permission to enter a place or event",
-                "sentence": "Her admission to the concert was confirmed yesterday."
-            }
-        ]
-    },
-    {
-        "root": "confess",
-        "meanings": [
-            {
-                "word": "confess",
-                "partOfSpeech": "verb",
-                "definition": "to admit that something is true or that you did something wrong",
-                "sentence": "He confessed to breaking the window."
-            },
-            {
-                "word": "confession",
-                "partOfSpeech": "noun",
-                "definition": "a statement admitting that you did something wrong",
-                "sentence": "Her confession about breaking the vase relieved her guilt."
-            }
-        ]
-    },
-    {
         "root": "consider",
         "meanings": [
             {
@@ -1210,17 +824,6 @@
         ]
     },
     {
-        "root": "chop",
-        "meanings": [
-            {
-                "word": "chop",
-                "partOfSpeech": "verb",
-                "definition": "to cut something into pieces with a sharp tool",
-                "sentence": "Please chop the onions before adding them to the soup."
-            }
-        ]
-    },
-    {
         "root": "blend",
         "meanings": [
             {
@@ -2037,6 +1640,12 @@
         "root": "chop",
         "meanings": [
             {
+                "word": "chop",
+                "partOfSpeech": "verb",
+                "definition": "to cut something into pieces with a sharp tool",
+                "sentence": "Please chop the onions before adding them to the soup."
+            },
+            {
                 "word": "chopper",
                 "partOfSpeech": "noun",
                 "definition": "a tool used for chopping",
@@ -2085,17 +1694,6 @@
                 "partOfSpeech": "verb",
                 "definition": "to make a soft, gentle sound like a dove",
                 "sentence": "The mother cooed softly to calm her crying baby."
-            }
-        ]
-    },
-    {
-        "root": "somber",
-        "meanings": [
-            {
-                "word": "somber",
-                "partOfSpeech": "adjective",
-                "definition": "serious and sad in mood",
-                "sentence": "The hall was decorated in somber colors for the memorial."
             }
         ]
     },
@@ -2186,5 +1784,426 @@
                 "sentence": "At times, his forgetfulness made him seem senile to his family."
             }
         ]
+    },
+    {
+        "root": "resurrect",
+        "meanings": [
+            {
+                "word": "resurrect",
+                "partOfSpeech": "verb",
+                "definition": "to bring someone or something back to life",
+                "sentence": "In the legend, the sorcerer tried to resurrect the fallen king."
+            },
+            {
+                "word": "resurrection",
+                "partOfSpeech": "noun",
+                "definition": "the act of bringing someone back to life",
+                "sentence": "The novel tells of the resurrection of an ancient king."
+            }
+        ]
+    },
+    {
+        "root": "outrage",
+        "meanings": [
+            {
+                "word": "outrage",
+                "partOfSpeech": "noun",
+                "definition": "a strong feeling of shock and anger",
+                "sentence": "The community expressed outrage when they learned about the unfair policy."
+            },
+            {
+                "word": "outrageous",
+                "partOfSpeech": "adjective",
+                "definition": "very shocking and unacceptable",
+                "sentence": "It is outrageous that you have to pay so much for parking."
+            }
+        ]
+    },
+    {
+        "root": "extort",
+        "meanings": [
+            {
+                "word": "extort",
+                "partOfSpeech": "verb",
+                "definition": "to obtain something by force or threats",
+                "sentence": "The gang tried to extort money from local shop owners."
+            },
+            {
+                "word": "extortion",
+                "partOfSpeech": "noun",
+                "definition": "the act of getting money by force or threats",
+                "sentence": "The company reported a case of extortion when a hacker demanded payment."
+            }
+        ]
+    },
+    {
+        "root": "propel",
+        "meanings": [
+            {
+                "word": "propel",
+                "partOfSpeech": "verb",
+                "definition": "to push or drive something forward",
+                "sentence": "The strong wind helped propel the boat across the lake."
+            },
+            {
+                "word": "propulsion",
+                "partOfSpeech": "noun",
+                "definition": "the force that pushes an object forward",
+                "sentence": "The rocket’s propulsion system uses powerful engines."
+            }
+        ]
+    },
+    {
+        "root": "feast",
+        "meanings": [
+            {
+                "word": "feast",
+                "partOfSpeech": "noun",
+                "definition": "a large meal, often for a special occasion",
+                "sentence": "They prepared a feast for the holiday dinner."
+            }
+        ]
+    },
+    {
+        "root": "footstool",
+        "meanings": [
+            {
+                "word": "footstool",
+                "partOfSpeech": "compound noun",
+                "definition": "a low stool for resting your feet",
+                "sentence": "She put her feet up on the footstool while reading."
+            }
+        ]
+    },
+    {
+        "root": "hook",
+        "meanings": [
+            {
+                "word": "hook",
+                "partOfSpeech": "noun",
+                "definition": "a curved piece of metal for catching or holding things",
+                "sentence": "He hung his coat on a hook by the door."
+            }
+        ]
+    },
+    {
+        "root": "head",
+        "meanings": [
+            {
+                "word": "head",
+                "partOfSpeech": "noun",
+                "definition": "the upper part of the body containing the brain",
+                "sentence": "He nodded his head in agreement."
+            }
+        ]
+    },
+    {
+        "root": "dig into",
+        "meanings": [
+            {
+                "word": "dig into",
+                "partOfSpeech": "phrasal verb",
+                "definition": "to dig into food means to start eating it eagerly",
+                "sentence": "We dig into our meals as soon as they arrive."
+            }
+        ]
+    },
+    {
+        "root": "junkie",
+        "meanings": [
+            {
+                "word": "junkie",
+                "partOfSpeech": "noun",
+                "definition": "a person who is addicted to drugs",
+                "sentence": "He was a junkie who needed drugs every day."
+            }
+        ]
+    },
+    {
+        "root": "extent",
+        "meanings": [
+            {
+                "word": "extent",
+                "partOfSpeech": "noun",
+                "definition": "the degree or range to which something applies or happens",
+                "sentence": "She didn't realize the full extent of the damage."
+            }
+        ]
+    },
+    {
+        "root": "nominate",
+        "meanings": [
+            {
+                "word": "nominate",
+                "partOfSpeech": "verb",
+                "definition": "to officially suggest someone for a position or award",
+                "sentence": "The committee will nominate her for the leadership role next week."
+            }
+        ]
+    },
+    {
+        "root": "foreboding",
+        "meanings": [
+            {
+                "word": "foreboding",
+                "partOfSpeech": "noun",
+                "definition": "an uneasy feeling that something bad will happen",
+                "sentence": "She felt a foreboding before the storm."
+            }
+        ]
+    },
+    {
+        "root": "level-headed",
+        "meanings": [
+            {
+                "word": "level-headed",
+                "partOfSpeech": "compound adjective",
+                "definition": "calm and sensible in difficult situations",
+                "sentence": "She remained level-headed during the crisis."
+            }
+        ]
+    },
+    {
+        "root": "shaky",
+        "meanings": [
+            {
+                "word": "shaky",
+                "partOfSpeech": "adverb",
+                "definition": "in an unsteady or insecure way",
+                "sentence": "He tried to draw a straight line but his hand moved shaky."
+            }
+        ]
+    },
+    {
+        "root": "loony",
+        "meanings": [
+            {
+                "word": "loony",
+                "partOfSpeech": "adjective",
+                "definition": "mentally unstable or crazy",
+                "sentence": "That loony idea will never work in practice."
+            }
+        ]
+    },
+    {
+        "root": "bluff",
+        "meanings": [
+            {
+                "word": "bluff",
+                "partOfSpeech": "verb",
+                "definition": "to deceive someone by pretending strength or confidence",
+                "sentence": "She tried to bluff her way through the tough questions."
+            }
+        ]
+    },
+    {
+        "root": "nutjob",
+        "meanings": [
+            {
+                "word": "nutjob",
+                "partOfSpeech": "compound noun",
+                "definition": "a person who is mentally unstable or acts crazy",
+                "sentence": "Don’t mind him; he’s a total nutjob sometimes."
+            }
+        ]
+    },
+    {
+        "root": "shithead",
+        "meanings": [
+            {
+                "word": "shithead",
+                "partOfSpeech": "compound noun",
+                "definition": "an insulting word for a very unpleasant or stupid person",
+                "sentence": "He called his neighbor a shithead after the argument."
+            }
+        ]
+    },
+    {
+        "root": "scheme",
+        "meanings": [
+            {
+                "word": "scheme",
+                "partOfSpeech": "verb",
+                "definition": "to make secret or dishonest plans",
+                "sentence": "They schemed to take over the company."
+            }
+        ]
+    },
+    {
+        "root": "rock paper scissors",
+        "meanings": [
+            {
+                "word": "rock paper scissors",
+                "partOfSpeech": "compound noun",
+                "definition": "a game where players use rock, paper, or scissors hand shapes",
+                "sentence": "They settled the dispute with a game of rock paper scissors."
+            }
+        ]
+    },
+    {
+      "root": "necessity",
+      "meanings": [
+        {
+          "word": "necessity",
+          "partOfSpeech": "noun",
+          "definition": "something that is needed",
+          "sentence": "Clean water is a necessity for good health."
+        }
+      ]
+    },
+    {
+      "root": "indulgence",
+      "meanings": [
+        {
+          "word": "indulgence",
+          "partOfSpeech": "noun",
+          "definition": "the act of allowing yourself something enjoyable",
+          "sentence": "Reading a novel at the café was her favorite indulgence."
+        }
+      ]
+    },
+    {
+      "root": "clumsy",
+      "meanings": [
+        {
+          "word": "clumsy",
+          "partOfSpeech": "adjective",
+          "definition": "awkward in movement or action",
+          "sentence": "She felt clumsy on the ice and kept slipping."
+        }
+      ]
+    },
+    {
+      "root": "extravagance",
+      "meanings": [
+        {
+          "word": "extravagance",
+          "partOfSpeech": "noun",
+          "definition": "behaviour of spending much more than necessary",
+          "sentence": "She admired the extravagance of the palace decorations."
+        }
+      ]
+    },
+    {
+      "root": "indispensable",
+      "meanings": [
+        {
+          "word": "indispensable",
+          "partOfSpeech": "adjective",
+          "definition": "absolutely necessary or essential",
+          "sentence": "A reliable internet connection is indispensable for working from home."
+        }
+      ]
+    },
+    {
+      "root": "stand on",
+      "meanings": [
+        {
+          "word": "stand on",
+          "partOfSpeech": "phrasal verb",
+          "definition": "to base something on a particular idea or fact",
+          "sentence": "He stands on his experience to make decisions."
+        }
+      ]
+    },
+    {
+      "root": "perky",
+      "meanings": [
+        {
+          "word": "perky",
+          "partOfSpeech": "adjective",
+          "definition": "cheerful and full of energy",
+          "sentence": "She felt perky after her morning run."
+        }
+      ]
+    },
+    {
+      "root": "granny",
+      "meanings": [
+        {
+          "word": "granny",
+          "partOfSpeech": "noun",
+          "definition": "your grandmother, especially in an affectionate way",
+          "sentence": "My granny bakes the best chocolate chip cookies."
+        }
+      ]
+    },
+    {
+      "root": "yelp",
+      "meanings": [
+        {
+          "word": "yelp",
+          "partOfSpeech": "verb",
+          "definition": "to give a short, sharp cry, usually in pain or surprise",
+          "sentence": "The dog yelped when it stepped on the thorn."
+        }
+      ]
+    },
+    {
+      "root": "pulp",
+      "meanings": [
+        {
+          "word": "pulp",
+          "partOfSpeech": "noun",
+          "definition": "a soft, wet mass of small pieces",
+          "sentence": "She turned the strawberries into a smooth pulp."
+        }
+      ]
+    },
+    {
+      "root": "persistent",
+      "meanings": [
+        {
+          "word": "persistent",
+          "partOfSpeech": "adjective",
+          "definition": "continuing firmly despite difficulties",
+          "sentence": "Her persistent efforts finally led to success."
+        }
+      ]
+    },
+    {
+      "root": "penitentiary",
+      "meanings": [
+        {
+          "word": "penitentiary",
+          "partOfSpeech": "noun",
+          "definition": "a prison for serious criminals",
+          "sentence": "He was sent to a federal penitentiary for his crime."
+        }
+      ]
+    },
+    {
+      "root": "trip on",
+      "meanings": [
+        {
+          "word": "trip on",
+          "partOfSpeech": "phrasal verb",
+          "definition": "to stumble because your foot hits something",
+          "sentence": "Be careful not to trip on the loose carpet edge."
+        }
+      ]
+    },
+    {
+      "root": "twist up",
+      "meanings": [
+        {
+          "word": "twist up",
+          "partOfSpeech": "phrasal verb",
+          "definition": "to twist something into a tighter shape",
+          "sentence": "She twisted up the paper to make a small ball."
+        }
+      ]
+    },
+    {
+      "root": "as well",
+      "meanings": [
+        {
+          "word": "as well",
+          "partOfSpeech": "collocation",
+          "definition": "in addition; also",
+          "sentence": "He speaks English and French as well."
+        }
+      ]
     }
+
 ]
