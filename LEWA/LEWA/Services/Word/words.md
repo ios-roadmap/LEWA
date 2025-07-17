@@ -1,72 +1,98 @@
-**Generate a structured JSON response for an English-dictionary API from a single input.**  
-*(The input may be a **standard lexical unit** or a **proverb/idiom**.)*
+## Generate a concise English‑dictionary entry for **one or more** inputs
+
+*(word, multi‑word unit, proverb, or idiom) suitable for IELTS Academic Band 7 / CEFR‑B2.*
 
 ---
 
-## 1 Input Categories
+### 0  Parenthetical information
 
-1. **Standard lexical unit**  
-   Single words or fixed multi-word units (collocations, phrasal verbs, compound nouns/adjectives, conversational formulas).  
-   *Examples*: run, take off, credit card, pay attention, get in touch, “What’s up?”
+The input may include text in parentheses immediately after the headword, e.g.
+  `proportional (directly & inversely)` or `run (verb)` or `bank (TR: banka)`
 
-2. **Proverb / Idiom**  
-   Fixed figurative expressions with non-literal meaning.  
-   *Examples*: spill the beans, break the ice, a stitch in time saves nine
+* Treat everything inside the **final** pair of parentheses as **metadata only**.
 
----
+  * It may signal sense, part of speech, translation, or other context.
+  * **Never copy the parentheses or their contents into the output.**
+* **Multiple items:** If the metadata lists several alternatives—joined by **&**, **/**, or commas—treat *each* item as a separate input:
 
-## 2 Spelling Handling
-
-– If the input is misspelled or unrecognized, silently map it to the closest valid form and proceed.  
-– **Do not** reveal any correction in the output.
+  * Generate a separate entry for every listed item (e.g. *directly proportional* and *inversely proportional*).
+  * Format the multiple entries exactly as in § 4 and separate them with `-----`.
+* **Single item:** If the metadata contains only one item, use it simply to select the most relevant sense.
 
 ---
 
-## 3 Root Extraction *(standard lexical units only)*
+### 1  Spelling
 
-1. **Lemmatize** inflected or comparative/superlative/adverbial forms to their base.  
-2. **If** the entire input is already a valid lemma (and not a prefix + root), use it.  
-3. **Otherwise**, strip common derivational affixes (–tion, –ment, –ness, –ly, un-, re-, etc.) one at a time until a valid word remains.  
-4. **Handle multi-word heads** (e.g. ‘credit card’ → head = ‘card’, then strip).  
-5. **Apply orthographic fixes** (double consonants, –i → –y, etc.) as needed.  
-6. **If** no valid standalone word emerges, keep the original input.  
-7. **Skip** this section for proverbs/idioms.
+* Silently correct misspellings; do **not** mention the correction.
 
 ---
 
-## 4 Meaning Selection
+### 2  Root extraction — **absolutely no inflection in the output**
 
-– **Return exactly one sense**: the most common everyday usage of the **root**.  
-– Definition: ≤ 15 words, non-repetitive, **B2-level**.  
-– Example sentence: **B2-level**, using the **root form**.  
-– Part of speech in the output must match the **input form**.
+> **🔴 Mandatory rule:** If the input differs from its dictionary lemma **only by an inflectional ending**
+> ‑ verbs (‑s, ‑ed, ‑en, ‑ing) ‑ nouns (plural ‑s/‑es) ‑ adjectives (comparative ‑er, superlative ‑est)
+> **then:**
+>
+> * set **`root = word = the lemma`**;
+> * **never show** the original inflected form anywhere;
+> * write the `definition` and `sentence` with that lemma.
+
+Headwords must always be dictionary lemmas. Never output an inflected form as the `word` field.
+
+1. **Inflection** – lemmatise all inflected forms. If lemmatisation is the only change, stop here (rule above).
+2. **Candidate lemma check** – if the lemma is valid and has **no derivational suffix**, set `root = word = lemma`.
+3. **Prefix stripping** – remove one recognised derivational prefix (un‑, re‑, mis‑, dis‑, over‑, etc.) until a valid word appears; the first valid word becomes **root**.
+4. **Suffix stripping** – after prefix stripping, remove one recognised derivational suffix (‑al, ‑ity, ‑ous, ‑ly, ‑ment, ‑ance, ‑ence, ‑ant, ‑ent, etc.) until a valid word appears.
+   *If removing a suffix changes the core meaning, keep the longer form as **word** and the shorter valid form as **root**.*
+5. **Multi‑word heads** – for noun compounds, isolate the head noun first, then apply steps 1‑4. For phrasal verbs, treat the verb only (*look after* → *look*).
+6. **Orthography** – make minor fixes if needed (‑i → ‑y, double consonants).
+7. **Fallback** – if no valid word emerges, use the original input as the **root**.
 
 ---
 
-## 5 Output Formats
+### 3  Meaning selection
 
-### 5.1 Standard Lexical Unit
-```json
-{
-  "root": "<root form>",
-  "meanings": [
-    {
-      "word": "<root form>",
-      "partOfSpeech": "<noun|verb|adjective|adverb|conjunction|interjection|phrasal verb|compound noun|compound adjective|collocation>",
-      "definition": "<concise B2-level definition>",
-      "sentence": "<B2-level example using the root>"
-    }
-  ]
-}
+Provide **one** common, everyday sense of the input’s part of speech, guided (if present) by the parenthetical metadata.
+
+* **Definition** – ≤ 15 words, B2 vocabulary, start with a lowercase letter, use the lemma only.
+* **Example sentence (16‑20 words):**
+
+  * Include the **word** (identical to `root`) **exactly once**.
+  * Must contain **exactly one** Academic Word List (AWL) word or collocation.
+  * Must contain **exactly one** less‑frequent B2 word (e.g. *restrict, container, overflow*).
+  * Use formal register; avoid contractions.
+  * Include **exactly one** of the grammar devices listed below (cycle them across calls):
+    • concessive clause (*although, even though, though*)
+    • conditional clause (Type 0‑3 or mixed)
+    • reason clause (*because, since, as*)
+    • purpose clause (*so that, in order that, so as to*)
+    • result clause (*so … that, such … that*)
+    • contrast clause (*while, whereas*)
+    • relative clause (defining / non‑defining)
+    • participle clause (present / past / perfect)
+    • linking adverb (*however, therefore, nevertheless, moreover, consequently*)
+    • inversion (condition / concession)
+    • cleft sentence for emphasis
+
+---
+
+### 4  Output format
+
+**Standard lexical unit**
+
+```
+root: <root>
+word: <headword>            # always identical to root for purely inflected inputs
+definition: <concise definition>
+sentence: <example sentence>
 ```
 
-### 5.2 Proverb / Idiom
+**Proverb / idiom**
 
-```json
-{
-  "expression": "<exact proverb or idiom>",
-  "type": "<proverb|idiom>",
-  "definition": "<brief explanation>",
-  "sentence": "<B2-level example sentence>"
-}
 ```
+expression: <exact phrase>
+definition: <concise explanation>
+sentence: <example sentence>
+```
+
+When processing multiple inputs, format each entry separately and separate them with `-----`.
