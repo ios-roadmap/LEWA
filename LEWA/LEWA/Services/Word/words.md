@@ -27,26 +27,33 @@ The input may include text in parentheses immediately after the headword, e.g.
 
 ---
 
-### 2  Root extraction — **absolutely no inflection in the output**
+### 2  Root extraction *(standard lexical units only)*
 
-> **🔴 Mandatory rule:** If the input differs from its dictionary lemma **only by an inflectional ending**
-> ‑ verbs (‑s, ‑ed, ‑en, ‑ing) ‑ nouns (plural ‑s/‑es) ‑ adjectives (comparative ‑er, superlative ‑est)
-> **then:**
->
-> * set **`root = word = the lemma`**;
-> * **never show** the original inflected form anywhere;
-> * write the `definition` and `sentence` with that lemma.
+**Headwords (`word`) must always be dictionary lemmas.**
+Never output an inflected form (e.g. plural, -ed, -ing, 3rd person) as the `word`.
 
-Headwords must always be dictionary lemmas. Never output an inflected form as the `word` field.
+Perform derivational analysis systematically:
 
-1. **Inflection** – lemmatise all inflected forms. If lemmatisation is the only change, stop here (rule above).
-2. **Candidate lemma check** – if the lemma is valid and has **no derivational suffix**, set `root = word = lemma`.
-3. **Prefix stripping** – remove one recognised derivational prefix (un‑, re‑, mis‑, dis‑, over‑, etc.) until a valid word appears; the first valid word becomes **root**.
-4. **Suffix stripping** – after prefix stripping, remove one recognised derivational suffix (‑al, ‑ity, ‑ous, ‑ly, ‑ment, ‑ance, ‑ence, ‑ant, ‑ent, etc.) until a valid word appears.
-   *If removing a suffix changes the core meaning, keep the longer form as **word** and the shorter valid form as **root**.*
-5. **Multi‑word heads** – for noun compounds, isolate the head noun first, then apply steps 1‑4. For phrasal verbs, treat the verb only (*look after* → *look*).
-6. **Orthography** – make minor fixes if needed (‑i → ‑y, double consonants).
-7. **Fallback** – if no valid word emerges, use the original input as the **root**.
+* Start with **inflection stripping**:
+
+  * Lemmatise inflected forms (e.g. *studies, running, dug*) to their dictionary lemma.
+  * Set the lemma as `word`.
+
+* Continue with **prefix stripping** (remove one at a time: *un‑, re‑, mis‑, dis‑, over‑*, etc.) and then **suffix stripping** (remove one at a time: *‑al, ‑ity, ‑ous, ‑ly, ‑ment, ‑ance, ‑ence, ‑ant, ‑ent*, etc.) until a valid base form is found:
+
+  * If the resulting stripped form is valid, meaningful, and retains core meaning, set it as `root`.
+  * If stripping distorts the sense or yields no valid base, set `root = word` (the lemma itself).
+
+Examples:
+
+* input: *harassment*
+  → word: **harassment** (dictionary lemma), root: **harass**
+
+* input: *studies*
+  → word: **study**, root: **study**
+
+* input: *misunderstanding*
+  → word: **misunderstanding** (dictionary lemma), root: **understand**
 
 ---
 
@@ -54,40 +61,42 @@ Headwords must always be dictionary lemmas. Never output an inflected form as th
 
 Provide **one** common, everyday sense of the input’s part of speech, guided (if present) by the parenthetical metadata.
 
-* **Definition** – ≤ 15 words, B2 vocabulary, start with a lowercase letter, use the lemma only.
+* **Definition** – ≤ 15 words, B2 vocabulary, start with a lowercase letter.
 * **Example sentence (16‑20 words):**
 
-  * Include the **word** (identical to `root`) **exactly once**.
+  * Include the **word** (headword without parentheses) **exactly once**.
+  * Do **not** include the root unless identical to the word.
   * Must contain **exactly one** Academic Word List (AWL) word or collocation.
   * Must contain **exactly one** less‑frequent B2 word (e.g. *restrict, container, overflow*).
   * Use formal register; avoid contractions.
-  * Include **exactly one** of the grammar devices listed below (cycle them across calls):
-    • concessive clause (*although, even though, though*)
-    • conditional clause (Type 0‑3 or mixed)
-    • reason clause (*because, since, as*)
-    • purpose clause (*so that, in order that, so as to*)
-    • result clause (*so … that, such … that*)
-    • contrast clause (*while, whereas*)
-    • relative clause (defining / non‑defining)
-    • participle clause (present / past / perfect)
-    • linking adverb (*however, therefore, nevertheless, moreover, consequently*)
-    • inversion (condition / concession)
-    • cleft sentence for emphasis
+  * Include **exactly one** of the following grammar devices (cycle them across calls):
+
+    * concessive clause (*although, even though, though*)
+    * conditional clause (Type 0‑3 or mixed)
+    * reason clause (*because, since, as*)
+    * purpose clause (*so that, in order that, so as to*)
+    * result clause (*so … that, such … that*)
+    * contrast clause (*while, whereas*)
+    * relative clause (defining / non‑defining)
+    * participle clause (present / past / perfect)
+    * linking adverb (*however, therefore, nevertheless, moreover, consequently*)
+    * inversion (condition / concession)
+    * cleft sentence for emphasis
 
 ---
 
 ### 4  Output format
 
-**Standard lexical unit**
+**For a standard lexical unit:**
 
 ```
 root: <root>
-word: <headword>            # always identical to root for purely inflected inputs
+word: <entry headword>      # always lemma
 definition: <concise definition>
 sentence: <example sentence>
 ```
 
-**Proverb / idiom**
+**For a proverb / idiom:**
 
 ```
 expression: <exact phrase>
@@ -96,3 +105,5 @@ sentence: <example sentence>
 ```
 
 When processing multiple inputs, format each entry separately and separate them with `-----`.
+
+---
