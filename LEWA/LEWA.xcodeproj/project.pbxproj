@@ -7,40 +7,40 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		64156FD42E08630900DCBA24 /* PBXContainerItemProxy */ = {
+		644F429A2E30A241002F281C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 64156FBA2E08630800DCBA24 /* Project object */;
+			containerPortal = 644F42842E30A240002F281C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 64156FC12E08630800DCBA24;
+			remoteGlobalIDString = 644F428B2E30A240002F281C;
 			remoteInfo = LEWA;
 		};
-		64156FDE2E08630900DCBA24 /* PBXContainerItemProxy */ = {
+		644F42A42E30A241002F281C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 64156FBA2E08630800DCBA24 /* Project object */;
+			containerPortal = 644F42842E30A240002F281C /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 64156FC12E08630800DCBA24;
+			remoteGlobalIDString = 644F428B2E30A240002F281C;
 			remoteInfo = LEWA;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		64156FC22E08630800DCBA24 /* LEWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEWA.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		64156FD32E08630900DCBA24 /* LEWATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEWATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		64156FDD2E08630900DCBA24 /* LEWAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEWAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644F428C2E30A240002F281C /* LEWA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LEWA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644F42992E30A241002F281C /* LEWATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEWATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		644F42A32E30A241002F281C /* LEWAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LEWAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		64156FC42E08630800DCBA24 /* LEWA */ = {
+		644F428E2E30A240002F281C /* LEWA */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LEWA;
 			sourceTree = "<group>";
 		};
-		64156FD62E08630900DCBA24 /* LEWATests */ = {
+		644F429C2E30A241002F281C /* LEWATests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LEWATests;
 			sourceTree = "<group>";
 		};
-		64156FE02E08630900DCBA24 /* LEWAUITests */ = {
+		644F42A62E30A241002F281C /* LEWAUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = LEWAUITests;
 			sourceTree = "<group>";
@@ -48,21 +48,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		64156FBF2E08630800DCBA24 /* Frameworks */ = {
+		644F42892E30A240002F281C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64156FD02E08630900DCBA24 /* Frameworks */ = {
+		644F42962E30A241002F281C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64156FDA2E08630900DCBA24 /* Frameworks */ = {
+		644F42A02E30A241002F281C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		64156FB92E08630800DCBA24 = {
+		644F42832E30A240002F281C = {
 			isa = PBXGroup;
 			children = (
-				64156FC42E08630800DCBA24 /* LEWA */,
-				64156FD62E08630900DCBA24 /* LEWATests */,
-				64156FE02E08630900DCBA24 /* LEWAUITests */,
-				64156FC32E08630800DCBA24 /* Products */,
+				644F428E2E30A240002F281C /* LEWA */,
+				644F429C2E30A241002F281C /* LEWATests */,
+				644F42A62E30A241002F281C /* LEWAUITests */,
+				644F428D2E30A240002F281C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		64156FC32E08630800DCBA24 /* Products */ = {
+		644F428D2E30A240002F281C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				64156FC22E08630800DCBA24 /* LEWA.app */,
-				64156FD32E08630900DCBA24 /* LEWATests.xctest */,
-				64156FDD2E08630900DCBA24 /* LEWAUITests.xctest */,
+				644F428C2E30A240002F281C /* LEWA.app */,
+				644F42992E30A241002F281C /* LEWATests.xctest */,
+				644F42A32E30A241002F281C /* LEWAUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,136 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		64156FC12E08630800DCBA24 /* LEWA */ = {
+		644F428B2E30A240002F281C /* LEWA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64156FE72E08630900DCBA24 /* Build configuration list for PBXNativeTarget "LEWA" */;
+			buildConfigurationList = 644F42AD2E30A241002F281C /* Build configuration list for PBXNativeTarget "LEWA" */;
 			buildPhases = (
-				64156FBE2E08630800DCBA24 /* Sources */,
-				64156FBF2E08630800DCBA24 /* Frameworks */,
-				64156FC02E08630800DCBA24 /* Resources */,
+				644F42882E30A240002F281C /* Sources */,
+				644F42892E30A240002F281C /* Frameworks */,
+				644F428A2E30A240002F281C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				64156FC42E08630800DCBA24 /* LEWA */,
+				644F428E2E30A240002F281C /* LEWA */,
 			);
 			name = LEWA;
 			packageProductDependencies = (
 			);
 			productName = LEWA;
-			productReference = 64156FC22E08630800DCBA24 /* LEWA.app */;
+			productReference = 644F428C2E30A240002F281C /* LEWA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		64156FD22E08630900DCBA24 /* LEWATests */ = {
+		644F42982E30A241002F281C /* LEWATests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64156FEA2E08630900DCBA24 /* Build configuration list for PBXNativeTarget "LEWATests" */;
+			buildConfigurationList = 644F42B02E30A241002F281C /* Build configuration list for PBXNativeTarget "LEWATests" */;
 			buildPhases = (
-				64156FCF2E08630900DCBA24 /* Sources */,
-				64156FD02E08630900DCBA24 /* Frameworks */,
-				64156FD12E08630900DCBA24 /* Resources */,
+				644F42952E30A241002F281C /* Sources */,
+				644F42962E30A241002F281C /* Frameworks */,
+				644F42972E30A241002F281C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				64156FD52E08630900DCBA24 /* PBXTargetDependency */,
+				644F429B2E30A241002F281C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				64156FD62E08630900DCBA24 /* LEWATests */,
+				644F429C2E30A241002F281C /* LEWATests */,
 			);
 			name = LEWATests;
 			packageProductDependencies = (
 			);
 			productName = LEWATests;
-			productReference = 64156FD32E08630900DCBA24 /* LEWATests.xctest */;
+			productReference = 644F42992E30A241002F281C /* LEWATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		64156FDC2E08630900DCBA24 /* LEWAUITests */ = {
+		644F42A22E30A241002F281C /* LEWAUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 64156FED2E08630900DCBA24 /* Build configuration list for PBXNativeTarget "LEWAUITests" */;
+			buildConfigurationList = 644F42B32E30A241002F281C /* Build configuration list for PBXNativeTarget "LEWAUITests" */;
 			buildPhases = (
-				64156FD92E08630900DCBA24 /* Sources */,
-				64156FDA2E08630900DCBA24 /* Frameworks */,
-				64156FDB2E08630900DCBA24 /* Resources */,
+				644F429F2E30A241002F281C /* Sources */,
+				644F42A02E30A241002F281C /* Frameworks */,
+				644F42A12E30A241002F281C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				64156FDF2E08630900DCBA24 /* PBXTargetDependency */,
+				644F42A52E30A241002F281C /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				64156FE02E08630900DCBA24 /* LEWAUITests */,
+				644F42A62E30A241002F281C /* LEWAUITests */,
 			);
 			name = LEWAUITests;
 			packageProductDependencies = (
 			);
 			productName = LEWAUITests;
-			productReference = 64156FDD2E08630900DCBA24 /* LEWAUITests.xctest */;
+			productReference = 644F42A32E30A241002F281C /* LEWAUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		64156FBA2E08630800DCBA24 /* Project object */ = {
+		644F42842E30A240002F281C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
-					64156FC12E08630800DCBA24 = {
-						CreatedOnToolsVersion = 16.0;
+					644F428B2E30A240002F281C = {
+						CreatedOnToolsVersion = 26.0;
 					};
-					64156FD22E08630900DCBA24 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 64156FC12E08630800DCBA24;
+					644F42982E30A241002F281C = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 644F428B2E30A240002F281C;
 					};
-					64156FDC2E08630900DCBA24 = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 64156FC12E08630800DCBA24;
+					644F42A22E30A241002F281C = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 644F428B2E30A240002F281C;
 					};
 				};
 			};
-			buildConfigurationList = 64156FBD2E08630800DCBA24 /* Build configuration list for PBXProject "LEWA" */;
+			buildConfigurationList = 644F42872E30A240002F281C /* Build configuration list for PBXProject "LEWA" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 64156FB92E08630800DCBA24;
+			mainGroup = 644F42832E30A240002F281C;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 64156FC32E08630800DCBA24 /* Products */;
+			productRefGroup = 644F428D2E30A240002F281C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				64156FC12E08630800DCBA24 /* LEWA */,
-				64156FD22E08630900DCBA24 /* LEWATests */,
-				64156FDC2E08630900DCBA24 /* LEWAUITests */,
+				644F428B2E30A240002F281C /* LEWA */,
+				644F42982E30A241002F281C /* LEWATests */,
+				644F42A22E30A241002F281C /* LEWAUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		64156FC02E08630800DCBA24 /* Resources */ = {
+		644F428A2E30A240002F281C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64156FD12E08630900DCBA24 /* Resources */ = {
+		644F42972E30A241002F281C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64156FDB2E08630900DCBA24 /* Resources */ = {
+		644F42A12E30A241002F281C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		64156FBE2E08630800DCBA24 /* Sources */ = {
+		644F42882E30A240002F281C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64156FCF2E08630900DCBA24 /* Sources */ = {
+		644F42952E30A241002F281C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		64156FD92E08630900DCBA24 /* Sources */ = {
+		644F429F2E30A241002F281C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,20 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		64156FD52E08630900DCBA24 /* PBXTargetDependency */ = {
+		644F429B2E30A241002F281C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 64156FC12E08630800DCBA24 /* LEWA */;
-			targetProxy = 64156FD42E08630900DCBA24 /* PBXContainerItemProxy */;
+			target = 644F428B2E30A240002F281C /* LEWA */;
+			targetProxy = 644F429A2E30A241002F281C /* PBXContainerItemProxy */;
 		};
-		64156FDF2E08630900DCBA24 /* PBXTargetDependency */ = {
+		644F42A52E30A241002F281C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 64156FC12E08630800DCBA24 /* LEWA */;
-			targetProxy = 64156FDE2E08630900DCBA24 /* PBXContainerItemProxy */;
+			target = 644F428B2E30A240002F281C /* LEWA */;
+			targetProxy = 644F42A42E30A241002F281C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		64156FE52E08630900DCBA24 /* Debug */ = {
+		644F42AB2E30A241002F281C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -306,6 +304,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8W2QVSMGJ3;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -323,16 +322,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		64156FE62E08630900DCBA24 /* Release */ = {
+		644F42AC2E30A241002F281C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -367,6 +368,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8W2QVSMGJ3;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -378,95 +380,81 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		64156FE82E08630900DCBA24 /* Debug */ = {
+		644F42AE2E30A241002F281C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = LEWA/LEWA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8W2QVSMGJ3;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=*]" = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosroadmap.LEWA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator driverkit iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
-				SUPPORTS_MACCATALYST = NO;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		64156FE92E08630900DCBA24 /* Release */ = {
+		644F42AF2E30A241002F281C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = LEWA/LEWA.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8W2QVSMGJ3;
-				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
-				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
-				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
-				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosroadmap.LEWA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "appletvos appletvsimulator driverkit iphoneos iphonesimulator macosx watchos watchsimulator xros xrsimulator";
-				SUPPORTS_MACCATALYST = NO;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		64156FEB2E08630900DCBA24 /* Debug */ = {
+		644F42B12E30A241002F281C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -474,22 +462,21 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8W2QVSMGJ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosroadmap.LEWATests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEWA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LEWA";
-				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		64156FEC2E08630900DCBA24 /* Release */ = {
+		644F42B22E30A241002F281C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -497,105 +484,100 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8W2QVSMGJ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosroadmap.LEWATests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LEWA.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LEWA";
-				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
-		64156FEE2E08630900DCBA24 /* Debug */ = {
+		644F42B42E30A241002F281C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8W2QVSMGJ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosroadmap.LEWAUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = LEWA;
-				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		64156FEF2E08630900DCBA24 /* Release */ = {
+		644F42B52E30A241002F281C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8W2QVSMGJ3;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosroadmap.LEWAUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = LEWA;
-				XROS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		64156FBD2E08630800DCBA24 /* Build configuration list for PBXProject "LEWA" */ = {
+		644F42872E30A240002F281C /* Build configuration list for PBXProject "LEWA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64156FE52E08630900DCBA24 /* Debug */,
-				64156FE62E08630900DCBA24 /* Release */,
+				644F42AB2E30A241002F281C /* Debug */,
+				644F42AC2E30A241002F281C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64156FE72E08630900DCBA24 /* Build configuration list for PBXNativeTarget "LEWA" */ = {
+		644F42AD2E30A241002F281C /* Build configuration list for PBXNativeTarget "LEWA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64156FE82E08630900DCBA24 /* Debug */,
-				64156FE92E08630900DCBA24 /* Release */,
+				644F42AE2E30A241002F281C /* Debug */,
+				644F42AF2E30A241002F281C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64156FEA2E08630900DCBA24 /* Build configuration list for PBXNativeTarget "LEWATests" */ = {
+		644F42B02E30A241002F281C /* Build configuration list for PBXNativeTarget "LEWATests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64156FEB2E08630900DCBA24 /* Debug */,
-				64156FEC2E08630900DCBA24 /* Release */,
+				644F42B12E30A241002F281C /* Debug */,
+				644F42B22E30A241002F281C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		64156FED2E08630900DCBA24 /* Build configuration list for PBXNativeTarget "LEWAUITests" */ = {
+		644F42B32E30A241002F281C /* Build configuration list for PBXNativeTarget "LEWAUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				64156FEE2E08630900DCBA24 /* Debug */,
-				64156FEF2E08630900DCBA24 /* Release */,
+				644F42B42E30A241002F281C /* Debug */,
+				644F42B52E30A241002F281C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 64156FBA2E08630800DCBA24 /* Project object */;
+	rootObject = 644F42842E30A240002F281C /* Project object */;
 }

@@ -2,7 +2,7 @@
 //  LEWAApp.swift
 //  LEWA
 //
-//  Created by Ömer Faruk Öztürk on 22.06.2025.
+//  Created by Ömer Faruk Öztürk on 23.07.2025.
 //
 
 import SwiftUI
@@ -11,8 +11,7 @@ import SwiftUI
 struct LEWAApp: App {
     var body: some Scene {
         WindowGroup {
-            TabBarView()
-                .modelContainer(for: [StarredWord.self])
+            ContentView()
         }
     }
 }
